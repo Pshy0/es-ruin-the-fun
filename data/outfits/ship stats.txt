@@ -1,0 +1,59 @@
+outfit "Ruin-The-Fun 100000 Outfit Space"
+	"display name" "RTF 100000 Outfit Space"
+	category "Special"
+	cost 0
+	thumbnail "outfit/outfit expansion"
+	"mass" 0
+	"outfit space" 100000
+	"engine capacity" 100000
+	"weapon capacity" 100000
+	"spinal mount" 100000
+	description "It's like it's bigger inside..."
+
+
+
+outfit "Ruin-The-Fun 100000 Cargo Space"
+	"display name" "RTF 100000 Cargo Space"
+	category "Special"
+	cost 0
+	thumbnail "outfit/cargo expansion"
+	"mass" 0
+	"outfit space" 0
+	"cargo space" 100000
+	description "You do not know how this is possible."
+	description "	Having that much cargo space will attract Pirate raids."
+
+
+
+outfit "Ruin-The-Fun Gun Slot"
+	"display name" "RTF Gun Slot"
+	category "Special"
+	cost 0
+	thumbnail "outfit/laser"
+	"mass" 0
+	"gun ports" 1
+	description "Changes a ship's stats with no side-effect."
+	description "	Even with this outfit, you wont be able to use the gun if your ship's definition does not have a slot to equip it. But at least you can install it."
+
+
+
+outfit "Ruin-The-Fun Turret Mount"
+	"display name" "RTF Turret Mount"
+	category "Special"
+	cost 0
+	thumbnail "outfit/laser turret"
+	"mass" 0
+	"turret mounts" 1
+	description "Changes a ship's stats with no side-effect."
+	description "	Even with this outfit, the turret will not work if your ship's definition does not have a slot to equip it. But at least you can install it."
+
+
+
+outfit "Ruin-The-Fun Drag 0.1"
+	"display name" "RTF Drag 0.1"
+	category "Special"
+	cost 0
+	thumbnail "outfit/red screwdriver"
+	drag 1
+	description "Changes a ship's stats with no side-effect."
+	description "	Increases the ship's drag."

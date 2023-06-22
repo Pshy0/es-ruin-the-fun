@@ -1,0 +1,12 @@
+# Outfits added by this plugin
+
+outfitter "Ruin-The-Fun Outfits"
+	"Ruin-The-Fun Global Map"
+	"Ruin-The-Fun God Mode"
+	"Ruin-The-Fun God Drive"
+	"Ruin-The-Fun God Turret"
+	"Ruin-The-Fun 100000 Outfit Space"
+	"Ruin-The-Fun 100000 Cargo Space"
+	"Ruin-The-Fun Gun Slot"
+	"Ruin-The-Fun Turret Mount"
+	"Ruin-The-Fun Drag 0.1"

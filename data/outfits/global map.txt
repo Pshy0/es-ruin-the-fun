@@ -1,0 +1,8 @@
+outfit "Ruin-The-Fun Global Map"
+	"display name" "RTF Large Map"
+	category "Special"
+	cost 0
+	thumbnail "outfit/map"
+	"map" 100000
+	description "This data chip contains complete information on the gogolplex star systems closest to this one: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but you would die from old age before finishing."
+	description "	This still does not reveal systems that require a Jump Drive to be reachable."

@@ -1,0 +1,29 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Lissa
+Upstream-Contact: Pshy <Pshy0@users.noreply.github.com>
+Source: https://github.com/Pshy0/es-ruin-the-fun
+
+Files: *
+Copyright: Pshy <Pshy0@users.noreply.github.com>
+License: TFCL
+
+Files:
+ **/TFCL **
+Copyright: Pshy
+License: TFCL (./LICENSE)
+Comment: Work by Nomadic Volcano (NomadicVolcano@gmail.com) based on textures from texture.ninja
+Comment: From PR4987 (https://github.com/endless-sky/endless-sky/pull/4987/files#top)
+
+Files:
+ **/CC0 PR4987**
+Copyright: None (CC0 Public Domain)
+License: N/A (CC0 Public Domain)
+Comment: Work by Nomadic Volcano (NomadicVolcano@gmail.com) based on textures from texture.ninja
+Comment: From PR4987 (https://github.com/endless-sky/endless-sky/pull/4987/files#top)
+
+Files:
+ **/CC0 Midnight PR4987/
+Copyright: None (CC0 Public Domain)
+License: N/A (CC0 Public Domain)
+Comment: Derived from works by Nomadic Volcano (under the same license) based on textures from texture.ninja
+Comment: From the Midnight-Expansion plugin by Michael Zahniser
