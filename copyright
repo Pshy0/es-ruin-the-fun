@@ -8,6 +8,7 @@ Copyright: Pshy <Pshy0@users.noreply.github.com>
 License: TFCL
 Files:
  **/cube/*
+ **/multicube/*
 Copyright: None (CC0 Public Domain)
 License: N/A (CC0 Public Domain)
 Comment: Placeholder cubes by Pshy.
