@@ -109,11 +109,10 @@ If needed, info about individual assets are available from [./copyright](./copyr
 
 # Install Instructions
 
-This plugin was last made for endless-sky `v0.10.2`, but may still include later content. Instructions updating the content, or including the content from other plugins, are mentioned bellow.
+This plugin was last made for endless-sky `v0.10.2`, but is likely to include later content.
 
-Install this plugin, like any other module, by putting it as a folder (not an archive/zip file) inside the game plugins folder.
-Create the `plugins` folder at the appropriate location if it does not exist.
-The plugins folder location should be as follow:
+To install this plugin, put it as a folder (not an archive/zip file) inside the `plugins` folder.
+The `plugins` folder should be located at one of those locations:
 - On Windows:
   - `plugins\ (in the same folder as the Endless Sky executable)`
   - or `C:\Users\yourusername\AppData\Roaming\endless-sky\plugins\`
@@ -123,6 +122,7 @@ The plugins folder location should be as follow:
 - On Mac:
   - `Contents/Resources/plugins/ (within the application bundle)`
   - or `~/Library/Application Support/endless-sky/plugins`
+If the `plugins` folder does not exist, create it.
 
 ## Plugin Conflicts
 All the content added by this plugin is prefixed, to avoid conflicts with other plugins.
