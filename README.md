@@ -1,10 +1,12 @@
 # es-ruin-the-fun
 
-Cheat plugin for [endless-sky](https://github.com/endless-sky/endless-sky), to help development of other plugins.
+Cheat plugin for [endless-sky](https://github.com/endless-sky/endless-sky), to ruin your fun, or to assist you in making or testing another plugin.
+
+Ruin-The-Fun lets you change your captain's name, change the color swizzle of your ships, edit your relation with other governments, set your combat rank, hire a powerful escort, gift yourself pre-outfitted ships, give yourself money, and much more. It also makes all ships and all outfits available from a few added systems.
 
 
 
-# About
+## About
 
 > Ruin-The-Fun (CHEAT PLUGIN)
 >
@@ -16,7 +18,8 @@ Cheat plugin for [endless-sky](https://github.com/endless-sky/endless-sky), to h
 
 
 
-# RTF Systems
+
+## RTF Systems
 
 This plugin adds a few systems, with names beginning with `RTF`. The easiest one to access is linked to `Rutilicus`, the game's starting system. From here, you have the following services available to you:
  - `Job board`: Available services are listed as jobs.
@@ -26,7 +29,7 @@ This plugin adds a few systems, with names beginning with `RTF`. The easiest one
 
 
 
-# Jobs
+## Jobs
 
 The following jobs are available from RTF spaceports:
 
@@ -44,7 +47,7 @@ The following jobs are available from RTF spaceports:
 
 
 
-# Outfits
+## Outfits
 
 The following outfits are available RTF outfitters, under the `Special` category:
 
@@ -95,7 +98,7 @@ You can **include content from other plugins** by running the following command 
 
 
 
-# Compatibility / Plugin Conflicts
+### Plugin Conflicts
 
 All the content added by this plugin is prefixed, to avoid conflicts with other plugins.
 
@@ -111,7 +114,7 @@ Do not hezitate to submit bug reports or suggestions by opening a github issue.
 
 This project is released under the following licenses (choose the one you prefer):
  - [TFCL License v0](./LICENSE.md) (or any later version).
- - [MPL 2.0 with Exhibit B](./MPL2_LICENSE):
+ - [MPL 2.0 with Exhibit B](./https://mozilla.org/MPL/2.0/):
  > This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at https://mozilla.org/MPL/2.0/.
  > This Source Code Form is “Incompatible With Secondary Licenses”, as defined by the Mozilla Public License, v. 2.0.
 
