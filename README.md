@@ -124,16 +124,15 @@ The plugins folder location should be as follow:
   - `Contents/Resources/plugins/ (within the application bundle)`
   - or `~/Library/Application Support/endless-sky/plugins`
 
+## Plugin Conflicts
+All the content added by this plugin is prefixed, to avoid conflicts with other plugins.
+
+## Updating Content
 You can **update the plugin's vanilla content** by running the following command inside the plugin's directory:
 > make update
 
 You can **include content from other plugins** by running the following command inside the plugin's directory:
 > make plugin-update
-
-
-
-## Plugin Conflicts
-All the content added by this plugin is prefixed, to avoid conflicts with other plugins.
 
 
 
