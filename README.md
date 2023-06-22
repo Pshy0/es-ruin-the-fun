@@ -6,27 +6,32 @@ Ruin-The-Fun lets you change your captain's name, change the color swizzle of yo
 
 
 
-## Startup
+# Startup
 
 This assumes you have installed and enabled the plugin. If not, see [Install Instructions](#Install Instructions).
 
 **Be advised against using this plugin with your favorite pilot's save**, since it will make your hours of labor nonsensical.
 If you want to use this plugin for an existing save anyway, then **MAKE A BACKUP OF YOUR PILOT** (for instance with the `Add snapshot` button).
+
 ![new pilot menu](./images/screenshot/add-snapshot.png)
 
 If your intent is rather to use this plugin with a new pilot, you may use one of the starts provided by this plugin to do so:
+
 ![new pilot menu](./images/screenshot/rtf-starts.png)
 You will spawn in an RTF system, from which cheat features are available.
 
 Cheat features are available from, and only from, the RTF systems. One of them has an hyperlink to `Rutilicus` (the default start system), so that you can reach it with an Hyperdrive:
+
 ![new pilot menu](./images/screenshot/rtf0-on-map.png)
 
 There is other RTF systems everywhere on the map, so you do not have to cross it whole.
+
 ![new pilot menu](./images/screenshot/rtf-systems-on-map.png)
 
 
 
-## Spaceport
+# Spaceport
+
 ![Spaceport](./images/screenshot/spaceport-button.png)
 
 Click the `Spaceport` button to access a number of quick actions.
@@ -34,7 +39,8 @@ More actions are available from the `Job Board`.
 
 
 
-## Job Board
+# Job Board
+
 ![Job Board](./images/screenshot/job-board-button.png)
 
 The `Job Board` contains most of this plugin's features.
@@ -65,14 +71,16 @@ The following jobs are toggles, their effect is reverted when you abort them:
 
 
 
-## Shipyard
+# Shipyard
+
 ![Shipyard](./images/screenshot/shipyard-button.png)
 
 From the RFT shipyards, all ships in the game are available to you.
 
 
 
-## Outfitter
+# Outfitter
+
 ![Outfitter](./images/screenshot/outfitter-button.png)
 
 From the RFT outfitters, all outfits in the game are available to you.
@@ -89,7 +97,7 @@ RTF also adds a few outfits, all listed under the `Special` category:
 
 
 
-## Assets (placeholders)
+# Assets (placeholders)
 
 This plugin provides a few free assets you can use as placeholders:
  - [Images.](./images/placeholder/)
@@ -99,7 +107,7 @@ If needed, info about individual assets are available from [./copyright](./copyr
 
 
 
-## Install Instructions
+# Install Instructions
 
 This plugin was last made for endless-sky `v0.10.2`, but may still include later content. Instructions updating the content, or including the content from other plugins, are mentioned bellow.
 
@@ -124,18 +132,18 @@ You can **include content from other plugins** by running the following command 
 
 
 
-### Plugin Conflicts
+## Plugin Conflicts
 All the content added by this plugin is prefixed, to avoid conflicts with other plugins.
 
 
 
-## Bugs / Suggestions
+# Bugs / Suggestions
 
 Do not hesitate to submit bug reports or suggestions by [opening a GitHub issue](https://github.com/Pshy0/es-ruin-the-fun/issues).
 
 
 
-## License
+# License
 
 This project is released under the following licenses (choose the one you prefer):
  - [TFCL License v0](./LICENSE.md) (or any later version).
