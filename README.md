@@ -65,6 +65,7 @@ The following outfits are available RTF outfitters, under the `Special` category
 This plugin provides a few free assets you can use as placeholders:
  - [Images.](./images/placeholder/)
  - [Sounds.](./sounds/placeholder/)
+
 If needed, info about individual assets are available from [./copyright](./copyright).
 
 
