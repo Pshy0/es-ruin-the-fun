@@ -6,60 +6,86 @@ Ruin-The-Fun lets you change your captain's name, change the color swizzle of yo
 
 
 
-## About
+## Startup
 
-> Ruin-The-Fun (CHEAT PLUGIN)
->
->   The gods acknowledged your immensity, and are now serving you.
->
->   This plugin's features are available from the `RTF` systems. The most obvious one is located under `Rutilicus`.
->
->   All ships and outfits available, plus OP ones, jobs to get free money, change your swizzle and name, choose your combat rank, get an escort, and more...
+This assumes you have installed and enabled the plugin. If not, see [Install Instructions](#Install Instructions).
 
+**Be advised against using this plugin with your favorite pilot's save**, since it will make your hours of labor nonsensical.
+If you want to use this plugin for an existing save anyway, then **MAKE A BACKUP OF YOUR PILOT** (for instance with the `Add snapshot` button).
+![new pilot menu](./images/screenshot/add-snapshot.png)
 
+If your intent is rather to use this plugin with a new pilot, you may use one of the starts provided by this plugin to do so:
+![new pilot menu](./images/screenshot/rtf-starts.png)
+You will spawn in an RTF system, from which cheat features are available.
 
+Cheat features are available from, and only from, the RTF systems. One of them has an hyperlink to `Rutilicus` (the default start system), so that you can reach it with an Hyperdrive:
+![new pilot menu](./images/screenshot/rtf0-on-map.png)
 
-## RTF Systems
-
-This plugin adds a few systems, with names beginning with `RTF`. The easiest one to access is linked to `Rutilicus`, the game's starting system. From here, you have the following services available to you:
- - `Job board`: Available services are listed as jobs.
- - `Spaceport`: Ask questions or quick requests to Zeus.
- - `Outfitter`: Has all outfits available. Special outfits added by the plugin are listed under the `Special` category.
- - `Shipyard`: Has all ships and ship variants available.
+There is other RTF systems everywhere on the map, so you do not have to cross it whole.
+![new pilot menu](./images/screenshot/rtf-systems-on-map.png)
 
 
 
-## Jobs
+## Spaceport
+![Spaceport](./images/screenshot/spaceport-button.png)
 
-The following jobs are available from RTF spaceports:
+Click the `Spaceport` button to access a number of quick actions.
+More actions are available from the `Job Board`.
 
+
+
+## Job Board
+![Job Board](./images/screenshot/job-board-button.png)
+
+The `Job Board` contains most of this plugin's features.
+
+The following jobs can be used after every landing on an RTF planet:
 - `All Useful Things`: Get money, reveal the map, and earn combat rank 14.
-- `Athena's Barges` (3 variants): Get a formidable escort of dreadful Star Barges.
-- `Change Captain Name`: Choose your captain's name again.
-- `Change Ship Color`: Get Aphrodite to paint your ship in the color of your choice.
-- `Combat Drones`: Summon 6 hostile combat drones.
-- `Combat Rank`: Set your combat rank. Optionally, spawn a target in space, to get xp from.
-- `Events And Conditions`: Choose what vanilla events happened yet.
-- `Money`: Obtain 1B money from the hands of Hades.
+- `Escort: * Barges` (3 variants): Get escorted by dreadful Star Barges.
+- `Escort: Tek Far 109`: Get escorted by a customized drone transporter.
+- `Fight Combat Drones`: Summon an amount of hostile Combat Drones.
+- `Fight Kestrels`: Summon a combination of hostile Kestrels.
+- `Fight Tek Far 109`: Summon an hostile customized drone transporter.
+- `Fleets: Heliarchs vs Quargs`: Adds Heliarch and Quarg fleets to RTF0.
+- `Fleets: Meretis vs Sestors`: Adds Mereti and Sestor fleets to RTF0.
+- `Fleets: Scin vs Vis`: Adds Scin and Vi fleets to RTF0.
+- `Free Money`: Obtain 1B credits.
+- `Name`: Change your captain's name.
+- `Rank`: Set your combat rank. Optionally spawn a target in space, to get xp from.
+- `Reputations`: Change your reputation with other governments.
 - `Reputations`: Customize your reputation per government, or turn everyone friendly or hostile, or, reset reputations to default.
-- `Visit Systems`: Reveal the whole vanilla system map (upon take of).
-- `Visit Planets`: Reveal all vanilla planets information (upon take of).
+- `Reveal Planet Infos`: Reveal all vanilla planets information (upon take of, does not reveal systems).
+- `Reveal Systems`: Reveal the whole system map (upon take of).
+- `Swizzle`: Change the color of your ships.
+- `Vanilla Events And Conditions`: Let you edit a few vanilla conditions.
+
+The following jobs are toggles, their effect is reverted when you abort them:
+- `Hide RTF Systems`: Hide the RTF systems, so that they do not interfere.
+- `Super Reach`: While in an RTF system, you can jump to any system on the map, even without a God Drive. By default, RTF systems have a lower jump range, to lower their impact on surrounding content.
 
 
 
-## Outfits
+## Shipyard
+![Shipyard](./images/screenshot/shipyard-button.png)
 
-The following outfits are available RTF outfitters, under the `Special` category:
+From the RFT shipyards, all ships in the game are available to you.
 
-- `Large Map`: Has info about all hyperlink-connected systems reachable from the current one. (Use the `Visit Systems` job to see the whole map.)
+
+
+## Outfitter
+![Outfitter](./images/screenshot/outfitter-button.png)
+
+From the RFT outfitters, all outfits in the game are available to you.
+
+RTF also adds a few outfits, all listed under the `Special` category:
+- `God Drive`: Jump drive, with no range limit, that does not consume fuel.
 - `God Mode`: Makes you immortal.
-- `God Drive`: Jump drive, without a range limit, that does not consume fuel.
-- `God Weapon`: One-shot most ships.
-- `100000 Outfit Space`
-- `100000 Cargo Space`
-- `Gun Slot`: fake gun slot.
+- `God Turret`: Turret that one-shot most ships.
+- `100000 Outfit Space`: Gives you more than enough outfit space.
+- `100000 Cargo Space`: Gives you so much cargo space that this will trigger pirate raids.
+- `Gun Slot`: Fake gun slot.
 - `Turret Mount`: Fake turret mount.
-- `Drag 0.1`: Increase the ship's drag.
+- `Drag 0.1`: Increases the ship's drag.
 
 
 
@@ -99,14 +125,13 @@ You can **include content from other plugins** by running the following command 
 
 
 ### Plugin Conflicts
-
 All the content added by this plugin is prefixed, to avoid conflicts with other plugins.
 
 
 
 ## Bugs / Suggestions
 
-Do not hezitate to submit bug reports or suggestions by opening a github issue.
+Do not hesitate to submit bug reports or suggestions by [opening a GitHub issue](https://github.com/Pshy0/es-ruin-the-fun/issues).
 
 
 
