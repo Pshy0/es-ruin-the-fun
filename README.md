@@ -122,6 +122,7 @@ The `plugins` folder should be located at one of those locations:
 - On Mac:
   - `Contents/Resources/plugins/ (within the application bundle)`
   - or `~/Library/Application Support/endless-sky/plugins`
+
 If the `plugins` folder does not exist, create it.
 
 ## Plugin Conflicts
@@ -133,6 +134,7 @@ You can **update the plugin's vanilla content** by running the following command
 
 You can **include content from other plugins** by running the following command inside the plugin's directory:
 > make plugin-update
+This will only work if all plugins, including RTF, are in the same `plugins` folder.
 
 
 
