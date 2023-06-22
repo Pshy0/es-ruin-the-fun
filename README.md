@@ -134,6 +134,7 @@ You can **update the plugin's vanilla content** by running the following command
 
 You can **include content from other plugins** by running the following command inside the plugin's directory:
 > make plugin-update
+
 This will only work if all plugins, including RTF, are in the same `plugins` folder.
 
 
