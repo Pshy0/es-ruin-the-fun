@@ -132,6 +132,8 @@ All the content added by this plugin is prefixed, to avoid conflicts with other 
 You can **update the plugin's vanilla content** by running the following command inside the plugin's directory:
 > make update
 
+You may have to set the path to the Endless Sky `data` folder as instructed.
+
 You can **include content from other plugins** by running the following command inside the plugin's directory:
 > make plugin-update
 
