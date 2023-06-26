@@ -75,11 +75,11 @@ data/all-vanilla-ships-shipyard.txt: tmp/data-dirs.tmp | tmp
 
 tmp/outfitters.tmp: tmp/data-dirs.tmp | tmp
 	@echo "Listing outfitters..."
-	@cat tmp/data-dirs.tmp | xargs grep -R "^outfitter" | grep "\.txt:" | sed "s/^.*\.txt:outfitter /\toutfitter /" | sort | uniq > $@
+	@cat tmp/data-dirs.tmp | xargs grep -R "^outfitter" | grep "\.txt:" | sed "s/^.*\.txt:outfitter //" | sort | uniq > $@
 
 tmp/shipyards.tmp: tmp/data-dirs.tmp | tmp
 	@echo "Listing shipyards..."
-	@cat tmp/data-dirs.tmp | xargs grep -R "^shipyard" | grep "\.txt:" | sed "s/^.*\.txt:shipyard /\tshipyard /" | sort | uniq > $@
+	@cat tmp/data-dirs.tmp | xargs grep -R "^shipyard" | grep "\.txt:" | sed "s/^.*\.txt:shipyard //" | sort | uniq > $@
 
 .PHONY: tmp/systems.tmp
 tmp/systems.tmp: tmp/data-dirs.tmp | tmp
@@ -105,8 +105,8 @@ data/map/planets/RTF-%-P.txt: tmp/outfitters.tmp tmp/shipyards.tmp | tmp
 	@echo '\toutfitter "Ruin-The-Fun Outfits"' >> $@
 	@echo '\toutfitter "Ruin-The-Fun All Vanilla Outfits"' >> $@
 	@echo '\tshipyard "Ruin-The-Fun All Vanilla Ships"' >> $@
-	@cat tmp/outfitters.tmp >> $@
-	@cat tmp/shipyards.tmp >> $@
+	@cat tmp/outfitters.tmp | sed "s/^/\toutfitter /" >> $@
+	@cat tmp/shipyards.tmp | sed "s/^/\tshipyard /" >> $@
 
 data/jobs/visit-systems.txt: tmp/systems.tmp | tmp
 	@echo "Updating job $@..."
