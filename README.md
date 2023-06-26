@@ -149,10 +149,6 @@ Do not hesitate to submit bug reports or suggestions by [opening a GitHub issue]
 
 # License
 
-This project is released under the following licenses (choose the one you prefer):
- - [TFCL License v0](./LICENSE.md) (or any later version).
- - [MPL 2.0 with Exhibit B](./https://mozilla.org/MPL/2.0/):
+Project released under the [Mozilla Public License 2.0 with Exhibit B](./https://mozilla.org/MPL/2.0/):
  > This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at https://mozilla.org/MPL/2.0/.
  > This Source Code Form is “Incompatible With Secondary Licenses”, as defined by the Mozilla Public License, v. 2.0.
-
-If you choose TFCL, assets are released under their original license. For the original license of assets, see [./copyright](./copyright).
