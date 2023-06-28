@@ -12,6 +12,8 @@ mission "Ruin-the-Fun Events And Conditions"
 			`	Dionysos bows down as you appear. "Captain <last>, could you please remind me of what happened, and, in what order?"`
 			label choices
 			choice
+				`	(Set conditions from an advanced save of a player who did all vanilla things.)`
+					goto "thousand things"
 				`	"The Free Worlds declared their Independence."`
 					goto "war begins"
 				`	"The Republic is attacking the Free Worlds."`
@@ -20,6 +22,12 @@ mission "Ruin-the-Fun Events And Conditions"
 					goto "main plot completed"
 				`	"The future." (Finish.)`
 					goto end
+			
+			label "thousand things"
+			action
+				event "Ruin-The-Fun A Thousand Things"
+			`	Dionysos disappears in an explosion of sparkles.`
+				decline
 			
 			label "war begins"
 			action
@@ -45,7 +53,7 @@ mission "Ruin-the-Fun Events And Conditions"
 				set "main plot completed"
 			`	"I remember, what happens next?"`
 				goto choices
-				
+			
 			label end
 			`	"The future is yours, <first>."`
 				decline
