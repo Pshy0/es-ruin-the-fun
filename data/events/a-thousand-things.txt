@@ -1,4 +1,4 @@
-# sed -i -E 's/^\t(Nifel|dealwithhroar|haiinsight|haitrust|investigatemaelstrom|karma|scienceinterest)/\t"\1"/ig' a-thousand-things.txt
+# sed -i -E 's/^\t([A-Za-z-]+)/\t"\1"/ig' a-thousand-things.txt
 # sed -i -E 's/\t(".*")$/\tset \1/' a-thousand-things.txt
 # sed -i -E 's/\t(".*") (-?[0-9]+)/\t\1 = \2/' a-thousand-things.txt
 event "Ruin-The-Fun A Thousand Things"
@@ -20,8 +20,8 @@ event "Ruin-The-Fun A Thousand Things"
 	set "Ask Quarg About Coalition Early: offered"
 	set "Ask the Hai about the Unfettered: declined"
 	set "Ask the Hai about the Unfettered: offered"
-	"Assisting Hai: declined" = 47
-	"Assisting Hai: offered" = 47
+	"Assisting Hai: declined" = 51
+	"Assisting Hai: offered" = 51
 	"Assisting Merchant (Small): declined" = 7
 	"Assisting Merchant (Small): offered" = 7
 	set "Assisting Republic: done"
@@ -371,6 +371,8 @@ event "Ruin-The-Fun A Thousand Things"
 	set "Earth Retirement: offered"
 	set "Eliminating Competition (North, Large): done"
 	set "Eliminating Competition (North, Large): offered"
+	set "Eliminating Competition (North, Small): done"
+	set "Eliminating Competition (North, Small): offered"
 	set "Escort (Extra Large, Core, Dangerous Destination): done"
 	set "Escort (Extra Large, Core, Dangerous Destination): offered"
 	set "Escort (Extra Large, Core, Dangerous Origin): done"
@@ -400,9 +402,9 @@ event "Ruin-The-Fun A Thousand Things"
 	set "Escort (Small, Core, Dangerous Origin): offered"
 	set "Escort (Small, Northern, Dangerous Origin): done"
 	set "Escort (Small, Northern, Dangerous Origin): offered"
-	"Escort (Small, Southern, Dangerous Origin or Destination): done" = 2
+	"Escort (Small, Southern, Dangerous Origin or Destination): done" = 3
 	set "Escort (Small, Southern, Dangerous Origin or Destination): failed"
-	"Escort (Small, Southern, Dangerous Origin or Destination): offered" = 3
+	"Escort (Small, Southern, Dangerous Origin or Destination): offered" = 4
 	set "Escort (Tiny, Core, Dangerous Destination): done"
 	set "Escort (Tiny, Core, Dangerous Destination): offered"
 	set "Escort science vessel: done"
@@ -783,6 +785,8 @@ event "Ruin-The-Fun A Thousand Things"
 	set "First Contact: Unfettered: offered"
 	set "First Contact: Wanderer: failed"
 	set "First Contact: Wanderer: offered"
+	set "Food Convoy [0]: done"
+	set "Food Convoy [0]: offered"
 	set "Food Convoy [1]: done"
 	set "Food Convoy [1]: offered"
 	set "Frontier Emigration [1]: done"
@@ -818,14 +822,14 @@ event "Ruin-The-Fun A Thousand Things"
 	set "Hai Building Mountaintop [2] Recruits: offered"
 	set "Hai Building Mountaintop [3] Furnishings: done"
 	set "Hai Building Mountaintop [3] Furnishings: offered"
-	"Hai Bulk Delivery [0]: done" = 7
-	"Hai Bulk Delivery [0]: offered" = 7
-	"Hai Bulk Delivery [1]: done" = 5
-	"Hai Bulk Delivery [1]: offered" = 5
-	"Hai Cargo [0]: done" = 9
-	"Hai Cargo [0]: offered" = 9
-	"Hai Cargo [1]: done" = 6
-	"Hai Cargo [1]: offered" = 6
+	"Hai Bulk Delivery [0]: done" = 8
+	"Hai Bulk Delivery [0]: offered" = 8
+	"Hai Bulk Delivery [1]: done" = 6
+	"Hai Bulk Delivery [1]: offered" = 6
+	"Hai Cargo [0]: done" = 11
+	"Hai Cargo [0]: offered" = 11
+	"Hai Cargo [1]: done" = 7
+	"Hai Cargo [1]: offered" = 7
 	set "Hai Cargo [2]: done"
 	set "Hai Cargo [2]: offered"
 	"Hai Family [0]: done" = 5
@@ -838,10 +842,10 @@ event "Ruin-The-Fun A Thousand Things"
 	set "Hai Language Patch: offered"
 	"Hai Large Bulk Delivery [0]: done" = 6
 	"Hai Large Bulk Delivery [0]: offered" = 6
-	"Hai Large Bulk Delivery [1]: done" = 4
-	"Hai Large Bulk Delivery [1]: offered" = 4
-	"Hai Large Rush Delivery [0]: done" = 9
-	"Hai Large Rush Delivery [0]: offered" = 9
+	"Hai Large Bulk Delivery [1]: done" = 5
+	"Hai Large Bulk Delivery [1]: offered" = 5
+	"Hai Large Rush Delivery [0]: done" = 10
+	"Hai Large Rush Delivery [0]: offered" = 10
 	set "Hai Large Rush Delivery [1]: done"
 	set "Hai Large Rush Delivery [1]: offered"
 	set "Hai Leaks Response 1: done"
@@ -868,8 +872,8 @@ event "Ruin-The-Fun A Thousand Things"
 	set "Hai Leaks Response 6: offered"
 	set "Hai Leaks Response 7: declined"
 	set "Hai Leaks Response 7: offered"
-	"Hai Passengers [1]: done" = 7
-	"Hai Passengers [1]: offered" = 7
+	"Hai Passengers [1]: done" = 8
+	"Hai Passengers [1]: offered" = 8
 	"Hai Passengers [2]: done" = 2
 	"Hai Passengers [2]: offered" = 2
 	set "Hai Passengers [3]: done"
@@ -1038,8 +1042,24 @@ event "Ruin-The-Fun A Thousand Things"
 	set "Hai Reveal [D13] Travel to Mountaintop: offered"
 	set "Hai Reveal [D14] Hai-Human Treaty: declined"
 	set "Hai Reveal [D14] Hai-Human Treaty: offered"
-	set "Hai Reveal: Late Arrival: Alondo: active"
+	set "Hai Reveal: Late Arrival: Alondo: done"
 	set "Hai Reveal: Late Arrival: Alondo: offered"
+	set "Hai Reveal: Meet the Team: FW: declined"
+	set "Hai Reveal: Meet the Team: FW: offered"
+	set "Hai Reveal: Meet the Team: Samuel 1: done"
+	set "Hai Reveal: Meet the Team: Samuel 1: offered"
+	set "Hai Reveal: Meet the Team: Samuel 2: done"
+	set "Hai Reveal: Meet the Team: Samuel 2: offered"
+	set "Hai Reveal: Meet the Team: Sayari 1: done"
+	set "Hai Reveal: Meet the Team: Sayari 1: offered"
+	set "Hai Reveal: Meet the Team: Sayari 2: done"
+	set "Hai Reveal: Meet the Team: Sayari 2: offered"
+	set "Hai Reveal: Meet the Team: Terry: done"
+	set "Hai Reveal: Meet the Team: Terry: offered"
+	set "Hai Reveal: Meet the Team: Xilin 1: done"
+	set "Hai Reveal: Meet the Team: Xilin 1: offered"
+	set "Hai Reveal: Meet the Team: Xilin 2: done"
+	set "Hai Reveal: Meet the Team: Xilin 2: offered"
 	set "Hai Reveal: Navy News Report: declined"
 	set "Hai Reveal: Navy News Report: offered"
 	set "Hai Reveal: Pirate Troubles [0]: done"
@@ -1077,8 +1097,8 @@ event "Ruin-The-Fun A Thousand Things"
 	set "Hai Rush Delivery [1]: offered"
 	set "Hai Secret Leaker Begins: failed"
 	set "Hai Secret Leaker Begins: offered"
-	"Hai Vacation [1]: done" = 5
-	"Hai Vacation [1]: offered" = 5
+	"Hai Vacation [1]: done" = 7
+	"Hai Vacation [1]: offered" = 7
 	"Hai Vacation [2]: done" = 2
 	"Hai Vacation [2]: offered" = 2
 	set "Hai Vacation [3]: done"
@@ -1171,8 +1191,28 @@ event "Ruin-The-Fun A Thousand Things"
 	set "Kimek Student 1: offered"
 	set "Kimek Student 2: done"
 	set "Kimek Student 2: offered"
-	set "Kor Efreti: Passengers [0]: done"
-	set "Kor Efreti: Passengers [0]: offered"
+	"Kor Efreti to Wanderers: Farming: done" = 4
+	"Kor Efreti to Wanderers: Farming: offered" = 4
+	set "Kor Efreti: Cargo [1]: done"
+	set "Kor Efreti: Cargo [1]: offered"
+	"Kor Efreti: Cargo to Wanderers: done" = 7
+	"Kor Efreti: Cargo to Wanderers: offered" = 7
+	"Kor Efreti: Cargo: done" = 3
+	"Kor Efreti: Cargo: offered" = 3
+	"Kor Efreti: Food Cargo [0]: done" = 6
+	"Kor Efreti: Food Cargo [0]: offered" = 6
+	"Kor Efreti: Food Cargo [1]: done" = 6
+	"Kor Efreti: Food Cargo [1]: offered" = 6
+	"Kor Efreti: Industrial to Wanderers: done" = 6
+	"Kor Efreti: Industrial to Wanderers: offered" = 6
+	"Kor Efreti: Passengers [0]: done" = 9
+	"Kor Efreti: Passengers [0]: offered" = 9
+	"Kor Efreti: Passengers [1]: done" = 5
+	"Kor Efreti: Passengers [1]: offered" = 5
+	"Kor Efreti: Rush Delivery Food: done" = 4
+	"Kor Efreti: Rush Delivery Food: offered" = 4
+	"Kor Efreti: Settlers: done" = 4
+	"Kor Efreti: Settlers: offered" = 4
 	set "Korath Family to Ringworld: done"
 	set "Korath Family to Ringworld: offered"
 	set "Korath Livestock: done"
@@ -1187,8 +1227,8 @@ event "Ruin-The-Fun A Thousand Things"
 	"Large Bulk Delivery [0]: offered" = 2
 	set "Large Bulk Delivery [1]: done"
 	set "Large Bulk Delivery [1]: offered"
-	set "Large Rush Delivery [0]: done"
-	set "Large Rush Delivery [0]: offered"
+	"Large Rush Delivery [0]: done" = 2
+	"Large Rush Delivery [0]: offered" = 2
 	"Large Rush Delivery [1]: done" = 2
 	"Large Rush Delivery [1]: offered" = 2
 	"Large Rush Delivery [3]: done" = 2
@@ -1350,8 +1390,8 @@ event "Ruin-The-Fun A Thousand Things"
 	set "Post-War Reactions Begin: offered"
 	set "Prisoners [0]: done"
 	set "Prisoners [0]: offered"
-	set "Prisoners [3]: done"
-	set "Prisoners [3]: offered"
+	"Prisoners [3]: done" = 2
+	"Prisoners [3]: offered" = 2
 	set "Prisoners [4]: done"
 	set "Prisoners [4]: offered"
 	set "Pug Cease Hostilities: failed"
@@ -1730,6 +1770,8 @@ event "Ruin-The-Fun A Thousand Things"
 	set "Sheragi Archaeology: The Emerald Sword 3: offered"
 	"Sketchy Passenger [1]: done" = 2
 	"Sketchy Passenger [1]: offered" = 2
+	"Small Scale Delivery: done" = 2
+	"Small Scale Delivery: offered" = 2
 	set "Smuggler's Den, Part 1: done"
 	set "Smuggler's Den, Part 1: offered"
 	set "Smuggler's Den, Part 2: failed"
@@ -1766,11 +1808,13 @@ event "Ruin-The-Fun A Thousand Things"
 	set "Strider: Remnant 3: offered"
 	"Strike Breakers [factory]: done" = 2
 	"Strike Breakers [factory]: offered" = 2
-	set "Strike Breakers [textile]: done"
-	set "Strike Breakers [textile]: offered"
-	"Syndicate target practice [3]: active" = 2
+	set "Strike Breakers [mining]: done"
+	set "Strike Breakers [mining]: offered"
+	"Strike Breakers [textile]: done" = 2
+	"Strike Breakers [textile]: offered" = 2
+	"Syndicate target practice [3]: active" = 3
 	"Syndicate target practice [3]: done" = 2
-	"Syndicate target practice [3]: offered" = 4
+	"Syndicate target practice [3]: offered" = 5
 	set "Terminus exploration: done"
 	set "Terminus exploration: offered"
 	set "Terraforming 10: done"
@@ -1849,19 +1893,20 @@ event "Ruin-The-Fun A Thousand Things"
 	set "Umbral Reach: offered"
 	"Unfettered Aid [0]: done" = 5
 	"Unfettered Aid [0]: offered" = 5
-	"Unfettered Aid [1]: done" = 5
-	"Unfettered Aid [1]: offered" = 5
+	"Unfettered Aid [1]: done" = 6
+	"Unfettered Aid [1]: offered" = 6
 	set "Unfettered Aid [2]: done"
 	set "Unfettered Aid [2]: offered"
-	set "Unfettered Lead Asteroid Mining 2: active"
+	set "Unfettered Lead Asteroid Mining 2: done"
 	set "Unfettered Lead Asteroid Mining 2: offered"
-	"Unfettered Lead Asteroid Mining: active" = 2
+	"Unfettered Lead Asteroid Mining: done" = 2
 	"Unfettered Lead Asteroid Mining: offered" = 2
 	set "Unfettered Silicon Asteroid Mining: done"
 	set "Unfettered Silicon Asteroid Mining: offered"
-	"Unfettered Silver Asteroid Mining 2: active" = 2
+	set "Unfettered Silver Asteroid Mining 2: active"
+	set "Unfettered Silver Asteroid Mining 2: done"
 	"Unfettered Silver Asteroid Mining 2: offered" = 2
-	set "Unfettered Silver Asteroid Mining: active"
+	set "Unfettered Silver Asteroid Mining: done"
 	set "Unfettered Silver Asteroid Mining: offered"
 	"Unfettered Small Medicals Rush: done" = 6
 	"Unfettered Small Medicals Rush: offered" = 6
@@ -1882,13 +1927,13 @@ event "Ruin-The-Fun A Thousand Things"
 	"Wanderer Biologists [0]: done" = 5
 	"Wanderer Biologists [0]: offered" = 5
 	set "Wanderer Biologists [1]: aborted"
-	"Wanderer Biologists [1]: done" = 2
+	"Wanderer Biologists [1]: done" = 3
 	set "Wanderer Biologists [1]: failed"
-	"Wanderer Biologists [1]: offered" = 3
+	"Wanderer Biologists [1]: offered" = 4
 	"Wanderer Botanists [0]: done" = 6
 	"Wanderer Botanists [0]: offered" = 6
-	"Wanderer Botanists [1]: done" = 4
-	"Wanderer Botanists [1]: offered" = 4
+	"Wanderer Botanists [1]: done" = 6
+	"Wanderer Botanists [1]: offered" = 6
 	set "Wanderer Bulk Delivery [0]: aborted"
 	set "Wanderer Bulk Delivery [0]: done"
 	set "Wanderer Bulk Delivery [0]: failed"
@@ -1903,10 +1948,10 @@ event "Ruin-The-Fun A Thousand Things"
 	"Wanderer Cargo [1]: offered" = 3
 	"Wanderer Cargo [2]: done" = 3
 	"Wanderer Cargo [2]: offered" = 3
-	"Wanderer Cargo [3]: done" = 4
-	"Wanderer Cargo [3]: offered" = 4
-	set "Wanderer Cargo [4]: done"
-	set "Wanderer Cargo [4]: offered"
+	"Wanderer Cargo [3]: done" = 5
+	"Wanderer Cargo [3]: offered" = 5
+	"Wanderer Cargo [4]: done" = 2
+	"Wanderer Cargo [4]: offered" = 2
 	"Wanderer Farmers [0]: done" = 6
 	"Wanderer Farmers [0]: offered" = 6
 	set "Wanderer Farmers [1]: aborted"
@@ -1923,6 +1968,10 @@ event "Ruin-The-Fun A Thousand Things"
 	"Wanderer Harvest [1]: offered" = 2
 	"Wanderer Invasive Species [1]: done" = 3
 	"Wanderer Invasive Species [1]: offered" = 3
+	set "Wanderer Kor Efreti: Cargo [0]: done"
+	set "Wanderer Kor Efreti: Cargo [0]: offered"
+	"Wanderer Kor Efreti: Equipment: done" = 3
+	"Wanderer Kor Efreti: Equipment: offered" = 3
 	"Wanderer Rush Delivery [0]: done" = 3
 	"Wanderer Rush Delivery [0]: offered" = 3
 	set "Wanderer Rush Delivery [1]: aborted"
@@ -1931,8 +1980,8 @@ event "Ruin-The-Fun A Thousand Things"
 	"Wanderer Rush Delivery [1]: offered" = 4
 	"Wanderer Rush Delivery [2]: done" = 3
 	"Wanderer Rush Delivery [2]: offered" = 3
-	"Wanderer Rush Delivery [3]: done" = 2
-	"Wanderer Rush Delivery [3]: offered" = 2
+	"Wanderer Rush Delivery [3]: done" = 3
+	"Wanderer Rush Delivery [3]: offered" = 3
 	set "Wanderer Scientists (Phenomenon) [0]: done"
 	set "Wanderer Scientists (Phenomenon) [0]: offered"
 	"Wanderer Scientists (Pollution) [0]: done" = 2
@@ -2013,6 +2062,8 @@ event "Ruin-The-Fun A Thousand Things"
 	set "Wanderers Solifuge Recon 3: offered"
 	set "Wanderers Solifuge Recon 4: done"
 	set "Wanderers Solifuge Recon 4: offered"
+	"Wanderers to Kor Efreti: done" = 4
+	"Wanderers to Kor Efreti: offered" = 4
 	set "Wanderers: Alpha Surveillance A: done"
 	set "Wanderers: Alpha Surveillance A: offered"
 	set "Wanderers: Alpha Surveillance B: done"
@@ -2240,7 +2291,7 @@ event "Ruin-The-Fun A Thousand Things"
 	set "bunrodea: normal rep"
 	set "chosen sides"
 	"coalition jobs" = 137
-	"combat rating" = 286674
+	"combat rating" = 287059
 	set "dealwithhroar"
 	"deep convoy" = 3
 	set "deep: did reveal remnant"
@@ -2343,6 +2394,7 @@ event "Ruin-The-Fun A Thousand Things"
 	set "event: hai-human resolution announced"
 	set "event: hai-human treaty prepared"
 	set "event: hai-human treaty signed"
+	set "event: hr: exploration period"
 	set "event: hr: friend arrives"
 	set "event: hr: friend settled in"
 	set "event: hroar message"
@@ -2547,7 +2599,10 @@ event "Ruin-The-Fun A Thousand Things"
 	"hr scar's legion information" = 2
 	set "hr: heard the news"
 	"hr: knew of hai" = 2
+	set "hr: meet the team"
 	set "hr: met alondo"
+	set "hr: met samuel"
+	set "hr: met xilin"
 	set "hr: secret leaks"
 	"human awareness of aliens" = 3
 	set "human cultural data"
