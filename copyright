@@ -34,12 +34,5 @@ License: N/A (CC0 Public Domain)
 Comment: Derived from works by Nomadic Volcano (under the same license) based on textures from texture.ninja
 
 Files:
- **/TFCL **
-Copyright: Pshy
-License: TFCL (./LICENSE)
-Comment: Work by Nomadic Volcano (NomadicVolcano@gmail.com) based on textures from texture.ninja
-Comment: From PR4987 (https://github.com/endless-sky/endless-sky/pull/4987/files#top)
-
-Files:
  images/screenshot/*
 Comment: Screenshots from the game (fair use).
