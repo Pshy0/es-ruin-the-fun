@@ -5,6 +5,7 @@ planet RTF6-P
 	spaceport "When a ship enters the planet, it disappears, fading away, like if it had always only been a though from this world."
 	government Ruin-The-Fun
 	outfitter "Ruin-The-Fun Outfits"
+	outfitter "Ruin-The-Fun Stat Outfits"
 	outfitter "Ruin-The-Fun All Vanilla Outfits"
 	shipyard "Ruin-The-Fun All Vanilla Ships"
 	outfitter "Ammo North"
