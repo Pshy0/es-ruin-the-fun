@@ -91,9 +91,8 @@ RTF also adds a few outfits, all listed under the `Special` category:
 - `God Turret`: Turret that one-shot most ships.
 - `100000 Outfit Space`: Gives you more than enough outfit space.
 - `100000 Cargo Space`: Gives you so much cargo space that this will trigger pirate raids.
-- `Gun Slot`: Fake gun slot.
-- `Turret Mount`: Fake turret mount.
-- `Drag 0.1`: Increases the ship's drag.
+- (property name): Change individual stats of a ship. They look like this:
+![Outfitter](./images/screenshot/wheel-examples.png)
 
 
 
