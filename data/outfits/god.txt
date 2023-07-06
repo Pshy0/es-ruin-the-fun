@@ -43,7 +43,7 @@ outfit "Ruin-The-Fun God Turret"
 	"display name" "RTF God Turret"
 	category "Special"
 	cost 0
-	thumbnail "outfit/heliarch attractor"
+	thumbnail "placeholder/outfit/CC0 PR4987 korath shock turret"
 	"mass" 0
 	"turret mounts" -1
 	weapon
