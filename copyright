@@ -5,13 +5,20 @@ Source: https://github.com/Pshy0/es-ruin-the-fun
 
 Files: *
 Copyright: Pshy <Pshy0@users.noreply.github.com>
-License: TFCL
+License: MPL-2.0-no-copyleft-exception
+
 Files:
  **/cube/*
  **/multicube/*
 Copyright: None (CC0 Public Domain)
 License: N/A (CC0 Public Domain)
-Comment: Placeholder cubes by Pshy.
+Comment: Images intended to be used as placeholders for outfits.
+
+Files:
+ **/wheel/*
+Copyright: Pshy
+License: MPL-2.0
+Comment: Images intended to represent debug/stat outfits or placeholders.
 
 Files:
  **/CC0 PR4987*
@@ -35,4 +42,4 @@ Comment: Derived from works by Nomadic Volcano (under the same license) based on
 
 Files:
  images/screenshot/*
-Comment: Screenshots from the game (fair use).
+Comment: Screenshots from Endless Sky (fair use).
