@@ -2,7 +2,7 @@
 
 Cheat plugin for [endless-sky](https://github.com/endless-sky/endless-sky), to ruin your fun, or to assist you in making or testing another plugin.
 
-Ruin-The-Fun lets you change your captain's name, change the color swizzle of your ships, edit your relation with other governments, set your combat rank, hire a powerful escort, gift yourself pre-outfitted ships, give yourself money, and much more. It also makes all ships and all outfits available from a few added systems.
+Ruin-The-Fun lets you change your captain's name, choose the color swizzle of your ships, edit your relation with other governments, set your combat rank, hire a powerful escort, gift yourself pre-outfitted ships, give yourself money, and much more. It also makes all ships and outfits available from a few added systems.
 
 
 
