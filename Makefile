@@ -103,6 +103,7 @@ data/map/planets/RTF-%-P.txt: tmp/outfitters.tmp tmp/shipyards.tmp | tmp
 	@cat $@ | sed "/^\tshipyard /d" | sed "/\toutfitter /d" > tmp/tmp.tmp
 	@mv tmp/tmp.tmp $@
 	@echo '\toutfitter "Ruin-The-Fun Outfits"' >> $@
+	@echo '\toutfitter "Ruin-The-Fun Stat Outfits"' >> $@
 	@echo '\toutfitter "Ruin-The-Fun All Vanilla Outfits"' >> $@
 	@echo '\tshipyard "Ruin-The-Fun All Vanilla Ships"' >> $@
 	@cat tmp/outfitters.tmp | sed "s/^/\toutfitter /" >> $@
