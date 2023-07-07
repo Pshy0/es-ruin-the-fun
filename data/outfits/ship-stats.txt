@@ -35,6 +35,13 @@ outfit "Ruin-The-Fun Turret Mount"
 	"turret mounts" 1
 	description "Even with this outfit, the turret will not be able to fire if your ship's definition does not locate enough turrets."
 
+outfit "Ruin-The-Fun Stat Access gaslining"
+	"display name" "gaslining"
+	category "Special"
+	thumbnail "placeholder/outfit/wheel/white"
+	unplunderable 1
+	"gaslining" 1
+
 outfit "Ruin-The-Fun Stat Cloak cloak * 0.01"
 	"display name" "cloak * 0.01"
 	category "Special"
@@ -421,6 +428,7 @@ outfit "Ruin-The-Fun Stat Space spinal mount"
 outfitter "Ruin-The-Fun Stat Outfits"
 	"Ruin-The-Fun Gun Port"
 	"Ruin-The-Fun Turret Mount"
+	"Ruin-The-Fun Stat Access gaslining"
 	"Ruin-The-Fun Stat Cloak cloak * 0.01"
 	"Ruin-The-Fun Stat Cloak cloaking energy * 0.01"
 	"Ruin-The-Fun Stat Cloak cloaking fuel * 0.01"
