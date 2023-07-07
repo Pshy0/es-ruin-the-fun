@@ -1,7 +1,7 @@
 start "Ruin-The-Fun (Quick)"
 	name "Ruin-The-Fun (Quick)"
-	description `Your existence is not bound to time, but it is better not to waste any.`
-	description `	Reveal the map, give you a legit late-game ship with a god drive, all licenses, give you money and combat rating, and, set 'main plot completed'.`
+	description `Your existence is not bound to time, but better not waste any.`
+	description `	Reveal the map, give you a legit late-game ship with a god drive, all licenses, money, combat rating, and set 'main plot completed'.`
 	description `	Start on RTF0, near Rutilicus. Not time to loose, GO! GO! GO!`
 	thumbnail "scene/eso0"
 	date 16 11 3013
