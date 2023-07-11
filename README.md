@@ -142,7 +142,7 @@ This will only work if all plugins, including RTF, are in the same `plugins` fol
 
 # Bugs / Suggestions
 
-Do not hesitate to submit bug reports or suggestions by [opening a GitHub issue](https://github.com/Pshy0/es-ruin-the-fun/issues).
+Please submit bug reports or suggestions using [GitHub issues](https://github.com/Pshy0/es-ruin-the-fun/issues).
 
 
 
