@@ -5,8 +5,8 @@ license: MPL-2.0-no-copyleft-exception
 version: v0.1
 shortDescription: Cheat plugin, to ruin your fun, or to assist you in making
   or testing another plugin. https://github.com/Pshy0/es-ruin-the-fun
-description: Ruin-The-Fun is a cheat plugin letting you change your captain's name,
-  choose the color swizzle of your ships, edit your relation with other governments,
+description: Ruin-The-Fun is a cheat/development plugin. Change your captain's name,
+  choose the color swizzle of your ships, edit your reputation with other governments,
   set your combat rank, hire a powerful escort, gift yourself pre-outfitted ships,
   give yourself money, and much more. It also makes all ships and outfits available
   from a few added systems. https://github.com/Pshy0/es-ruin-the-fun
