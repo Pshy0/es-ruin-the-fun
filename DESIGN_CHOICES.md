@@ -36,6 +36,6 @@ I used to separate the plugin prefix and the object name with a colon, but this 
 
 This is why there is no colon after the namespace.
 
-In `es-ruin-the-fun`, the prefix is `Ruin-The-Fun` to be more explicit, but also sometimes `RTF` when it's more convenient, so that some object types without a "display name" property are still decently rendered. It would look like this:
+In `es-ruin-the-fun`, the prefix is `Ruin-The-Fun` to be more explicit, but also sometimes `RTF` when it's more convenient, so that some object types without a "display name" are still decently rendered. It would look like this:
 - `Ruin-The-Fun Object Name: Subobject Name`
 - `RTF Object Name: Subobject Name`
