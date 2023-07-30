@@ -10,7 +10,7 @@ Ruin-The-Fun lets you change your captain's name, choose the color swizzle of yo
 
 This assumes you have installed and enabled the plugin. If not, see [Install Instructions](#install-instructions).
 
-**Be advised against using this plugin with your favorite pilot's save**, since it will make your hours of labor nonsensical.
+⚠️ **Be advised against using this plugin with your favorite pilot's save**, since it will make your hours of labor nonsensical.
 If you want to use this plugin for an existing save anyway, then **MAKE A BACKUP OF YOUR PILOT** (for instance with the `Add snapshot` button).
 
 ![new pilot menu](./images/screenshot/add-snapshot.png)
