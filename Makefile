@@ -80,14 +80,14 @@ data/all-vanilla-outfits-outfitter.txt: tmp/data-dirs.tmp | tmp
 	@echo "Updating outfits..."
 	@cat $@ | sed "/\t/d" > tmp/tmp.tmp
 	@mv tmp/tmp.tmp $@
-	@cat tmp/data-dirs.tmp | xargs grep -R "^outfit " | grep "\.txt:" | sed "s/^.*\.txt:outfit /\t/" | sort | uniq >> $@
+	@cat tmp/data-dirs.tmp | xargs grep -R "^outfit " | grep "\.txt:" | sed "s/^.*\.txt:outfit //" | sed 's|^"\(.*\)"$$|\1|' | sed 's|^`\(.*\)`$$|\1|' | sed 's|\(.*\)|\t`\1`|' | sort | uniq >> $@
 
 .PHONY: data/all-vanilla-ships-shipyard.txt
 data/all-vanilla-ships-shipyard.txt: tmp/data-dirs.tmp | tmp
 	@echo "Updating ship..."
 	@cat $@ | sed "/\t/d" > tmp/tmp.tmp
 	@mv tmp/tmp.tmp $@
-	@cat tmp/data-dirs.tmp | xargs grep -R "^ship " | grep "\.txt:" | sed "s/^.*\.txt:ship /\t/" | sed "s/\".*\" //" | sort | uniq >> $@
+	@cat tmp/data-dirs.tmp | xargs grep -R "^ship " | grep "\.txt:" | sed "s/^.*\.txt:ship //" | sed "s/\".*\" //" | sed 's|^"\(.*\)"$$|\1|' | sed 's|^`\(.*\)`$$|\1|' | sed 's|\(.*\)|\t`\1`|' | sort | uniq >> $@
 
 tmp/outfitters.tmp: tmp/data-dirs.tmp | tmp
 	@echo "Listing outfitters..."
