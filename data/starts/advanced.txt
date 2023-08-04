@@ -58,6 +58,8 @@ conversation "Ruin-The-Fun Intro (Avanced)"
 			goto tubfalet
 		`	(Start, with an outfitted Tek Far 109 and optimized drones)`
 			goto "109"
+		`	(Start, with an outfitted Kar Ik Vot 349 relying on Bombardment Turrets)`
+			goto "349"
 		`	(Start, with a Punisher outfitted with plundered quarg tech.)`
 			goto punisher
 		`	(Start, with a 577 outfitted with plundered quarg tech.)`
@@ -110,6 +112,14 @@ conversation "Ruin-The-Fun Intro (Avanced)"
 		give ship "Ruin-The-Fun Flycatcher" "Detrimental Escort"
 		event "Ruin-The-Fun Swizzle 9"
 	`	You have been given an outfitted Tek Far 109.`
+		goto end
+	
+	label "349"
+	action
+		"combat rating" = 1202604 + 1
+		give ship "Ruin-The-Fun 349 (Starter)" "Unreachable Starter"
+		event "Ruin-The-Fun Swizzle 9"
+	`	You have been given an outfitted Kar Ik Vot 349.`
 		goto end
 	
 	label "punisher"
