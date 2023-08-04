@@ -61,7 +61,7 @@ tmp/re.tmp: | tmp
 
 tmp/deprecated-outfits.list.tmp: tmp/data-dirs.tmp
 	@echo "Listing deprecated outfits..."
-	cat tmp/data-dirs.tmp | sed "s|$$|_deprecated/|" | xargs grep -R "^outfit " | grep "\.txt:" | sed "s/^.*\.txt:outfit //" | tools/unquote.sh | sort | uniq > $@
+	@cat tmp/data-dirs.tmp | sed "s|$$|_deprecated/|" | xargs grep -R "^outfit " | grep "\.txt:" | sed "s/^.*\.txt:outfit //" | tools/unquote.sh | sort | uniq > $@
 
 tmp/deprecated-ships.list.tmp: tmp/data-dirs.tmp
 	@echo "Listing deprecated ship..."
@@ -69,25 +69,25 @@ tmp/deprecated-ships.list.tmp: tmp/data-dirs.tmp
 
 tmp/outfits.list.tmp: tmp/data-dirs.tmp
 	@echo "Listing outfits..."
-	cat tmp/data-dirs.tmp | xargs grep -R "^outfit " | grep "\.txt:" | sed "s/^.*\.txt:outfit //" | tools/unquote.sh | sort | uniq > $@
+	@cat tmp/data-dirs.tmp | xargs grep -R "^outfit " | grep "\.txt:" | sed "s/^.*\.txt:outfit //" | tools/unquote.sh | sort | uniq > $@
 
 tmp/ships.list.tmp: tmp/data-dirs.tmp
 	@echo "Listing ship..."
 	@cat tmp/data-dirs.tmp | xargs grep -R "^ship " | grep "\.txt:" | sed "s/^.*\.txt:ship //" | tools/unquote-ship.sh | sort | uniq > $@
 
 .PHONY: data/all-vanilla-outfits-outfitter.txt
-data/all-vanilla-outfits-outfitter.txt: tmp/data-dirs.tmp | tmp
-	@echo "Updating outfits..."
+data/all-vanilla-outfits-outfitter.txt: tmp/outfits.list.tmp | tmp
+	@echo "Updating all-outfits outfitter..."
 	@cat $@ | sed "/\t/d" > tmp/tmp.tmp
 	@mv tmp/tmp.tmp $@
-	@cat tmp/data-dirs.tmp | xargs grep -R "^outfit " | grep "\.txt:" | sed "s/^.*\.txt:outfit //" | sed 's|^"\(.*\)"$$|\1|' | sed 's|^`\(.*\)`$$|\1|' | sed 's|\(.*\)|\t`\1`|' | sort | uniq >> $@
+	@cat tmp/outfits.list.tmp | sed 's|^\(.*\)$$|\t`\1`|' >> $@
 
 .PHONY: data/all-vanilla-ships-shipyard.txt
-data/all-vanilla-ships-shipyard.txt: tmp/data-dirs.tmp | tmp
-	@echo "Updating ship..."
+data/all-vanilla-ships-shipyard.txt: tmp/ships.list.tmp | tmp
+	@echo "Updating all-ships shipyard..."
 	@cat $@ | sed "/\t/d" > tmp/tmp.tmp
 	@mv tmp/tmp.tmp $@
-	@cat tmp/data-dirs.tmp | xargs grep -R "^ship " | grep "\.txt:" | sed "s/^.*\.txt:ship //" | sed "s/\".*\" //" | sed 's|^"\(.*\)"$$|\1|' | sed 's|^`\(.*\)`$$|\1|' | sed 's|\(.*\)|\t`\1`|' | sort | uniq >> $@
+	@cat tmp/ships.list.tmp | sed 's|^\(.*\)$$|\t`\1`|' >> $@
 
 tmp/outfitters.tmp: tmp/data-dirs.tmp | tmp
 	@echo "Listing outfitters..."
