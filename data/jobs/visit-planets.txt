@@ -36,7 +36,7 @@ event "Ruin-the-Fun Visit Planets"
 	"visit planet" `Avalon`
 	"visit planet" `Aventine`
 	"visit planet" `Babiali`
-	#"visit planet" `Baianus`
+	"visit planet" `Baianus`
 	"visit planet" `Bank of Blugtad`
 	"visit planet" `Belug's Plunge`
 	"visit planet" `Beryl`
@@ -303,7 +303,7 @@ event "Ruin-the-Fun Visit Planets"
 	"visit planet" `Palarei`
 	"visit planet" `Palatine`
 	"visit planet" `Parii'het`
-	#"visit planet" `Passaritus`
+	"visit planet" `Passaritus`
 	"visit planet" `Pearl`
 	"visit planet" `Pelubta Station`
 	"visit planet" `Periaxle Circuit`
