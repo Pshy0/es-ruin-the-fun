@@ -75,6 +75,10 @@ tmp/ships.list.tmp: tmp/data-dirs.tmp
 	@echo "Listing ship..."
 	@cat tmp/data-dirs.tmp | xargs grep -R "^ship " | grep "\.txt:" | sed "s/^.*\.txt:ship //" | tools/unquote-ship.sh | sort | uniq > $@
 
+tmp/systems.list.tmp: tmp/data-dirs.tmp | tmp
+	@echo "Listing systems..."
+	@cat tmp/data-dirs.tmp | xargs grep -R "^system" | grep "\.txt:" | sed "s/^.*\.txt:system //" | tools/unquote.sh | sort | uniq > $@
+
 .PHONY: data/all-vanilla-outfits-outfitter.txt
 data/all-vanilla-outfits-outfitter.txt: tmp/outfits.list.tmp | tmp
 	@echo "Updating all-outfits outfitter..."
@@ -96,11 +100,6 @@ tmp/outfitters.tmp: tmp/data-dirs.tmp | tmp
 tmp/shipyards.tmp: tmp/data-dirs.tmp | tmp
 	@echo "Listing shipyards..."
 	@cat tmp/data-dirs.tmp | xargs grep -R "^shipyard" | grep "\.txt:" | sed "s/^.*\.txt:shipyard //" | sort | uniq > $@
-
-.PHONY: tmp/systems.tmp
-tmp/systems.tmp: tmp/data-dirs.tmp | tmp
-	@echo "Listing systems..."
-	@cat tmp/data-dirs.tmp | xargs grep -R "^system" | grep "\.txt:" | sed "s/^.*\.txt:system //" | sort | uniq > $@
 
 .PHONY: tmp/planets.tmp
 tmp/planets.tmp: tmp/data-dirs.tmp tmp/wormholes.tmp | tmp
@@ -125,11 +124,11 @@ data/map/planets/RTF-%-P.txt: tmp/outfitters.tmp tmp/shipyards.tmp | tmp
 	@cat tmp/outfitters.tmp | sed "s/^/\toutfitter /" >> $@
 	@cat tmp/shipyards.tmp | sed "s/^/\tshipyard /" >> $@
 
-data/jobs/visit-systems.txt: tmp/systems.tmp | tmp
+data/jobs/visit-systems.txt: tmp/systems.list.tmp | tmp
 	@echo "Updating job $@..."
 	@cat $@ | sed '/\tvisit /d' > tmp/tmp.tmp
 	@mv tmp/tmp.tmp $@
-	@cat tmp/systems.tmp | sed 's/^\(.*\)$$/\tvisit \1/' >> $@
+	@cat tmp/systems.list.tmp | sed 's|^\(.*\)$$|\tvisit `\1`|' >> $@
 
 data/jobs/visit-planets.txt: tmp/planets.tmp | tmp
 	@echo "Updating job $@..."
