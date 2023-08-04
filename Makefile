@@ -101,6 +101,10 @@ tmp/shipyards.list.tmp: tmp/data-dirs.tmp | tmp
 	@echo "Listing shipyards..."
 	@cat tmp/data-dirs.tmp | xargs grep -R "^shipyard" | grep "\.txt:" | sed "s/^.*\.txt:shipyard //" | tools/unquote.sh | sort | uniq > $@
 
+tmp/governments.list.tmp: tmp/data-dirs.tmp | tmp
+	@echo "Listing governments..."
+	@cat tmp/data-dirs.tmp | xargs grep -R "^government" | grep "\.txt:" | sed "s/^.*\.txt:government //g" | tools/unquote.sh | sort | uniq | sed "/^Escort$$/d" > $@
+
 .PHONY: data/all-vanilla-outfits-outfitter.txt
 data/all-vanilla-outfits-outfitter.txt: tmp/outfits.list.tmp | tmp
 	@echo "Updating all-outfits outfitter..."
@@ -142,29 +146,25 @@ default-reputations.txt:
 	$(error This is currently not generated)
 	#TODO: generate from $(ES_DEFAULT_PILOT_SAVE)
 
-tmp/governments.tmp: tmp/data-dirs.tmp | tmp
-	@echo "Listing governments..."
-	@cat tmp/data-dirs.tmp | xargs grep -R "^government" | grep "\.txt:" | sed "s/^.*\.txt:government //g" | sed 's/^"//' | sed 's/"$$//' | sort | uniq | sed "/^Escort$$/d" > $@
-
 tmp/REPUTATION_RESET_ALL.txt: default-reputations.txt | tmp
 	@cat default-reputations.txt | sed -e "s/^\(\t\"\|\t\)/\t\t\t\t\"reputation: /" | sed "s/\(.*\)\" \(-\?.*\)$$/\1 \2/" | sed -r 's/ ([^ ]*)$$/" = \1/' > $@
 
 tmp/REPUTATION_RESET_FRIENDLIES.txt: default-reputations.txt | tmp
 	@cat default-reputations.txt | sed "/ -/d" | sed -e "s/^\(\t\"\|\t\)/\t\t\t\t\"reputation: /" | sed "s/\(.*\)\" \(-\?.*\)$$/\1 \2/" | sed -r 's/ ([^ ]*)$$/" = \1/' > $@
 
-tmp/REPUTATION_FRIENDLY_ALL.txt: tmp/governments.tmp | tmp
-	@cat tmp/governments.tmp | sed 's/^\(.*\)$$/\t\t\t\t"reputation: \1" = 10/' > $@
+tmp/REPUTATION_FRIENDLY_ALL.txt: tmp/governments.list.tmp | tmp
+	@cat tmp/governments.list.tmp | sed 's/^\(.*\)$$/\t\t\t\t"reputation: \1" = 10/' > $@
 
-tmp/REPUTATION_HOSTILE_ALL.txt: tmp/governments.tmp | tmp
-	@cat tmp/governments.tmp | sed 's/^\(.*\)$$/\t\t\t\t"reputation: \1" = -10/' > $@
+tmp/REPUTATION_HOSTILE_ALL.txt: tmp/governments.list.tmp | tmp
+	@cat tmp/governments.list.tmp | sed 's/^\(.*\)$$/\t\t\t\t"reputation: \1" = -10/' > $@
 
-tmp/REPUTATION_TOGGLE_CHOICES.tmp: tmp/governments.tmp | tmp
-	@cat tmp/governments.tmp | sed 's/^\(.*\)$$/\t\t\t\t\`\t\1:\tCurrently Friendly\t(toggle)\`\n\t\t\t\t\tto display\n\t\t\t\t\t\t"reputation: \1" >= 0\n\t\t\t\t\tgoto "toggle hostile: \1"\n\t\t\t\t\`\t\1:\tCurrently Hostile\t(toggle)\`\n\t\t\t\t\tto display\n\t\t\t\t\t\t"reputation: \1" < 0\n\t\t\t\t\tgoto "toggle friendly: \1"/' > $@
+tmp/REPUTATION_TOGGLE_CHOICES.tmp: tmp/governments.list.tmp | tmp
+	@cat tmp/governments.list.tmp | sed 's/^\(.*\)$$/\t\t\t\t\`\t\1:\tCurrently Friendly\t(toggle)\`\n\t\t\t\t\tto display\n\t\t\t\t\t\t"reputation: \1" >= 0\n\t\t\t\t\tgoto "toggle hostile: \1"\n\t\t\t\t\`\t\1:\tCurrently Hostile\t(toggle)\`\n\t\t\t\t\tto display\n\t\t\t\t\t\t"reputation: \1" < 0\n\t\t\t\t\tgoto "toggle friendly: \1"/' > $@
 
-tmp/REPUTATION_TOGGLE_LABELS.tmp: tmp/governments.tmp | tmp
+tmp/REPUTATION_TOGGLE_LABELS.tmp: tmp/governments.list.tmp | tmp
 	@rm -f $@
-	@cat tmp/governments.tmp | sed 's/^\(.*\)$$/\t\t\tlabel "toggle friendly: \1"\n\t\t\taction\n\t\t\t\t"reputation: \1" = 10\n\t\t\t\`\tReputation with \1 changed to Friendly.\`\n\t\t\t\tgoto toggles/' >> $@
-	@cat tmp/governments.tmp | sed 's/^\(.*\)$$/\t\t\tlabel "toggle hostile: \1"\n\t\t\taction\n\t\t\t\t"reputation: \1" = -10\n\t\t\t\`\tReputation with \1 changed to Hostile.\`\n\t\t\t\tgoto toggles/' >> $@
+	@cat tmp/governments.list.tmp | sed 's/^\(.*\)$$/\t\t\tlabel "toggle friendly: \1"\n\t\t\taction\n\t\t\t\t"reputation: \1" = 10\n\t\t\t\`\tReputation with \1 changed to Friendly.\`\n\t\t\t\tgoto toggles/' >> $@
+	@cat tmp/governments.list.tmp | sed 's/^\(.*\)$$/\t\t\tlabel "toggle hostile: \1"\n\t\t\taction\n\t\t\t\t"reputation: \1" = -10\n\t\t\t\`\tReputation with \1 changed to Hostile.\`\n\t\t\t\tgoto toggles/' >> $@
 
 data/jobs/reputation.txt: tmp/REPUTATION_RESET_ALL.txt tmp/REPUTATION_RESET_FRIENDLIES.txt tmp/REPUTATION_FRIENDLY_ALL.txt tmp/REPUTATION_HOSTILE_ALL.txt tmp/REPUTATION_TOGGLE_CHOICES.tmp tmp/REPUTATION_TOGGLE_LABELS.tmp
 	@echo "Generating job $@..."
