@@ -338,32 +338,6 @@ shipyard "Ruin-The-Fun All Vanilla Ships"
 	`Kimek Thistle (Miner)`
 	`Kimek Thorn`
 	`Kimek Thorn (Miner)`
-	`Korath Chaser`
-	`Korath Chaser (Digger)`
-	`Korath Chaser (Expeller)`
-	`Korath Chaser (World-Ship)`
-	`Korath Dredger`
-	`Korath Dredger (Civilian)`
-	`Korath Dredger (Crippled)`
-	`Korath Dredger (Digger)`
-	`Korath Dredger (Ground Assault)`
-	`Korath Dredger (Heaver)`
-	`Korath Dredger (Shunt)`
-	`Korath Raider`
-	`Korath Raider (Blaze)`
-	`Korath Raider (Crippled)`
-	`Korath Raider (Ember)`
-	`Korath Raider (Ember Blaze)`
-	`Korath Raider (Ember Shunt)`
-	`Korath Raider (Hyperdrive)`
-	`Korath World-Ship`
-	`Korath World-Ship A (Jump)`
-	`Korath World-Ship B`
-	`Korath World-Ship B (Crippled)`
-	`Korath World-Ship B (Ember)`
-	`Korath World-Ship B (Jump)`
-	`Korath World-Ship C`
-	`Korath World-Ship C (Jump)`
 	`Korsmanath A'awoj`
 	`Korsmanath A'awoj (Blaze)`
 	`Korsmanath A'awoj (Special)`

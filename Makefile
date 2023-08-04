@@ -67,13 +67,15 @@ tmp/deprecated-ships.list.tmp: tmp/data-dirs.tmp
 	@echo "Listing deprecated ship..."
 	@cat tmp/data-dirs.tmp | sed "s|$$|_deprecated/|" | xargs grep -R "^ship " | grep "\.txt:" | sed "s/^.*\.txt:ship //" | tools/unquote-ship.sh | sort | uniq > $@
 
-tmp/outfits.list.tmp: tmp/data-dirs.tmp
+tmp/outfits.list.tmp: tmp/data-dirs.tmp tmp/deprecated-outfits.list.tmp | tmp
 	@echo "Listing outfits..."
-	@cat tmp/data-dirs.tmp | xargs grep -R "^outfit " | grep "\.txt:" | sed "s/^.*\.txt:outfit //" | tools/unquote.sh | sort | uniq > $@
+	@cat tmp/data-dirs.tmp | xargs grep -R "^outfit " | grep "\.txt:" | sed "s/^.*\.txt:outfit //" | tools/unquote.sh | sort | uniq > tmp/tmp.list.tmp
+	@comm -23 tmp/tmp.list.tmp tmp/deprecated-outfits.list.tmp > $@
 
-tmp/ships.list.tmp: tmp/data-dirs.tmp
+tmp/ships.list.tmp: tmp/data-dirs.tmp tmp/deprecated-ships.list.tmp | tmp
 	@echo "Listing ship..."
-	@cat tmp/data-dirs.tmp | xargs grep -R "^ship " | grep "\.txt:" | sed "s/^.*\.txt:ship //" | tools/unquote-ship.sh | sort | uniq > $@
+	@cat tmp/data-dirs.tmp | xargs grep -R "^ship " | grep "\.txt:" | sed "s/^.*\.txt:ship //" | tools/unquote-ship.sh | sort | uniq > tmp/tmp.list.tmp
+	@comm -23 tmp/tmp.list.tmp tmp/deprecated-ships.list.tmp > $@
 
 tmp/systems.list.tmp: tmp/data-dirs.tmp | tmp
 	@echo "Listing systems..."

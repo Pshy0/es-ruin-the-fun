@@ -17,7 +17,6 @@ outfitter "Ruin-The-Fun All Vanilla Outfits"
 	`Acuit Artillery`
 	`Acumen Bolt Cannon`
 	`Aeon Cell`
-	`Afterburner`
 	`Afterburner (Asteroid Class)`
 	`Afterburner (Comet Class)`
 	`Afterburner (Lunar Class)`
@@ -68,7 +67,6 @@ outfitter "Ruin-The-Fun All Vanilla Outfits"
 	`"Bufaer" Atomic Thruster`
 	`Bullet Boxes`
 	`Bullfrog Anti-Missile`
-	`Bullfrog Anti-Missile Turret`
 	`Bunk Room`
 	`Burrower`
 	`Buzzer Anti-Missile`
@@ -80,10 +78,8 @@ outfitter "Ruin-The-Fun All Vanilla Outfits"
 	`Capybara Reverse Thruster`
 	`Cargo Expansion`
 	`Cargo Scanner`
-	`Carrier License`
 	`Catalytic Ramscoop`
 	`Chameleon Anti-Missile`
-	`Chameleon Anti-Missile Turret`
 	`Chiisana Rift Steering`
 	`Chiisana Rift Thruster`
 	`Chipmunk Plasma Steering`
@@ -103,7 +99,6 @@ outfitter "Ruin-The-Fun All Vanilla Outfits"
 	`Copper`
 	`Crucible-Class Steering`
 	`Crucible-Class Thruster`
-	`Cruiser License`
 	`Crystal Capacitor`
 	`Crystalline Formation`
 	`Crystal Projector`
@@ -267,33 +262,9 @@ outfitter "Ruin-The-Fun All Vanilla Outfits"
 	`Ka'het Shield Restorer`
 	`Ka'het Support Cooling`
 	`Ka'het Sustainer Nacelles`
-	`Korath Ark'parat Steering`
-	`Korath Ark'torbal Thruster`
-	`Korath Banisher`
 	`Korath Detainer`
-	`Korath Disruptor`
-	`Korath Fire-Lance`
-	`Korath Grab-Strike`
-	`Korath Heat Shunt`
 	`Korath Inferno`
-	`Korath Jak'parat Steering`
-	`Korath Jak'torbal Thruster`
-	`Korath Mine`
-	`Korath Minelayer`
-	`Korath Mine Rack`
 	`Korath Mine Submunition`
-	`Korath Piercer`
-	`Korath Piercer Launcher`
-	`Korath Piercer Rack`
-	`Korath Repeater`
-	`Korath Repeater Rifle`
-	`Korath Repeater Turret`
-	`Korath Shield Generator`
-	`Korath Slicer`
-	`Korath Slicer Turret`
-	`Korath Tek'far Reactor`
-	`Korath Tek'nel Reactor`
-	`Korath Warder`
 	`KP-6 Photovoltaic Array`
 	`KP-6 Photovoltaic Panel`
 	`Langrage Hyper-Heaver`
@@ -332,7 +303,6 @@ outfitter "Ruin-The-Fun All Vanilla Outfits"
 	`Luxury Accommodations`
 	`Maeri Engine Nacelles`
 	`Mandible Cannon`
-	`Mass Expansion`
 	`MCS Extractor`
 	`Medium Graviton Steering`
 	`Medium Graviton Thruster`
@@ -447,7 +417,6 @@ outfitter "Ruin-The-Fun All Vanilla Outfits"
 	`Reverser (Lunar Class)`
 	`Reverser (Planetary Class)`
 	`Reverser (Stellar Class)`
-	`Reverse Thruster`
 	`RG15 Torch Steering`
 	`RG15 Torch Thruster`
 	`RG18 Torch Steering`
