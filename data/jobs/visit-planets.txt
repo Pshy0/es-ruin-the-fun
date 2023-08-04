@@ -113,7 +113,6 @@ event "Ruin-the-Fun Visit Planets"
 	"visit planet" `Dustmaker`
 	"visit planet" `Dwelling of Speloog`
 	"visit planet" `Earth`
-	#"visit planet" `Eavine`
 	"visit planet" `Echo`
 	"visit planet" `Eeu Mnai`
 	"visit planet" `Ef Aourtdye`
@@ -174,8 +173,6 @@ event "Ruin-the-Fun Visit Planets"
 	"visit planet" `Goldcrawl`
 	"visit planet" `Graede`
 	"visit planet" `Grakhord`
-	"visit planet" `Graveyard Wormhole (Stable)`
-	"visit planet" `Graveyard Wormhole (Unstable)`
 	"visit planet" `Greenbloom`
 	"visit planet" `Greenrock`
 	"visit planet" `Greenview`
@@ -346,7 +343,6 @@ event "Ruin-the-Fun Visit Planets"
 	"visit planet" `Sarisa Fentra`
 	"visit planet" `Saros`
 	"visit planet" `Sasirka Gatru`
-	#"visit planet" `Scar's Hideout`
 	"visit planet" `Sebarep Atarkis`
 	"visit planet" `Sebra Skira`
 	"visit planet" `Second Cerulean`

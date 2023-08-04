@@ -22,7 +22,7 @@ RTF_PLANET_FILES += data/map/planets/RTF-9-P.txt
 RTF_PLANET_FILES += data/map/planets/RTF-10-P.txt
 RTF_JOB_FILES += data/jobs/reputation.txt
 RTF_JOB_FILES += data/jobs/visit-systems.txt
-#RTF_JOB_FILES += data/jobs/visit-planets.txt
+RTF_JOB_FILES += data/jobs/visit-planets.txt
 GENERATED_DATA_FILES += $(RTF_PLANET_FILES)
 GENERATED_DATA_FILES += $(RTF_JOB_FILES)
 
@@ -89,11 +89,11 @@ tmp/objects.list.tmp: tmp/data-dirs.tmp | tmp
 	@echo "Listing objects..."
 	@cat tmp/data-dirs.tmp | xargs grep -P -R '^\t\t?object ' | grep '\.txt:' | sed 's|^.*\.txt:\t\t\?object ||' | tools/unquote.sh | sort | uniq > $@
 
-tmp/planets.list.tmp: tmp/data-dirs.tmp tmp/wormholes.list.tmp | tmp
+tmp/planets.list.tmp: tmp/data-dirs.tmp tmp/wormholes.list.tmp tmp/objects.list.tmp | tmp
 	@echo "Listing planets..."
 	@cat tmp/data-dirs.tmp | xargs grep -R "^planet" | grep "\.txt:" | sed "s/^.*\.txt:planet //" | tools/unquote.sh | sort | uniq > tmp/tmp.tmp
-	@printf '!/' > tmp/awk.tmp && cat tmp/wormholes.list.tmp | tr "\n" "|" | sed "s/|$$//" >> tmp/awk.tmp && printf "/" >> tmp/awk.tmp
-	@awk -f tmp/awk.tmp tmp/tmp.tmp > $@
+	@comm -23 tmp/tmp.tmp tmp/wormholes.list.tmp > tmp/tmp2.tmp
+	@comm -12 tmp/tmp2.tmp tmp/objects.list.tmp > $@
 
 tmp/outfitters.list.tmp: tmp/data-dirs.tmp | tmp
 	@echo "Listing outfitters..."
