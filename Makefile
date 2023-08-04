@@ -25,6 +25,7 @@ RTF_JOB_FILES += data/jobs/visit-systems.txt
 RTF_JOB_FILES += data/jobs/visit-planets.txt
 GENERATED_DATA_FILES += $(RTF_PLANET_FILES)
 GENERATED_DATA_FILES += $(RTF_JOB_FILES)
+GENERATED_DATA_FILES += data/events/all-licenses.txt
 
 
 
@@ -107,6 +108,10 @@ tmp/governments.list.tmp: tmp/data-dirs.tmp | tmp
 	@echo "Listing governments..."
 	@cat tmp/data-dirs.tmp | xargs grep -R "^government" | grep "\.txt:" | sed "s/^.*\.txt:government //g" | tools/unquote.sh | sort | uniq | sed "/^Escort$$/d" > $@
 
+tmp/licenses.list.tmp: tmp/data-dirs.tmp | tmp
+	@echo "Listing licenses..."
+	@cat tmp/data-dirs.tmp | xargs grep -P -R "outfit.*License" | grep "\.txt:" | sed "s/^.*\.txt:outfit //" | tools/unquote.sh | sed 's| License$$||' | sort | uniq > $@
+
 .PHONY: data/all-vanilla-outfits-outfitter.txt
 data/all-vanilla-outfits-outfitter.txt: tmp/outfits.list.tmp | tmp
 	@echo "Updating all-outfits outfitter..."
@@ -143,6 +148,12 @@ data/jobs/visit-planets.txt: tmp/planets.list.tmp | tmp
 	@cat $@ | sed '/\t"visit planet" /d' > tmp/tmp.tmp
 	@mv tmp/tmp.tmp $@
 	@cat tmp/planets.list.tmp | sed 's/^\(.*\)$$/\t"visit planet" `\1`/' >> $@
+
+data/events/all-licenses.txt: tmp/licenses.list.tmp | tmp
+	@echo "Updating licenses..."
+	@cat $@ | sed "/\t/d" > tmp/tmp.tmp
+	@mv tmp/tmp.tmp $@
+	@cat tmp/licenses.list.tmp | sed 's|^\(.*\)$$|\tset `license: \1`|' >> $@
 
 default-reputations.txt:
 	$(error This is currently not generated)
