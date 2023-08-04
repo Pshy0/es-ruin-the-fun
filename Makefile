@@ -79,6 +79,16 @@ tmp/systems.list.tmp: tmp/data-dirs.tmp | tmp
 	@echo "Listing systems..."
 	@cat tmp/data-dirs.tmp | xargs grep -R "^system" | grep "\.txt:" | sed "s/^.*\.txt:system //" | tools/unquote.sh | sort | uniq > $@
 
+tmp/wormholes.list.tmp: tmp/data-dirs.tmp | tmp
+	@echo "Listing wormholes..."
+	@cat tmp/data-dirs.tmp | xargs grep -R "^wormhole" | grep "\.txt:" | sed "s/^.*\.txt:wormhole //" | tools/unquote.sh | sort | uniq > $@
+
+tmp/planets.list.tmp: tmp/data-dirs.tmp tmp/wormholes.list.tmp | tmp
+	@echo "Listing planets..."
+	@cat tmp/data-dirs.tmp | xargs grep -R "^planet" | grep "\.txt:" | sed "s/^.*\.txt:planet //" | tools/unquote.sh | sort | uniq > tmp/tmp.tmp
+	@printf '!/' > tmp/awk.tmp && cat tmp/wormholes.list.tmp | tr "\n" "|" | sed "s/|$$//" >> tmp/awk.tmp && printf "/" >> tmp/awk.tmp
+	@awk -f tmp/awk.tmp tmp/tmp.tmp > $@
+
 .PHONY: data/all-vanilla-outfits-outfitter.txt
 data/all-vanilla-outfits-outfitter.txt: tmp/outfits.list.tmp | tmp
 	@echo "Updating all-outfits outfitter..."
@@ -101,18 +111,6 @@ tmp/shipyards.tmp: tmp/data-dirs.tmp | tmp
 	@echo "Listing shipyards..."
 	@cat tmp/data-dirs.tmp | xargs grep -R "^shipyard" | grep "\.txt:" | sed "s/^.*\.txt:shipyard //" | sort | uniq > $@
 
-.PHONY: tmp/planets.tmp
-tmp/planets.tmp: tmp/data-dirs.tmp tmp/wormholes.tmp | tmp
-	@echo "Listing planets..."
-	@cat tmp/data-dirs.tmp | xargs grep -R "^planet" | grep "\.txt:" | sed "s/^.*\.txt:planet //" | sort | uniq > tmp/tmp.tmp
-	@printf '!/' > tmp/awk.tmp && cat tmp/wormholes.tmp | tr "\n" "|" | sed "s/|$$//" >> tmp/awk.tmp && printf "/" >> tmp/awk.tmp
-	@awk -f tmp/awk.tmp tmp/tmp.tmp > $@
-
-.PHONY: tmp/wormholes.tmp
-tmp/wormholes.tmp: tmp/data-dirs.tmp | tmp
-	@echo "Listing wormholes..."
-	@cat tmp/data-dirs.tmp | xargs grep -R "^wormhole" | grep "\.txt:" | sed "s/^.*\.txt:wormhole //" | sort | uniq > $@
-
 data/map/planets/RTF-%-P.txt: tmp/outfitters.tmp tmp/shipyards.tmp | tmp
 	@printf "Updating planet %s...\n" $@
 	@cat $@ | sed "/^\tshipyard /d" | sed "/\toutfitter /d" > tmp/tmp.tmp
@@ -130,11 +128,11 @@ data/jobs/visit-systems.txt: tmp/systems.list.tmp | tmp
 	@mv tmp/tmp.tmp $@
 	@cat tmp/systems.list.tmp | sed 's|^\(.*\)$$|\tvisit `\1`|' >> $@
 
-data/jobs/visit-planets.txt: tmp/planets.tmp | tmp
+data/jobs/visit-planets.txt: tmp/planets.list.tmp | tmp
 	@echo "Updating job $@..."
 	@cat $@ | sed '/\t"visit planet" /d' > tmp/tmp.tmp
 	@mv tmp/tmp.tmp $@
-	@cat tmp/planets.tmp | sed 's/^\(.*\)$$/\t"visit planet" \1/' >> $@
+	@cat tmp/planets.list.tmp | sed 's/^\(.*\)$$/\t"visit planet" `\1`/' >> $@
 
 default-reputations.txt:
 	$(error This is currently not generated)
