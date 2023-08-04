@@ -83,6 +83,10 @@ tmp/wormholes.list.tmp: tmp/data-dirs.tmp | tmp
 	@echo "Listing wormholes..."
 	@cat tmp/data-dirs.tmp | xargs grep -R "^wormhole" | grep "\.txt:" | sed "s/^.*\.txt:wormhole //" | tools/unquote.sh | sort | uniq > $@
 
+tmp/objects.list.tmp: tmp/data-dirs.tmp | tmp
+	@echo "Listing objects..."
+	@cat tmp/data-dirs.tmp | xargs grep -P -R '^\t\t?object ' | grep '\.txt:' | sed 's|^.*\.txt:\t\t\?object ||' | tools/unquote.sh | sort | uniq > $@
+
 tmp/planets.list.tmp: tmp/data-dirs.tmp tmp/wormholes.list.tmp | tmp
 	@echo "Listing planets..."
 	@cat tmp/data-dirs.tmp | xargs grep -R "^planet" | grep "\.txt:" | sed "s/^.*\.txt:planet //" | tools/unquote.sh | sort | uniq > tmp/tmp.tmp
