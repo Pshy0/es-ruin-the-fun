@@ -59,6 +59,22 @@ plugin-update: tmp/enabled-plugins.tmp tmp/data-dirs.tmp
 tmp/re.tmp: | tmp
 	@touch $@
 
+tmp/deprecated-outfits.list.tmp: tmp/data-dirs.tmp
+	@echo "Listing deprecated outfits..."
+	cat tmp/data-dirs.tmp | sed "s|$$|_deprecated/|" | xargs grep -R "^outfit " | grep "\.txt:" | sed "s/^.*\.txt:outfit //" | tools/unquote.sh | sort | uniq > $@
+
+tmp/deprecated-ships.list.tmp: tmp/data-dirs.tmp
+	@echo "Listing deprecated ship..."
+	@cat tmp/data-dirs.tmp | sed "s|$$|_deprecated/|" | xargs grep -R "^ship " | grep "\.txt:" | sed "s/^.*\.txt:ship //" | tools/unquote-ship.sh | sort | uniq > $@
+
+tmp/outfits.list.tmp: tmp/data-dirs.tmp
+	@echo "Listing outfits..."
+	cat tmp/data-dirs.tmp | xargs grep -R "^outfit " | grep "\.txt:" | sed "s/^.*\.txt:outfit //" | tools/unquote.sh | sort | uniq > $@
+
+tmp/ships.list.tmp: tmp/data-dirs.tmp
+	@echo "Listing ship..."
+	@cat tmp/data-dirs.tmp | xargs grep -R "^ship " | grep "\.txt:" | sed "s/^.*\.txt:ship //" | tools/unquote-ship.sh | sort | uniq > $@
+
 .PHONY: data/all-vanilla-outfits-outfitter.txt
 data/all-vanilla-outfits-outfitter.txt: tmp/data-dirs.tmp | tmp
 	@echo "Updating outfits..."
