@@ -89,6 +89,14 @@ tmp/planets.list.tmp: tmp/data-dirs.tmp tmp/wormholes.list.tmp | tmp
 	@printf '!/' > tmp/awk.tmp && cat tmp/wormholes.list.tmp | tr "\n" "|" | sed "s/|$$//" >> tmp/awk.tmp && printf "/" >> tmp/awk.tmp
 	@awk -f tmp/awk.tmp tmp/tmp.tmp > $@
 
+tmp/outfitters.list.tmp: tmp/data-dirs.tmp | tmp
+	@echo "Listing outfitters..."
+	@cat tmp/data-dirs.tmp | xargs grep -R "^outfitter" | grep "\.txt:" | sed "s/^.*\.txt:outfitter //" | tools/unquote.sh | sort | uniq > $@
+
+tmp/shipyards.list.tmp: tmp/data-dirs.tmp | tmp
+	@echo "Listing shipyards..."
+	@cat tmp/data-dirs.tmp | xargs grep -R "^shipyard" | grep "\.txt:" | sed "s/^.*\.txt:shipyard //" | tools/unquote.sh | sort | uniq > $@
+
 .PHONY: data/all-vanilla-outfits-outfitter.txt
 data/all-vanilla-outfits-outfitter.txt: tmp/outfits.list.tmp | tmp
 	@echo "Updating all-outfits outfitter..."
@@ -103,15 +111,7 @@ data/all-vanilla-ships-shipyard.txt: tmp/ships.list.tmp | tmp
 	@mv tmp/tmp.tmp $@
 	@cat tmp/ships.list.tmp | sed 's|^\(.*\)$$|\t`\1`|' >> $@
 
-tmp/outfitters.tmp: tmp/data-dirs.tmp | tmp
-	@echo "Listing outfitters..."
-	@cat tmp/data-dirs.tmp | xargs grep -R "^outfitter" | grep "\.txt:" | sed "s/^.*\.txt:outfitter //" | sort | uniq > $@
-
-tmp/shipyards.tmp: tmp/data-dirs.tmp | tmp
-	@echo "Listing shipyards..."
-	@cat tmp/data-dirs.tmp | xargs grep -R "^shipyard" | grep "\.txt:" | sed "s/^.*\.txt:shipyard //" | sort | uniq > $@
-
-data/map/planets/RTF-%-P.txt: tmp/outfitters.tmp tmp/shipyards.tmp | tmp
+data/map/planets/RTF-%-P.txt: tmp/outfitters.list.tmp tmp/shipyards.list.tmp | tmp
 	@printf "Updating planet %s...\n" $@
 	@cat $@ | sed "/^\tshipyard /d" | sed "/\toutfitter /d" > tmp/tmp.tmp
 	@mv tmp/tmp.tmp $@
@@ -119,8 +119,8 @@ data/map/planets/RTF-%-P.txt: tmp/outfitters.tmp tmp/shipyards.tmp | tmp
 	@echo '\toutfitter "Ruin-The-Fun Stat Outfits"' >> $@
 	@echo '\toutfitter "Ruin-The-Fun All Vanilla Outfits"' >> $@
 	@echo '\tshipyard "Ruin-The-Fun All Vanilla Ships"' >> $@
-	@cat tmp/outfitters.tmp | sed "s/^/\toutfitter /" >> $@
-	@cat tmp/shipyards.tmp | sed "s/^/\tshipyard /" >> $@
+	@cat tmp/outfitters.list.tmp | sed 's/^\(.*\)$$/\toutfitter `\1`/' >> $@
+	@cat tmp/shipyards.list.tmp | sed 's/^\(.*\)$$/\tshipyard `\1`/' >> $@
 
 data/jobs/visit-systems.txt: tmp/systems.list.tmp | tmp
 	@echo "Updating job $@..."
