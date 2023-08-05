@@ -7,7 +7,8 @@ planet RTF9-P
 	outfitter "Ruin-The-Fun Outfits"
 	outfitter "Ruin-The-Fun Stat Outfits"
 	outfitter "Ruin-The-Fun All Vanilla Outfits"
-	shipyard "Ruin-The-Fun All Vanilla Ships"
+	shipyard "Ruin-The-Fun All Base Ships"
+	shipyard "Ruin-The-Fun All Ship Variants"
 	outfitter `Ammo North`
 	outfitter `Ammo South`
 	outfitter `Basic Outfits`
