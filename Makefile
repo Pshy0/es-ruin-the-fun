@@ -8,7 +8,7 @@ ES_DATA = ~/projects/endless-sky/data/
 ES_DEFAULT_PILOT_SAVE = "../../saves/Default Pilot"
 
 # List of files to be generated (recipes defined bellow):
-GENERATED_DATA_FILES += data/all-vanilla-outfits-outfitter.txt
+GENERATED_DATA_FILES += data/outfitters/all-outfits.txt
 GENERATED_DATA_FILES += data/shipyards/all-base-ships.txt
 GENERATED_DATA_FILES += data/shipyards/all-ship-variants.txt
 RTF_PLANET_FILES += data/map/planets/RTF-0-P.txt
@@ -127,8 +127,8 @@ tmp/licenses.list.tmp: tmp/data-dirs.tmp | tmp
 	@echo "Listing licenses..."
 	@cat tmp/data-dirs.tmp | xargs grep -P -R "outfit.*License" | grep "\.txt:" | sed "s/^.*\.txt:outfit //" | tools/unquote.sh | sed 's| License$$||' | sort | uniq > $@
 
-.PHONY: data/all-vanilla-outfits-outfitter.txt
-data/all-vanilla-outfits-outfitter.txt: tmp/outfits.list.tmp | tmp
+.PHONY: data/outfitters/all-outfits.txt
+data/outfitters/all-outfits.txt: tmp/outfits.list.tmp | tmp
 	@echo "Updating all-outfits outfitter..."
 	@cat $@ | sed "/\t/d" > tmp/tmp.tmp
 	@mv tmp/tmp.tmp $@
@@ -152,7 +152,7 @@ data/map/planets/RTF-%-P.txt: tmp/outfitters.list.tmp tmp/shipyards.list.tmp | t
 	@mv tmp/tmp.tmp $@
 	@echo '\toutfitter "Ruin-The-Fun Outfits"' >> $@
 	@echo '\toutfitter "Ruin-The-Fun Stat Outfits"' >> $@
-	@echo '\toutfitter "Ruin-The-Fun All Vanilla Outfits"' >> $@
+	@echo '\toutfitter "Ruin-The-Fun All Outfits"' >> $@
 	@echo '\tshipyard "Ruin-The-Fun All Base Ships"' >> $@
 	@echo '\tshipyard "Ruin-The-Fun All Ship Variants"' >> $@
 	@cat tmp/outfitters.list.tmp | sed 's/^\(.*\)$$/\toutfitter `\1`/' >> $@

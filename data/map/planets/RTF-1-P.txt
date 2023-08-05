@@ -6,7 +6,7 @@ planet RTF1-P
 	government Ruin-The-Fun
 	outfitter "Ruin-The-Fun Outfits"
 	outfitter "Ruin-The-Fun Stat Outfits"
-	outfitter "Ruin-The-Fun All Vanilla Outfits"
+	outfitter "Ruin-The-Fun All Outfits"
 	shipyard "Ruin-The-Fun All Base Ships"
 	shipyard "Ruin-The-Fun All Ship Variants"
 	outfitter `Ammo North`
