@@ -1,4 +1,4 @@
-fleet "Dread Barge Fleet"
+fleet "Ruin-The-Fun Dread Fleet (Random)"
 	government "Ruin-The-Fun"
 	personality coward
 	cargo 0
