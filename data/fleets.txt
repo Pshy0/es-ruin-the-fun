@@ -21,3 +21,21 @@ fleet "Dread Barge Fleet"
 		"Ruin-The-Fun Dread Barge (Missiles)"
 		"Ruin-The-Fun Dread Barge (Detainers)" 2
 		"Ruin-The-Fun Dread Barge (Fireworks)"
+
+fleet "Ruin-The-Fun Dread Fleet (Planet Defense)"
+	government "Ruin-The-Fun"
+	personality heroic unconstrained
+	cargo 0
+	variant
+		"Ruin-The-Fun Dread Freighter" 2
+		"Ruin-The-Fun Dread Barge (Anti-Missiles)"
+	variant
+		"Ruin-The-Fun Dread Freighter"
+		"Ruin-The-Fun Dread Barge (Inhibitors)" 2
+		"Ruin-The-Fun Dread Barge (Anti-Missiles)"
+	variant
+		"Ruin-The-Fun Dread Barge (Missiles)" 4
+		"Ruin-The-Fun Dread Barge (Inhibitors)"
+	variant
+		"Ruin-The-Fun Dread Barge (Fireworks)" 2
+		"Ruin-The-Fun Dread Barge (Detainers)" 3
