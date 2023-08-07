@@ -8,11 +8,11 @@ mission "Ruin-The-Fun Reveal RTF Systems"
 event "Ruin-The-Fun Reveal RTF Systems"
 	system RTF0
 		remove hidden
-		link Rutilicus
+		add link Rutilicus
 	visit "RTF0"
 	"visit planet" "RTF0-P"
 	system Rutilicus
-		link RTF0
+		add link RTF0
 	system RTF1
 		remove hidden
 	visit "RTF1"
