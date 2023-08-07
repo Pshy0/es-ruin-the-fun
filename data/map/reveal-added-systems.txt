@@ -59,9 +59,6 @@ event "Ruin-The-Fun Hide RTF Systems"
 	"unvisit planet" "RTF0-P"
 	system RTF0
 		hidden
-		remove link Rutilicus
-	system Rutilicus
-		remove link RTF0
 	unvisit "RTF1"
 	"unvisit planet" "RTF1-P"
 	system RTF1
@@ -102,3 +99,9 @@ event "Ruin-The-Fun Hide RTF Systems"
 	"unvisit planet" "RTF10-P"
 	system RTF10
 		hidden
+
+event "Ruin-The-Fun Hide RTF Systems (Unlinks)"
+	system RTF0
+		remove link Rutilicus
+	system Rutilicus
+		remove link RTF0
