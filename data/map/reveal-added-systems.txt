@@ -78,7 +78,7 @@ event "Ruin-The-Fun Hide RTF Systems"
 	"unvisit planet" "RTF4-P"
 	system RTF4
 		hidden
-	visit "RTF5"
+	unvisit "RTF5"
 	"unvisit planet" "RTF5-P"
 	system RTF5
 		hidden
