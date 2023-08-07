@@ -127,7 +127,6 @@ tmp/licenses.list.tmp: tmp/data-dirs.tmp | tmp
 	@echo "Listing licenses..."
 	@cat tmp/data-dirs.tmp | xargs grep -P -R "outfit.*License" | grep "\.txt:" | sed "s/^.*\.txt:outfit //" | tools/unquote.sh | sed 's| License$$||' | sort | uniq > $@
 
-.PHONY: data/outfitters/all-outfits.txt
 data/outfitters/all-outfits.txt: tmp/outfits.list.tmp | tmp
 	@echo "Updating all-outfits outfitter..."
 	@cat $@ | sed "/\t/d" > tmp/tmp.tmp
