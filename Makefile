@@ -214,7 +214,7 @@ data/jobs/conditions/conditions.txt: data/jobs/conditions/conditions.temp data/j
 tmp/es-ruin-the-fun.zip: update $(PLUGIN_FILES) | tmp
 	zip $@ $(PLUGIN_FILES)
 
-.PHONY: update
+.PHONY: clean
 clean:
 	@echo "Cleaning up..."
 	@rm -rf tmp/
