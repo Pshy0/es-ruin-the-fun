@@ -63,6 +63,10 @@ tmp:
 tmp/data-dirs.tmp: | tmp $(ES_DATA)
 	@echo "Overriding data sources..."
 	@echo $(ES_DATA) > $@
+	@echo "Sources used:"
+	@cat $@
+	@echo "_deprecated folders:"
+	@cat $@ | sed "s|$$|_deprecated/|"
 
 tmp/enabled-plugins.tmp: ../../plugins.txt | tmp
 	@echo "Updating enabled plugin list..."
@@ -208,7 +212,7 @@ default-reputations.txt:
 data/jobs/reputation.txt: data/jobs/reputation.temp tmp/reputation-resets.tmp tmp/friendlies-reputation-resets.tmp tmp/friendly-reputation-sets.tmp tmp/hostile-reputation-sets.tmp
 data/jobs/conditions/conditions.txt: data/jobs/conditions/conditions.temp data/jobs/conditions/condition-switches.list data/jobs/conditions/karma-values.list
 %.txt: %.temp
-	@echo "Generating $@..."
+	@echo "Generating $@ from $<..."
 	@tools/substitute-template.py $< > $@
 
 tmp/es-ruin-the-fun.zip: update $(PLUGIN_FILES) | tmp
