@@ -27,7 +27,9 @@ jobs:
           echo "ES_V=$ES_V" >> $GITHUB_ENV
           RTF_V=$(git tag | grep "v[0-9].*" | sed '/-for-/d' | sort -V | tail -1)
           echo "RTF_V=$RTF_V" >> $GITHUB_ENV
-          echo "NEW_RTF_TAG=${RTF_V}-for-es-${ES_V}" >> $GITHUB_ENV
+          NEW_RTF_TAG=${RTF_V}-for-es-${ES_V}
+          echo "Auto-Update tag will be $NEW_RTF_TAG"
+          echo "NEW_RTF_TAG=$NEW_RTF_TAG" >> $GITHUB_ENV
       - name: Install Dependencies
         run: |
           sudo rm /etc/apt/sources.list.d/* && sudo dpkg --clear-avail
