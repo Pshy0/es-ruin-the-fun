@@ -30,6 +30,20 @@ GENERATED_DATA_FILES += $(RTF_PLANET_FILES)
 GENERATED_DATA_FILES += $(RTF_JOB_FILES)
 GENERATED_DATA_FILES += data/events/all-licenses.txt
 
+# List of files that must be included in the plugin's zip
+# This may not exactly match .gitignore
+PLUGIN_FILES += about.txt
+PLUGIN_FILES += copyright
+PLUGIN_FILES += data
+PLUGIN_FILES += default-reputations.txt
+PLUGIN_FILES += icon.png
+PLUGIN_FILES += images
+PLUGIN_FILES += LICENSE
+PLUGIN_FILES += Makefile
+PLUGIN_FILES += README.md
+PLUGIN_FILES += sounds
+PLUGIN_FILES += tools
+
 
 
 .PHONY: update 
@@ -196,6 +210,9 @@ data/jobs/conditions/conditions.txt: data/jobs/conditions/conditions.temp data/j
 %.txt: %.temp
 	@echo "Generating $@..."
 	@tools/substitute-template.py $< > $@
+
+tmp/es-ruin-the-fun.zip: update $(PLUGIN_FILES) | tmp
+	zip $@ $(PLUGIN_FILES)
 
 .PHONY: update
 clean:
