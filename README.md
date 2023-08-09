@@ -9,13 +9,13 @@ Ruin-The-Fun lets you change your captain's name, choose the color swizzle of yo
 
 ## Downloads
 
-- [Ruin-The-Fun: Tested Release](https://github.com/Pshy0/es-ruin-the-fun/releases/tag/latest) [(direct download)](https://github.com/Pshy0/es-ruin-the-fun/releases/download/latest/es-ruin-the-fun.zip):
+- [📦 Ruin-The-Fun: Tested Release](https://github.com/Pshy0/es-ruin-the-fun/releases/tag/latest) [(direct download)](https://github.com/Pshy0/es-ruin-the-fun/releases/download/latest/es-ruin-the-fun.zip):
   This is a tested and recommended version. But perhaps not the latest.
-- [Ruin-The-Fun: (Endless Sky latest version)](https://github.com/Pshy0/es-ruin-the-fun/releases/tag/es-latest-version) [(direct download)](https://github.com/Pshy0/es-ruin-the-fun/releases/download/v0.0.18-for-es-v0.10.2/es-ruin-the-fun-auto-updated.zip):
+- [🎁 Ruin-The-Fun: (Endless Sky latest version)](https://github.com/Pshy0/es-ruin-the-fun/releases/tag/es-latest-version) [(direct download)](https://github.com/Pshy0/es-ruin-the-fun/releases/download/v0.0.18-for-es-v0.10.2/es-ruin-the-fun-auto-updated.zip):
   This version is automatically generated on every new game version (either pre-release or release).
   It should feature the latest game content.
   However, if the data file syntax was changed by the new version, this might cause warnings or errors.
-- [Ruin-The-Fun: (Endless Sky continuous)](https://github.com/Pshy0/es-ruin-the-fun/releases/tag/es-continuous) [(direct download)](https://github.com/Pshy0/es-ruin-the-fun/releases/download/es-continuous/es-ruin-the-fun-for-es-continuous.zip):
+- [🎁 Ruin-The-Fun: (Endless Sky continuous)](https://github.com/Pshy0/es-ruin-the-fun/releases/tag/es-continuous) [(direct download)](https://github.com/Pshy0/es-ruin-the-fun/releases/download/es-continuous/es-ruin-the-fun-for-es-continuous.zip):
   This version is periodically generated to match continuous builds of Endless Sky.
   If you do not use continuous Endless Sky builds, do not use this version, as it will contain things that are not yet in you game (that will be a problem).
 
