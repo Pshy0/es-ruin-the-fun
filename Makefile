@@ -192,11 +192,7 @@ default-reputations.txt:
 	#TODO: generate from $(ES_DEFAULT_PILOT_SAVE)
 
 data/jobs/reputation.txt: data/jobs/reputation.temp tmp/reputation-resets.tmp tmp/friendlies-reputation-resets.tmp tmp/friendly-reputation-sets.tmp tmp/hostile-reputation-sets.tmp
-	@echo "Generating $@..."
-	@tools/substitute-template.py $< > $@
-
 data/jobs/conditions/conditions.txt: data/jobs/conditions/conditions.temp data/jobs/conditions/condition-switches.list data/jobs/conditions/karma-values.list
-
 %.txt: %.temp
 	@echo "Generating $@..."
 	@tools/substitute-template.py $< > $@
