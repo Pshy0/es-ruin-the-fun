@@ -14,7 +14,7 @@ mission "Ruin-the-Fun Conditions"
 			label `re-choices`
 			choice
 [[condition-switches.list
-				`	[_] "\1"`
+				`	[  ] "\1"`
 					to display
 						not `\1`
 					goto `switch on \1`

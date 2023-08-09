@@ -13,7 +13,7 @@ mission "Ruin-the-Fun Conditions"
 			`	Choose:`
 			label `re-choices`
 			choice
-				`	[_] "chosen sides"`
+				`	[  ] "chosen sides"`
 					to display
 						not `chosen sides`
 					goto `switch on chosen sides`
@@ -26,7 +26,7 @@ mission "Ruin-the-Fun Conditions"
 						`chosen sides` != 0
 						`chosen sides` != 1
 					goto `switch off chosen sides`
-				`	[_] "main plot completed"`
+				`	[  ] "main plot completed"`
 					to display
 						not `main plot completed`
 					goto `switch on main plot completed`
@@ -39,7 +39,7 @@ mission "Ruin-the-Fun Conditions"
 						`main plot completed` != 0
 						`main plot completed` != 1
 					goto `switch off main plot completed`
-				`	[_] "free worlds plot completed"`
+				`	[  ] "free worlds plot completed"`
 					to display
 						not `free worlds plot completed`
 					goto `switch on free worlds plot completed`
