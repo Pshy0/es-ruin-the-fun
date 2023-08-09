@@ -24,6 +24,7 @@ jobs:
             gh run cancel ${{ github.run_id }}
             gh run watch ${{ github.run_id }}
           fi
+          git fetch --tags
           echo "ES_V=$ES_V" >> $GITHUB_ENV
           echo Z
           git status | cat
