@@ -16,61 +16,76 @@ mission "Ruin-the-Fun Conditions"
 				`	[_] "chosen sides"`
 					to display
 						not `chosen sides`
-					goto `switch chosen sides`
+					goto `switch on chosen sides`
 				`	[x] "chosen sides"`
 					to display
 						`chosen sides` == 1
-					goto `switch chosen sides`
-				`	[N] "chosen sides"`
+					goto `switch off chosen sides`
+				`	[n] "chosen sides" (currently not 0 nor 1)`
 					to display
 						`chosen sides` != 0
 						`chosen sides` != 1
-					goto `switch chosen sides`
+					goto `switch off chosen sides`
 				`	[_] "main plot completed"`
 					to display
 						not `main plot completed`
-					goto `switch main plot completed`
+					goto `switch on main plot completed`
 				`	[x] "main plot completed"`
 					to display
 						`main plot completed` == 1
-					goto `switch main plot completed`
-				`	[N] "main plot completed"`
+					goto `switch off main plot completed`
+				`	[n] "main plot completed" (currently not 0 nor 1)`
 					to display
 						`main plot completed` != 0
 						`main plot completed` != 1
-					goto `switch main plot completed`
+					goto `switch off main plot completed`
 				`	[_] "free worlds plot completed"`
 					to display
 						not `free worlds plot completed`
-					goto `switch free worlds plot completed`
+					goto `switch on free worlds plot completed`
 				`	[x] "free worlds plot completed"`
 					to display
 						`free worlds plot completed` == 1
-					goto `switch free worlds plot completed`
-				`	[N] "free worlds plot completed"`
+					goto `switch off free worlds plot completed`
+				`	[n] "free worlds plot completed" (currently not 0 nor 1)`
 					to display
 						`free worlds plot completed` != 0
 						`free worlds plot completed` != 1
-					goto `switch free worlds plot completed`
+					goto `switch off free worlds plot completed`
 				`	karma...`
 					goto karma
 				`	(Done.)`
 					decline
 			
-			label `switch chosen sides`
+			label `switch on chosen sides`
 			action
-				`chosen sides` = `chosen sides` * -1 + 1
-			`Toggled "chosen sides".`
+				set `chosen sides`
+			`Set "chosen sides".`
 				goto `re-choices`
-			label `switch main plot completed`
+			label `switch off chosen sides`
 			action
-				`main plot completed` = `main plot completed` * -1 + 1
-			`Toggled "main plot completed".`
+				clear `chosen sides`
+			`Cleared "chosen sides".`
 				goto `re-choices`
-			label `switch free worlds plot completed`
+			label `switch on main plot completed`
 			action
-				`free worlds plot completed` = `free worlds plot completed` * -1 + 1
-			`Toggled "free worlds plot completed".`
+				set `main plot completed`
+			`Set "main plot completed".`
+				goto `re-choices`
+			label `switch off main plot completed`
+			action
+				clear `main plot completed`
+			`Cleared "main plot completed".`
+				goto `re-choices`
+			label `switch on free worlds plot completed`
+			action
+				set `free worlds plot completed`
+			`Set "free worlds plot completed".`
+				goto `re-choices`
+			label `switch off free worlds plot completed`
+			action
+				clear `free worlds plot completed`
+			`Cleared "free worlds plot completed".`
 				goto `re-choices`
 			
 			label karma

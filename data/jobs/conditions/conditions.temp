@@ -17,16 +17,16 @@ mission "Ruin-the-Fun Conditions"
 				`	[_] "\1"`
 					to display
 						not `\1`
-					goto `switch \1`
+					goto `switch on \1`
 				`	[x] "\1"`
 					to display
 						`\1` == 1
-					goto `switch \1`
-				`	[N] "\1"`
+					goto `switch off \1`
+				`	[n] "\1" (currently not 0 nor 1)`
 					to display
 						`\1` != 0
 						`\1` != 1
-					goto `switch \1`
+					goto `switch off \1`
 ]]
 				`	karma...`
 					goto karma
@@ -34,10 +34,15 @@ mission "Ruin-the-Fun Conditions"
 					decline
 			
 [[condition-switches.list
-			label `switch \1`
+			label `switch on \1`
 			action
-				`\1` = `\1` * -1 + 1
-			`Toggled "\1".`
+				set `\1`
+			`Set "\1".`
+				goto `re-choices`
+			label `switch off \1`
+			action
+				clear `\1`
+			`Cleared "\1".`
 				goto `re-choices`
 ]]
 			
