@@ -18,6 +18,8 @@ jobs:
           mkdir -p tmp
           ES_V=$(git ls-remote --tags --refs https://github.com/endless-sky/endless-sky.git | sed 's|.*/||' | grep "v[0-9].*" | sed '/-for-/d' | sort -V | tail -1)
           RTF_ES_V=$(git tag | grep "v[0-9].*-for-es-v[0-9]" | sed 's/^.*-for-es-//' | sort -V | tail -1)
+          echo "Latest ES version: $ES_V"
+          echo "Last Auto-Update ES version: $RTF_ES_V"
           if [[ "$ES_V" == "$RTF_ES_V" ]]
           then
             echo "We already have a release for Endless Sky $ES_V"
