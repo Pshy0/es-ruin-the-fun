@@ -56,6 +56,7 @@ jobs:
           echo "GITHUB_REPO=$( echo ${{ github.repository }} | cut -d/ -f2 )" >> $GITHUB_ENV
       - name: Update es-release tag
         run: |
+          git tag --force es-latest-version ${{ github.sha }}
           git tag --force $NEW_RTF_TAG ${{ github.sha }}
           git push --tags --force
       - name: Setup Auto-Update Release
