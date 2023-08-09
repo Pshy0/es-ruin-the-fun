@@ -9,6 +9,8 @@ jobs:
   auto_update_for_es_continuous:
     name: "Update For ES continuous"
     runs-on: "ubuntu-latest"
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v3
       - name: Install Dependencies
