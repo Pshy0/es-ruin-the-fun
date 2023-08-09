@@ -15,7 +15,7 @@ jobs:
         run: |
           sudo rm /etc/apt/sources.list.d/* && sudo dpkg --clear-avail
           sudo apt update
-          sudo apt install -y python3 zip
+          sudo apt install -y make python3 zip
       - name: Clone endless-sky
         run: |
           mkdir -p tmp
