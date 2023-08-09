@@ -20,28 +20,18 @@ jobs:
           RTF_ES_V=$(git tag | grep "v[0-9].*-for-es-v[0-9]" | sed 's/^.*-for-es-//' | sort -V | tail -1)
           if [[ "$ES_V" == "$RTF_ES_V" ]]
           then
-            echo "We already have a release for this version of Endless Sky"
+            echo "We already have a release for Endless Sky $ES_V"
             gh run cancel ${{ github.run_id }}
             gh run watch ${{ github.run_id }}
           fi
           git fetch --tags
           echo "ES_V=$ES_V" >> $GITHUB_ENV
-          echo Z
-          git status | cat
-          echo A
-          git tag | grep "v[0-9].*" | cat
-          echo B
-          git tag | grep "v[0-9].*" | sed '/-for-/d' | cat
-          echo C
-          git tag | grep "v[0-9].*" | sed '/-for-/d' | sort -V | cat
-          echo D
-          git tag | grep "v[0-9].*" | sed '/-for-/d' | sort -V | tail -1 | cat
           RTF_V=$(git tag | grep "v[0-9].*" | sed '/-for-/d' | sort -V | tail -1)
-          echo "Plugin version is currently $RTF_V"
           echo "RTF_V=$RTF_V" >> $GITHUB_ENV
           NEW_RTF_TAG="$RTF_V-for-es-$ES_V"
-          echo "Auto-Update tag will be $NEW_RTF_TAG"
           echo "NEW_RTF_TAG=$NEW_RTF_TAG" >> $GITHUB_ENV
+          echo "Plugin version is currently $RTF_V"
+          echo "Auto-Update tag will be $NEW_RTF_TAG"
       - name: Install Dependencies
         run: |
           sudo rm /etc/apt/sources.list.d/* && sudo dpkg --clear-avail
