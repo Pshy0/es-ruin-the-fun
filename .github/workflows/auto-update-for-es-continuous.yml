@@ -1,0 +1,77 @@
+name: "Auto Update For ES continuous"
+
+on:
+  schedule:
+    - cron: '0 16 * * *'
+  workflow_dispatch:
+
+jobs:
+  auto_update_for_es_continuous:
+    name: "Update For ES continuous"
+    runs-on: "ubuntu-latest"
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Dependencies
+        run: |
+          sudo rm /etc/apt/sources.list.d/* && sudo dpkg --clear-avail
+          sudo apt update
+          sudo apt install -y make python3 zip
+      - name: Clone endless-sky
+        run: |
+          mkdir -p tmp
+          git clone --depth 1 --branch continuous https://github.com/endless-sky/endless-sky.git tmp/endless-sky
+          git -C tmp/endless-sky checkout continuous
+      - name: Make RTF for es continuous
+        run: |
+          pushd tmp/endless-sky
+          git checkout continuous
+          popd
+          sed -i 's|^ES_DATA = .*|ES_DATA = tmp/endless-sky/data/|' Makefile
+          make tmp/es-ruin-the-fun.zip
+          mv tmp/es-ruin-the-fun.zip tmp/es-ruin-the-fun-for-es-continuous.zip
+      - name: Install github-release
+        run: |
+          go install github.com/github-release/github-release@latest
+          echo "GOPATH=$(go env GOPATH)" >> $GITHUB_ENV
+          echo "$(go env GOPATH)/bin" >> $GITHUB_PATH
+          echo "GITHUB_USER=$( echo ${{ github.repository }} | cut -d/ -f1 )" >> $GITHUB_ENV
+          echo "GITHUB_REPO=$( echo ${{ github.repository }} | cut -d/ -f2 )" >> $GITHUB_ENV
+      - name: Update es-continuous tag
+        run: |
+          git tag --force es-continuous ${{ github.sha }}
+          git push --tags --force
+      - name: Setup Auto-Update Release
+        run: |
+          DESCRIPTION="Automatic update, featuring the latest content from [Endless Sky continuous](https://github.com/endless-sky/endless-sky/releases/tag/continuous).
+          
+          **⚠️ THIS BUILD IS NOT REVIEWED NOR TESTED.**
+          Use at your own risk.
+          
+          **⚠️ THIS BUILD IS NEITHER FOR THE LATEST RELEASE, NOR FOR THE LATEST OFFICIAL PRE-RELEASE.**
+          It should be for the latest continuous build.
+          
+          Release date: $(date -u '+%Y-%m-%d, %H:%M') UTC
+          Game version: endless-sky/endless-sky@$(git -C tmp/endless-sky rev-parse HEAD)
+          "
+          if ! github-release info -t es-continuous > /dev/null 2>&1; then
+            github-release release \
+              --tag es-continuous \
+              --name "Auto-Update for Endless Sky continuous" \
+              --description "$DESCRIPTION" \
+              --pre-release
+          else
+            github-release edit \
+              --tag es-continuous \
+              --name "Auto-Update for Endless Sky continuous" \
+              --description "$DESCRIPTION" \
+              --pre-release
+          fi
+      - name: Upload es-ruin-the-fun-for-es-continuous.zip
+        run: |
+          github-release upload \
+            --tag es-continuous \
+            --replace \
+            --name es-ruin-the-fun-for-es-continuous.zip \
+            --file tmp/es-ruin-the-fun-for-es-continuous.zip
