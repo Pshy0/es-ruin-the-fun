@@ -23,6 +23,7 @@ RTF_PLANET_FILES += data/map/planets/RTF-8-P.txt
 RTF_PLANET_FILES += data/map/planets/RTF-9-P.txt
 RTF_PLANET_FILES += data/map/planets/RTF-10-P.txt
 RTF_JOB_FILES += data/jobs/reputation.txt
+RTF_JOB_FILES += data/jobs/conditions/conditions.txt
 RTF_JOB_FILES += data/jobs/visit-systems.txt
 RTF_JOB_FILES += data/jobs/visit-planets.txt
 GENERATED_DATA_FILES += $(RTF_PLANET_FILES)
@@ -193,6 +194,8 @@ default-reputations.txt:
 data/jobs/reputation.txt: data/jobs/reputation.temp tmp/reputation-resets.tmp tmp/friendlies-reputation-resets.tmp tmp/friendly-reputation-sets.tmp tmp/hostile-reputation-sets.tmp
 	@echo "Generating $@..."
 	@tools/substitute-template.py $< > $@
+
+data/jobs/conditions/conditions.txt: data/jobs/conditions/conditions.temp data/jobs/conditions/condition-switches.list data/jobs/conditions/karma-values.list
 
 %.txt: %.temp
 	@echo "Generating $@..."
