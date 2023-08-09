@@ -215,8 +215,8 @@ data/jobs/conditions/conditions.txt: data/jobs/conditions/conditions.temp data/j
 	@echo "Generating $@ from $<..."
 	@tools/substitute-template.py $< > $@
 
-tmp/es-ruin-the-fun.zip: update $(PLUGIN_FILES) | tmp
-	zip $@ $(PLUGIN_FILES)
+tmp/es-ruin-the-fun.zip: update | $(PLUGIN_FILES) tmp
+	zip -r $@ $(PLUGIN_FILES)
 
 .PHONY: clean
 clean:
