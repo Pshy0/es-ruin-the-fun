@@ -1,4 +1,5 @@
-# es-ruin-the-fun
+es-ruin-the-fun
+===
 
 Cheat plugin for [endless-sky](https://github.com/endless-sky/endless-sky), to ruin your fun, or to assist you in making or testing another plugin.
 
@@ -6,7 +7,7 @@ Ruin-The-Fun lets you change your captain's name, choose the color swizzle of yo
 
 
 
-# Downloads
+## Downloads
 
 - [Ruin-The-Fun: Tested Release](https://github.com/Pshy0/es-ruin-the-fun/releases/tag/latest) [(direct download)](https://github.com/Pshy0/es-ruin-the-fun/releases/download/latest/es-ruin-the-fun.zip):
   This is a tested and recommended version. But perhaps not the latest.
@@ -20,7 +21,7 @@ Ruin-The-Fun lets you change your captain's name, choose the color swizzle of yo
 
 
 
-# Startup
+## Startup
 
 This assumes you have installed and enabled the plugin. If not, see [Install Instructions](#install-instructions).
 
@@ -44,7 +45,7 @@ There is other RTF systems everywhere on the map, so you do not have to cross it
 
 
 
-# Spaceport
+## Spaceport
 
 ![Spaceport](./images/screenshot/spaceport-button.png)
 
@@ -53,7 +54,7 @@ More actions are available from the `Job Board`.
 
 
 
-# Job Board
+## Job Board
 
 ![Job Board](./images/screenshot/job-board-button.png)
 
@@ -85,7 +86,7 @@ The following jobs are toggles, their effect is reverted when you abort them:
 
 
 
-# Shipyard
+## Shipyard
 
 ![Shipyard](./images/screenshot/shipyard-button.png)
 
@@ -93,7 +94,7 @@ From the RFT shipyards, all ships in the game are available to you.
 
 
 
-# Outfitter
+## Outfitter
 
 ![Outfitter](./images/screenshot/outfitter-button.png)
 
@@ -110,7 +111,7 @@ RTF also adds a few outfits, all listed under the `Special` category:
 
 
 
-# Assets (placeholders)
+## Assets (placeholders)
 
 You can use those assets as placeholders:
  - [Outfits](./images/outfit/rtf/)
@@ -120,7 +121,7 @@ If needed, info about individual assets are available from [./copyright](./copyr
 
 
 
-# Install Instructions
+## Install Instructions
 
 This plugin was last made for endless-sky `v0.10.2`, but is likely to include later content.
 
@@ -138,10 +139,10 @@ The `plugins` folder should be located at one of those locations:
 
 If the `plugins` folder does not exist, create it.
 
-## Plugin Conflicts
+### Plugin Conflicts
 All the content added by this plugin is prefixed, to avoid conflicts with other plugins.
 
-## Updating Content
+### Updating Content
 You can **update the plugin's vanilla content** by running the following command inside the plugin's directory:
 > make update
 
@@ -152,7 +153,7 @@ You can **include content from other plugins** by running the following command 
 
 This will only work if all plugins, including RTF, are in the same `plugins` folder.
 
-## Moving an RTF system
+### Moving an RTF system
 You can use a mission and an event like this to move a RTF system to your plugin's galaxy:
 ```
 mission "MYPLUGIN Move RTF10"
@@ -167,13 +168,13 @@ event "MYPLUGIN Move RTF10"
 
 
 
-# Bugs / Suggestions
+## Bugs / Suggestions
 
 Please submit bug reports or suggestions using [GitHub issues](https://github.com/Pshy0/es-ruin-the-fun/issues).
 
 
 
-# License
+## License
 
  > This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at https://mozilla.org/MPL/2.0/.
  > This Source Code Form is “Incompatible With Secondary Licenses”, as defined by the Mozilla Public License, v. 2.0.
