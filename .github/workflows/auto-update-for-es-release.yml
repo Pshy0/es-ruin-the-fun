@@ -25,14 +25,16 @@ jobs:
             gh run watch ${{ github.run_id }}
           fi
           echo "ES_V=$ES_V" >> $GITHUB_ENV
+          echo Z
+          git status | cat
           echo A
-          git tag | grep "v[0-9].*"
+          git tag | grep "v[0-9].*" | cat
           echo B
-          git tag | grep "v[0-9].*" | sed '/-for-/d'
+          git tag | grep "v[0-9].*" | sed '/-for-/d' | cat
           echo C
-          git tag | grep "v[0-9].*" | sed '/-for-/d' | sort -V
+          git tag | grep "v[0-9].*" | sed '/-for-/d' | sort -V | cat
           echo D
-          git tag | grep "v[0-9].*" | sed '/-for-/d' | sort -V | tail -1
+          git tag | grep "v[0-9].*" | sed '/-for-/d' | sort -V | tail -1 | cat
           RTF_V=$(git tag | grep "v[0-9].*" | sed '/-for-/d' | sort -V | tail -1)
           echo "Plugin version is currently $RTF_V"
           echo "RTF_V=$RTF_V" >> $GITHUB_ENV
