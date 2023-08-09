@@ -2,7 +2,7 @@ name: "Auto Update For ES release"
 
 on:
   schedule:
-    - cron: '0 46 * * *'
+    - cron: '0 4 * * *'
   workflow_dispatch:
 
 jobs:
