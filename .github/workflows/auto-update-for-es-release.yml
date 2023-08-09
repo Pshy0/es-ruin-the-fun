@@ -1,0 +1,83 @@
+name: "Auto Update For ES release"
+
+on:
+  schedule:
+    - cron: '0 46 * * *'
+  workflow_dispatch:
+
+jobs:
+  auto_update_for_es_release:
+    name: "Update For ES release"
+    runs-on: "ubuntu-latest"
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Assert Changes
+        run: |
+          mkdir -p tmp
+          ES_V=$(git ls-remote --tags --refs https://github.com/endless-sky/endless-sky.git | sed 's|.*/||' | grep "v[0-9].*" | sed '/-for-/d' | sort -V | tail -1)
+          RTF_ES_V=$(git tag | grep "v[0-9].*-for-es-v[0-9]" | sed 's/^.*-for-es-//' | sort -V | tail -1)
+          if [[ "$ES_V" == "$RTF_ES_V" ]]
+          then
+            echo "We already have"
+            gh run cancel ${{ github.run_id }}
+            gh run watch ${{ github.run_id }}
+          fi
+          echo "ES_V=$ES_V" >> $GITHUB_ENV
+          RTF_V=$(git tag | grep "v[0-9].*" | sed '/-for-/d' | sort -V | tail -1)
+          echo "RTF_V=$RTF_V" >> $GITHUB_ENV
+          echo "NEW_RTF_TAG=${RTF_V}-for-es-${ES_V}"
+      - name: Install Dependencies
+        run: |
+          sudo rm /etc/apt/sources.list.d/* && sudo dpkg --clear-avail
+          sudo apt update
+          sudo apt install -y make python3 zip
+      - name: Clone endless-sky
+        run: |
+          mkdir -p tmp
+          git clone --depth 1 --branch $ES_V https://github.com/endless-sky/endless-sky.git tmp/endless-sky
+      - name: Make RTF for es release
+        run: |
+          sed -i 's|^ES_DATA = .*|ES_DATA = tmp/endless-sky/data/|' Makefile
+          make tmp/es-ruin-the-fun.zip
+      - name: Install github-release
+        run: |
+          go install github.com/github-release/github-release@latest
+          echo "GOPATH=$(go env GOPATH)" >> $GITHUB_ENV
+          echo "$(go env GOPATH)/bin" >> $GITHUB_PATH
+          echo "GITHUB_USER=$( echo ${{ github.repository }} | cut -d/ -f1 )" >> $GITHUB_ENV
+          echo "GITHUB_REPO=$( echo ${{ github.repository }} | cut -d/ -f2 )" >> $GITHUB_ENV
+      - name: Update es-release tag
+        run: |
+          git tag --force $NEW_RTF_TAG ${{ github.sha }}
+          git push --tags --force
+      - name: Setup Auto-Update Release
+        run: |
+          DESCRIPTION="Automatic update, featuring the latest content from [Endless Sky $ES_V](https://github.com/endless-sky/endless-sky/releases/tag/ES_V).
+          
+          **⚠️ THIS BUILD IS NOT REVIEWED NOR TESTED.**
+          Use at your own risk.
+          
+          Game version: endless-sky/endless-sky@$RTF_V
+          "
+          if ! github-release info -t $NEW_RTF_TAG > /dev/null 2>&1; then
+            github-release release \
+              --tag $NEW_RTF_TAG \
+              --name "Auto-Update for Endless Sky $ES_V" \
+              --description "$DESCRIPTION" \
+              --pre-release
+          else
+            github-release edit \
+              --tag $NEW_RTF_TAG \
+              --name "Auto-Update for Endless Sky $ES_V" \
+              --description "$DESCRIPTION" \
+              --pre-release
+          fi
+      - name: Upload es-ruin-the-fun.zip
+        run: |
+          github-release upload \
+            --tag $NEW_RTF_TAG \
+            --replace \
+            --name es-ruin-the-fun-auto-updated.zip \
+            --file tmp/es-ruin-the-fun.zip
