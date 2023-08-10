@@ -20,8 +20,9 @@ jobs:
           git -C tmp/endless-sky checkout continuous
       - name: Assert Changes
         run: |
-          NEW_COMMITS_COUNT=$(git rev-list --count HEAD --after='1 hour ago' )
-          if [[ "$NEW_COMMITS_COUNT" == "0" ]]
+          RECENT_COMMITS_COUNT=$(git -C tmp/endless-sky rev-list --count HEAD --after='1 hour ago' )
+          echo "Recent commits count: $RECENT_COMMITS_COUNT"
+          if [[ "$RECENT_COMMITS_COUNT" == "0" ]]
           then
             echo "No new commit, aborting..."
             gh run cancel ${{ github.run_id }}
