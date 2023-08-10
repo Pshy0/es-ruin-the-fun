@@ -28,20 +28,20 @@ This assumes you have installed and enabled the plugin. If not, see [Install Ins
 ⚠️ **Be advised against using this plugin with your favorite pilot's save**, since it will make your hours of labor nonsensical.
 If you want to use this plugin for an existing save anyway, then **MAKE A BACKUP OF YOUR PILOT** (for instance with the `Add snapshot` button).
 
-![new pilot menu](./images/screenshot/add-snapshot.png)
+![add snapshot button](./images/screenshot/add-snapshot.png)
 
 If your intent is rather to use this plugin with a new pilot, you may use one of the starts provided by this plugin to do so:
 
-![new pilot menu](./images/screenshot/rtf-starts.png)
+![new pilot starts menu](./images/screenshot/rtf-starts.png)
 You will spawn in an RTF system, from which cheat features are available.
 
 Cheat features are available from, and only from, the RTF systems. One of them has an hyperlink to `Rutilicus` (the default start system), so that you can reach it with an Hyperdrive:
 
-![new pilot menu](./images/screenshot/rtf0-on-map.png)
+![map screenshot](./images/screenshot/rtf0-on-map.png)
 
 There is other RTF systems everywhere on the map, so you do not have to cross it whole.
 
-![new pilot menu](./images/screenshot/rtf-systems-on-map.png)
+![map screenshot](./images/screenshot/rtf-systems-on-map.png)
 
 
 
