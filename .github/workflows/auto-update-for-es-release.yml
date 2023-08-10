@@ -62,12 +62,10 @@ jobs:
           git push --tags --force
       - name: Setup Auto-Update Release
         run: |
-          DESCRIPTION="Automatic update, featuring the latest content from [Endless Sky $ES_V](https://github.com/endless-sky/endless-sky/releases/tag/ES_V).
+          DESCRIPTION="Automatic update, featuring the latest content from [Endless Sky $ES_V](https://github.com/endless-sky/endless-sky/releases/tag/$ES_V).
           
           **⚠️ THIS BUILD IS NOT REVIEWED NOR TESTED.**
           Use at your own risk.
-          
-          Game version: endless-sky/endless-sky@$RTF_V
           "
           if ! github-release info -t $NEW_RTF_TAG > /dev/null 2>&1; then
             github-release release \
