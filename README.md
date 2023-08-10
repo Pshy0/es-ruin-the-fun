@@ -76,6 +76,7 @@ The following jobs can be used after every landing on an RTF planet:
 - `[fight] Combat Drones`: Summon an amount of hostile Combat Drones.
 - `[fight] Kestrels`: Summon a combination of hostile Kestrels.
 - `[fight] Tek Far 109`: Summon an hostile customized drone transporter.
+- `[special] Local Map Revealer`: When you abort this job, you receive a large local map of where you were when you aborted it.
 - `[special] RTF Advanced Start`: Replays the advanced start conversation.
 
 The following jobs are toggles, their effect is reverted when you abort them:
