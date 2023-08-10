@@ -17,7 +17,6 @@ start "Ruin-The-Fun (Avanced)"
 conversation "Ruin-The-Fun Intro (Avanced)"
 	action
 		set "Ruin-The-Fun Existing Save Warning: skip"
-		event "Ruin-The-Fun All Licenses"
 	scene "scene/sagittarius a"
 	`	Zeus kneels in front of you. "What name would you like us to call you, sir?"`
 	name
@@ -110,6 +109,8 @@ conversation "Ruin-The-Fun Intro (Avanced)"
 	choice
 		`	(Reveal the map.)`
 			goto "reveal map"
+		`	(Receive all licenses.)`
+			goto "all licenses"
 		`	([  ] Equip flagship with a God Drive.)`
 			to display
 				has "Ruin-the-Fun player chose a starter ship"
@@ -138,6 +139,12 @@ conversation "Ruin-The-Fun Intro (Avanced)"
 		event "Ruin-the-Fun Visit Systems"
 		event "Ruin-the-Fun Visit Planets"
 	`	Systems and planets info revealed.`
+		goto "re-settings"
+	
+	label "all licenses"
+	action
+		event "Ruin-The-Fun All Licenses"
+	`	You received all licenses, you should see them next time you land.`
 		goto "re-settings"
 	
 	label end
