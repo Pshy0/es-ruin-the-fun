@@ -62,27 +62,28 @@ The `Job Board` contains most of this plugin's features.
 
 The following jobs can be used after every landing on an RTF planet:
 - `All Useful Things`: Get money, reveal the map, and earn combat rank 14.
-- `Escort: * Barges` (3 variants): Get escorted by dreadful Star Barges.
-- `Escort: Tek Far 109`: Get escorted by a customized drone transporter.
-- `Fight Combat Drones`: Summon an amount of hostile Combat Drones.
-- `Fight Kestrels`: Summon a combination of hostile Kestrels.
-- `Fight Tek Far 109`: Summon an hostile customized drone transporter.
-- `Fleets: Heliarchs vs Quargs`: Adds Heliarch and Quarg fleets to RTF0.
-- `Fleets: Meretis vs Sestors`: Adds Mereti and Sestor fleets to RTF0.
-- `Fleets: Scin vs Vis`: Adds Scin and Vi fleets to RTF0.
+- `Conditions`: Set your karma and other conditions.
 - `Free Money`: Obtain 1B credits.
 - `Name`: Change your captain's name.
 - `Rank`: Set your combat rank. Optionally spawn a target in space, to get xp from.
 - `Reputations`: Change your reputation with other governments.
-- `Reputations`: Customize your reputation per government, or turn everyone friendly or hostile, or, reset reputations to default.
 - `Reveal Planet Infos`: Reveal all vanilla planets information (upon take of, does not reveal systems).
 - `Reveal Systems`: Reveal the whole system map (upon take of).
 - `Swizzle`: Change the color of your ships.
 - `Vanilla Events And Conditions`: Let you edit a few vanilla conditions.
+- `[escort] * Barges` (3 variants): Get escorted by dreadful Star Barges.
+- `[escort] Tek Far 109`: Get escorted by a customized drone transporter.
+- `[fight] Combat Drones`: Summon an amount of hostile Combat Drones.
+- `[fight] Kestrels`: Summon a combination of hostile Kestrels.
+- `[fight] Tek Far 109`: Summon an hostile customized drone transporter.
+- `[toggle fleet] Heliarchs vs Quargs`: Adds Heliarch and Quarg fleets to RTF0.
+- `[toggle fleet] Meretis vs Sestors`: Adds Mereti and Sestor fleets to RTF0.
+- `[toggle fleet] Scin vs Vis`: Adds Scin and Vi fleets to RTF0.
 
 The following jobs are toggles, their effect is reverted when you abort them:
-- `Hide RTF Systems`: Hide the RTF systems, so that they do not interfere.
-- `Super Reach`: While in an RTF system, you can jump to any system on the map, even without a God Drive. By default, RTF systems have a lower jump range, to lower their impact on surrounding content.
+- `[toggle] Hide RTF Systems`: Hide the RTF systems, so that they do not interfere.
+- `[toggle] Super Reach`: While in an RTF system, you can jump to any system on the map, even without a God Drive. By default, RTF systems have a lower jump range, to lower their impact on surrounding content.
+- `[toggle] Variants`: Enable ship variants in the RTF shipyards.
 
 
 
