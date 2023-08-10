@@ -76,7 +76,7 @@ The following jobs can be used after every landing on an RTF planet:
 - `[fight] Combat Drones`: Summon an amount of hostile Combat Drones.
 - `[fight] Kestrels`: Summon a combination of hostile Kestrels.
 - `[fight] Tek Far 109`: Summon an hostile customized drone transporter.
-- `[special] Automatic Gallaxy Map`: Automatically reveal all connected systems upon landing.
+- `[special] Automatic Galaxy Map`: Automatically reveal all connected systems upon landing.
 - `[special] RTF Advanced Start`: Replays the advanced start conversation.
 
 The following jobs are toggles, their effect is reverted when you abort them:
