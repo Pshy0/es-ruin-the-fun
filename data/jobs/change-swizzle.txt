@@ -1,6 +1,6 @@
 mission "Ruin-the-Fun Change Swizzle"
 	job
-	name "Swizzle"
+	name "[basic] Color Swizzle"
 	description "The stars exist only to reveal your ship's beauty."
 	"apparent payment" 100000
 	repeat
