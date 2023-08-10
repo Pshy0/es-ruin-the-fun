@@ -16,7 +16,7 @@ Ruin-The-Fun lets you change your captain's name, choose the color swizzle of yo
   It should feature the latest game content.
   However, if the data file syntax was changed by the new version, this might cause warnings or errors.
 - [🎁 Ruin-The-Fun: (Endless Sky continuous)](https://github.com/Pshy0/es-ruin-the-fun/releases/tag/es-continuous) [(direct download)](https://github.com/Pshy0/es-ruin-the-fun/releases/download/es-continuous/es-ruin-the-fun-for-es-continuous.zip):
-  This version is periodically generated to match continuous builds of Endless Sky.
+  This version is periodically generated to match continuous builds of Endless Sky. This is also the latest untested RTF version.
   If you do not use continuous Endless Sky builds, do not use this version, as it will contain things that are not yet in you game (that will be a problem).
 
 
