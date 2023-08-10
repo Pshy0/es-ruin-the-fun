@@ -1,7 +1,7 @@
 mission "Ruin-the-Fun All Useful Things"
 	job
 	name "[basic] All Useful Things"
-	description "Money + Visit Systems + Visit Planet + Combat Rank 14"
+	description "Money + Visit Systems + Visit Planets + Combat Rank 14"
 	"apparent payment" 10000000000
 	repeat
 	source
