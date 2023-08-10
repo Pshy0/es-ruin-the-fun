@@ -16,12 +16,12 @@ jobs:
       - name: Clone endless-sky
         run: |
           mkdir -p tmp
-          git clone --depth 1 --branch continuous https://github.com/endless-sky/endless-sky.git tmp/endless-sky
+          git clone --depth 10 --branch continuous https://github.com/endless-sky/endless-sky.git tmp/endless-sky
           git -C tmp/endless-sky checkout continuous
       - name: Assert Changes
         run: |
           RECENT_COMMITS_COUNT=$(git -C tmp/endless-sky rev-list --count HEAD --after='1 hour ago' )
-          echo "Recent commits count: $RECENT_COMMITS_COUNT"
+          echo "Recent commits count: $RECENT_COMMITS_COUNT or more"
           if [[ "$RECENT_COMMITS_COUNT" == "0" ]]
           then
             echo "No new commit, aborting..."
