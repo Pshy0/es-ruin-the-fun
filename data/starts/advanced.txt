@@ -120,6 +120,15 @@ conversation "Ruin-The-Fun Intro (Avanced)"
 			to display
 				has "outfit: Ruin-The-Fun God Drive"
 			goto "uninstall god drive"
+		`	([  ] Equip flagship with a Cloaking Device.)`
+			to display
+				has "Ruin-the-Fun player chose a starter ship"
+				not "outfit: Cloaking Device"
+			goto "install cloaking device"
+		`	([x] Equip flagship with a Cloaking Device.)`
+			to display
+				has "outfit: Cloaking Device"
+			goto "uninstall cloaking device"
 		`	(Done.)`
 			goto end
 	
@@ -132,6 +141,17 @@ conversation "Ruin-The-Fun Intro (Avanced)"
 	action
 		outfit "Ruin-The-Fun God Drive" -1
 	`Removed the God Drive from your flagship.`
+		goto "re-settings"
+	
+	label "install cloaking device"
+	action
+		outfit "Cloaking Device"
+	`Installed a Cloaking Device on your flagship.`
+		goto "re-settings"
+	label "uninstall cloaking device"
+	action
+		outfit "Cloaking Device" -1
+	`Removed the Cloaking Device from your flagship.`
 		goto "re-settings"
 	
 	label "reveal map"
