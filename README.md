@@ -23,7 +23,10 @@ Ruin-The-Fun lets you change your captain's name, choose the color swizzle of yo
 
 ## Install
 
-First, locate the game's `plugins` folder. It should be located at one of those locations:
+Install this plugin by dropping it into the `plugins` folder.
+If the plugin is in a zip / archive file, extract it.
+
+First, find (or create) the game's `plugins` folder. It should be located at one of those locations:
 - On Windows:
   - `plugins\ (in the same folder as the Endless Sky executable)`
   - or `C:\Users\yourusername\AppData\Roaming\endless-sky\plugins\`
@@ -34,10 +37,6 @@ First, locate the game's `plugins` folder. It should be located at one of those 
   - `Contents/Resources/plugins/ (within the application bundle)`
   - or `~/Library/Application Support/endless-sky/plugins`
 
-If the `plugins` folder does not exist, create it.
-
-Then, drop this plugin into the `plugins` folder.
-If this plugin is a zip / archive file, extract it.
 If you did it right, there should be a file `plugins/es-ruin-the-fun/about.txt` or `plugins/Ruin The Fun/about.txt`.
 
 > This plugin should not conflict with any other, because it uses separate systems and prefixes objects it defines.
