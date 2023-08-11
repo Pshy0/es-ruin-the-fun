@@ -21,9 +21,30 @@ Ruin-The-Fun lets you change your captain's name, choose the color swizzle of yo
 
 
 
-## Startup
+## Install
 
-This assumes you have installed and enabled the plugin. If not, see [Install Instructions](#install-instructions).
+First, locate the game's `plugins` folder. It should be located at one of those locations:
+- On Windows:
+  - `plugins\ (in the same folder as the Endless Sky executable)`
+  - or `C:\Users\yourusername\AppData\Roaming\endless-sky\plugins\`
+- On Linux:
+  - `/usr/share/games/endless-sky/plugins/`
+  - or `~/.local/share/endless-sky/plugins/`
+- On Mac:
+  - `Contents/Resources/plugins/ (within the application bundle)`
+  - or `~/Library/Application Support/endless-sky/plugins`
+
+If the `plugins` folder does not exist, create it.
+
+Then, drop this plugin into the `plugins` folder.
+If this plugin is a zip / archive file, extract it.
+If you did it right, there should be a file `plugins/es-ruin-the-fun/about.txt` or `plugins/Ruin The Fun/about.txt`.
+
+> This plugin should not conflict with any other, because it uses separate systems and prefixes objects it defines.
+
+
+
+## Startup
 
 ⚠️ **Be advised against using this plugin with your favorite pilot's save**, since it will make your hours of labor nonsensical.
 If you want to use this plugin for an existing save anyway, then **MAKE A BACKUP OF YOUR PILOT** (for instance with the `Add snapshot` button).
@@ -114,38 +135,8 @@ RTF also adds a few outfits, all listed under the `Special` category:
 
 
 
-## Assets (placeholders)
+## Updating Content
 
-You can use those assets as placeholders:
- - [Outfits](./images/outfit/rtf/)
- - [Sounds](./sounds/)
-
-If needed, info about individual assets are available from [./copyright](./copyright).
-
-
-
-## Install Instructions
-
-This plugin was last made for endless-sky `v0.10.2`, but is likely to include later content.
-
-To install this plugin, put it as a folder (not an archive/zip file) inside the `plugins` folder.
-The `plugins` folder should be located at one of those locations:
-- On Windows:
-  - `plugins\ (in the same folder as the Endless Sky executable)`
-  - or `C:\Users\yourusername\AppData\Roaming\endless-sky\plugins\`
-- On Linux:
-  - `/usr/share/games/endless-sky/plugins/`
-  - or `~/.local/share/endless-sky/plugins/`
-- On Mac:
-  - `Contents/Resources/plugins/ (within the application bundle)`
-  - or `~/Library/Application Support/endless-sky/plugins`
-
-If the `plugins` folder does not exist, create it.
-
-### Plugin Conflicts
-All the content added by this plugin is prefixed, to avoid conflicts with other plugins.
-
-### Updating Content
 You can **update the plugin's vanilla content** by running the following command inside the plugin's directory:
 > make update
 
@@ -156,7 +147,20 @@ You can **include content from other plugins** by running the following command 
 
 This will only work if all plugins, including RTF, are in the same `plugins` folder.
 
-### Moving an RTF system
+
+
+## Assets (placeholders)
+
+You can use those assets as placeholders:
+ - [Outfits](./images/outfit/rtf/)
+ - [Sounds](./sounds/)
+
+Info about individual assets are available from [./copyright](./copyright).
+
+
+
+## Moving an RTF system
+
 You can use a mission and an event like this to move a RTF system to your plugin's galaxy:
 ```
 mission "MYPLUGIN Move RTF10"
@@ -173,7 +177,7 @@ event "MYPLUGIN Move RTF10"
 
 ## Bugs / Suggestions
 
-Please submit bug reports or suggestions using [GitHub issues](https://github.com/Pshy0/es-ruin-the-fun/issues).
+You are welcome to submit bug reports and suggestions using [GitHub issues](https://github.com/Pshy0/es-ruin-the-fun/issues).
 
 
 
