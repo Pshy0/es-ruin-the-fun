@@ -76,13 +76,13 @@ The following jobs can be used after every landing on an RTF planet:
 - `[fight] Combat Drones`: Summon an amount of hostile Combat Drones.
 - `[fight] Kestrels`: Summon a combination of hostile Kestrels.
 - `[fight] Tek Far 109`: Summon an hostile customized drone transporter.
-- `[special] Automatic Galaxy Map`: Automatically reveal all connected systems upon landing.
 - `[special] RTF Advanced Start`: Replays the advanced start conversation.
 
 The following jobs are toggles, their effect is reverted when you abort them:
 - `[toggle fleet] Heliarchs vs Quargs`: Adds Heliarch and Quarg fleets to RTF0.
 - `[toggle fleet] Meretis vs Sestors`: Adds Mereti and Sestor fleets to RTF0.
 - `[toggle fleet] Scin vs Vis`: Adds Scin and Vi fleets to RTF0.
+- `[toggle] Automatic Galaxy Map`: Automatically reveal all connected systems upon landing.
 - `[toggle] Hide RTF Systems`: Hide the RTF systems, so that they do not interfere.
 - `[toggle] Super Reach`: While in an RTF system, you can jump to any system on the map, even without a God Drive. By default, RTF systems have a lower jump range, to lower their impact on surrounding content.
 - `[toggle] Variants`: Enable ship variants in the RTF shipyards.
