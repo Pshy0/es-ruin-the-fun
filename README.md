@@ -1,4 +1,4 @@
-Ruin-The-Fun (es-ruin-the-fun)
+Ruin The Fun (es-ruin-the-fun)
 ===
 
 Cheat plugin for [endless-sky](https://github.com/endless-sky/endless-sky), to ruin your fun, or to assist you in making or testing another plugin.
