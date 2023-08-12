@@ -45,6 +45,7 @@ jobs:
           git clone --depth 1 --branch $ES_V https://github.com/endless-sky/endless-sky.git tmp/endless-sky
       - name: Make RTF for es release
         run: |
+          git checkout $RTF_V
           sed -i 's|^ES_DATA = .*|ES_DATA = tmp/endless-sky/data/|' Makefile
           make tmp/es-ruin-the-fun.zip
       - name: Install github-release
@@ -61,12 +62,10 @@ jobs:
           git push --tags --force
       - name: Setup Auto-Update Release
         run: |
-          DESCRIPTION="Automatic update, featuring the latest content from [Endless Sky $ES_V](https://github.com/endless-sky/endless-sky/releases/tag/ES_V).
+          DESCRIPTION="Automatic update, featuring the latest content from [Endless Sky $ES_V](https://github.com/endless-sky/endless-sky/releases/tag/$ES_V).
           
           **⚠️ THIS BUILD IS NOT REVIEWED NOR TESTED.**
           Use at your own risk.
-          
-          Game version: endless-sky/endless-sky@$RTF_V
           "
           if ! github-release info -t $NEW_RTF_TAG > /dev/null 2>&1; then
             github-release release \
