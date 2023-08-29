@@ -39,8 +39,8 @@ jobs:
           git checkout continuous
           popd
           sed -i 's|^ES_DATA = .*|ES_DATA = tmp/endless-sky/data/|' Makefile
-          make tmp/es-ruin-the-fun.zip
-          mv tmp/es-ruin-the-fun.zip tmp/es-ruin-the-fun-for-es-continuous.zip
+          make tmp/-es-ruin-the-fun.zip
+          mv tmp/-es-ruin-the-fun.zip tmp/-es-ruin-the-fun-for-es-continuous.zip
       - name: Install github-release
         run: |
           go install github.com/github-release/github-release@latest
@@ -78,10 +78,10 @@ jobs:
               --description "$DESCRIPTION" \
               --pre-release
           fi
-      - name: Upload es-ruin-the-fun-for-es-continuous.zip
+      - name: Upload -es-ruin-the-fun-for-es-continuous.zip
         run: |
           github-release upload \
             --tag es-continuous \
             --replace \
-            --name es-ruin-the-fun-for-es-continuous.zip \
-            --file tmp/es-ruin-the-fun-for-es-continuous.zip
+            --name -es-ruin-the-fun-for-es-continuous.zip \
+            --file tmp/-es-ruin-the-fun-for-es-continuous.zip
