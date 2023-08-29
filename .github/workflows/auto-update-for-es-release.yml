@@ -47,7 +47,7 @@ jobs:
         run: |
           git checkout $RTF_V
           sed -i 's|^ES_DATA = .*|ES_DATA = tmp/endless-sky/data/|' Makefile
-          make tmp/es-ruin-the-fun.zip
+          make tmp/-es-ruin-the-fun.zip
       - name: Install github-release
         run: |
           go install github.com/github-release/github-release@latest
@@ -80,10 +80,10 @@ jobs:
               --description "$DESCRIPTION" \
               --pre-release
           fi
-      - name: Upload es-ruin-the-fun.zip
+      - name: Upload -es-ruin-the-fun.zip
         run: |
           github-release upload \
             --tag $NEW_RTF_TAG \
             --replace \
-            --name es-ruin-the-fun-auto-updated.zip \
-            --file tmp/es-ruin-the-fun.zip
+            --name -es-ruin-the-fun-auto-updated.zip \
+            --file tmp/-es-ruin-the-fun.zip
