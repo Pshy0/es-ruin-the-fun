@@ -96,6 +96,8 @@ The following jobs can be used after every landing on an RTF planet:
 - `[escort] * Barges` (3 variants): Get escorted by dreadful Star Barges.
 - `[escort] Tek Far 109`: Get escorted by a customized drone transporter.
 - `[fight] Combat Drones`: Summon an amount of hostile Combat Drones.
+- `[fight] Fight Fleet`: Pick hostile fleets to spawn.
+- `[fight] Fight Ships`: Pick hostile ships to spawn.
 - `[fight] Kestrels`: Summon a combination of hostile Kestrels.
 - `[fight] Tek Far 109`: Summon an hostile customized drone transporter.
 - `[special] RTF Advanced Start`: Replays the advanced start conversation.
