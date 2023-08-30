@@ -15,6 +15,7 @@ GENERATED_DATA_FILES += data/map/planets.txt
 GENERATED_DATA_FILES += data/map/systems.txt
 RTF_JOB_FILES += data/jobs/reputation.txt
 RTF_JOB_FILES += data/jobs/conditions/conditions.txt
+RTF_JOB_FILES += data/jobs/combat-ships/combat-ships.txt
 RTF_JOB_FILES += data/jobs/visit-systems.txt
 RTF_JOB_FILES += data/jobs/visit-planets.txt
 GENERATED_DATA_FILES += $(RTF_JOB_FILES)
