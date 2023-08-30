@@ -16,6 +16,7 @@ GENERATED_DATA_FILES += data/map/systems.txt
 RTF_JOB_FILES += data/jobs/reputation.txt
 RTF_JOB_FILES += data/jobs/conditions/conditions.txt
 RTF_JOB_FILES += data/jobs/combat-ships/combat-ships.txt
+RTF_JOB_FILES += data/jobs/combat-fleets/combat-fleets.txt
 RTF_JOB_FILES += data/jobs/visit-systems.txt
 RTF_JOB_FILES += data/jobs/visit-planets.txt
 GENERATED_DATA_FILES += $(RTF_JOB_FILES)
@@ -133,6 +134,10 @@ tmp/governments.list.tmp: tmp/data-dirs.tmp | tmp
 	@echo "Listing governments..."
 	@cat tmp/data-dirs.tmp | xargs grep -R "^government" | grep "\.txt:" | sed "s/^.*\.txt:government //g" | tools/unquote.sh | sort | uniq | sed "/^Escort$$/d" > $@
 
+tmp/fleets.list.tmp: tmp/data-dirs.tmp | tmp 
+	@echo "Listing fleets..."
+	@cat tmp/data-dirs.tmp | xargs grep -R "^fleet" | grep "\.txt:" | sed "s/^.*\.txt:fleet //g" | tools/unquote.sh | sort | uniq > $@
+
 tmp/licenses.list.tmp: tmp/data-dirs.tmp | tmp
 	@echo "Listing licenses..."
 	@cat tmp/data-dirs.tmp | xargs grep -P -R "outfit.*License" | grep "\.txt:" | sed "s/^.*\.txt:outfit //" | tools/unquote.sh | sed 's| License$$||' | sort | uniq > $@
@@ -203,6 +208,8 @@ default-reputations.txt:
 
 data/jobs/reputation.txt: data/jobs/reputation.temp tmp/reputation-resets.tmp tmp/friendlies-reputation-resets.tmp tmp/friendly-reputation-sets.tmp tmp/hostile-reputation-sets.tmp
 data/jobs/conditions/conditions.txt: data/jobs/conditions/conditions.temp data/jobs/conditions/condition-switches.list data/jobs/conditions/karma-values.list
+data/jobs/combat-ships/combat-ships.txt: tmp/base-ships.list.tmp
+data/jobs/combat-fleets/combat-fleets.txt: tmp/fleets.list.tmp
 data/map/planets.txt: data/map/systems.csv
 data/map/systems.txt: data/map/systems.csv
 %.txt: %.temp
