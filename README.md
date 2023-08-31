@@ -190,3 +190,12 @@ You can also contact me on discord (`Pshy#7998`).
 
  > This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at https://mozilla.org/MPL/2.0/.
  > This Source Code Form is “Incompatible With Secondary Licenses”, as defined by the Mozilla Public License, v. 2.0.
+
+
+
+## References
+
+### Non-Cheat Alternatives
+If you are interested by some features of this plug-in but do not want to be cheating, you may check the following ones:
+
+- [Prism Plugin](https://github.com/Startingfresher/Prism-Plug-in): **Unlock ship color swizzles** by achieving progress in the game
