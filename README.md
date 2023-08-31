@@ -199,4 +199,5 @@ You can also contact me on discord (`Pshy#7998`).
 If you are interested by some features of this plug-in but do not want to be cheating, you may check the following ones:
 
 - [A Coalition at War](https://github.com/mathwhiz1212/ES-conscience-plugin): **Get help from the Quarg** so you don't have to nuke Zenith
+- [Advanced Starts](https://github.com/kestrel1110/ES-Advanced-Starts/): **Adds more starts.**
 - [Prism Plugin](https://github.com/Startingfresher/Prism-Plug-in): **Unlock ship color swizzles** by achieving progress in the game
