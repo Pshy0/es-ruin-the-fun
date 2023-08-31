@@ -235,10 +235,10 @@ default-reputations.txt:
 	#TODO: generate from $(ES_DEFAULT_PILOT_SAVE)
 
 data/plugin-support/all-outfitters.txt: tmp/plugin-outfitters.list.tmp
-	@sed 's|^\(.*\)$$|outfitter `\1`\n\radd "Ruin-The-Fun Overridable Outfit"|' $< > $@
+	@sed 's|^\(.*\)$$|outfitter `\1`\n\tadd "Ruin-The-Fun Overridable Outfit"|' $< > $@
 	
 data/plugin-support/all-shipyards.txt: tmp/plugin-shipyards.list.tmp
-	@sed 's|^\(.*\)$$|shipyard `\1`\n\radd "Ruin-The-Fun Overridable Ship"|' $< > $@
+	@sed 's|^\(.*\)$$|shipyard `\1`\n\tadd "Ruin-The-Fun Overridable Ship"|' $< > $@
 
 data/jobs/reputation.txt: data/jobs/reputation.temp tmp/reputation-resets.tmp tmp/friendlies-reputation-resets.tmp tmp/friendly-reputation-sets.tmp tmp/hostile-reputation-sets.tmp
 data/jobs/conditions/conditions.txt: data/jobs/conditions/conditions.temp data/jobs/conditions/condition-switches.list data/jobs/conditions/karma-values.list

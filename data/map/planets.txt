@@ -23,9 +23,6 @@ planet RTF0-P
 	outfitter `Ammo North`
 	outfitter `Ammo South`
 	outfitter `antique rifle`
-	outfitter `Arion Advanced Outfits`
-	outfitter `Arion Basic Outfits`
-	outfitter `Arion Hand to hand Outfits`
 	outfitter `Asteroid Ammo`
 	outfitter `Basic Expansions`
 	outfitter `Basic Fuel`
@@ -50,7 +47,10 @@ planet RTF0-P
 	outfitter `Deep Sky Basics`
 	outfitter `Delta V Advanced`
 	outfitter `Delta V Basics`
-	outfitter `deprecated`
+	outfitter `derogam`
+	outfitter `Derogam Base Large`
+	outfitter `Derogam Base Medium`
+	outfitter `Derogam Base Small`
 	outfitter `Deuterium`
 	outfitter `developer`
 	outfitter `Dream Crystal`
@@ -60,6 +60,7 @@ planet RTF0-P
 	outfitter `Energy Cannon`
 	outfitter `Espion Advanced`
 	outfitter `Espion Basic`
+	outfitter `fluff`
 	outfitter `FW Security`
 	outfitter `Gegno Basic`
 	outfitter `Gegno Intermediate`
@@ -72,6 +73,7 @@ planet RTF0-P
 	outfitter `Hai Security`
 	outfitter `Heavy Fusion Core`
 	outfitter `Heliarch`
+	outfitter `human`
 	outfitter `Inferno Rockets`
 	outfitter `irm`
 	outfitter `Iron`
@@ -79,6 +81,7 @@ planet RTF0-P
 	outfitter `Ka'het Advanced`
 	outfitter `Ka'het Basics`
 	outfitter `Ka'het Weapons Salvage`
+	outfitter `korath`
 	outfitter `Korath Basics`
 	outfitter `Korath Exiles`
 	outfitter `Korath Exiles Remnant Donations`
@@ -109,7 +112,6 @@ planet RTF0-P
 	outfitter `Navy Advanced EX`
 	outfitter `Navy Basic`
 	outfitter `Navy Basics`
-	outfitter `NCD Outfits`
 	outfitter `Neodymium`
 	outfitter `NMU`
 	outfitter `Northern Explorers`
@@ -134,7 +136,6 @@ planet RTF0-P
 	outfitter `Stack Core`
 	outfitter `Stinger Missile`
 	outfitter `Sunracer Afterburner`
-	outfitter `Surplus Guns`
 	outfitter `Surveillance Pod`
 	outfitter `Syndicate Advanced`
 	outfitter `Syndicate Assistance`
@@ -154,6 +155,7 @@ planet RTF0-P
 	outfitter `Vi Intermediate`
 	outfitter `Void Orchid`
 	outfitter `Void Sprite Parts`
+	outfitter `wanderer`
 	outfitter `Wanderer Advanced`
 	outfitter `Wanderer Basics`
 	shipyard `Adamas Basics`
@@ -164,13 +166,10 @@ planet RTF0-P
 	shipyard `Advanced Southern Pirates`
 	shipyard `Afterlife`
 	shipyard `Alien Ships`
+	shipyard `All Haulers`
 	shipyard `Ankulah Advanced`
 	shipyard `Ankulah Basics`
 	shipyard `Arach`
-	shipyard `Arion Advanced Ships`
-	shipyard `Arion Heavy Ships`
-	shipyard `Arion SFF Ships`
-	shipyard `Arion Ships`
 	shipyard `Basic Ships`
 	shipyard `Betelgeuse Advanced`
 	shipyard `Betelgeuse Basic`
@@ -187,6 +186,7 @@ planet RTF0-P
 	shipyard `CCS Corp Basic`
 	shipyard `CCS Corp Intermediate`
 	shipyard `Coalition Basics`
+	shipyard `coalition plugins`
 	shipyard `Common Freighters`
 	shipyard `Corbel Engineering Advanced`
 	shipyard `Corbel Engineering Basic`
@@ -195,13 +195,21 @@ planet RTF0-P
 	shipyard `Core Nuclear Transport`
 	shipyard `Core Pirates`
 	shipyard `crescent`
-	shipyard `deprecated`
+	shipyard `derogam`
+	shipyard `Derogam Civilian Large`
+	shipyard `Derogam Civilian Medium`
+	shipyard `Derogam Civilian Small`
+	shipyard `Derogam Military Large`
+	shipyard `Derogam Military Medium`
+	shipyard `Derogam Military Small`
 	shipyard `developer`
 	shipyard `Dirt Belt Pirates`
+	shipyard `drak`
 	shipyard `DSSE Shipbuilding Advanced`
 	shipyard `Elenctic Commune Basic`
 	shipyard `Espion Advanced`
 	shipyard `Espion Basic`
+	shipyard `fluff`
 	shipyard `Freight Galactic Advanced`
 	shipyard `Freight Galactic Advanced EX`
 	shipyard `Freight Galactic Basic`
@@ -212,12 +220,19 @@ planet RTF0-P
 	shipyard `Genesis`
 	shipyard `Genesis Advanced`
 	shipyard `Hai Advanced`
+	shipyard `human`
+	shipyard `human plugins`
+	shipyard `humanVariants`
 	shipyard `Imo Loo Mer Advanced`
 	shipyard `Imo Loo Mer Basics`
 	shipyard `Intrasystem Advanced`
 	shipyard `Intrasystem Basic`
 	shipyard `Kimek`
+	shipyard `korath`
+	shipyard `korath plugins`
+	shipyard `korathVariants`
 	shipyard `Kor Efret Scrapyard`
+	shipyard `Legendary Ships`
 	shipyard `Lionheart Advanced`
 	shipyard `Lionheart Basics`
 	shipyard `Luna Winery Custom`
@@ -268,13 +283,15 @@ planet RTF0-P
 	shipyard `Navy Advanced EX`
 	shipyard `Navy Basics`
 	shipyard `Navy Intermediate`
-	shipyard `NCD Ships`
 	shipyard `Northern Pirates`
 	shipyard `Pioneer Heavy Industries Advanced`
 	shipyard `Pioneer Heavy Industries Basics`
 	shipyard `Pioneer Heavy Industries Intermediate`
+	shipyard `quarg`
 	shipyard `Relic Shipyard`
+	shipyard `remnant`
 	shipyard `Remnant`
+	shipyard `remnant plugins`
 	shipyard `Remnant Puffin`
 	shipyard `Remnant Salvage Ships`
 	shipyard `RN Set`
@@ -285,6 +302,8 @@ planet RTF0-P
 	shipyard `Scin Warships`
 	shipyard `Seikron Dockyard Advanced`
 	shipyard `Seikron Dockyard Basics`
+	shipyard `Sestor Advanced`
+	shipyard `Sestor Basics`
 	shipyard `Slipstream Shipyard`
 	shipyard `Solacer Group Custom`
 	shipyard `Solomons Voidworks Advanced`
@@ -300,8 +319,10 @@ planet RTF0-P
 	shipyard `Syndicate Basics`
 	shipyard `Tarazed Advanced`
 	shipyard `Tarazed Basics`
+	shipyard `Tarazed Freight`
 	shipyard `Thyrupp AG Advanced`
 	shipyard `Thyrupp AG Basics`
+	shipyard `Unfettered Basics`
 	shipyard `Vefrol Dockyard Advanced`
 	shipyard `Vefrol Dockyard Basic`
 	shipyard `Vefrol Dockyard Intermediate`
@@ -312,6 +333,7 @@ planet RTF0-P
 	shipyard `Vi Utility`
 	shipyard `Vi Warships I`
 	shipyard `Vi Warships II`
+	shipyard `wanderer`
 	shipyard `Wanderer Advanced`
 	shipyard `Wanderer Basics`
 	shipyard `Yeer e Ki Advanced`
@@ -341,9 +363,6 @@ planet RTF1-P
 	outfitter `Ammo North`
 	outfitter `Ammo South`
 	outfitter `antique rifle`
-	outfitter `Arion Advanced Outfits`
-	outfitter `Arion Basic Outfits`
-	outfitter `Arion Hand to hand Outfits`
 	outfitter `Asteroid Ammo`
 	outfitter `Basic Expansions`
 	outfitter `Basic Fuel`
@@ -368,7 +387,10 @@ planet RTF1-P
 	outfitter `Deep Sky Basics`
 	outfitter `Delta V Advanced`
 	outfitter `Delta V Basics`
-	outfitter `deprecated`
+	outfitter `derogam`
+	outfitter `Derogam Base Large`
+	outfitter `Derogam Base Medium`
+	outfitter `Derogam Base Small`
 	outfitter `Deuterium`
 	outfitter `developer`
 	outfitter `Dream Crystal`
@@ -378,6 +400,7 @@ planet RTF1-P
 	outfitter `Energy Cannon`
 	outfitter `Espion Advanced`
 	outfitter `Espion Basic`
+	outfitter `fluff`
 	outfitter `FW Security`
 	outfitter `Gegno Basic`
 	outfitter `Gegno Intermediate`
@@ -390,6 +413,7 @@ planet RTF1-P
 	outfitter `Hai Security`
 	outfitter `Heavy Fusion Core`
 	outfitter `Heliarch`
+	outfitter `human`
 	outfitter `Inferno Rockets`
 	outfitter `irm`
 	outfitter `Iron`
@@ -397,6 +421,7 @@ planet RTF1-P
 	outfitter `Ka'het Advanced`
 	outfitter `Ka'het Basics`
 	outfitter `Ka'het Weapons Salvage`
+	outfitter `korath`
 	outfitter `Korath Basics`
 	outfitter `Korath Exiles`
 	outfitter `Korath Exiles Remnant Donations`
@@ -427,7 +452,6 @@ planet RTF1-P
 	outfitter `Navy Advanced EX`
 	outfitter `Navy Basic`
 	outfitter `Navy Basics`
-	outfitter `NCD Outfits`
 	outfitter `Neodymium`
 	outfitter `NMU`
 	outfitter `Northern Explorers`
@@ -452,7 +476,6 @@ planet RTF1-P
 	outfitter `Stack Core`
 	outfitter `Stinger Missile`
 	outfitter `Sunracer Afterburner`
-	outfitter `Surplus Guns`
 	outfitter `Surveillance Pod`
 	outfitter `Syndicate Advanced`
 	outfitter `Syndicate Assistance`
@@ -472,6 +495,7 @@ planet RTF1-P
 	outfitter `Vi Intermediate`
 	outfitter `Void Orchid`
 	outfitter `Void Sprite Parts`
+	outfitter `wanderer`
 	outfitter `Wanderer Advanced`
 	outfitter `Wanderer Basics`
 	shipyard `Adamas Basics`
@@ -482,13 +506,10 @@ planet RTF1-P
 	shipyard `Advanced Southern Pirates`
 	shipyard `Afterlife`
 	shipyard `Alien Ships`
+	shipyard `All Haulers`
 	shipyard `Ankulah Advanced`
 	shipyard `Ankulah Basics`
 	shipyard `Arach`
-	shipyard `Arion Advanced Ships`
-	shipyard `Arion Heavy Ships`
-	shipyard `Arion SFF Ships`
-	shipyard `Arion Ships`
 	shipyard `Basic Ships`
 	shipyard `Betelgeuse Advanced`
 	shipyard `Betelgeuse Basic`
@@ -505,6 +526,7 @@ planet RTF1-P
 	shipyard `CCS Corp Basic`
 	shipyard `CCS Corp Intermediate`
 	shipyard `Coalition Basics`
+	shipyard `coalition plugins`
 	shipyard `Common Freighters`
 	shipyard `Corbel Engineering Advanced`
 	shipyard `Corbel Engineering Basic`
@@ -513,13 +535,21 @@ planet RTF1-P
 	shipyard `Core Nuclear Transport`
 	shipyard `Core Pirates`
 	shipyard `crescent`
-	shipyard `deprecated`
+	shipyard `derogam`
+	shipyard `Derogam Civilian Large`
+	shipyard `Derogam Civilian Medium`
+	shipyard `Derogam Civilian Small`
+	shipyard `Derogam Military Large`
+	shipyard `Derogam Military Medium`
+	shipyard `Derogam Military Small`
 	shipyard `developer`
 	shipyard `Dirt Belt Pirates`
+	shipyard `drak`
 	shipyard `DSSE Shipbuilding Advanced`
 	shipyard `Elenctic Commune Basic`
 	shipyard `Espion Advanced`
 	shipyard `Espion Basic`
+	shipyard `fluff`
 	shipyard `Freight Galactic Advanced`
 	shipyard `Freight Galactic Advanced EX`
 	shipyard `Freight Galactic Basic`
@@ -530,12 +560,19 @@ planet RTF1-P
 	shipyard `Genesis`
 	shipyard `Genesis Advanced`
 	shipyard `Hai Advanced`
+	shipyard `human`
+	shipyard `human plugins`
+	shipyard `humanVariants`
 	shipyard `Imo Loo Mer Advanced`
 	shipyard `Imo Loo Mer Basics`
 	shipyard `Intrasystem Advanced`
 	shipyard `Intrasystem Basic`
 	shipyard `Kimek`
+	shipyard `korath`
+	shipyard `korath plugins`
+	shipyard `korathVariants`
 	shipyard `Kor Efret Scrapyard`
+	shipyard `Legendary Ships`
 	shipyard `Lionheart Advanced`
 	shipyard `Lionheart Basics`
 	shipyard `Luna Winery Custom`
@@ -586,13 +623,15 @@ planet RTF1-P
 	shipyard `Navy Advanced EX`
 	shipyard `Navy Basics`
 	shipyard `Navy Intermediate`
-	shipyard `NCD Ships`
 	shipyard `Northern Pirates`
 	shipyard `Pioneer Heavy Industries Advanced`
 	shipyard `Pioneer Heavy Industries Basics`
 	shipyard `Pioneer Heavy Industries Intermediate`
+	shipyard `quarg`
 	shipyard `Relic Shipyard`
+	shipyard `remnant`
 	shipyard `Remnant`
+	shipyard `remnant plugins`
 	shipyard `Remnant Puffin`
 	shipyard `Remnant Salvage Ships`
 	shipyard `RN Set`
@@ -603,6 +642,8 @@ planet RTF1-P
 	shipyard `Scin Warships`
 	shipyard `Seikron Dockyard Advanced`
 	shipyard `Seikron Dockyard Basics`
+	shipyard `Sestor Advanced`
+	shipyard `Sestor Basics`
 	shipyard `Slipstream Shipyard`
 	shipyard `Solacer Group Custom`
 	shipyard `Solomons Voidworks Advanced`
@@ -618,8 +659,10 @@ planet RTF1-P
 	shipyard `Syndicate Basics`
 	shipyard `Tarazed Advanced`
 	shipyard `Tarazed Basics`
+	shipyard `Tarazed Freight`
 	shipyard `Thyrupp AG Advanced`
 	shipyard `Thyrupp AG Basics`
+	shipyard `Unfettered Basics`
 	shipyard `Vefrol Dockyard Advanced`
 	shipyard `Vefrol Dockyard Basic`
 	shipyard `Vefrol Dockyard Intermediate`
@@ -630,6 +673,7 @@ planet RTF1-P
 	shipyard `Vi Utility`
 	shipyard `Vi Warships I`
 	shipyard `Vi Warships II`
+	shipyard `wanderer`
 	shipyard `Wanderer Advanced`
 	shipyard `Wanderer Basics`
 	shipyard `Yeer e Ki Advanced`
@@ -659,9 +703,6 @@ planet RTF2-P
 	outfitter `Ammo North`
 	outfitter `Ammo South`
 	outfitter `antique rifle`
-	outfitter `Arion Advanced Outfits`
-	outfitter `Arion Basic Outfits`
-	outfitter `Arion Hand to hand Outfits`
 	outfitter `Asteroid Ammo`
 	outfitter `Basic Expansions`
 	outfitter `Basic Fuel`
@@ -686,7 +727,10 @@ planet RTF2-P
 	outfitter `Deep Sky Basics`
 	outfitter `Delta V Advanced`
 	outfitter `Delta V Basics`
-	outfitter `deprecated`
+	outfitter `derogam`
+	outfitter `Derogam Base Large`
+	outfitter `Derogam Base Medium`
+	outfitter `Derogam Base Small`
 	outfitter `Deuterium`
 	outfitter `developer`
 	outfitter `Dream Crystal`
@@ -696,6 +740,7 @@ planet RTF2-P
 	outfitter `Energy Cannon`
 	outfitter `Espion Advanced`
 	outfitter `Espion Basic`
+	outfitter `fluff`
 	outfitter `FW Security`
 	outfitter `Gegno Basic`
 	outfitter `Gegno Intermediate`
@@ -708,6 +753,7 @@ planet RTF2-P
 	outfitter `Hai Security`
 	outfitter `Heavy Fusion Core`
 	outfitter `Heliarch`
+	outfitter `human`
 	outfitter `Inferno Rockets`
 	outfitter `irm`
 	outfitter `Iron`
@@ -715,6 +761,7 @@ planet RTF2-P
 	outfitter `Ka'het Advanced`
 	outfitter `Ka'het Basics`
 	outfitter `Ka'het Weapons Salvage`
+	outfitter `korath`
 	outfitter `Korath Basics`
 	outfitter `Korath Exiles`
 	outfitter `Korath Exiles Remnant Donations`
@@ -745,7 +792,6 @@ planet RTF2-P
 	outfitter `Navy Advanced EX`
 	outfitter `Navy Basic`
 	outfitter `Navy Basics`
-	outfitter `NCD Outfits`
 	outfitter `Neodymium`
 	outfitter `NMU`
 	outfitter `Northern Explorers`
@@ -770,7 +816,6 @@ planet RTF2-P
 	outfitter `Stack Core`
 	outfitter `Stinger Missile`
 	outfitter `Sunracer Afterburner`
-	outfitter `Surplus Guns`
 	outfitter `Surveillance Pod`
 	outfitter `Syndicate Advanced`
 	outfitter `Syndicate Assistance`
@@ -790,6 +835,7 @@ planet RTF2-P
 	outfitter `Vi Intermediate`
 	outfitter `Void Orchid`
 	outfitter `Void Sprite Parts`
+	outfitter `wanderer`
 	outfitter `Wanderer Advanced`
 	outfitter `Wanderer Basics`
 	shipyard `Adamas Basics`
@@ -800,13 +846,10 @@ planet RTF2-P
 	shipyard `Advanced Southern Pirates`
 	shipyard `Afterlife`
 	shipyard `Alien Ships`
+	shipyard `All Haulers`
 	shipyard `Ankulah Advanced`
 	shipyard `Ankulah Basics`
 	shipyard `Arach`
-	shipyard `Arion Advanced Ships`
-	shipyard `Arion Heavy Ships`
-	shipyard `Arion SFF Ships`
-	shipyard `Arion Ships`
 	shipyard `Basic Ships`
 	shipyard `Betelgeuse Advanced`
 	shipyard `Betelgeuse Basic`
@@ -823,6 +866,7 @@ planet RTF2-P
 	shipyard `CCS Corp Basic`
 	shipyard `CCS Corp Intermediate`
 	shipyard `Coalition Basics`
+	shipyard `coalition plugins`
 	shipyard `Common Freighters`
 	shipyard `Corbel Engineering Advanced`
 	shipyard `Corbel Engineering Basic`
@@ -831,13 +875,21 @@ planet RTF2-P
 	shipyard `Core Nuclear Transport`
 	shipyard `Core Pirates`
 	shipyard `crescent`
-	shipyard `deprecated`
+	shipyard `derogam`
+	shipyard `Derogam Civilian Large`
+	shipyard `Derogam Civilian Medium`
+	shipyard `Derogam Civilian Small`
+	shipyard `Derogam Military Large`
+	shipyard `Derogam Military Medium`
+	shipyard `Derogam Military Small`
 	shipyard `developer`
 	shipyard `Dirt Belt Pirates`
+	shipyard `drak`
 	shipyard `DSSE Shipbuilding Advanced`
 	shipyard `Elenctic Commune Basic`
 	shipyard `Espion Advanced`
 	shipyard `Espion Basic`
+	shipyard `fluff`
 	shipyard `Freight Galactic Advanced`
 	shipyard `Freight Galactic Advanced EX`
 	shipyard `Freight Galactic Basic`
@@ -848,12 +900,19 @@ planet RTF2-P
 	shipyard `Genesis`
 	shipyard `Genesis Advanced`
 	shipyard `Hai Advanced`
+	shipyard `human`
+	shipyard `human plugins`
+	shipyard `humanVariants`
 	shipyard `Imo Loo Mer Advanced`
 	shipyard `Imo Loo Mer Basics`
 	shipyard `Intrasystem Advanced`
 	shipyard `Intrasystem Basic`
 	shipyard `Kimek`
+	shipyard `korath`
+	shipyard `korath plugins`
+	shipyard `korathVariants`
 	shipyard `Kor Efret Scrapyard`
+	shipyard `Legendary Ships`
 	shipyard `Lionheart Advanced`
 	shipyard `Lionheart Basics`
 	shipyard `Luna Winery Custom`
@@ -904,13 +963,15 @@ planet RTF2-P
 	shipyard `Navy Advanced EX`
 	shipyard `Navy Basics`
 	shipyard `Navy Intermediate`
-	shipyard `NCD Ships`
 	shipyard `Northern Pirates`
 	shipyard `Pioneer Heavy Industries Advanced`
 	shipyard `Pioneer Heavy Industries Basics`
 	shipyard `Pioneer Heavy Industries Intermediate`
+	shipyard `quarg`
 	shipyard `Relic Shipyard`
+	shipyard `remnant`
 	shipyard `Remnant`
+	shipyard `remnant plugins`
 	shipyard `Remnant Puffin`
 	shipyard `Remnant Salvage Ships`
 	shipyard `RN Set`
@@ -921,6 +982,8 @@ planet RTF2-P
 	shipyard `Scin Warships`
 	shipyard `Seikron Dockyard Advanced`
 	shipyard `Seikron Dockyard Basics`
+	shipyard `Sestor Advanced`
+	shipyard `Sestor Basics`
 	shipyard `Slipstream Shipyard`
 	shipyard `Solacer Group Custom`
 	shipyard `Solomons Voidworks Advanced`
@@ -936,8 +999,10 @@ planet RTF2-P
 	shipyard `Syndicate Basics`
 	shipyard `Tarazed Advanced`
 	shipyard `Tarazed Basics`
+	shipyard `Tarazed Freight`
 	shipyard `Thyrupp AG Advanced`
 	shipyard `Thyrupp AG Basics`
+	shipyard `Unfettered Basics`
 	shipyard `Vefrol Dockyard Advanced`
 	shipyard `Vefrol Dockyard Basic`
 	shipyard `Vefrol Dockyard Intermediate`
@@ -948,6 +1013,7 @@ planet RTF2-P
 	shipyard `Vi Utility`
 	shipyard `Vi Warships I`
 	shipyard `Vi Warships II`
+	shipyard `wanderer`
 	shipyard `Wanderer Advanced`
 	shipyard `Wanderer Basics`
 	shipyard `Yeer e Ki Advanced`
@@ -977,9 +1043,6 @@ planet RTF3-P
 	outfitter `Ammo North`
 	outfitter `Ammo South`
 	outfitter `antique rifle`
-	outfitter `Arion Advanced Outfits`
-	outfitter `Arion Basic Outfits`
-	outfitter `Arion Hand to hand Outfits`
 	outfitter `Asteroid Ammo`
 	outfitter `Basic Expansions`
 	outfitter `Basic Fuel`
@@ -1004,7 +1067,10 @@ planet RTF3-P
 	outfitter `Deep Sky Basics`
 	outfitter `Delta V Advanced`
 	outfitter `Delta V Basics`
-	outfitter `deprecated`
+	outfitter `derogam`
+	outfitter `Derogam Base Large`
+	outfitter `Derogam Base Medium`
+	outfitter `Derogam Base Small`
 	outfitter `Deuterium`
 	outfitter `developer`
 	outfitter `Dream Crystal`
@@ -1014,6 +1080,7 @@ planet RTF3-P
 	outfitter `Energy Cannon`
 	outfitter `Espion Advanced`
 	outfitter `Espion Basic`
+	outfitter `fluff`
 	outfitter `FW Security`
 	outfitter `Gegno Basic`
 	outfitter `Gegno Intermediate`
@@ -1026,6 +1093,7 @@ planet RTF3-P
 	outfitter `Hai Security`
 	outfitter `Heavy Fusion Core`
 	outfitter `Heliarch`
+	outfitter `human`
 	outfitter `Inferno Rockets`
 	outfitter `irm`
 	outfitter `Iron`
@@ -1033,6 +1101,7 @@ planet RTF3-P
 	outfitter `Ka'het Advanced`
 	outfitter `Ka'het Basics`
 	outfitter `Ka'het Weapons Salvage`
+	outfitter `korath`
 	outfitter `Korath Basics`
 	outfitter `Korath Exiles`
 	outfitter `Korath Exiles Remnant Donations`
@@ -1063,7 +1132,6 @@ planet RTF3-P
 	outfitter `Navy Advanced EX`
 	outfitter `Navy Basic`
 	outfitter `Navy Basics`
-	outfitter `NCD Outfits`
 	outfitter `Neodymium`
 	outfitter `NMU`
 	outfitter `Northern Explorers`
@@ -1088,7 +1156,6 @@ planet RTF3-P
 	outfitter `Stack Core`
 	outfitter `Stinger Missile`
 	outfitter `Sunracer Afterburner`
-	outfitter `Surplus Guns`
 	outfitter `Surveillance Pod`
 	outfitter `Syndicate Advanced`
 	outfitter `Syndicate Assistance`
@@ -1108,6 +1175,7 @@ planet RTF3-P
 	outfitter `Vi Intermediate`
 	outfitter `Void Orchid`
 	outfitter `Void Sprite Parts`
+	outfitter `wanderer`
 	outfitter `Wanderer Advanced`
 	outfitter `Wanderer Basics`
 	shipyard `Adamas Basics`
@@ -1118,13 +1186,10 @@ planet RTF3-P
 	shipyard `Advanced Southern Pirates`
 	shipyard `Afterlife`
 	shipyard `Alien Ships`
+	shipyard `All Haulers`
 	shipyard `Ankulah Advanced`
 	shipyard `Ankulah Basics`
 	shipyard `Arach`
-	shipyard `Arion Advanced Ships`
-	shipyard `Arion Heavy Ships`
-	shipyard `Arion SFF Ships`
-	shipyard `Arion Ships`
 	shipyard `Basic Ships`
 	shipyard `Betelgeuse Advanced`
 	shipyard `Betelgeuse Basic`
@@ -1141,6 +1206,7 @@ planet RTF3-P
 	shipyard `CCS Corp Basic`
 	shipyard `CCS Corp Intermediate`
 	shipyard `Coalition Basics`
+	shipyard `coalition plugins`
 	shipyard `Common Freighters`
 	shipyard `Corbel Engineering Advanced`
 	shipyard `Corbel Engineering Basic`
@@ -1149,13 +1215,21 @@ planet RTF3-P
 	shipyard `Core Nuclear Transport`
 	shipyard `Core Pirates`
 	shipyard `crescent`
-	shipyard `deprecated`
+	shipyard `derogam`
+	shipyard `Derogam Civilian Large`
+	shipyard `Derogam Civilian Medium`
+	shipyard `Derogam Civilian Small`
+	shipyard `Derogam Military Large`
+	shipyard `Derogam Military Medium`
+	shipyard `Derogam Military Small`
 	shipyard `developer`
 	shipyard `Dirt Belt Pirates`
+	shipyard `drak`
 	shipyard `DSSE Shipbuilding Advanced`
 	shipyard `Elenctic Commune Basic`
 	shipyard `Espion Advanced`
 	shipyard `Espion Basic`
+	shipyard `fluff`
 	shipyard `Freight Galactic Advanced`
 	shipyard `Freight Galactic Advanced EX`
 	shipyard `Freight Galactic Basic`
@@ -1166,12 +1240,19 @@ planet RTF3-P
 	shipyard `Genesis`
 	shipyard `Genesis Advanced`
 	shipyard `Hai Advanced`
+	shipyard `human`
+	shipyard `human plugins`
+	shipyard `humanVariants`
 	shipyard `Imo Loo Mer Advanced`
 	shipyard `Imo Loo Mer Basics`
 	shipyard `Intrasystem Advanced`
 	shipyard `Intrasystem Basic`
 	shipyard `Kimek`
+	shipyard `korath`
+	shipyard `korath plugins`
+	shipyard `korathVariants`
 	shipyard `Kor Efret Scrapyard`
+	shipyard `Legendary Ships`
 	shipyard `Lionheart Advanced`
 	shipyard `Lionheart Basics`
 	shipyard `Luna Winery Custom`
@@ -1222,13 +1303,15 @@ planet RTF3-P
 	shipyard `Navy Advanced EX`
 	shipyard `Navy Basics`
 	shipyard `Navy Intermediate`
-	shipyard `NCD Ships`
 	shipyard `Northern Pirates`
 	shipyard `Pioneer Heavy Industries Advanced`
 	shipyard `Pioneer Heavy Industries Basics`
 	shipyard `Pioneer Heavy Industries Intermediate`
+	shipyard `quarg`
 	shipyard `Relic Shipyard`
+	shipyard `remnant`
 	shipyard `Remnant`
+	shipyard `remnant plugins`
 	shipyard `Remnant Puffin`
 	shipyard `Remnant Salvage Ships`
 	shipyard `RN Set`
@@ -1239,6 +1322,8 @@ planet RTF3-P
 	shipyard `Scin Warships`
 	shipyard `Seikron Dockyard Advanced`
 	shipyard `Seikron Dockyard Basics`
+	shipyard `Sestor Advanced`
+	shipyard `Sestor Basics`
 	shipyard `Slipstream Shipyard`
 	shipyard `Solacer Group Custom`
 	shipyard `Solomons Voidworks Advanced`
@@ -1254,8 +1339,10 @@ planet RTF3-P
 	shipyard `Syndicate Basics`
 	shipyard `Tarazed Advanced`
 	shipyard `Tarazed Basics`
+	shipyard `Tarazed Freight`
 	shipyard `Thyrupp AG Advanced`
 	shipyard `Thyrupp AG Basics`
+	shipyard `Unfettered Basics`
 	shipyard `Vefrol Dockyard Advanced`
 	shipyard `Vefrol Dockyard Basic`
 	shipyard `Vefrol Dockyard Intermediate`
@@ -1266,6 +1353,7 @@ planet RTF3-P
 	shipyard `Vi Utility`
 	shipyard `Vi Warships I`
 	shipyard `Vi Warships II`
+	shipyard `wanderer`
 	shipyard `Wanderer Advanced`
 	shipyard `Wanderer Basics`
 	shipyard `Yeer e Ki Advanced`
@@ -1295,9 +1383,6 @@ planet RTF4-P
 	outfitter `Ammo North`
 	outfitter `Ammo South`
 	outfitter `antique rifle`
-	outfitter `Arion Advanced Outfits`
-	outfitter `Arion Basic Outfits`
-	outfitter `Arion Hand to hand Outfits`
 	outfitter `Asteroid Ammo`
 	outfitter `Basic Expansions`
 	outfitter `Basic Fuel`
@@ -1322,7 +1407,10 @@ planet RTF4-P
 	outfitter `Deep Sky Basics`
 	outfitter `Delta V Advanced`
 	outfitter `Delta V Basics`
-	outfitter `deprecated`
+	outfitter `derogam`
+	outfitter `Derogam Base Large`
+	outfitter `Derogam Base Medium`
+	outfitter `Derogam Base Small`
 	outfitter `Deuterium`
 	outfitter `developer`
 	outfitter `Dream Crystal`
@@ -1332,6 +1420,7 @@ planet RTF4-P
 	outfitter `Energy Cannon`
 	outfitter `Espion Advanced`
 	outfitter `Espion Basic`
+	outfitter `fluff`
 	outfitter `FW Security`
 	outfitter `Gegno Basic`
 	outfitter `Gegno Intermediate`
@@ -1344,6 +1433,7 @@ planet RTF4-P
 	outfitter `Hai Security`
 	outfitter `Heavy Fusion Core`
 	outfitter `Heliarch`
+	outfitter `human`
 	outfitter `Inferno Rockets`
 	outfitter `irm`
 	outfitter `Iron`
@@ -1351,6 +1441,7 @@ planet RTF4-P
 	outfitter `Ka'het Advanced`
 	outfitter `Ka'het Basics`
 	outfitter `Ka'het Weapons Salvage`
+	outfitter `korath`
 	outfitter `Korath Basics`
 	outfitter `Korath Exiles`
 	outfitter `Korath Exiles Remnant Donations`
@@ -1381,7 +1472,6 @@ planet RTF4-P
 	outfitter `Navy Advanced EX`
 	outfitter `Navy Basic`
 	outfitter `Navy Basics`
-	outfitter `NCD Outfits`
 	outfitter `Neodymium`
 	outfitter `NMU`
 	outfitter `Northern Explorers`
@@ -1406,7 +1496,6 @@ planet RTF4-P
 	outfitter `Stack Core`
 	outfitter `Stinger Missile`
 	outfitter `Sunracer Afterburner`
-	outfitter `Surplus Guns`
 	outfitter `Surveillance Pod`
 	outfitter `Syndicate Advanced`
 	outfitter `Syndicate Assistance`
@@ -1426,6 +1515,7 @@ planet RTF4-P
 	outfitter `Vi Intermediate`
 	outfitter `Void Orchid`
 	outfitter `Void Sprite Parts`
+	outfitter `wanderer`
 	outfitter `Wanderer Advanced`
 	outfitter `Wanderer Basics`
 	shipyard `Adamas Basics`
@@ -1436,13 +1526,10 @@ planet RTF4-P
 	shipyard `Advanced Southern Pirates`
 	shipyard `Afterlife`
 	shipyard `Alien Ships`
+	shipyard `All Haulers`
 	shipyard `Ankulah Advanced`
 	shipyard `Ankulah Basics`
 	shipyard `Arach`
-	shipyard `Arion Advanced Ships`
-	shipyard `Arion Heavy Ships`
-	shipyard `Arion SFF Ships`
-	shipyard `Arion Ships`
 	shipyard `Basic Ships`
 	shipyard `Betelgeuse Advanced`
 	shipyard `Betelgeuse Basic`
@@ -1459,6 +1546,7 @@ planet RTF4-P
 	shipyard `CCS Corp Basic`
 	shipyard `CCS Corp Intermediate`
 	shipyard `Coalition Basics`
+	shipyard `coalition plugins`
 	shipyard `Common Freighters`
 	shipyard `Corbel Engineering Advanced`
 	shipyard `Corbel Engineering Basic`
@@ -1467,13 +1555,21 @@ planet RTF4-P
 	shipyard `Core Nuclear Transport`
 	shipyard `Core Pirates`
 	shipyard `crescent`
-	shipyard `deprecated`
+	shipyard `derogam`
+	shipyard `Derogam Civilian Large`
+	shipyard `Derogam Civilian Medium`
+	shipyard `Derogam Civilian Small`
+	shipyard `Derogam Military Large`
+	shipyard `Derogam Military Medium`
+	shipyard `Derogam Military Small`
 	shipyard `developer`
 	shipyard `Dirt Belt Pirates`
+	shipyard `drak`
 	shipyard `DSSE Shipbuilding Advanced`
 	shipyard `Elenctic Commune Basic`
 	shipyard `Espion Advanced`
 	shipyard `Espion Basic`
+	shipyard `fluff`
 	shipyard `Freight Galactic Advanced`
 	shipyard `Freight Galactic Advanced EX`
 	shipyard `Freight Galactic Basic`
@@ -1484,12 +1580,19 @@ planet RTF4-P
 	shipyard `Genesis`
 	shipyard `Genesis Advanced`
 	shipyard `Hai Advanced`
+	shipyard `human`
+	shipyard `human plugins`
+	shipyard `humanVariants`
 	shipyard `Imo Loo Mer Advanced`
 	shipyard `Imo Loo Mer Basics`
 	shipyard `Intrasystem Advanced`
 	shipyard `Intrasystem Basic`
 	shipyard `Kimek`
+	shipyard `korath`
+	shipyard `korath plugins`
+	shipyard `korathVariants`
 	shipyard `Kor Efret Scrapyard`
+	shipyard `Legendary Ships`
 	shipyard `Lionheart Advanced`
 	shipyard `Lionheart Basics`
 	shipyard `Luna Winery Custom`
@@ -1540,13 +1643,15 @@ planet RTF4-P
 	shipyard `Navy Advanced EX`
 	shipyard `Navy Basics`
 	shipyard `Navy Intermediate`
-	shipyard `NCD Ships`
 	shipyard `Northern Pirates`
 	shipyard `Pioneer Heavy Industries Advanced`
 	shipyard `Pioneer Heavy Industries Basics`
 	shipyard `Pioneer Heavy Industries Intermediate`
+	shipyard `quarg`
 	shipyard `Relic Shipyard`
+	shipyard `remnant`
 	shipyard `Remnant`
+	shipyard `remnant plugins`
 	shipyard `Remnant Puffin`
 	shipyard `Remnant Salvage Ships`
 	shipyard `RN Set`
@@ -1557,6 +1662,8 @@ planet RTF4-P
 	shipyard `Scin Warships`
 	shipyard `Seikron Dockyard Advanced`
 	shipyard `Seikron Dockyard Basics`
+	shipyard `Sestor Advanced`
+	shipyard `Sestor Basics`
 	shipyard `Slipstream Shipyard`
 	shipyard `Solacer Group Custom`
 	shipyard `Solomons Voidworks Advanced`
@@ -1572,8 +1679,10 @@ planet RTF4-P
 	shipyard `Syndicate Basics`
 	shipyard `Tarazed Advanced`
 	shipyard `Tarazed Basics`
+	shipyard `Tarazed Freight`
 	shipyard `Thyrupp AG Advanced`
 	shipyard `Thyrupp AG Basics`
+	shipyard `Unfettered Basics`
 	shipyard `Vefrol Dockyard Advanced`
 	shipyard `Vefrol Dockyard Basic`
 	shipyard `Vefrol Dockyard Intermediate`
@@ -1584,6 +1693,7 @@ planet RTF4-P
 	shipyard `Vi Utility`
 	shipyard `Vi Warships I`
 	shipyard `Vi Warships II`
+	shipyard `wanderer`
 	shipyard `Wanderer Advanced`
 	shipyard `Wanderer Basics`
 	shipyard `Yeer e Ki Advanced`
@@ -1613,9 +1723,6 @@ planet RTF5-P
 	outfitter `Ammo North`
 	outfitter `Ammo South`
 	outfitter `antique rifle`
-	outfitter `Arion Advanced Outfits`
-	outfitter `Arion Basic Outfits`
-	outfitter `Arion Hand to hand Outfits`
 	outfitter `Asteroid Ammo`
 	outfitter `Basic Expansions`
 	outfitter `Basic Fuel`
@@ -1640,7 +1747,10 @@ planet RTF5-P
 	outfitter `Deep Sky Basics`
 	outfitter `Delta V Advanced`
 	outfitter `Delta V Basics`
-	outfitter `deprecated`
+	outfitter `derogam`
+	outfitter `Derogam Base Large`
+	outfitter `Derogam Base Medium`
+	outfitter `Derogam Base Small`
 	outfitter `Deuterium`
 	outfitter `developer`
 	outfitter `Dream Crystal`
@@ -1650,6 +1760,7 @@ planet RTF5-P
 	outfitter `Energy Cannon`
 	outfitter `Espion Advanced`
 	outfitter `Espion Basic`
+	outfitter `fluff`
 	outfitter `FW Security`
 	outfitter `Gegno Basic`
 	outfitter `Gegno Intermediate`
@@ -1662,6 +1773,7 @@ planet RTF5-P
 	outfitter `Hai Security`
 	outfitter `Heavy Fusion Core`
 	outfitter `Heliarch`
+	outfitter `human`
 	outfitter `Inferno Rockets`
 	outfitter `irm`
 	outfitter `Iron`
@@ -1669,6 +1781,7 @@ planet RTF5-P
 	outfitter `Ka'het Advanced`
 	outfitter `Ka'het Basics`
 	outfitter `Ka'het Weapons Salvage`
+	outfitter `korath`
 	outfitter `Korath Basics`
 	outfitter `Korath Exiles`
 	outfitter `Korath Exiles Remnant Donations`
@@ -1699,7 +1812,6 @@ planet RTF5-P
 	outfitter `Navy Advanced EX`
 	outfitter `Navy Basic`
 	outfitter `Navy Basics`
-	outfitter `NCD Outfits`
 	outfitter `Neodymium`
 	outfitter `NMU`
 	outfitter `Northern Explorers`
@@ -1724,7 +1836,6 @@ planet RTF5-P
 	outfitter `Stack Core`
 	outfitter `Stinger Missile`
 	outfitter `Sunracer Afterburner`
-	outfitter `Surplus Guns`
 	outfitter `Surveillance Pod`
 	outfitter `Syndicate Advanced`
 	outfitter `Syndicate Assistance`
@@ -1744,6 +1855,7 @@ planet RTF5-P
 	outfitter `Vi Intermediate`
 	outfitter `Void Orchid`
 	outfitter `Void Sprite Parts`
+	outfitter `wanderer`
 	outfitter `Wanderer Advanced`
 	outfitter `Wanderer Basics`
 	shipyard `Adamas Basics`
@@ -1754,13 +1866,10 @@ planet RTF5-P
 	shipyard `Advanced Southern Pirates`
 	shipyard `Afterlife`
 	shipyard `Alien Ships`
+	shipyard `All Haulers`
 	shipyard `Ankulah Advanced`
 	shipyard `Ankulah Basics`
 	shipyard `Arach`
-	shipyard `Arion Advanced Ships`
-	shipyard `Arion Heavy Ships`
-	shipyard `Arion SFF Ships`
-	shipyard `Arion Ships`
 	shipyard `Basic Ships`
 	shipyard `Betelgeuse Advanced`
 	shipyard `Betelgeuse Basic`
@@ -1777,6 +1886,7 @@ planet RTF5-P
 	shipyard `CCS Corp Basic`
 	shipyard `CCS Corp Intermediate`
 	shipyard `Coalition Basics`
+	shipyard `coalition plugins`
 	shipyard `Common Freighters`
 	shipyard `Corbel Engineering Advanced`
 	shipyard `Corbel Engineering Basic`
@@ -1785,13 +1895,21 @@ planet RTF5-P
 	shipyard `Core Nuclear Transport`
 	shipyard `Core Pirates`
 	shipyard `crescent`
-	shipyard `deprecated`
+	shipyard `derogam`
+	shipyard `Derogam Civilian Large`
+	shipyard `Derogam Civilian Medium`
+	shipyard `Derogam Civilian Small`
+	shipyard `Derogam Military Large`
+	shipyard `Derogam Military Medium`
+	shipyard `Derogam Military Small`
 	shipyard `developer`
 	shipyard `Dirt Belt Pirates`
+	shipyard `drak`
 	shipyard `DSSE Shipbuilding Advanced`
 	shipyard `Elenctic Commune Basic`
 	shipyard `Espion Advanced`
 	shipyard `Espion Basic`
+	shipyard `fluff`
 	shipyard `Freight Galactic Advanced`
 	shipyard `Freight Galactic Advanced EX`
 	shipyard `Freight Galactic Basic`
@@ -1802,12 +1920,19 @@ planet RTF5-P
 	shipyard `Genesis`
 	shipyard `Genesis Advanced`
 	shipyard `Hai Advanced`
+	shipyard `human`
+	shipyard `human plugins`
+	shipyard `humanVariants`
 	shipyard `Imo Loo Mer Advanced`
 	shipyard `Imo Loo Mer Basics`
 	shipyard `Intrasystem Advanced`
 	shipyard `Intrasystem Basic`
 	shipyard `Kimek`
+	shipyard `korath`
+	shipyard `korath plugins`
+	shipyard `korathVariants`
 	shipyard `Kor Efret Scrapyard`
+	shipyard `Legendary Ships`
 	shipyard `Lionheart Advanced`
 	shipyard `Lionheart Basics`
 	shipyard `Luna Winery Custom`
@@ -1858,13 +1983,15 @@ planet RTF5-P
 	shipyard `Navy Advanced EX`
 	shipyard `Navy Basics`
 	shipyard `Navy Intermediate`
-	shipyard `NCD Ships`
 	shipyard `Northern Pirates`
 	shipyard `Pioneer Heavy Industries Advanced`
 	shipyard `Pioneer Heavy Industries Basics`
 	shipyard `Pioneer Heavy Industries Intermediate`
+	shipyard `quarg`
 	shipyard `Relic Shipyard`
+	shipyard `remnant`
 	shipyard `Remnant`
+	shipyard `remnant plugins`
 	shipyard `Remnant Puffin`
 	shipyard `Remnant Salvage Ships`
 	shipyard `RN Set`
@@ -1875,6 +2002,8 @@ planet RTF5-P
 	shipyard `Scin Warships`
 	shipyard `Seikron Dockyard Advanced`
 	shipyard `Seikron Dockyard Basics`
+	shipyard `Sestor Advanced`
+	shipyard `Sestor Basics`
 	shipyard `Slipstream Shipyard`
 	shipyard `Solacer Group Custom`
 	shipyard `Solomons Voidworks Advanced`
@@ -1890,8 +2019,10 @@ planet RTF5-P
 	shipyard `Syndicate Basics`
 	shipyard `Tarazed Advanced`
 	shipyard `Tarazed Basics`
+	shipyard `Tarazed Freight`
 	shipyard `Thyrupp AG Advanced`
 	shipyard `Thyrupp AG Basics`
+	shipyard `Unfettered Basics`
 	shipyard `Vefrol Dockyard Advanced`
 	shipyard `Vefrol Dockyard Basic`
 	shipyard `Vefrol Dockyard Intermediate`
@@ -1902,6 +2033,7 @@ planet RTF5-P
 	shipyard `Vi Utility`
 	shipyard `Vi Warships I`
 	shipyard `Vi Warships II`
+	shipyard `wanderer`
 	shipyard `Wanderer Advanced`
 	shipyard `Wanderer Basics`
 	shipyard `Yeer e Ki Advanced`
@@ -1931,9 +2063,6 @@ planet RTF6-P
 	outfitter `Ammo North`
 	outfitter `Ammo South`
 	outfitter `antique rifle`
-	outfitter `Arion Advanced Outfits`
-	outfitter `Arion Basic Outfits`
-	outfitter `Arion Hand to hand Outfits`
 	outfitter `Asteroid Ammo`
 	outfitter `Basic Expansions`
 	outfitter `Basic Fuel`
@@ -1958,7 +2087,10 @@ planet RTF6-P
 	outfitter `Deep Sky Basics`
 	outfitter `Delta V Advanced`
 	outfitter `Delta V Basics`
-	outfitter `deprecated`
+	outfitter `derogam`
+	outfitter `Derogam Base Large`
+	outfitter `Derogam Base Medium`
+	outfitter `Derogam Base Small`
 	outfitter `Deuterium`
 	outfitter `developer`
 	outfitter `Dream Crystal`
@@ -1968,6 +2100,7 @@ planet RTF6-P
 	outfitter `Energy Cannon`
 	outfitter `Espion Advanced`
 	outfitter `Espion Basic`
+	outfitter `fluff`
 	outfitter `FW Security`
 	outfitter `Gegno Basic`
 	outfitter `Gegno Intermediate`
@@ -1980,6 +2113,7 @@ planet RTF6-P
 	outfitter `Hai Security`
 	outfitter `Heavy Fusion Core`
 	outfitter `Heliarch`
+	outfitter `human`
 	outfitter `Inferno Rockets`
 	outfitter `irm`
 	outfitter `Iron`
@@ -1987,6 +2121,7 @@ planet RTF6-P
 	outfitter `Ka'het Advanced`
 	outfitter `Ka'het Basics`
 	outfitter `Ka'het Weapons Salvage`
+	outfitter `korath`
 	outfitter `Korath Basics`
 	outfitter `Korath Exiles`
 	outfitter `Korath Exiles Remnant Donations`
@@ -2017,7 +2152,6 @@ planet RTF6-P
 	outfitter `Navy Advanced EX`
 	outfitter `Navy Basic`
 	outfitter `Navy Basics`
-	outfitter `NCD Outfits`
 	outfitter `Neodymium`
 	outfitter `NMU`
 	outfitter `Northern Explorers`
@@ -2042,7 +2176,6 @@ planet RTF6-P
 	outfitter `Stack Core`
 	outfitter `Stinger Missile`
 	outfitter `Sunracer Afterburner`
-	outfitter `Surplus Guns`
 	outfitter `Surveillance Pod`
 	outfitter `Syndicate Advanced`
 	outfitter `Syndicate Assistance`
@@ -2062,6 +2195,7 @@ planet RTF6-P
 	outfitter `Vi Intermediate`
 	outfitter `Void Orchid`
 	outfitter `Void Sprite Parts`
+	outfitter `wanderer`
 	outfitter `Wanderer Advanced`
 	outfitter `Wanderer Basics`
 	shipyard `Adamas Basics`
@@ -2072,13 +2206,10 @@ planet RTF6-P
 	shipyard `Advanced Southern Pirates`
 	shipyard `Afterlife`
 	shipyard `Alien Ships`
+	shipyard `All Haulers`
 	shipyard `Ankulah Advanced`
 	shipyard `Ankulah Basics`
 	shipyard `Arach`
-	shipyard `Arion Advanced Ships`
-	shipyard `Arion Heavy Ships`
-	shipyard `Arion SFF Ships`
-	shipyard `Arion Ships`
 	shipyard `Basic Ships`
 	shipyard `Betelgeuse Advanced`
 	shipyard `Betelgeuse Basic`
@@ -2095,6 +2226,7 @@ planet RTF6-P
 	shipyard `CCS Corp Basic`
 	shipyard `CCS Corp Intermediate`
 	shipyard `Coalition Basics`
+	shipyard `coalition plugins`
 	shipyard `Common Freighters`
 	shipyard `Corbel Engineering Advanced`
 	shipyard `Corbel Engineering Basic`
@@ -2103,13 +2235,21 @@ planet RTF6-P
 	shipyard `Core Nuclear Transport`
 	shipyard `Core Pirates`
 	shipyard `crescent`
-	shipyard `deprecated`
+	shipyard `derogam`
+	shipyard `Derogam Civilian Large`
+	shipyard `Derogam Civilian Medium`
+	shipyard `Derogam Civilian Small`
+	shipyard `Derogam Military Large`
+	shipyard `Derogam Military Medium`
+	shipyard `Derogam Military Small`
 	shipyard `developer`
 	shipyard `Dirt Belt Pirates`
+	shipyard `drak`
 	shipyard `DSSE Shipbuilding Advanced`
 	shipyard `Elenctic Commune Basic`
 	shipyard `Espion Advanced`
 	shipyard `Espion Basic`
+	shipyard `fluff`
 	shipyard `Freight Galactic Advanced`
 	shipyard `Freight Galactic Advanced EX`
 	shipyard `Freight Galactic Basic`
@@ -2120,12 +2260,19 @@ planet RTF6-P
 	shipyard `Genesis`
 	shipyard `Genesis Advanced`
 	shipyard `Hai Advanced`
+	shipyard `human`
+	shipyard `human plugins`
+	shipyard `humanVariants`
 	shipyard `Imo Loo Mer Advanced`
 	shipyard `Imo Loo Mer Basics`
 	shipyard `Intrasystem Advanced`
 	shipyard `Intrasystem Basic`
 	shipyard `Kimek`
+	shipyard `korath`
+	shipyard `korath plugins`
+	shipyard `korathVariants`
 	shipyard `Kor Efret Scrapyard`
+	shipyard `Legendary Ships`
 	shipyard `Lionheart Advanced`
 	shipyard `Lionheart Basics`
 	shipyard `Luna Winery Custom`
@@ -2176,13 +2323,15 @@ planet RTF6-P
 	shipyard `Navy Advanced EX`
 	shipyard `Navy Basics`
 	shipyard `Navy Intermediate`
-	shipyard `NCD Ships`
 	shipyard `Northern Pirates`
 	shipyard `Pioneer Heavy Industries Advanced`
 	shipyard `Pioneer Heavy Industries Basics`
 	shipyard `Pioneer Heavy Industries Intermediate`
+	shipyard `quarg`
 	shipyard `Relic Shipyard`
+	shipyard `remnant`
 	shipyard `Remnant`
+	shipyard `remnant plugins`
 	shipyard `Remnant Puffin`
 	shipyard `Remnant Salvage Ships`
 	shipyard `RN Set`
@@ -2193,6 +2342,8 @@ planet RTF6-P
 	shipyard `Scin Warships`
 	shipyard `Seikron Dockyard Advanced`
 	shipyard `Seikron Dockyard Basics`
+	shipyard `Sestor Advanced`
+	shipyard `Sestor Basics`
 	shipyard `Slipstream Shipyard`
 	shipyard `Solacer Group Custom`
 	shipyard `Solomons Voidworks Advanced`
@@ -2208,8 +2359,10 @@ planet RTF6-P
 	shipyard `Syndicate Basics`
 	shipyard `Tarazed Advanced`
 	shipyard `Tarazed Basics`
+	shipyard `Tarazed Freight`
 	shipyard `Thyrupp AG Advanced`
 	shipyard `Thyrupp AG Basics`
+	shipyard `Unfettered Basics`
 	shipyard `Vefrol Dockyard Advanced`
 	shipyard `Vefrol Dockyard Basic`
 	shipyard `Vefrol Dockyard Intermediate`
@@ -2220,6 +2373,7 @@ planet RTF6-P
 	shipyard `Vi Utility`
 	shipyard `Vi Warships I`
 	shipyard `Vi Warships II`
+	shipyard `wanderer`
 	shipyard `Wanderer Advanced`
 	shipyard `Wanderer Basics`
 	shipyard `Yeer e Ki Advanced`
@@ -2249,9 +2403,6 @@ planet RTF7-P
 	outfitter `Ammo North`
 	outfitter `Ammo South`
 	outfitter `antique rifle`
-	outfitter `Arion Advanced Outfits`
-	outfitter `Arion Basic Outfits`
-	outfitter `Arion Hand to hand Outfits`
 	outfitter `Asteroid Ammo`
 	outfitter `Basic Expansions`
 	outfitter `Basic Fuel`
@@ -2276,7 +2427,10 @@ planet RTF7-P
 	outfitter `Deep Sky Basics`
 	outfitter `Delta V Advanced`
 	outfitter `Delta V Basics`
-	outfitter `deprecated`
+	outfitter `derogam`
+	outfitter `Derogam Base Large`
+	outfitter `Derogam Base Medium`
+	outfitter `Derogam Base Small`
 	outfitter `Deuterium`
 	outfitter `developer`
 	outfitter `Dream Crystal`
@@ -2286,6 +2440,7 @@ planet RTF7-P
 	outfitter `Energy Cannon`
 	outfitter `Espion Advanced`
 	outfitter `Espion Basic`
+	outfitter `fluff`
 	outfitter `FW Security`
 	outfitter `Gegno Basic`
 	outfitter `Gegno Intermediate`
@@ -2298,6 +2453,7 @@ planet RTF7-P
 	outfitter `Hai Security`
 	outfitter `Heavy Fusion Core`
 	outfitter `Heliarch`
+	outfitter `human`
 	outfitter `Inferno Rockets`
 	outfitter `irm`
 	outfitter `Iron`
@@ -2305,6 +2461,7 @@ planet RTF7-P
 	outfitter `Ka'het Advanced`
 	outfitter `Ka'het Basics`
 	outfitter `Ka'het Weapons Salvage`
+	outfitter `korath`
 	outfitter `Korath Basics`
 	outfitter `Korath Exiles`
 	outfitter `Korath Exiles Remnant Donations`
@@ -2335,7 +2492,6 @@ planet RTF7-P
 	outfitter `Navy Advanced EX`
 	outfitter `Navy Basic`
 	outfitter `Navy Basics`
-	outfitter `NCD Outfits`
 	outfitter `Neodymium`
 	outfitter `NMU`
 	outfitter `Northern Explorers`
@@ -2360,7 +2516,6 @@ planet RTF7-P
 	outfitter `Stack Core`
 	outfitter `Stinger Missile`
 	outfitter `Sunracer Afterburner`
-	outfitter `Surplus Guns`
 	outfitter `Surveillance Pod`
 	outfitter `Syndicate Advanced`
 	outfitter `Syndicate Assistance`
@@ -2380,6 +2535,7 @@ planet RTF7-P
 	outfitter `Vi Intermediate`
 	outfitter `Void Orchid`
 	outfitter `Void Sprite Parts`
+	outfitter `wanderer`
 	outfitter `Wanderer Advanced`
 	outfitter `Wanderer Basics`
 	shipyard `Adamas Basics`
@@ -2390,13 +2546,10 @@ planet RTF7-P
 	shipyard `Advanced Southern Pirates`
 	shipyard `Afterlife`
 	shipyard `Alien Ships`
+	shipyard `All Haulers`
 	shipyard `Ankulah Advanced`
 	shipyard `Ankulah Basics`
 	shipyard `Arach`
-	shipyard `Arion Advanced Ships`
-	shipyard `Arion Heavy Ships`
-	shipyard `Arion SFF Ships`
-	shipyard `Arion Ships`
 	shipyard `Basic Ships`
 	shipyard `Betelgeuse Advanced`
 	shipyard `Betelgeuse Basic`
@@ -2413,6 +2566,7 @@ planet RTF7-P
 	shipyard `CCS Corp Basic`
 	shipyard `CCS Corp Intermediate`
 	shipyard `Coalition Basics`
+	shipyard `coalition plugins`
 	shipyard `Common Freighters`
 	shipyard `Corbel Engineering Advanced`
 	shipyard `Corbel Engineering Basic`
@@ -2421,13 +2575,21 @@ planet RTF7-P
 	shipyard `Core Nuclear Transport`
 	shipyard `Core Pirates`
 	shipyard `crescent`
-	shipyard `deprecated`
+	shipyard `derogam`
+	shipyard `Derogam Civilian Large`
+	shipyard `Derogam Civilian Medium`
+	shipyard `Derogam Civilian Small`
+	shipyard `Derogam Military Large`
+	shipyard `Derogam Military Medium`
+	shipyard `Derogam Military Small`
 	shipyard `developer`
 	shipyard `Dirt Belt Pirates`
+	shipyard `drak`
 	shipyard `DSSE Shipbuilding Advanced`
 	shipyard `Elenctic Commune Basic`
 	shipyard `Espion Advanced`
 	shipyard `Espion Basic`
+	shipyard `fluff`
 	shipyard `Freight Galactic Advanced`
 	shipyard `Freight Galactic Advanced EX`
 	shipyard `Freight Galactic Basic`
@@ -2438,12 +2600,19 @@ planet RTF7-P
 	shipyard `Genesis`
 	shipyard `Genesis Advanced`
 	shipyard `Hai Advanced`
+	shipyard `human`
+	shipyard `human plugins`
+	shipyard `humanVariants`
 	shipyard `Imo Loo Mer Advanced`
 	shipyard `Imo Loo Mer Basics`
 	shipyard `Intrasystem Advanced`
 	shipyard `Intrasystem Basic`
 	shipyard `Kimek`
+	shipyard `korath`
+	shipyard `korath plugins`
+	shipyard `korathVariants`
 	shipyard `Kor Efret Scrapyard`
+	shipyard `Legendary Ships`
 	shipyard `Lionheart Advanced`
 	shipyard `Lionheart Basics`
 	shipyard `Luna Winery Custom`
@@ -2494,13 +2663,15 @@ planet RTF7-P
 	shipyard `Navy Advanced EX`
 	shipyard `Navy Basics`
 	shipyard `Navy Intermediate`
-	shipyard `NCD Ships`
 	shipyard `Northern Pirates`
 	shipyard `Pioneer Heavy Industries Advanced`
 	shipyard `Pioneer Heavy Industries Basics`
 	shipyard `Pioneer Heavy Industries Intermediate`
+	shipyard `quarg`
 	shipyard `Relic Shipyard`
+	shipyard `remnant`
 	shipyard `Remnant`
+	shipyard `remnant plugins`
 	shipyard `Remnant Puffin`
 	shipyard `Remnant Salvage Ships`
 	shipyard `RN Set`
@@ -2511,6 +2682,8 @@ planet RTF7-P
 	shipyard `Scin Warships`
 	shipyard `Seikron Dockyard Advanced`
 	shipyard `Seikron Dockyard Basics`
+	shipyard `Sestor Advanced`
+	shipyard `Sestor Basics`
 	shipyard `Slipstream Shipyard`
 	shipyard `Solacer Group Custom`
 	shipyard `Solomons Voidworks Advanced`
@@ -2526,8 +2699,10 @@ planet RTF7-P
 	shipyard `Syndicate Basics`
 	shipyard `Tarazed Advanced`
 	shipyard `Tarazed Basics`
+	shipyard `Tarazed Freight`
 	shipyard `Thyrupp AG Advanced`
 	shipyard `Thyrupp AG Basics`
+	shipyard `Unfettered Basics`
 	shipyard `Vefrol Dockyard Advanced`
 	shipyard `Vefrol Dockyard Basic`
 	shipyard `Vefrol Dockyard Intermediate`
@@ -2538,6 +2713,7 @@ planet RTF7-P
 	shipyard `Vi Utility`
 	shipyard `Vi Warships I`
 	shipyard `Vi Warships II`
+	shipyard `wanderer`
 	shipyard `Wanderer Advanced`
 	shipyard `Wanderer Basics`
 	shipyard `Yeer e Ki Advanced`
@@ -2567,9 +2743,6 @@ planet RTF8-P
 	outfitter `Ammo North`
 	outfitter `Ammo South`
 	outfitter `antique rifle`
-	outfitter `Arion Advanced Outfits`
-	outfitter `Arion Basic Outfits`
-	outfitter `Arion Hand to hand Outfits`
 	outfitter `Asteroid Ammo`
 	outfitter `Basic Expansions`
 	outfitter `Basic Fuel`
@@ -2594,7 +2767,10 @@ planet RTF8-P
 	outfitter `Deep Sky Basics`
 	outfitter `Delta V Advanced`
 	outfitter `Delta V Basics`
-	outfitter `deprecated`
+	outfitter `derogam`
+	outfitter `Derogam Base Large`
+	outfitter `Derogam Base Medium`
+	outfitter `Derogam Base Small`
 	outfitter `Deuterium`
 	outfitter `developer`
 	outfitter `Dream Crystal`
@@ -2604,6 +2780,7 @@ planet RTF8-P
 	outfitter `Energy Cannon`
 	outfitter `Espion Advanced`
 	outfitter `Espion Basic`
+	outfitter `fluff`
 	outfitter `FW Security`
 	outfitter `Gegno Basic`
 	outfitter `Gegno Intermediate`
@@ -2616,6 +2793,7 @@ planet RTF8-P
 	outfitter `Hai Security`
 	outfitter `Heavy Fusion Core`
 	outfitter `Heliarch`
+	outfitter `human`
 	outfitter `Inferno Rockets`
 	outfitter `irm`
 	outfitter `Iron`
@@ -2623,6 +2801,7 @@ planet RTF8-P
 	outfitter `Ka'het Advanced`
 	outfitter `Ka'het Basics`
 	outfitter `Ka'het Weapons Salvage`
+	outfitter `korath`
 	outfitter `Korath Basics`
 	outfitter `Korath Exiles`
 	outfitter `Korath Exiles Remnant Donations`
@@ -2653,7 +2832,6 @@ planet RTF8-P
 	outfitter `Navy Advanced EX`
 	outfitter `Navy Basic`
 	outfitter `Navy Basics`
-	outfitter `NCD Outfits`
 	outfitter `Neodymium`
 	outfitter `NMU`
 	outfitter `Northern Explorers`
@@ -2678,7 +2856,6 @@ planet RTF8-P
 	outfitter `Stack Core`
 	outfitter `Stinger Missile`
 	outfitter `Sunracer Afterburner`
-	outfitter `Surplus Guns`
 	outfitter `Surveillance Pod`
 	outfitter `Syndicate Advanced`
 	outfitter `Syndicate Assistance`
@@ -2698,6 +2875,7 @@ planet RTF8-P
 	outfitter `Vi Intermediate`
 	outfitter `Void Orchid`
 	outfitter `Void Sprite Parts`
+	outfitter `wanderer`
 	outfitter `Wanderer Advanced`
 	outfitter `Wanderer Basics`
 	shipyard `Adamas Basics`
@@ -2708,13 +2886,10 @@ planet RTF8-P
 	shipyard `Advanced Southern Pirates`
 	shipyard `Afterlife`
 	shipyard `Alien Ships`
+	shipyard `All Haulers`
 	shipyard `Ankulah Advanced`
 	shipyard `Ankulah Basics`
 	shipyard `Arach`
-	shipyard `Arion Advanced Ships`
-	shipyard `Arion Heavy Ships`
-	shipyard `Arion SFF Ships`
-	shipyard `Arion Ships`
 	shipyard `Basic Ships`
 	shipyard `Betelgeuse Advanced`
 	shipyard `Betelgeuse Basic`
@@ -2731,6 +2906,7 @@ planet RTF8-P
 	shipyard `CCS Corp Basic`
 	shipyard `CCS Corp Intermediate`
 	shipyard `Coalition Basics`
+	shipyard `coalition plugins`
 	shipyard `Common Freighters`
 	shipyard `Corbel Engineering Advanced`
 	shipyard `Corbel Engineering Basic`
@@ -2739,13 +2915,21 @@ planet RTF8-P
 	shipyard `Core Nuclear Transport`
 	shipyard `Core Pirates`
 	shipyard `crescent`
-	shipyard `deprecated`
+	shipyard `derogam`
+	shipyard `Derogam Civilian Large`
+	shipyard `Derogam Civilian Medium`
+	shipyard `Derogam Civilian Small`
+	shipyard `Derogam Military Large`
+	shipyard `Derogam Military Medium`
+	shipyard `Derogam Military Small`
 	shipyard `developer`
 	shipyard `Dirt Belt Pirates`
+	shipyard `drak`
 	shipyard `DSSE Shipbuilding Advanced`
 	shipyard `Elenctic Commune Basic`
 	shipyard `Espion Advanced`
 	shipyard `Espion Basic`
+	shipyard `fluff`
 	shipyard `Freight Galactic Advanced`
 	shipyard `Freight Galactic Advanced EX`
 	shipyard `Freight Galactic Basic`
@@ -2756,12 +2940,19 @@ planet RTF8-P
 	shipyard `Genesis`
 	shipyard `Genesis Advanced`
 	shipyard `Hai Advanced`
+	shipyard `human`
+	shipyard `human plugins`
+	shipyard `humanVariants`
 	shipyard `Imo Loo Mer Advanced`
 	shipyard `Imo Loo Mer Basics`
 	shipyard `Intrasystem Advanced`
 	shipyard `Intrasystem Basic`
 	shipyard `Kimek`
+	shipyard `korath`
+	shipyard `korath plugins`
+	shipyard `korathVariants`
 	shipyard `Kor Efret Scrapyard`
+	shipyard `Legendary Ships`
 	shipyard `Lionheart Advanced`
 	shipyard `Lionheart Basics`
 	shipyard `Luna Winery Custom`
@@ -2812,13 +3003,15 @@ planet RTF8-P
 	shipyard `Navy Advanced EX`
 	shipyard `Navy Basics`
 	shipyard `Navy Intermediate`
-	shipyard `NCD Ships`
 	shipyard `Northern Pirates`
 	shipyard `Pioneer Heavy Industries Advanced`
 	shipyard `Pioneer Heavy Industries Basics`
 	shipyard `Pioneer Heavy Industries Intermediate`
+	shipyard `quarg`
 	shipyard `Relic Shipyard`
+	shipyard `remnant`
 	shipyard `Remnant`
+	shipyard `remnant plugins`
 	shipyard `Remnant Puffin`
 	shipyard `Remnant Salvage Ships`
 	shipyard `RN Set`
@@ -2829,6 +3022,8 @@ planet RTF8-P
 	shipyard `Scin Warships`
 	shipyard `Seikron Dockyard Advanced`
 	shipyard `Seikron Dockyard Basics`
+	shipyard `Sestor Advanced`
+	shipyard `Sestor Basics`
 	shipyard `Slipstream Shipyard`
 	shipyard `Solacer Group Custom`
 	shipyard `Solomons Voidworks Advanced`
@@ -2844,8 +3039,10 @@ planet RTF8-P
 	shipyard `Syndicate Basics`
 	shipyard `Tarazed Advanced`
 	shipyard `Tarazed Basics`
+	shipyard `Tarazed Freight`
 	shipyard `Thyrupp AG Advanced`
 	shipyard `Thyrupp AG Basics`
+	shipyard `Unfettered Basics`
 	shipyard `Vefrol Dockyard Advanced`
 	shipyard `Vefrol Dockyard Basic`
 	shipyard `Vefrol Dockyard Intermediate`
@@ -2856,6 +3053,7 @@ planet RTF8-P
 	shipyard `Vi Utility`
 	shipyard `Vi Warships I`
 	shipyard `Vi Warships II`
+	shipyard `wanderer`
 	shipyard `Wanderer Advanced`
 	shipyard `Wanderer Basics`
 	shipyard `Yeer e Ki Advanced`
@@ -2885,9 +3083,6 @@ planet RTF9-P
 	outfitter `Ammo North`
 	outfitter `Ammo South`
 	outfitter `antique rifle`
-	outfitter `Arion Advanced Outfits`
-	outfitter `Arion Basic Outfits`
-	outfitter `Arion Hand to hand Outfits`
 	outfitter `Asteroid Ammo`
 	outfitter `Basic Expansions`
 	outfitter `Basic Fuel`
@@ -2912,7 +3107,10 @@ planet RTF9-P
 	outfitter `Deep Sky Basics`
 	outfitter `Delta V Advanced`
 	outfitter `Delta V Basics`
-	outfitter `deprecated`
+	outfitter `derogam`
+	outfitter `Derogam Base Large`
+	outfitter `Derogam Base Medium`
+	outfitter `Derogam Base Small`
 	outfitter `Deuterium`
 	outfitter `developer`
 	outfitter `Dream Crystal`
@@ -2922,6 +3120,7 @@ planet RTF9-P
 	outfitter `Energy Cannon`
 	outfitter `Espion Advanced`
 	outfitter `Espion Basic`
+	outfitter `fluff`
 	outfitter `FW Security`
 	outfitter `Gegno Basic`
 	outfitter `Gegno Intermediate`
@@ -2934,6 +3133,7 @@ planet RTF9-P
 	outfitter `Hai Security`
 	outfitter `Heavy Fusion Core`
 	outfitter `Heliarch`
+	outfitter `human`
 	outfitter `Inferno Rockets`
 	outfitter `irm`
 	outfitter `Iron`
@@ -2941,6 +3141,7 @@ planet RTF9-P
 	outfitter `Ka'het Advanced`
 	outfitter `Ka'het Basics`
 	outfitter `Ka'het Weapons Salvage`
+	outfitter `korath`
 	outfitter `Korath Basics`
 	outfitter `Korath Exiles`
 	outfitter `Korath Exiles Remnant Donations`
@@ -2971,7 +3172,6 @@ planet RTF9-P
 	outfitter `Navy Advanced EX`
 	outfitter `Navy Basic`
 	outfitter `Navy Basics`
-	outfitter `NCD Outfits`
 	outfitter `Neodymium`
 	outfitter `NMU`
 	outfitter `Northern Explorers`
@@ -2996,7 +3196,6 @@ planet RTF9-P
 	outfitter `Stack Core`
 	outfitter `Stinger Missile`
 	outfitter `Sunracer Afterburner`
-	outfitter `Surplus Guns`
 	outfitter `Surveillance Pod`
 	outfitter `Syndicate Advanced`
 	outfitter `Syndicate Assistance`
@@ -3016,6 +3215,7 @@ planet RTF9-P
 	outfitter `Vi Intermediate`
 	outfitter `Void Orchid`
 	outfitter `Void Sprite Parts`
+	outfitter `wanderer`
 	outfitter `Wanderer Advanced`
 	outfitter `Wanderer Basics`
 	shipyard `Adamas Basics`
@@ -3026,13 +3226,10 @@ planet RTF9-P
 	shipyard `Advanced Southern Pirates`
 	shipyard `Afterlife`
 	shipyard `Alien Ships`
+	shipyard `All Haulers`
 	shipyard `Ankulah Advanced`
 	shipyard `Ankulah Basics`
 	shipyard `Arach`
-	shipyard `Arion Advanced Ships`
-	shipyard `Arion Heavy Ships`
-	shipyard `Arion SFF Ships`
-	shipyard `Arion Ships`
 	shipyard `Basic Ships`
 	shipyard `Betelgeuse Advanced`
 	shipyard `Betelgeuse Basic`
@@ -3049,6 +3246,7 @@ planet RTF9-P
 	shipyard `CCS Corp Basic`
 	shipyard `CCS Corp Intermediate`
 	shipyard `Coalition Basics`
+	shipyard `coalition plugins`
 	shipyard `Common Freighters`
 	shipyard `Corbel Engineering Advanced`
 	shipyard `Corbel Engineering Basic`
@@ -3057,13 +3255,21 @@ planet RTF9-P
 	shipyard `Core Nuclear Transport`
 	shipyard `Core Pirates`
 	shipyard `crescent`
-	shipyard `deprecated`
+	shipyard `derogam`
+	shipyard `Derogam Civilian Large`
+	shipyard `Derogam Civilian Medium`
+	shipyard `Derogam Civilian Small`
+	shipyard `Derogam Military Large`
+	shipyard `Derogam Military Medium`
+	shipyard `Derogam Military Small`
 	shipyard `developer`
 	shipyard `Dirt Belt Pirates`
+	shipyard `drak`
 	shipyard `DSSE Shipbuilding Advanced`
 	shipyard `Elenctic Commune Basic`
 	shipyard `Espion Advanced`
 	shipyard `Espion Basic`
+	shipyard `fluff`
 	shipyard `Freight Galactic Advanced`
 	shipyard `Freight Galactic Advanced EX`
 	shipyard `Freight Galactic Basic`
@@ -3074,12 +3280,19 @@ planet RTF9-P
 	shipyard `Genesis`
 	shipyard `Genesis Advanced`
 	shipyard `Hai Advanced`
+	shipyard `human`
+	shipyard `human plugins`
+	shipyard `humanVariants`
 	shipyard `Imo Loo Mer Advanced`
 	shipyard `Imo Loo Mer Basics`
 	shipyard `Intrasystem Advanced`
 	shipyard `Intrasystem Basic`
 	shipyard `Kimek`
+	shipyard `korath`
+	shipyard `korath plugins`
+	shipyard `korathVariants`
 	shipyard `Kor Efret Scrapyard`
+	shipyard `Legendary Ships`
 	shipyard `Lionheart Advanced`
 	shipyard `Lionheart Basics`
 	shipyard `Luna Winery Custom`
@@ -3130,13 +3343,15 @@ planet RTF9-P
 	shipyard `Navy Advanced EX`
 	shipyard `Navy Basics`
 	shipyard `Navy Intermediate`
-	shipyard `NCD Ships`
 	shipyard `Northern Pirates`
 	shipyard `Pioneer Heavy Industries Advanced`
 	shipyard `Pioneer Heavy Industries Basics`
 	shipyard `Pioneer Heavy Industries Intermediate`
+	shipyard `quarg`
 	shipyard `Relic Shipyard`
+	shipyard `remnant`
 	shipyard `Remnant`
+	shipyard `remnant plugins`
 	shipyard `Remnant Puffin`
 	shipyard `Remnant Salvage Ships`
 	shipyard `RN Set`
@@ -3147,6 +3362,8 @@ planet RTF9-P
 	shipyard `Scin Warships`
 	shipyard `Seikron Dockyard Advanced`
 	shipyard `Seikron Dockyard Basics`
+	shipyard `Sestor Advanced`
+	shipyard `Sestor Basics`
 	shipyard `Slipstream Shipyard`
 	shipyard `Solacer Group Custom`
 	shipyard `Solomons Voidworks Advanced`
@@ -3162,8 +3379,10 @@ planet RTF9-P
 	shipyard `Syndicate Basics`
 	shipyard `Tarazed Advanced`
 	shipyard `Tarazed Basics`
+	shipyard `Tarazed Freight`
 	shipyard `Thyrupp AG Advanced`
 	shipyard `Thyrupp AG Basics`
+	shipyard `Unfettered Basics`
 	shipyard `Vefrol Dockyard Advanced`
 	shipyard `Vefrol Dockyard Basic`
 	shipyard `Vefrol Dockyard Intermediate`
@@ -3174,6 +3393,7 @@ planet RTF9-P
 	shipyard `Vi Utility`
 	shipyard `Vi Warships I`
 	shipyard `Vi Warships II`
+	shipyard `wanderer`
 	shipyard `Wanderer Advanced`
 	shipyard `Wanderer Basics`
 	shipyard `Yeer e Ki Advanced`
@@ -3203,9 +3423,6 @@ planet RTF10-P
 	outfitter `Ammo North`
 	outfitter `Ammo South`
 	outfitter `antique rifle`
-	outfitter `Arion Advanced Outfits`
-	outfitter `Arion Basic Outfits`
-	outfitter `Arion Hand to hand Outfits`
 	outfitter `Asteroid Ammo`
 	outfitter `Basic Expansions`
 	outfitter `Basic Fuel`
@@ -3230,7 +3447,10 @@ planet RTF10-P
 	outfitter `Deep Sky Basics`
 	outfitter `Delta V Advanced`
 	outfitter `Delta V Basics`
-	outfitter `deprecated`
+	outfitter `derogam`
+	outfitter `Derogam Base Large`
+	outfitter `Derogam Base Medium`
+	outfitter `Derogam Base Small`
 	outfitter `Deuterium`
 	outfitter `developer`
 	outfitter `Dream Crystal`
@@ -3240,6 +3460,7 @@ planet RTF10-P
 	outfitter `Energy Cannon`
 	outfitter `Espion Advanced`
 	outfitter `Espion Basic`
+	outfitter `fluff`
 	outfitter `FW Security`
 	outfitter `Gegno Basic`
 	outfitter `Gegno Intermediate`
@@ -3252,6 +3473,7 @@ planet RTF10-P
 	outfitter `Hai Security`
 	outfitter `Heavy Fusion Core`
 	outfitter `Heliarch`
+	outfitter `human`
 	outfitter `Inferno Rockets`
 	outfitter `irm`
 	outfitter `Iron`
@@ -3259,6 +3481,7 @@ planet RTF10-P
 	outfitter `Ka'het Advanced`
 	outfitter `Ka'het Basics`
 	outfitter `Ka'het Weapons Salvage`
+	outfitter `korath`
 	outfitter `Korath Basics`
 	outfitter `Korath Exiles`
 	outfitter `Korath Exiles Remnant Donations`
@@ -3289,7 +3512,6 @@ planet RTF10-P
 	outfitter `Navy Advanced EX`
 	outfitter `Navy Basic`
 	outfitter `Navy Basics`
-	outfitter `NCD Outfits`
 	outfitter `Neodymium`
 	outfitter `NMU`
 	outfitter `Northern Explorers`
@@ -3314,7 +3536,6 @@ planet RTF10-P
 	outfitter `Stack Core`
 	outfitter `Stinger Missile`
 	outfitter `Sunracer Afterburner`
-	outfitter `Surplus Guns`
 	outfitter `Surveillance Pod`
 	outfitter `Syndicate Advanced`
 	outfitter `Syndicate Assistance`
@@ -3334,6 +3555,7 @@ planet RTF10-P
 	outfitter `Vi Intermediate`
 	outfitter `Void Orchid`
 	outfitter `Void Sprite Parts`
+	outfitter `wanderer`
 	outfitter `Wanderer Advanced`
 	outfitter `Wanderer Basics`
 	shipyard `Adamas Basics`
@@ -3344,13 +3566,10 @@ planet RTF10-P
 	shipyard `Advanced Southern Pirates`
 	shipyard `Afterlife`
 	shipyard `Alien Ships`
+	shipyard `All Haulers`
 	shipyard `Ankulah Advanced`
 	shipyard `Ankulah Basics`
 	shipyard `Arach`
-	shipyard `Arion Advanced Ships`
-	shipyard `Arion Heavy Ships`
-	shipyard `Arion SFF Ships`
-	shipyard `Arion Ships`
 	shipyard `Basic Ships`
 	shipyard `Betelgeuse Advanced`
 	shipyard `Betelgeuse Basic`
@@ -3367,6 +3586,7 @@ planet RTF10-P
 	shipyard `CCS Corp Basic`
 	shipyard `CCS Corp Intermediate`
 	shipyard `Coalition Basics`
+	shipyard `coalition plugins`
 	shipyard `Common Freighters`
 	shipyard `Corbel Engineering Advanced`
 	shipyard `Corbel Engineering Basic`
@@ -3375,13 +3595,21 @@ planet RTF10-P
 	shipyard `Core Nuclear Transport`
 	shipyard `Core Pirates`
 	shipyard `crescent`
-	shipyard `deprecated`
+	shipyard `derogam`
+	shipyard `Derogam Civilian Large`
+	shipyard `Derogam Civilian Medium`
+	shipyard `Derogam Civilian Small`
+	shipyard `Derogam Military Large`
+	shipyard `Derogam Military Medium`
+	shipyard `Derogam Military Small`
 	shipyard `developer`
 	shipyard `Dirt Belt Pirates`
+	shipyard `drak`
 	shipyard `DSSE Shipbuilding Advanced`
 	shipyard `Elenctic Commune Basic`
 	shipyard `Espion Advanced`
 	shipyard `Espion Basic`
+	shipyard `fluff`
 	shipyard `Freight Galactic Advanced`
 	shipyard `Freight Galactic Advanced EX`
 	shipyard `Freight Galactic Basic`
@@ -3392,12 +3620,19 @@ planet RTF10-P
 	shipyard `Genesis`
 	shipyard `Genesis Advanced`
 	shipyard `Hai Advanced`
+	shipyard `human`
+	shipyard `human plugins`
+	shipyard `humanVariants`
 	shipyard `Imo Loo Mer Advanced`
 	shipyard `Imo Loo Mer Basics`
 	shipyard `Intrasystem Advanced`
 	shipyard `Intrasystem Basic`
 	shipyard `Kimek`
+	shipyard `korath`
+	shipyard `korath plugins`
+	shipyard `korathVariants`
 	shipyard `Kor Efret Scrapyard`
+	shipyard `Legendary Ships`
 	shipyard `Lionheart Advanced`
 	shipyard `Lionheart Basics`
 	shipyard `Luna Winery Custom`
@@ -3448,13 +3683,15 @@ planet RTF10-P
 	shipyard `Navy Advanced EX`
 	shipyard `Navy Basics`
 	shipyard `Navy Intermediate`
-	shipyard `NCD Ships`
 	shipyard `Northern Pirates`
 	shipyard `Pioneer Heavy Industries Advanced`
 	shipyard `Pioneer Heavy Industries Basics`
 	shipyard `Pioneer Heavy Industries Intermediate`
+	shipyard `quarg`
 	shipyard `Relic Shipyard`
+	shipyard `remnant`
 	shipyard `Remnant`
+	shipyard `remnant plugins`
 	shipyard `Remnant Puffin`
 	shipyard `Remnant Salvage Ships`
 	shipyard `RN Set`
@@ -3465,6 +3702,8 @@ planet RTF10-P
 	shipyard `Scin Warships`
 	shipyard `Seikron Dockyard Advanced`
 	shipyard `Seikron Dockyard Basics`
+	shipyard `Sestor Advanced`
+	shipyard `Sestor Basics`
 	shipyard `Slipstream Shipyard`
 	shipyard `Solacer Group Custom`
 	shipyard `Solomons Voidworks Advanced`
@@ -3480,8 +3719,10 @@ planet RTF10-P
 	shipyard `Syndicate Basics`
 	shipyard `Tarazed Advanced`
 	shipyard `Tarazed Basics`
+	shipyard `Tarazed Freight`
 	shipyard `Thyrupp AG Advanced`
 	shipyard `Thyrupp AG Basics`
+	shipyard `Unfettered Basics`
 	shipyard `Vefrol Dockyard Advanced`
 	shipyard `Vefrol Dockyard Basic`
 	shipyard `Vefrol Dockyard Intermediate`
@@ -3492,6 +3733,7 @@ planet RTF10-P
 	shipyard `Vi Utility`
 	shipyard `Vi Warships I`
 	shipyard `Vi Warships II`
+	shipyard `wanderer`
 	shipyard `Wanderer Advanced`
 	shipyard `Wanderer Basics`
 	shipyard `Yeer e Ki Advanced`
