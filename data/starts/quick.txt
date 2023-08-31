@@ -32,6 +32,7 @@ conversation "Ruin-The-Fun Intro (Quick)"
 		give ship "Ruin-The-Fun Albatross (Starter)" "Quick Starter"
 	action
 		outfit "Ruin-The-Fun God Drive"
+		outfit "Ruin-The-Fun Stat Access quantum keystone"
 		outfit "Ruin-The-Fun Stat Access gaslining"
 		outfit "Ruin-The-Fun Stat Scan tactical scan power * 100000000"
 	`	You have been given an Albatross. Be s| NOT TIME FOR THAT, PRESSS D! DDD!!! DDDDDD!!!!!!!!!!!!!`

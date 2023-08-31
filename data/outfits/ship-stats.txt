@@ -42,6 +42,13 @@ outfit "Ruin-The-Fun Stat Access gaslining"
 	unplunderable 1
 	"gaslining" 1
 
+outfit "Ruin-The-Fun Stat Access quantum keystone"
+	"display name" "quantum keystone"
+	category "Special"
+	thumbnail "outfit/rtf/wheel/white"
+	unplunderable 1
+	"quantum keystone" 1
+
 outfit "Ruin-The-Fun Stat Cloak cloak * 0.01"
 	"display name" "cloak * 0.01"
 	category "Special"
@@ -335,7 +342,7 @@ outfit "Ruin-The-Fun Stat Scan tactical scan power"
 	"tactical scan power" 1
 
 outfit "Ruin-The-Fun Stat Scan tactical scan power * 100000000"
-	"display name" "tactical scan power"
+	"display name" "tactical scan power * 100000000"
 	category "Special"
 	thumbnail "outfit/rtf/wheel/blue"
 	unplunderable 1
@@ -436,6 +443,7 @@ outfitter "Ruin-The-Fun Stat Outfits"
 	"Ruin-The-Fun Gun Port"
 	"Ruin-The-Fun Turret Mount"
 	"Ruin-The-Fun Stat Access gaslining"
+	"Ruin-The-Fun Stat Access quantum keystone"
 	"Ruin-The-Fun Stat Cloak cloak * 0.01"
 	"Ruin-The-Fun Stat Cloak cloaking energy * 0.01"
 	"Ruin-The-Fun Stat Cloak cloaking fuel * 0.01"
