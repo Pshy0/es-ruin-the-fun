@@ -39,7 +39,7 @@ The game's `plugins` folder should be located at one of those locations:
 
 If the `plugins` folder does not exist, you can create it.
 
-If you did it right, there should be a file `plugins/es-ruin-the-fun/about.txt` or `plugins/Ruin The Fun/about.txt`.
+If you did it right, there should be a file `plugins/-es-ruin-the-fun/about.txt` or `plugins/-Ruin The Fun/about.txt`.
 
 > This plugin should not conflict with any other, because it uses separate systems and prefixes objects it defines.
 
