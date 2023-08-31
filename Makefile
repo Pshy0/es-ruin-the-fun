@@ -21,6 +21,8 @@ RTF_JOB_FILES += data/jobs/visit-systems.txt
 RTF_JOB_FILES += data/jobs/visit-planets.txt
 GENERATED_DATA_FILES += $(RTF_JOB_FILES)
 GENERATED_DATA_FILES += data/events/all-licenses.txt
+GENERATED_DATA_FILES += data/plugin-support/all-outfitters.txt
+GENERATED_DATA_FILES += data/plugin-support/all-shipyards.txt
 
 # List of files that must be included in the plugin's zip
 # This may not exactly match .gitignore
@@ -93,20 +95,20 @@ tmp/re.tmp: | tmp
 
 tmp/deprecated-outfits.list.tmp: tmp/data-dirs.tmp
 	@echo "Listing deprecated outfits..."
-	@cat tmp/data-dirs.tmp | sed "s|$$|_deprecated/|" | xargs grep -R "^outfit " | grep "\.txt:" | sed "s/^.*\.txt:outfit //" | tools/unquote.sh | sort | uniq > $@
+	@cat tmp/data-dirs.tmp | sed "s|$$|_deprecated/|" | xargs grep -R "^outfit " | tr -d '\r' | grep "\.txt:" | sed "s/^.*\.txt:outfit //" | tools/unquote.sh | sort | uniq > $@
 
 tmp/deprecated-ships.list.tmp: tmp/data-dirs.tmp
 	@echo "Listing deprecated ship..."
-	@cat tmp/data-dirs.tmp | sed "s|$$|_deprecated/|" | xargs grep -R "^ship " | grep "\.txt:" | sed "s/^.*\.txt:ship //" | tools/unquote-ship.sh | sort | uniq > $@
+	@cat tmp/data-dirs.tmp | sed "s|$$|_deprecated/|" | xargs grep -R "^ship " | tr -d '\r' | grep "\.txt:" | sed "s/^.*\.txt:ship //" | tools/unquote-ship.sh | sort | uniq > $@
 
 tmp/outfits.list.tmp: tmp/data-dirs.tmp tmp/deprecated-outfits.list.tmp | tmp
 	@echo "Listing outfits..."
-	@cat tmp/data-dirs.tmp | xargs grep -R "^outfit " | grep "\.txt:" | sed "s/^.*\.txt:outfit //" | tools/unquote.sh | sort | uniq > tmp/tmp.list.tmp
+	@cat tmp/data-dirs.tmp | xargs grep -R "^outfit " | tr -d '\r' | grep "\.txt:" | sed "s/^.*\.txt:outfit //" | tools/unquote.sh | sort | uniq > tmp/tmp.list.tmp
 	@comm -23 tmp/tmp.list.tmp tmp/deprecated-outfits.list.tmp > $@
 
 tmp/ship-lines.list.tmp: tmp/data-dirs.tmp | tmp
 	@echo "Finding ship definitions..."
-	@cat tmp/data-dirs.tmp | xargs grep -R "^ship " | grep "\.txt:" | sed "s/^.*\.txt:ship //" | sort | uniq > $@
+	@cat tmp/data-dirs.tmp | xargs grep -R "^ship " | tr -d '\r' | grep "\.txt:" | sed "s/^.*\.txt:ship //" | sort | uniq > $@
 
 tmp/base-ships.list.tmp: tmp/ship-lines.list.tmp tmp/deprecated-ships.list.tmp | tmp
 	@echo "Listing base ships..."
@@ -124,41 +126,49 @@ tmp/ship-variants.list.tmp: tmp/base-ships.list.tmp tmp/ships.list.tmp | tmp
 
 tmp/systems.list.tmp: tmp/data-dirs.tmp | tmp
 	@echo "Listing systems..."
-	@cat tmp/data-dirs.tmp | xargs grep -R "^system" | grep "\.txt:" | sed "s/^.*\.txt:system //" | tools/unquote.sh | sort | uniq > $@
+	@cat tmp/data-dirs.tmp | xargs grep -R "^system" | tr -d '\r' | grep "\.txt:" | sed "s/^.*\.txt:system //" | tools/unquote.sh | sort | uniq > $@
 
 tmp/wormholes.list.tmp: tmp/data-dirs.tmp | tmp
 	@echo "Listing wormholes..."
-	@cat tmp/data-dirs.tmp | xargs grep -R "^wormhole" | grep "\.txt:" | sed "s/^.*\.txt:wormhole //" | tools/unquote.sh | sort | uniq > $@
+	@cat tmp/data-dirs.tmp | xargs grep -R "^wormhole" | tr -d '\r' | grep "\.txt:" | sed "s/^.*\.txt:wormhole //" | tools/unquote.sh | sort | uniq > $@
 
 tmp/objects.list.tmp: tmp/data-dirs.tmp | tmp
 	@echo "Listing objects..."
-	@cat tmp/data-dirs.tmp | xargs grep -P -R '^\t\t?object ' | grep '\.txt:' | sed 's|^.*\.txt:\t\t\?object ||' | tools/unquote.sh | sort | uniq > $@
+	@cat tmp/data-dirs.tmp | xargs grep -P -R '^\t\t?object ' | tr -d '\r' | grep '\.txt:' | sed 's|^.*\.txt:\t\t\?object ||' | tools/unquote.sh | sort | uniq > $@
 
 tmp/planets.list.tmp: tmp/data-dirs.tmp tmp/wormholes.list.tmp tmp/objects.list.tmp | tmp
 	@echo "Listing planets..."
-	@cat tmp/data-dirs.tmp | xargs grep -R "^planet" | grep "\.txt:" | sed "s/^.*\.txt:planet //" | tools/unquote.sh | sort | uniq > tmp/tmp.tmp
+	@cat tmp/data-dirs.tmp | xargs grep -R "^planet" | tr -d '\r' | grep "\.txt:" | sed "s/^.*\.txt:planet //" | tools/unquote.sh | sort | uniq > tmp/tmp.tmp
 	@comm -23 tmp/tmp.tmp tmp/wormholes.list.tmp > tmp/tmp2.tmp
 	@comm -12 tmp/tmp2.tmp tmp/objects.list.tmp > $@
 
-tmp/outfitters.list.tmp: tmp/data-dirs.tmp | tmp
+tmp/outfitters.list.tmp: tmp/all-data-dirs.tmp | tmp
 	@echo "Listing outfitters..."
-	@cat tmp/data-dirs.tmp | xargs grep -R "^outfitter" | grep "\.txt:" | sed "s/^.*\.txt:outfitter //" | tools/unquote.sh | sort | uniq > $@
+	@cat tmp/all-data-dirs.tmp | xargs grep -R "^outfitter" | tr -d '\r' | grep "\.txt:" | sed "s/^.*\.txt:outfitter //" | tools/unquote.sh | sort | uniq > $@
 
-tmp/shipyards.list.tmp: tmp/data-dirs.tmp | tmp
+tmp/plugin-outfitters.list.tmp: tmp/available-plugin-data-dirs.tmp | tmp
+	@echo "Listing plugin outfitters..."
+	@cat tmp/available-plugin-data-dirs.tmp | xargs grep -R "^outfitter" | tr -d '\r' | grep "\.txt:" | sed "s/^.*\.txt:outfitter //" | tools/unquote.sh | sort | uniq > $@
+
+tmp/shipyards.list.tmp: tmp/all-data-dirs.tmp | tmp
 	@echo "Listing shipyards..."
-	@cat tmp/data-dirs.tmp | xargs grep -R "^shipyard" | grep "\.txt:" | sed "s/^.*\.txt:shipyard //" | tools/unquote.sh | sort | uniq > $@
+	@cat tmp/all-data-dirs.tmp | xargs grep -R "^shipyard" | tr -d '\r' | grep "\.txt:" | sed "s/^.*\.txt:shipyard //" | tools/unquote.sh | sort | uniq > $@
+
+tmp/plugin-shipyards.list.tmp: tmp/available-plugin-data-dirs.tmp | tmp
+	@echo "Listing plugin shipyards..."
+	@cat tmp/available-plugin-data-dirs.tmp | xargs grep -R "^shipyard" | tr -d '\r' | grep "\.txt:" | sed "s/^.*\.txt:shipyard //" | tools/unquote.sh | sort | uniq > $@
 
 tmp/governments.list.tmp: tmp/data-dirs.tmp | tmp
 	@echo "Listing governments..."
-	@cat tmp/data-dirs.tmp | xargs grep -R "^government" | grep "\.txt:" | sed "s/^.*\.txt:government //g" | tools/unquote.sh | sort | uniq | sed "/^Escort$$/d" > $@
+	@cat tmp/data-dirs.tmp | xargs grep -R "^government" | tr -d '\r' | grep "\.txt:" | sed "s/^.*\.txt:government //g" | tools/unquote.sh | sort | uniq | sed "/^Escort$$/d" > $@
 
 tmp/fleets.list.tmp: tmp/data-dirs.tmp | tmp 
 	@echo "Listing fleets..."
-	@cat tmp/data-dirs.tmp | xargs grep -R "^fleet" | grep "\.txt:" | sed "s/^.*\.txt:fleet //g" | tools/unquote.sh | sort | uniq > $@
+	@cat tmp/data-dirs.tmp | xargs grep -R "^fleet" | tr -d '\r' | grep "\.txt:" | sed "s/^.*\.txt:fleet //g" | tools/unquote.sh | sort | uniq > $@
 
 tmp/licenses.list.tmp: tmp/all-data-dirs.tmp | tmp
 	@echo "Listing licenses..."
-	@cat tmp/all-data-dirs.tmp | xargs grep -P -R 'outfit.*License[`"]?$$' | grep "\.txt:" | sed "s/^.*\.txt:outfit //" | tools/unquote.sh | sed 's| License$$||' | sort | uniq > $@
+	@cat tmp/all-data-dirs.tmp | xargs grep -P -R 'outfit.*License[`"]?$$' | tr -d '\r' | grep "\.txt:" | sed "s/^.*\.txt:outfit //" | tools/unquote.sh | sed 's| License$$||' | sort | uniq > $@
 
 tmp/reputation-resets.tmp: default-reputations.txt | tmp
 	@cat default-reputations.txt | sed -e "s/^\(\t\"\|\t\)/\"reputation: /" | sed "s/\(.*\)\" \(-\?.*\)$$/\1 \2/" | sed -r 's/ ([^ ]*)$$/" = \1/' > $@
@@ -224,6 +234,12 @@ default-reputations.txt:
 	$(error This is currently not generated)
 	#TODO: generate from $(ES_DEFAULT_PILOT_SAVE)
 
+data/plugin-support/all-outfitters.txt: tmp/plugin-outfitters.list.tmp
+	@sed 's|^\(.*\)$$|outfitter `\1`\n\radd "Ruin-The-Fun Overridable Outfit"|' $< > $@
+	
+data/plugin-support/all-shipyards.txt: tmp/plugin-shipyards.list.tmp
+	@sed 's|^\(.*\)$$|shipyard `\1`\n\radd "Ruin-The-Fun Overridable Ship"|' $< > $@
+
 data/jobs/reputation.txt: data/jobs/reputation.temp tmp/reputation-resets.tmp tmp/friendlies-reputation-resets.tmp tmp/friendly-reputation-sets.tmp tmp/hostile-reputation-sets.tmp
 data/jobs/conditions/conditions.txt: data/jobs/conditions/conditions.temp data/jobs/conditions/condition-switches.list data/jobs/conditions/karma-values.list
 data/jobs/combat-ships/combat-ships.txt: tmp/base-ships.list.tmp
@@ -238,12 +254,6 @@ tmp/-es-ruin-the-fun.zip: $(PLUGIN_FILES) | tmp
 	@echo "Generating $@..."
 	@rm -f $@
 	@zip -r $@ $(PLUGIN_FILES)
-
-data/plugin-support/all-outfitters.txt: tmp/outfitters.list.tmp
-	# Todo
-	
-data/plugin-support/all-shipyards.txt: tmp/shipyards.list.tmp
-	# Todo
 
 .PHONY: clean
 clean:
