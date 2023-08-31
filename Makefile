@@ -64,11 +64,19 @@ tmp/enabled-plugins.tmp: ../../plugins.txt | tmp
 	@echo "Updating enabled plugin list..."
 	@cat $< | grep " 1$$" | sed "s/ 1$$//" | sed 's/^[[:space:]]*//' > $@
 
+tmp/available-plugins.list.tmp: | tmp
+	@echo "Updating available plugin list..."
+	@tools/ls-data-plugins.sh > $@
+
 .PHONY: plugin-update
 plugin-update: tmp/enabled-plugins.tmp tmp/data-dirs.tmp
 	@echo "Inserting enabled plugin list into data sources..."
 	@cat $< | sed "s/^/..\/..\/plugins\//" | sed "/ruin-the-fun/d" | sed "s/$$/\/data\//" >> tmp/data-dirs.tmp
 	@make update
+
+.PHONY: install-supported-plugins
+install-supported-plugins: tools/install-supported-plugins.sh
+	@tools/install-supported-plugins.sh
 
 tmp/re.tmp: | tmp
 	@touch $@
