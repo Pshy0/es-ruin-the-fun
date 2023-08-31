@@ -31,6 +31,7 @@ ship "Ruin-The-Fun Overridable Ship"
 	engine -6.5 38.5
 	engine 6.5 38.5
 	explode "tiny explosion" 10
+	description `You should not see this ship. You probably forgot to prefix Ruin The Fun's folder with a dash, as in "-Ruin The Fun".`
 
 outfit "Ruin-The-Fun Overridable Outfit"
 	plural "Ruin-The-Fun Overridable Outfits"
@@ -38,3 +39,4 @@ outfit "Ruin-The-Fun Overridable Outfit"
 	cost 1
 	thumbnail "outfit/cooling ducts"
 	"mass" 1
+	description `You should not see this outfit. You probably forgot to prefix Ruin The Fun's folder with a dash, as in "-Ruin The Fun".`
