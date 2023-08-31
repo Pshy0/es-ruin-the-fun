@@ -111,6 +111,7 @@ conversation "Ruin-The-Fun Intro (Avanced)"
 			goto "reveal map"
 		`	(Receive all licenses.)`
 			goto "all licenses"
+		
 		`	([  ] Equip flagship with a God Drive.)`
 			to display
 				has "Ruin-the-Fun player chose a starter ship"
@@ -120,6 +121,7 @@ conversation "Ruin-The-Fun Intro (Avanced)"
 			to display
 				has "outfit: Ruin-The-Fun God Drive"
 			goto "uninstall god drive"
+		
 		`	([  ] Equip flagship with a Cloaking Device.)`
 			to display
 				has "Ruin-the-Fun player chose a starter ship"
@@ -129,6 +131,17 @@ conversation "Ruin-The-Fun Intro (Avanced)"
 			to display
 				has "outfit: Cloaking Device"
 			goto "uninstall cloaking device"
+		
+		`	([  ] Equip flagship with gaslining.)`
+			to display
+				has "Ruin-the-Fun player chose a starter ship"
+				not "outfit: Ruin-The-Fun Stat Access gaslining"
+			goto "install gaslining"
+		`	([x] Equip flagship with gaslining.)`
+			to display
+				has "outfit: Ruin-The-Fun Stat Access gaslining"
+			goto "uninstall gaslining"
+		
 		`	(Done.)`
 			goto end
 	
@@ -152,6 +165,17 @@ conversation "Ruin-The-Fun Intro (Avanced)"
 	action
 		outfit "Cloaking Device" -1
 	`Removed the Cloaking Device from your flagship.`
+		goto "re-settings"
+	
+	label "install gaslining"
+	action
+		outfit "Ruin-The-Fun Stat Access gaslining"
+	`Your flagship now has the gaslining stat.`
+		goto "re-settings"
+	label "uninstall gaslining"
+	action
+		outfit "Ruin-The-Fun Stat Access gaslining" -1
+	`Your flagship no longer has the gaslining stat.`
 		goto "re-settings"
 	
 	label "reveal map"
