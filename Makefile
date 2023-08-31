@@ -57,8 +57,18 @@ tmp/data-dirs.tmp: | tmp $(ES_DATA)
 	@echo $(ES_DATA) > $@
 	@echo "Sources used:"
 	@cat $@
-	@echo "_deprecated folders:"
-	@cat $@ | sed "s|$$|_deprecated/|"
+
+tmp/available-plugin-data-dirs.tmp: | tmp
+	@echo "Overriding available plugin data sources..."
+	@tools/ls-data-plugins.sh | sed 's|^\(.*\)$$|"../../plugins/\1/data/"|' > $@
+	@echo "Available plugin sources:"
+	@cat $@
+
+tmp/all-data-dirs.tmp: tmp/data-dirs.tmp tmp/available-plugin-data-dirs.tmp | tmp
+	@echo "Overriding extended data sources..."
+	@cat tmp/data-dirs.tmp tmp/available-plugin-data-dirs.tmp | sort | uniq > $@
+	@echo "Extended sources used:"
+	@cat $@
 
 tmp/enabled-plugins.tmp: ../../plugins.txt | tmp
 	@echo "Updating enabled plugin list..."
@@ -146,9 +156,9 @@ tmp/fleets.list.tmp: tmp/data-dirs.tmp | tmp
 	@echo "Listing fleets..."
 	@cat tmp/data-dirs.tmp | xargs grep -R "^fleet" | grep "\.txt:" | sed "s/^.*\.txt:fleet //g" | tools/unquote.sh | sort | uniq > $@
 
-tmp/licenses.list.tmp: tmp/data-dirs.tmp | tmp
+tmp/licenses.list.tmp: tmp/all-data-dirs.tmp | tmp
 	@echo "Listing licenses..."
-	@cat tmp/data-dirs.tmp | xargs grep -P -R "outfit.*License" | grep "\.txt:" | sed "s/^.*\.txt:outfit //" | tools/unquote.sh | sed 's| License$$||' | sort | uniq > $@
+	@cat tmp/all-data-dirs.tmp | xargs grep -P -R 'outfit.*License[`"]?$$' | grep "\.txt:" | sed "s/^.*\.txt:outfit //" | tools/unquote.sh | sed 's| License$$||' | sort | uniq > $@
 
 tmp/reputation-resets.tmp: default-reputations.txt | tmp
 	@cat default-reputations.txt | sed -e "s/^\(\t\"\|\t\)/\"reputation: /" | sed "s/\(.*\)\" \(-\?.*\)$$/\1 \2/" | sed -r 's/ ([^ ]*)$$/" = \1/' > $@
@@ -228,6 +238,12 @@ tmp/-es-ruin-the-fun.zip: $(PLUGIN_FILES) | tmp
 	@echo "Generating $@..."
 	@rm -f $@
 	@zip -r $@ $(PLUGIN_FILES)
+
+data/plugin-support/all-outfitters.txt: tmp/outfitters.list.tmp
+	# Todo
+	
+data/plugin-support/all-shipyards.txt: tmp/shipyards.list.tmp
+	# Todo
 
 .PHONY: clean
 clean:
