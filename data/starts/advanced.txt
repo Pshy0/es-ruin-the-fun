@@ -142,6 +142,16 @@ conversation "Ruin-The-Fun Intro (Avanced)"
 				has "outfit: Ruin-The-Fun Stat Access gaslining"
 			goto "uninstall gaslining"
 		
+		`	([  ] Equip flagship with tactical scan power.)`
+			to display
+				has "Ruin-the-Fun player chose a starter ship"
+				not "outfit: Ruin-The-Fun Stat Scan tactical scan power * 100000000"
+			goto "install tactical scan power"
+		`	([x] Equip flagship with tactical scan power.)`
+			to display
+				has "outfit: Ruin-The-Fun Stat Scan tactical scan power * 100000000"
+			goto "uninstall tactical scan power"
+		
 		`	(Done.)`
 			goto end
 	
@@ -176,6 +186,17 @@ conversation "Ruin-The-Fun Intro (Avanced)"
 	action
 		outfit "Ruin-The-Fun Stat Access gaslining" -1
 	`Your flagship no longer has the gaslining stat.`
+		goto "re-settings"
+	
+	label "install tactical scan power"
+	action
+		outfit "Ruin-The-Fun Stat Scan tactical scan power * 100000000"
+	`Your flagship now has the tactical scan power stat.`
+		goto "re-settings"
+	label "uninstall tactical scan power"
+	action
+		outfit "Ruin-The-Fun Stat Scan tactical scan power * 100000000" -1
+	`Your flagship no longer has the tactical scan power stat.`
 		goto "re-settings"
 	
 	label "reveal map"

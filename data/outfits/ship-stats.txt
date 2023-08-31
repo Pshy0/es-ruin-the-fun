@@ -334,6 +334,13 @@ outfit "Ruin-The-Fun Stat Scan tactical scan power"
 	unplunderable 1
 	"tactical scan power" 1
 
+outfit "Ruin-The-Fun Stat Scan tactical scan power * 100000000"
+	"display name" "tactical scan power"
+	category "Special"
+	thumbnail "outfit/rtf/wheel/blue"
+	unplunderable 1
+	"tactical scan power" 100000000
+
 outfit "Ruin-The-Fun Stat Shield depleted shield delay"
 	"display name" "depleted shield delay"
 	category "Special"
@@ -470,6 +477,7 @@ outfitter "Ruin-The-Fun Stat Outfits"
 	"Ruin-The-Fun Stat Scan scan concealment"
 	"Ruin-The-Fun Stat Scan scan interference"
 	"Ruin-The-Fun Stat Scan tactical scan power"
+	"Ruin-The-Fun Stat Scan tactical scan power * 100000000"
 	"Ruin-The-Fun Stat Shield depleted shield delay"
 	"Ruin-The-Fun Stat Shield shields"
 	"Ruin-The-Fun Stat Shield shield delay"
