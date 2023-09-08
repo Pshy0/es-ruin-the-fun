@@ -35,6 +35,7 @@ plugins[sensor]=https://github.com/orbitalsupershell/sensor/
 #plugins[Sestor Expansion]=https://github.com/AvianGeneticist/Sestor-Expansion
 #plugins[Sheragi Rebirth]=https://github.com/Petersupes/sheragi-rebirth
 plugins[Spinaleviathan]=https://github.com/AvianGeneticist/Spinaleviathan
+plugins[The Enclave]=https://github.com/1010todd/The-Enclave
 #plugins[The Peacebringer]=https://github.com/Polaria1/The-Peacebringer
 plugins[Unfettered Innovations]=https://github.com/Hurleveur/unfettered-innovations
 
