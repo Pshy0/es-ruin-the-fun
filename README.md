@@ -100,6 +100,8 @@ The following jobs can be used after every landing on an RTF planet:
 - `[basic] Reveal Map`: Reveal the whole system map (upon take of).
 - `[basic] Reveal Planet Infos`: Reveal all vanilla planets information (upon take of, does not reveal systems).
 - `[escort] * Barges` (3 variants): Get escorted by dreadful Star Barges.
+- `[escort] Escort Fleets`: Select fleets to spawn as NPC escorts.
+- `[escort] Escort Ships`: Select ships to spawn as NPC escorts.
 - `[escort] Tek Far 109`: Get escorted by a customized drone transporter.
 - `[fight] Combat Drones`: Summon an amount of hostile Combat Drones.
 - `[fight] Fight Fleet`: Pick hostile fleets to spawn.
