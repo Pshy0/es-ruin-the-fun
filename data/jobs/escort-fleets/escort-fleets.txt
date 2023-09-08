@@ -1,7 +1,7 @@
 mission `Ruin-the-Fun Escort Fleets`
 	job
 	name "[escort] Escort Fleets"
-	description "Select fleets to spawn as NPC escort."
+	description "Select fleets to spawn as NPC escorts."
 	"apparent payment" 1
 	repeat
 	source
