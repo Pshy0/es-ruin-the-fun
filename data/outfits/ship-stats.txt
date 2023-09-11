@@ -49,7 +49,7 @@ outfit "Ruin-The-Fun Stat Access quantum keystone"
 	unplunderable 1
 	"quantum keystone" 1
 
-outfit "Ruin-The-Fun Stat Boarding Capture Attack * 100000"
+outfit "Ruin-The-Fun Stat Boarding capture attack * 100000"
 	"display name" "capture attack * 100000"
 	category "Special"
 	thumbnail "outfit/savagery pike"
@@ -451,7 +451,7 @@ outfitter "Ruin-The-Fun Stat Outfits"
 	"Ruin-The-Fun Turret Mount"
 	"Ruin-The-Fun Stat Access gaslining"
 	"Ruin-The-Fun Stat Access quantum keystone"
-	"Ruin-The-Fun Stat Boarding Capture Attack * 100000"
+	"Ruin-The-Fun Stat Boarding capture attack * 100000"
 	"Ruin-The-Fun Stat Cloak cloak * 0.01"
 	"Ruin-The-Fun Stat Cloak cloaking energy * 0.01"
 	"Ruin-The-Fun Stat Cloak cloaking fuel * 0.01"
