@@ -15,6 +15,7 @@ planet \1-P
 	outfitter "Ruin-The-Fun Stat Outfits"
 	outfitter "Ruin-The-Fun All Outfits"
 	shipyard "Ruin-The-Fun All Base Ships"
+	shipyard "Ruin-The-Fun All Plugin Ships"
 	outfitter `aben`
 	outfitter `Adamas Colossal`
 	outfitter `Advanced-ammo-outfitter`
@@ -175,6 +176,10 @@ planet \1-P
 	outfitter `Kumakk Ammo`
 	outfitter `Kumakk Basic`
 	outfitter `Lead`
+	outfitter `LIS Cannibal Outfits`
+	outfitter `LIS Licenses`
+	outfitter `LIS Lissa Preadors Outfits`
+	outfitter `LIS Lissa Preie Outfits`
 	outfitter `Local Map`
 	outfitter `Lovelace Advanced`
 	outfitter `Lovelace Basics`
@@ -457,6 +462,8 @@ planet \1-P
 	shipyard `Legendary Ships`
 	shipyard `Lionheart Advanced`
 	shipyard `Lionheart Basics`
+	shipyard `LIS Lissa Preadors Ships`
+	shipyard `LIS Lissa Preie Ships`
 	shipyard `Lost Ones Ships`
 	shipyard `Lumbarian Advanced`
 	shipyard `Lumbarian Basic`

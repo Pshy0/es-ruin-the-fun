@@ -1,0 +1,2386 @@
+shipyard `Ruin-The-Fun All Plugin Ships`
+	`#1st`
+	`#2nd, used by civs`
+	`A-14Fc Rondel`
+	`A-14F Rondel`
+	`A'atal`
+	`A'atal (Expeller)`
+	`A'atal (Firelance Digger)`
+	`A'atal (Mining Retrofit)`
+	`Abomination`
+	`AD-0032 Ialmuslati`
+	`AD-012C Iaphia`
+	`AD-019A Iabayi`
+	`AD-672 Ranzai`
+	`AD-860A Aorlan`
+	`Adel`
+	`Aerie (Eden)`
+	`Aerie (Empire)`
+	`Aerie (Energy Cannons)`
+	`Aerie (Hai)`
+	`Aerie (Korath)`
+	`Aerie (NCD A4)`
+	`Aerie (NCD F15)`
+	`Aerie (Shio)`
+	`AF-18 Zyon`
+	`AF-18 Zyon (Interceptor)`
+	`AFFR-3 Fylla`
+	`Agrunnos`
+	`AGT-31 Xencar`
+	`Aikiyu`
+	`AKH-8 Mlitgante`
+	`Akolucor`
+	`Akolucor (Explorer)`
+	`Akolucor (Heavy)`
+	`Akolucor (Ro'ohrek)`
+	`Akyonur`
+	`Akyonur (Hull)`
+	`Akyonur (Missile)`
+	`Albatross (Ember Shield)(Far Remnant)`
+	`Albatross (Far Remnant)`
+	`Albatross (Gravedigger)`
+	`Albatross (Heavy)(Far Remnant)`
+	`Albatross (Nightmare)`
+	`Albatross (Night Sword)`
+	`Albatross (Shield)(Far Remnant)`
+	`Albatross (Sniper)(Far Remnant)`
+	`Albatross (Sniper II)(Far Remnant)`
+	`Albatross (Turret)(Far Remnant)`
+	`Alexandria`
+	`Alien Blackbird`
+	`Amalgam`
+	`Amber`
+	`AM Turret`
+	`Ancient Raider`
+	`Ansiyral`
+	`Ant`
+	`Anteater`
+	`Ao`
+	`AP-22 Fusillade`
+	`AP-7 Sentinel`
+	`AP-7 Sentinel (NGK Escort)`
+	`Aplomado`
+	`Aplomado (Black Death)`
+	`Aplomado (Heavy)`
+	`Aplomado (Minotaurs I)`
+	`Aplomado (Plasma)`
+	`Apollo`
+	`Apollo (Pirate)`
+	`Arach Courier (Barrier)`
+	`Arach Courier (Blaster)`
+	`Arach Courier (Model)`
+	`Arach Freighter (Blaster)`
+	`Arach Freighter (Deflector Barrier)`
+	`Arach Freighter (Model)`
+	`Arach Freighter (pirate)`
+	`Arach Hulk (Blaster)`
+	`Arach Hulk (Deflector Barrier)`
+	`Arach Hulk (Model)`
+	`Arach Hulk (pirate)`
+	`Arach Hulk (smuggler)`
+	`Arachne Station`
+	`Arach Spindle (Blaster)`
+	`Arach Spindle (Deflector Barrier)`
+	`Arach Spindle (Model)`
+	`Arach Transport (Blaster)`
+	`Arach Transport (Deflector Barrier)`
+	`Arach Transport (Model)`
+	`Arada`
+	`Arada (Dispy)`
+	`Arada (Pursuit)`
+	`Arada (SAD)`
+	`Arbiter`
+	`Arch-Carrack (Fireswarm)`
+	`Arch-Carrack (Shocker)`
+	`Archon (hallucination)`
+	`Archon (Lich)`
+	`Ar Da Sam`
+	`Argosy (Empire)`
+	`Argosy (Proton Turret-ATS)`
+	`Argosy (Quad Mod Blaster)`
+	`Argosy Test Dummy`
+	`Argosy (Turbo Blaster)`
+	`Aridara`
+	`Aridara (Gunboat)`
+	`Aridara (Missileboat)`
+	`Aridara (Pursuit)`
+	`Arion AB/S-3X Skywarrior Block I`
+	`Arion ADA/S-01X Adler MKI`
+	`Arion ADF/S-01X Falken MKI`
+	`Arion ADF/S-11X Raven MKI`
+	`Arion ADFX/S-02X Morgan MKI`
+	`Arion Albatross Block I`
+	`Arion Algos Class Drone Carrier`
+	`Arion Alicorn Class Carrier`
+	`Arion Argosy Block I`
+	`Arion Argosy Block IIIA`
+	`Arion A/S-10X Warthog Block I`
+	`Arion A/S-4X SFF Skyhawk Mk1`
+	`Arion A/S-4X Skyhawk Block I`
+	`Arion A/S-6X Intruder Block I`
+	`Arion ASF/S-X Shinden II MKI`
+	`Arion Auxiliary Block I`
+	`Arion Auxiliary Block IIIA`
+	`Arion Avro Arrow X/S Block I`
+	`Arion Avro Vulcan X/S Block I`
+	`Arion AV/S-8X Harrier Block I`
+	`Arion Bactrian Flagship`
+	`Arion Bactrian H.A.T Block I`
+	`Arion Bactrian H.A.T Block IIIA`
+	`Arion B/S-1X Lancer Block I`
+	`Arion B/S-2X Spirit Block I`
+	`Arion B/S-52X Stratofortress Block I`
+	`Arion Carrier Block I`
+	`Arion Carrier Block IIIA`
+	`Arion CFA/S-44X Nosferatu MKI`
+	`Arion Cruiser Block I`
+	`Arion Cruiser Block IIIA`
+	`Arion C/S-390X Millennium Block I`
+	`Arion Dassault Rafale X/S Block I`
+	`Arion Deep River Block II`
+	`Arion Dreadnought Block I`
+	`Arion EA/S-18X Growler Block I`
+	`Arion EA/S-6X Prowler Block I`
+	`Arion EF/S-111X Raven Block I`
+	`Arion Eurofighter Typhoon X/S Block I`
+	`Arion FA/S-50X Golden Eagle Block I`
+	`Arion FB/S-111X Aardvark Block I`
+	`Arion FB/S-117X Nighthawk Block I`
+	`Arion FB/S-15EX Strike Eagle Block I`
+	`Arion FB/S-16X Strike Falcon XL Block I`
+	`Arion FB/S-22X Strike Raptor Block I`
+	`Arion FB/S-4X Phantom II Block I`
+	`Arion F-CK/S-1X Ching Kuo Block I`
+	`Arion FI/S-104X Starfighter Block I`
+	`Arion FN/S-22X Sea Raptor Block I`
+	`Arion FQ/S-101x Block IIIA`
+	`Arion Frigate Block I`
+	`Arion F/S-14X Tomcat Block I`
+	`Arion F/S-15EXX Super Eagle Block I`
+	`Arion F/S-15X ACTIVE Eagle Block I`
+	`Arion F/S-15X Eagle Block I`
+	`Arion F/S-16X Falcon Block I`
+	`Arion F/S-16X SFF Super Falcon Mk1`
+	`Arion F/S-16X Super Falcon Block I`
+	`Arion F/S-18X SFF Super Hornet Mk1`
+	`Arion F/S-18X Super Hornet Block I`
+	`Arion F/S-22X Raptor Block I`
+	`Arion F/S-23X Black Widow Block I`
+	`Arion F/S-35X Lightning Block I`
+	`Arion F/S-5X Tiger II Block I`
+	`Arion Halberd Class Cruiser`
+	`Arion Hawk Block I`
+	`Arion Headhunter Block I`
+	`Arion Headhunter Block IIIA`
+	`Arion JAS/S-39X Gripen Block I`
+	`Arion J/S-20X Mighty Dragon Block I`
+	`Arion J/S-31X Gyrfalcon Block I`
+	`Arion Kar Ik Vot 349 Block II`
+	`Arion Kestrel Block I`
+	`Arion KF/S-21X Boramae Block I`
+	`Arion Kukri Class Frigate`
+	`Arion Lance Block I`
+	`Arion Marauder Falcon Block I`
+	`Arion Marauder Falcon Block IIIA`
+	`Arion Marauder Leviathan Block I`
+	`Arion Marauder Leviathan Block IIIA`
+	`Arion Mig/S-31X Foxhound Block I`
+	`Arion Mig/S-35X Fulcrum Block I`
+	`Arion Model 512 Block II`
+	`Arion MQ/S-4x Global Hawk Block I`
+	`Arion Mule H.A.T Block I`
+	`Arion Odyssey Class Battlecruiser`
+	`Arion Panavia Tornado ECR X/S Block I`
+	`Arion Panavia Tornado X/S Block I`
+	`Arion Paris Class Destroyer`
+	`Arion Pelican Block I`
+	`Arion R-352X Sepia MKI`
+	`Arion Ra'at Ik 621 Block II`
+	`Arion R/S-103X Delphinus MKI`
+	`Arion Scimitar Class Destroyer`
+	`Arion Shield Beetle Block I`
+	`Arion SR/S-71X Blackbird Block I`
+	`Arion SR/S-72X Darkstar Block I`
+	`Arion S/S-3X Viking Block I`
+	`Arion Star Queen Block I`
+	`Arion Starspear Class SFF`
+	`Arion Su/S-25X Frogfoot Block I`
+	`Arion Su/S-27X Flanker Block I`
+	`Arion Su/S-34X Fullback Block I`
+	`Arion Su/S-35X Super Flanker Block I`
+	`Arion Su/S-37X Terminator Block I`
+	`Arion Su/S-47X Berkut Block I`
+	`Arion Su/S-57X Felon Block I`
+	`Arion TSR/S-2X Block I`
+	`Arion XFA/S-27X MKI`
+	`Arion XFA/S-33X Fenrir MKI`
+	`Arion XFA/S-36X Game MKI`
+	`Arion X/S-02X Wyvern MKI`
+	`Arion X/S-120X Fury MKI`
+	`Arion X/S-37X Corsair MKI`
+	`Arion X/S-44X Saracen MKI`
+	`Arion X/S-47 Block I`
+	`Arion X/S-49X Night Raven MKI`
+	`Arion X/S-59X Marauder MKI`
+	`Armadillo (Weapon)`
+	`Armor Beetle`
+	`Armor Beetle (Arctic Dragon)`
+	`Armor Beetle (Cargo Scan)`
+	`Armor Beetle (Jump)`
+	`Ar Pu Haa`
+	`Ar Pu Haa (Vordai)`
+	`Arrow (Empire)`
+	`A/S-4w Skyhawk`
+	`A/S-4w Skyhawk (Merchant)`
+	`AS-56 Virsiz`
+	`AsK12-6 Celjurai`
+	`Asteroid Defense`
+	`Astero Nautilus`
+	`Astero Nautilus AA`
+	`Astero Nautilus AAA`
+	`Astero Nautilus B`
+	`Astero Nautilus BB`
+	`Astero Nautilus BBB`
+	`Astero Nautilus D`
+	`Astero Nautilus Specimen`
+	`Autumn Leaf (Hai Crew)`
+	`Autumn Leaf (Missile)`
+	`Auxiliary (Battle)`
+	`Auxiliary (Lumbarian)`
+	`Auxiliary (Oathbreaker)`
+	`Auxiliary (Republic NCD)`
+	`Auxiliary (Troops)`
+	`Avialae`
+	`Avialae (Disarmed)`
+	`Avro Arrow W/S`
+	`Axchriv`
+	`AYS-17 Proetida`
+	`AYS-19 Peytoia`
+	`Ayym Creature`
+	`Azdara`
+	`Azdara (Rapid)`
+	`Azdgari Arada`
+	`"Azdgari Arada (Gunboat)".`
+	`"Azdgari Arada (Rapid)".`
+	`Azdgari Gazdira`
+	`Azdgari Gazdira (Rapid)`
+	`Azelpur`
+	`Azigda`
+	`Azigda (Dispy)`
+	`Bactrian (Eden)`
+	`Bactrian (Empire)`
+	`Bactrian (Hai NCD)`
+	`Bactrian (Hijacked)`
+	`Bactrian (NCD A4)`
+	`Bactrian (NCD Bounty)`
+	`Bactrian (NCD F15)`
+	`Bactrian (Shield Suppressor)`
+	`Bactrian (Twin Torpedo Pod)`
+	`Balzita`
+	`Barb (Empire)`
+	`#Base variant, don't use.`
+	`#Base variant without carry.`
+	`Bastard`
+	`Bastion (Empire)`
+	`Bastion (Flamethrower)`
+	`Bastion (Inferno Rockets)`
+	`Bastion (Korath)`
+	`Bastion (Quad Mod Blaster)`
+	`Bastion (Tanker)`
+	`Battle Barge`
+	`Battle Barge (Turbo Blaster)`
+	`Battle Behemoth`
+	`Battle Behemoth (Minotaurs 1)`
+	`Battle Behemoth (Proton)`
+	`Battle Bulk`
+	`Battle Bulk (Mod Blaster)`
+	`Battle Bulk (Proton)`
+	`Behemoth (Atomic, Jacks)`
+	`Behemoth (Empire)`
+	`Behemoth (Hai North Wind)`
+	`Behemoth (Jumper)`
+	`Behemoth (North Wind Cooling)`
+	`Behemoth (Ramscoop)`
+	`Behemoth (Turner Power)`
+	`Bek Par Kel 39`
+	`Bennu`
+	`Berserker (Afterburner Limit Break)`
+	`Berserker (Eden)`
+	`Berserker (Empire)`
+	`Berserker (Energy Cannons)`
+	`Berserker (Hai)`
+	`Berserker (Inferno Rockets)`
+	`Berserker (Limit Break)`
+	`Berserker (Shio)`
+	`Berserker (Strike Limit Break)`
+	`Berserker Test Dummy2`
+	`Berserker (Turbo Blaster)`
+	`Berserker (Turbo Blaster Afterburner)`
+	`Bigeminate Sigil`
+	`Bixi`
+	`Blackbird (Empire)`
+	`Blackbird (Isochronal)`
+	`Black Manta`
+	`Blaze`
+	`Blight Hatchling`
+	`Blight Horror`
+	`Blight Mutation`
+	`Blight Shadow`
+	`Blight Terror`
+	`Bloodhound`
+	`Bloodhound (Pirate)`
+	`Blue Wardragon`
+	`Bounder (Empire)`
+	`Boxwing (Empire)`
+	`Bravo-Monitor`
+	`Bravo-Monitor (Shocker)`
+	`Bronze Edge`
+	`Bronze Edge (Cyclotron)`
+	`Bronze Edge (Pulse)`
+	`Bronze Edge (PWave)`
+	`BS-2237 Ryuzo`
+	`BTT06 Shuttle Wreckage`
+	`BTT34 Ziz Wreckage`
+	`Bulk Courier`
+	`Bulk Freighter?`
+	`Bulk Freighter (Biohazard)`
+	`Bulk Freighter (Empire)`
+	`Bulk Freighter(hai) `
+	`Bulk Freighter (hai drones)`
+	`Bulk Freighter (Korath)`
+	`Bulk Freighter(proton) `
+	`Bulk Freighter (Proton Turret-ATS)`
+	`Bulk Freighter (Secret Cargo) `
+	`Bulk Freighter (syndicate drones)`
+	`Bulk Freighter (Turner Power)`
+	`Bulkort 2-V`
+	`Bulkort (Missile)`
+	`Buzzard`
+	`Buzzard (Pirate)`
+	`Bwehoke`
+	`Bwehoke (Hull)`
+	`BX-3826 Kazai`
+	`BytS Quarg Hydra`
+	`Caesennia`
+	`Ca Mok Si`
+	`Caosma (Transport)`
+	`Carabao`
+	`Carabao (Quash)`
+	`Carabao (Quash Abandoned)`
+	`Carbuncle Station`
+	`Cargo Transporter`
+	`Cargo Transporter Class D`
+	`Carrier (Coalition)`
+	`Carrier (Lumbarian)`
+	`Carrier (Pug)`
+	`Carrier (Republic NCD)`
+	`Carrier (Sabotaged)`
+	`Carrier (Shield Suppressor)`
+	`CDB-12K Saturn`
+	`CDB-6K Jupiter`
+	`CDB-6K Jupiter (G22)`
+	`CDB-6K Jupiter (NGK, Partial Turret Upgrade)`
+	`CDB-6K Jupiter (NGK, Turret Upgrade)`
+	`Celestine (Long Range)`
+	`Celestine (Long Range, Red Wine)`
+	`Celestine (Long Range, Rose Wine)`
+	`Celestine (Long Range, White Wine)`
+	`Celestine (Red Wine)`
+	`Celestine (Rose Wine)`
+	`Celestine (White Wine)`
+	`Centipede (Bloodstone)`
+	`Cerberus`
+	`Cetus`
+	`CF-50 Cart`
+	`CH-6 Carrack`
+	`CH-6 Carrack (Atomic I)`
+	`CH-6 Carrack (Atomic II)`
+	`CH-6 Carrack (Atomic, Jacks)`
+	`Charm-Shallop (Fireswarm)`
+	`Charm-Shallop (Fireswarm Scanner)`
+	`Charm-Shallop (Scanner)`
+	`Charm-Shallop (Shocker)`
+	`Charon Station`
+	`Charybdis Station`
+	`Cheetah`
+	`Chilong`
+	`Chilong (Var1)`
+	`Cicada (Bloodstone)`
+	`Cinrious`
+	`Citrus (Apple Filled)`
+	`Citrus (Coconut Filled)`
+	`Citrus (Orange Filled)`
+	`Citrus (Orange Half-Filled)`
+	`Citrus (Pineapple Filled)`
+	`CJC-3 Citrus`
+	`CK10C Liathtar`
+	`CK40T Treibard`
+	`CK50T Stahbar`
+	`CK50T Stahbar (Proton)`
+	`CK80Tp Death Harmonica`
+	`CK80T Tlielart`
+	`Claymore Class`
+	`Clipper (Empire)`
+	`Clipper (Empire)(Miner)`
+	`Clipper (Espion)`
+	`Clipper (Flamethrower)`
+	`Clipper (Heavy Laser)`
+	`Clipper (Inferno Rockets)`
+	`Clipper (Turbo Blaster)`
+	`Colony Ship`
+	`Colossus`
+	`Colossus (Needler)`
+	`Combat Drone (Explosive)`
+	`Combat Drone (ExplosiveSD)`
+	`Combat Drone (Lumbarian)`
+	`Combat Drone (Republic NCD)`
+	`Comet`
+	`Conqueror UP1`
+	`Container Transport (Billboard Christmas)`
+	`Container Transport (Billboard Mega)`
+	`Container Transport (Billboard Subs)`
+	`Container Transport (Billboard TMBR)`
+	`Container Transport (Billboard Unuk)`
+	`Container Transport (Empire)`
+	`Container Transport (Proton Turret-ATS)`
+	`Container Transport (Turner Power)`
+	`Corvette (Empire)`
+	`Corvette (Inferno Rockets)`
+	`Corvette (Twin Torpedo Pod)`
+	`Craterustig`
+	`Cruiser (Coalition)`
+	`Cruiser (Inferno Rockets)`
+	`Cruiser (Lumbarian)`
+	`Cruiser (Minotaurs I)`
+	`Cruiser (Pug)`
+	`Cruiser (Shield Suppressor)`
+	`Crystal Sentry`
+	`CS-24 Garrison`
+	`CS-24 Garrison (Aphelion)`
+	`CS-24 Garrison (Bounty Hunter, AntiMHL)`
+	`CS-24 Garrison (Minotaurs 1)`
+	`CS-24 Garrison (Parapet)`
+	`C/S-390w Millennium`
+	`CSE-6 Steward`
+	`Culverin Class`
+	`Culverin Class (Automaton)`
+	`Culverin Class (Mark II)`
+	`Culverin Class (Mark II, Jump)`
+	`Cupid's Arrow`
+	`Custom Leviathan`
+	`Custom Leviathan (1Gun1Turret1Fighter)`
+	`Custom Leviathan (1Gun2Fighters)`
+	`Custom Leviathan (1Gun2Turrets)`
+	`Custom Leviathan (1Turret2Fighters)`
+	`Custom Leviathan (2Guns1Fighter)`
+	`Custom Leviathan (2Guns1Turret)`
+	`Custom Leviathan (2Turrets1Fighter)`
+	`Custom Leviathan (3Fighters)`
+	`Custom Leviathan (3Guns)`
+	`Custom Leviathan (3Turrets)`
+	`CWC-2 Celestine`
+	`CY-10 (Drone)`
+	`CY-10 (Fighter)`
+	`CY-10 (Small Wreckage)`
+	`Dacar heavy`
+	`Dacar Tehru`
+	`Dagger (Empire)`
+	`Dantra`
+	`Darca Offensive`
+	`Darklance Turret`
+	`Dart`
+	`Dasornis`
+	`Dauren`
+	`Deep River Carrier`
+	`Deep River Carrier (Full)`
+	`Deep River Carrier (Half)`
+	`Deep River Pirate 0`
+	`Deep River Pirate 1`
+	`Deep River Pirate 2`
+	`Deep River Pirate 3`
+	`Deep River Pirate 4`
+	`Deep River Rapids`
+	`Defence Turret`
+	`Dels Caodauri`
+	`Dels Dacar`
+	`Dels Darca`
+	`Dels Dea`
+	`Dels Dee`
+	`Dels Deeris`
+	`Dels Derso`
+	`Dels Desen`
+	`Dels Desin`
+	`Dels Donson`
+	`Dels Doreenor`
+	`Dels Ekdor`
+	`Dels Eudaion`
+	`Dels Manoon`
+	`Dels Melduklar`
+	`Dels Secsen`
+	`Dels Sendo`
+	`Dels Senro`
+	`Dels Serdeen`
+	`Dels Uldeor`
+	`Delta-Ferry`
+	`Derecho (Advanced Cooling)`
+	`Derecho (Hai Crew)`
+	`Derelict Aerie`
+	`Derelict Albatross`
+	`Derelict Argosy`
+	`Derelict Bactrian`
+	`Derelict Bounder`
+	`Derelict Corvette`
+	`Derelict Freighter`
+	`Derelict Hauler`
+	`Derelict Hauler II`
+	`Derelict Headhunter`
+	`Derelict Marauder Falcon`
+	`Derelict Mule`
+	`Derelict Raven`
+	`Derelict Scout`
+	`Derogam Assassin`
+	`Derogam Collector`
+	`Derogam Gatherer`
+	`Derogam Guardian`
+	`Derogam Hoarder`
+	`Derogam Itinerant`
+	`Derogam Sentry`
+	`Derogam Warrior`
+	`Desin Aserap`
+	`Desin Miner`
+	`Desin Skue8`
+	`Desin TC5`
+	`Dettalor`
+	`Diamondback`
+	`Diamondback (Berserker)`
+	`Diamondback (Bounty)`
+	`Diamondback (Freighter)`
+	`Diamondback (Lasers)`
+	`Diamondback (Mining)`
+	`Diamondback (Pirate)`
+	`Diamondback (Transport)`
+	`District`
+	`Divisio`
+	`Dominator UP1`
+	`Dominator UP1a`
+	`Dominium`
+	`Dominium (Experimental)`
+	`Donko Kanse`
+	`Donko Koi`
+	`Donko Kolso`
+	`Donko Matka`
+	`Donko Sao`
+	`Donko Senka`
+	`Dreadful`
+	`Dreadnought (Empire)`
+	`Dreadnought (Flamethrower)`
+	`Dreadnought (Parapet)`
+	`Dreadnought (Plasma Cluster)`
+	`Dreadnought (Sabotaged)`
+	`Dreadnought (Shield Suppressor)`
+	`Dreadnought (Twin Torpedo Pod)`
+	`Dromedary`
+	`Dropship (Empire)`
+	`Dropship (Lumbarian)`
+	`Dropship (Troops)`
+	`DSSN-C40 Dulumi`
+	`DSSN-S90 Lynchyoseu`
+	`DT-224 Trazar`
+	`DT-510 Quadlancer`
+	`Dulle Griet Class`
+	`Dulle Griet Class (Early)`
+	`Dummy Amidala`
+	`Eagle`
+	`Eaken`
+	`Eave-Skiff`
+	`Eaxes Dissector`
+	`Echo-Galleon (Fireswarm)`
+	`Echo-Galleon (Shocker)`
+	`E-FD23 Kanran`
+	`E-FD23 Kanran (Ankulah)`
+	`E-FD23 Kanran (NGK)`
+	`E-FD23 Kanran (NGK, K2-K-S)`
+	`E-FD23 Kanran Wreckage`
+	`Egg Pouch`
+	`Eirae`
+	`Eishen`
+	`Ekdor Georlen`
+	`Ekdor Skue8`
+	`Elder Astero Nautilus`
+	`Eldritch`
+	`Eleonorae`
+	`Eleonorae (Atomic, G22)`
+	`Eleonorae (Parapet)`
+	`Elzaria`
+	`Elzaria (Attractor)`
+	`Elzaria (Repulsor)`
+	`Elzaria (SAD)`
+	`Elzaria (Turret)`
+	`EM-28F Wombat`
+	`EM-8A Armadillo`
+	`Ember Nightmare`
+	`Emerald Sword (Modern)`
+	`Empire Classik`
+	`Empire Colinizer`
+	`Empire Corvette YLL'A`
+	`Empire Corvette YLL'E`
+	`Empire Daggrez`
+	`Empire Dredger`
+	`Empire Fortress`
+	`Empire Fortress (Emperor)`
+	`Empire Galactik`
+	`Empire Hydra`
+	`Empire Hydra (Emperor)`
+	`Empire Kraken`
+	`Empire Kraken (Emperor)`
+	`Empire Nanobot YLL'A`
+	`Empire Nanobot YLL'E`
+	`Empire Nano-Flyer`
+	`Empire Oriole`
+	`Empire Palavret`
+	`Empire Palavret (Ion Proton)`
+	`Empire Palavret (Plasma Repeater)`
+	`Empire Palavret (Wel'y Beam)`
+	`Empire Sea Kraken`
+	`Empire Sea Kraken (Caltalyctic)`
+	`Empire Shall'ok`
+	`Empire Skylark`
+	`Empire Skylark (Alldust Beam)`
+	`Empire Skylark (Ion Proton)`
+	`Empire Skylark (Plasma Repeater)`
+	`Empire Skylark (Wel'y Beam)`
+	`Empire Skyswift`
+	`Empire Starline Ak`
+	`Empire Starline Bul`
+	`Empire Starline Cal`
+	`Empire Starline Dys`
+	`Empire Starline Eas`
+	`Empire Starline Fex`
+	`Empire Striker`
+	`Empire Tubfalet`
+	`Empire Wardragon`
+	`Empire Wardragon (Alldust Beam)`
+	`Empire Wardragon (Antimatter)`
+	`Empire Wardragon (Ion Proton)`
+	`Empire Wardragon (Plasma Repeater)`
+	`Empire Wardragon (Twin Particle)`
+	`Empire Wardragon (Wel'y Beam)`
+	`Empyrean`
+	`EMS-28 Niessbarkurier`
+	`Enclave Destroyer`
+	`Enclave Lance`
+	`Enclave Penguin`
+	`Enclave Scout`
+	`Enforcer Drone`
+	`EP-1 Mole`
+	`EP-2 Marmot`
+	`EP-3 Rat`
+	`EP-3 Rat (Sniper)`
+	`Ere-Skiff`
+	`Ernar`
+	`Ernar Offensive`
+	`Ernar Offensive(A)`
+	`Ernar Offensive(S)`
+	`Eroun (Offense)`
+	`Eroun (OffenseII)`
+	`Ertezkaral (Anti-Fighter)`
+	`Ertezkaral (Heavy)`
+	`Eudaion Engine`
+	`Eudaion Shield`
+	`Eundorrel Turret`
+	`E-VC14 Zuiho`
+	`E-VC14 Zuiho (Advanced)`
+	`E-VC14 Zuiho (Advanced, Itano)`
+	`Excalibur`
+	`Excalibur (P)`
+	`Excalibur (P_Var1)`
+	`Excalibur (P_Var2)`
+	`Excalibur (Var1)`
+	`Excalibur (Var2)`
+	`Executive Guard`
+	`Explosive Derelict Bactrian`
+	`Explosive Derelict Korath Raider`
+	`Explosive Derelict Mule`
+	`FAd36 Flint`
+	`Falcon (Automaton)`
+	`Falcon (Flamethrower)`
+	`Falcon (Inferno Rockets)`
+	`Falcon (Isochronal)`
+	`Falcon (Korath)`
+	`Falcon (Parapet)`
+	`Falcon (Quad Mod Blaster)`
+	`Falcon (Remnant)`
+	`Falcon (Remnant B)`
+	`Falcon (Tarazed Lab)`
+	`Falcon Test Dummy`
+	`Falcon (Twin Torpedo Pod)`
+	`Familia`
+	`Far Lek 14 (scrap)`
+	`Far Osk 27 (Flamethrower)`
+	`Far Osk 27 (scrap)`
+	`FB/S-111w Aardvark`
+	`FB/S-117w Nighthawk`
+	`FC-022 Castello`
+	`Fenrir Station`
+	`FF-30 Volant`
+	`FG-10 Exchanger`
+	`FG-10 Exchanger (Post-Lucerne)`
+	`FG-10 Exchanger (Post-Lucerne, Upgrade I)`
+	`FG-5 Bluewhale`
+	`FG-5 Bluewhale-A`
+	`FG-5 Bluewhale-A (NGK, Turret Upgrade)`
+	`FG-5 Bluewhale (Proton)`
+	`FG-6 Startrain`
+	`FG-6 Startrain-A`
+	`FG-7 Conveyor`
+	`FG-7 Conveyor-A`
+	`FG-7 Conveyor-A (NGK, Turret Upgrade)`
+	`FiFc: Custom Fighter 1`
+	`FiFc: Custom Ship Example`
+	`FiFc: Outfitting Variant Example`
+	`Finch (Empire)`
+	`Finch (Flamethrower)`
+	`Finch (Inhibitor)`
+	`Fire Assassin`
+	`Firebird (Empire)`
+	`Firebird (Energy Cannons)`
+	`Firebird (Inferno Rockets)`
+	`Firebird (Lovelace Lab)`
+	`Firebird (Quad Mod Blaster)`
+	`Firebird Test Dummy`
+	`Firebird (Turbo Blaster)`
+	`Firebird (Twin Torpedo Pod)`
+	`Firefly Young`
+	`Fire Home`
+	`Firestorm`
+	`Flaming Sword`
+	`Flivver (Empire)`
+	`Flivver Lo-V`
+	`Flurry`
+	`Flycatcher (Chameleon)`
+	`Flycatcher (Laser)`
+	`FlyEater`
+	`#For compatibility`
+	`Forma`
+	`#for the construction ginaz drones to weld in space (simply just for some scene)`
+	`FPd45 Clinker`
+	`FR-4 Dart`
+	`Fregter`
+	`Freighter?`
+	`Freighter??`
+	`Freighter???`
+	`Freighter (Empire)`
+	`Freighter (Proton Turret-ATS)`
+	`Freighter Test Dummy`
+	`Freighter (Turner)`
+	`Freighter (Turner Power)`
+	`Frigate (Empire)`
+	`Frigate (Inferno Rockets)`
+	`Frigate (Lumbarian)`
+	`Frigate (Mark II, Pocket)`
+	`Frigate (Pug)`
+	`F/S-111w Aardvark (Republic)`
+	`F/S-14w Tomcat`
+	`F/S-15w Eagle`
+	`F/S-15w Eagle (Merchant)`
+	`F/S-15w Eagle (Republic)`
+	`F/S-16w Falcon`
+	`F/S-18w Super Hornet`
+	`F/S-22w Raptor`
+	`F/S-23w Black Widow`
+	`F/S-35w Lightning II`
+	`FTV-33 Acareus`
+	`FUe02a Gebrant`
+	`FUe02a Gebrant (G22)`
+	`FUe02y Gebrant Tender`
+	`FUe04a Gebrant II`
+	`FUe04a Gebrant II (G22)`
+	`FUe06a Gebrant III`
+	`FUe06a Gebrant III (G22)`
+	`Fuel Pod`
+	`Fuel Pod Class D`
+	`Fuel Pod Class H`
+	`#full release should have better engines at very least?`
+	`Fury (Black Death)`
+	`Fury (Bomber Limit Break)`
+	`Fury (Empire)`
+	`Fury (Hai)`
+	`Fury (Inferno Rockets)`
+	`Fury (Korath)`
+	`F-VC56 Kaga`
+	`Galaxias`
+	`Gander`
+	`Ganoth Bomber`
+	`Ganoth Mixed`
+	`Garbage Scow`
+	`Garbage Scow (Heavy)`
+	`Garbage Scow (Jammer)`
+	`Garbage Scow (Proton)`
+	`Garbage Scow (Quad Blaster)`
+	`Garbage Scow (Stinger)`
+	`Garbage Scow (Turbo)`
+	`Garokka`
+	`Garokka (Heavy)`
+	`Garokka (Light)`
+	`Garrison (Long Range)`
+	`Garrison (MHL Combat)`
+	`Gasat Bomber`
+	`Gazda`
+	`Gazda (Azdgari)`
+	`Gazda (Dispy)`
+	`Gazda (Pursuit)`
+	`Gazda (SAD)`
+	`Gazdira`
+	`Gazdira (Dispy)`
+	`Gazdira (Gunship)`
+	`Gazdira (Missileboat)`
+	`Gazdira (Pursuit)`
+	`G-Class Container Transport`
+	`Geeva Defence Turret`
+	`Genesis Cryoship`
+	`Genesis Freighter`
+	`Genesis Logistic`
+	`Genesis Logistic (Icicle)`
+	`Genesis Probe`
+	`Genesis Spacecraft`
+	`Genesis Spacecraft (Icicle)`
+	`Genesis Transport`
+	`Genesis Transport (Icicle)`
+	`Genterrac`
+	`Genus`
+	`Geocoris (Bloodstone)`
+	`Ghost PK`
+	`Gikaar`
+	`Gikeor`
+	`Ginaz Builder`
+	`Girok`
+	`Girok Torpedo`
+	`GKS-48 Zummenstoss`
+	`GKS-48 Zummenstoss (ACS)`
+	`GKS-48 Zummenstoss (Atomics)`
+	`GKS-48 Zummenstoss (Atomics, Regenerator)`
+	`Gladius`
+	`Gladius (Var1)`
+	`Gold Orboid`
+	`Gold Shield`
+	`Gold Shield (Cyclotron)`
+	`Gold Shield (Pulse)`
+	`Gold Shield (Pwave)`
+	`#Gosat`
+	`Grackle`
+	`Grakerat 572`
+	`Grakerat 572 (Infested)`
+	`Grakerat 572 (Scar)`
+	`Grakka`
+	`Gray Eye`
+	`Gray Eye Corpse`
+	`Gray Eyed`
+	`Gray Eye Specimen`
+	`Gremlin`
+	`Gremlin (Hai)`
+	`Gremlin (Luxury)`
+	`Gremlin (Smuggler)`
+	`Grokva`
+	`Grokva (Dels)`
+	`Grokva (Heavy)`
+	`Grose Bochse Class`
+	`Grudge Hammer`
+	`Gull (Bunks)(Far Remnant)`
+	`Gull (Cargo)(Far Remnant)`
+	`Gull (Far Remnant)`
+	`Gull (Gravedigger)`
+	`Gull (Scrapyard Rescue)`
+	`Gull (Sniper)(Far Remnant)`
+	`Gull (Support)(Far Remnant)`
+	`Gull (Support II)(Far Remnant)`
+	`Gunboat (Coalition)`
+	`Gunboat (Empire)`
+	`Gunboat (Flamethrower)`
+	`Gunboat (Inferno Rockets)`
+	`Gunboat (Lumbarian)`
+	`Gunboat (Mark II, Pocket)`
+	`Gunboat (modified)`
+	`Gunboat (Plasma)`
+	`Gunboat (Pug)`
+	`Gunboat (Rebels)`
+	`Gunboat (Test II)`
+	`Guz'Chasef`
+	`Guz'Chisel`
+	`GW Star Crackle`
+	`Gy-2`
+	`Hacker Drone`
+	`Hackerz Drone`
+	`Hailika`
+	`Haisihril`
+	`Hallucination (hai)`
+	`Hallucination (korath)`
+	`Hallucination (quarg)`
+	`Hallucination (wanderer)`
+	`Harrier`
+	`Hatchling`
+	`Hatchling (Var1)`
+	`Haul`
+	`Hauler (Empire)`
+	`Hauler (Energy Cannons)`
+	`Hauler Extended`
+	`Hauler II (Empire)`
+	`Hauler III (Empire)`
+	`Hauler III (Turner Power)`
+	`Hauler II (Turner Power)`
+	`Hauler Test Dummy`
+	`Hauler (Turner Power)`
+	`Hauler VI`
+	`Hauler VI (prototype)`
+	`Hawk (Black Death)`
+	`Hawk (Empire)`
+	`Hawk (Empire)(Miner)`
+	`Hawk (Hai)`
+	`Hawk (Inferno Rockets)`
+	`Hawk (Isochronal)`
+	`Hawk (Korath)`
+	`Hawk (Modified Blaster)`
+	`Hawk (Remnant)`
+	`Hawk (Remnant B)`
+	`Hawk (Stinger)`
+	`H-BS140 Yamato`
+	`H-BS140 Yamato (Early)`
+	`H-Class Super Container Ship`
+	`H-Class Super Container Ship (NGK)`
+	`HD-8426 Tarallion`
+	`Headhunter (Berserk)`
+	`Headhunter (Empire)`
+	`Headhunter (Korath)`
+	`Headhunter (LunaWine Long Range Escort)`
+	`Headhunter (LunaWine Long Range Escort, Burst Particle)`
+	`Headhunter (NCD Bounty)`
+	`Headhunter (Turner Power)`
+	`Heavy Shuttle (Empire)`
+	`Helgirvas`
+	`Heliarch Breacher (Evidence)`
+	`Heliarch Breacher (Rogue)`
+	`Heliarch Breacher (Rogue Ions)`
+	`Heliarch Breacher (Rogue Missile)`
+	`Heliarch Breacher (Rogue Scrappy)`
+	`Heliarch Hunter (Evidence)`
+	`Heliarch Hunter Ion (Jump)`
+	`Heliarch Hunter (Rogue)`
+	`Heliarch Hunter (Rogue Interdicting)`
+	`Heliarch Hunter (Rogue Ions)`
+	`Heliarch Hunter (Rogue Missile)`
+	`Heliarch Hunter (Rogue Scrappy)`
+	`Heliarch Hunter Trapper (Jump)`
+	`Heliarch Interdictor (Evidence)`
+	`Heliarch Interdictor (Rogue)`
+	`Heliarch Interdictor (Rogue Bombardment)`
+	`Heliarch Interdictor (Rogue Ions)`
+	`Heliarch Interdictor (Rogue Missile)`
+	`Heliarch Interdictor (Rogue Scrappy)`
+	`Heliarch Judicator (Rogue)`
+	`Heliarch Judicator (Rogue Attractor)`
+	`Heliarch Judicator (Rogue Ions)`
+	`Heliarch Judicator (Rogue Missile)`
+	`Heliarch Judicator (Rogue Repulsor)`
+	`Heliarch Judicator (Rogue Scrappy)`
+	`Heliarch Neutralizer (Evidence)`
+	`Heliarch Neutralizer (Rogue)`
+	`Heliarch Neutralizer (Rogue Missile)`
+	`Heliarch Neutralizer (Rogue Nimble)`
+	`Heliarch Neutralizer (Rogue Scrappy)`
+	`Heliarch Punisher (Evidence)`
+	`Heliarch Punisher (Rogue)`
+	`Heliarch Punisher (Rogue Interdicting)`
+	`Heliarch Punisher (Rogue Ions)`
+	`Heliarch Punisher (Rogue Missile)`
+	`Heliarch Punisher (Rogue Pure Finishers)`
+	`Heliarch Punisher (Rogue Scrappy)`
+	`Hellbat`
+	`Heron (Far Remnant)`
+	`Herrenbal (Long Range)`
+	`Hidersan`
+	`Hipparion`
+	`Hixur`
+	`HMM-190 Kotroger`
+	`Hobby`
+	`Holzst'rnak 11-P`
+	`Hordanler`
+	`Hordanler Anti-Fighter`
+	`Hornet`
+	`Hornet (Miner)`
+	`Hourglass`
+	`Huginn Station`
+	`Hunter UP1`
+	`Hurricane (Advanced Cooling)`
+	`Hurricane (Hai Crew)`
+	`Hydra`
+	`Hydra Station`
+	`Hyperlight Shuttle`
+	`Hyperspace Anomaly`
+	`Ialmuslati (Hyperdrive)`
+	`Ibis (disarmed)`
+	`Ibis (Far Remnant)`
+	`Ibis (Gravedigger)`
+	`Igadzra Arada`
+	`Igadzra Arada (SAE)`
+	`Igadzra Aridara`
+	`Igadzra Aridara (SAE)`
+	`Igadzra Aridara (Siphon)`
+	`Igazirada`
+	`Igazirada (Beamer)`
+	`Igazra`
+	`Igazra (Beamer)`
+	`Igazra (Plasma)`
+	`Ikatila'ej Eldar`
+	`Imp`
+	`Imperium`
+	`Inconceivable Cruiser`
+	`Infiltrator`
+	`Infiltrator (Derelict)`
+	`Infracohors`
+	`Infrafamilia`
+	`Infrafamilia (Carrier)`
+	`Infrafamilia (Logistic)`
+	`Infrafamilia (Minelayer)`
+	`Infrafamilia (Missile)`
+	`Insight`
+	`Ionic Leech`
+	`Ionic Leech Specimen`
+	`Iurenoa`
+	`Iurenoa (Hull)`
+	`Iurenoa (Missile)`
+	`Ivory Hatchling`
+	`Ivory Hatchling (Var1)`
+	`Jiunura`
+	`Jiunura (A)`
+	`Jiunura (B)`
+	`Jiunura (C)`
+	`Jortar`
+	`Kaargor`
+	`Kai'teris`
+	`Kai'xeris`
+	`Kajmaraj`
+	`Kakziar`
+	`Kamuel`
+	`Kargorko`
+	`Kar'hane`
+	`Kar Ik Vot 349 (Infested)`
+	`Kar Ik Vot 349 (Jump)`
+	`Kar Ik Vot 349 (scrap) A`
+	`Kar Ik Vot 349 (scrap) B`
+	`Kar Ik Vot 349 (scrap) C`
+	`Kar Ik Vot 349 (scrapper)`
+	`Kar Ik Vot 637`
+	`Kar Ik Vot 711`
+	`Karloz Drone`
+	`Kar Te Pet 497`
+	`Kasichara A'awoj (Jump)`
+	`Kasoulek`
+	`Kasoulek (Explorer)`
+	`Katen Civ 1`
+	`Katen Civ 1a`
+	`Katen Civ 1b`
+	`Katen Civ 2`
+	`Katen Civ 2a`
+	`Katen Civ 2b`
+	`Katen Civ 3`
+	`Katen Civ 3a`
+	`Katen Civ 4`
+	`Katen Civ 4b`
+	`Katen Civ S1`
+	`Katen Dark Blaster`
+	`K-Class Ultra Container Ship`
+	`K-Class Ultra Container Ship (NGK)`
+	`K-Class Ultra Container Ship (Post-Lucerne)`
+	`Kelhfavreb`
+	`Kelranter`
+	`Kemvanh`
+	`Keorlen`
+	`Kestrel (Battle Engines)`
+	`Kestrel (Battle Shields)`
+	`Kestrel (Battle Weapons)`
+	`Kestrel (Bloodwind)`
+	`Kestrel (Promotional)`
+	`Kestrel Prototype`
+	`Kestrel Prototype (Void Rifle)`
+	`Kimali`
+	`Kimek Bramble`
+	`Kimek Bramble (Deflector Barrier)`
+	`Kimek Branch`
+	`Kimek Briar (Blaster)`
+	`Kimek Briar (Deflector Barrier)`
+	`Kimek Briar (Model)`
+	`Kimek Sliver`
+	`Kimek Spire (Blaster)`
+	`Kimek Spire (Deflector Barrier)`
+	`Kimek Spire (Model)`
+	`Kimek Spire (pirate)`
+	`Kimek Spire (smuggler)`
+	`Kimek Thistle (Blaster)`
+	`Kimek Thistle (Deflector Barrier)`
+	`Kimek Thistle (Model)`
+	`Kimek Thistle (pirate)`
+	`Kimek Thorn (Barrier)`
+	`Kimek Thorn (Blaster)`
+	`Kimek Thorn (Model)`
+	`Kina`
+	`Kinika`
+	`Kinika (Vytorn)`
+	`Kinika (Zilnor)`
+	`KM50T Stetnel`
+	`Knife`
+	`Knowledge`
+	`Ko Dok Sam`
+	`Ko Dok Sam (Vordai)`
+	`Koggareu`
+	`Koi (Drone)`
+	`Koi (Freighter)`
+	`Kolo'akir`
+	`Korath Chaser (Miner)`
+	`Korath Devourer`
+	`Korath Devourer (Infested)`
+	`Korath Dredger (Infested)`
+	`Korath Dredger (Scrapper)`
+	`Korath Dredger (Scrapyard)`
+	`Korath Explorer`
+	`Korath Explorer (Banisher)`
+	`Korath Explorer (Exile)`
+	`Korath Explorer (Grab-Strike)`
+	`Korath Explorer (Sestor)`
+	`Korath Forager`
+	`Korath Forager (Tormentor)`
+	`Korath Predator`
+	`Korath Raider (Chaos Hammer)`
+	`Korath Raider (Fireswarm)`
+	`Korath Raider (Fireswarm Ember)`
+	`Korath Raider (Infested)`
+	`Korath Raider (Plexus)`
+	`Korath Raider (Scrapyard)`
+	`Korath Raider (Torpedo)`
+	`Korath Raider (Tough)`
+	`Korath Ranger`
+	`Korath Ranger (Fireswarm)`
+	`Korath Ranger (Grappler)`
+	`Korath Ranger (Shocker)`
+	`Korath Scouter`
+	`Korath Scouter (Crippled)`
+	`Korath Scouter (Fire-Lance)`
+	`Korath Scouter (Repeater)`
+	`Korath Scrapper (carrier)`
+	`Korath Scrapper (engines)`
+	`Korath Scrapper (shields)`
+	`Korath Scrapper (weapons)`
+	`Korath Transport`
+	`Korath Transport B`
+	`Korath Transport C`
+	`Korath Warlord`
+	`Korath Warlord (Artillery)`
+	`Korath Warlord (Prototype)`
+	`Korath Warmonger`
+	`Korath Warmonger (Fireswarm)`
+	`Korath Warmonger (Grappler)`
+	`Korath Warmonger (Shocker)`
+	`Korath World Crafter`
+	`Korath World Forger`
+	`Korath World Shaper`
+	`Korath World-Ship B (Fireswarm)`
+	`Korath World-Ship B (Shocker)`
+	`Korath World-Ship B (Shock-Strike)`
+	`Korath World-Ship C (Fireswarm)`
+	`Korath World-Ship C (Shocker)`
+	`Korath World-Ship C (Shock-Strike)`
+	`Korath World-Ship D (Crippled)`
+	`Korath World-Ship (Fireswarm)`
+	`Korath World-Ship (Shocker)`
+	`Korath World-Ship (Shock-Strike)`
+	`Kor Efret World Crafter`
+	`Kor Explorer`
+	`Korsmanath A'awoj (Jump)`
+	`Korsmanath A'awoj (Refiner)`
+	`Kraken Station`
+	`Kru'urlin 89-B`
+	`Kuiseire`
+	`Kunshera`
+	`Kyseruna`
+	`LAC-4 Lithalsa`
+	`Ladon`
+	`Ladon (Var1)`
+	`Ladon (Var2)`
+	`Lance (Empire)`
+	`Lance (Lumbarian)`
+	`Lazira`
+	`Lazira (Attractor)`
+	`Lazira (Gunboat)`
+	`Lazira (Pursuit)`
+	`Lazira (Repulsor)`
+	`Lazira (SAD)`
+	`Lazira (Turret)`
+	`LCC-3 Sierra`
+	`Leatherback`
+	`Legendary Aerie`
+	`Legendary Argosy`
+	`Legendary Behemoth`
+	`Legendary Carrier`
+	`Legendary Corvette`
+	`Legendary Falcon`
+	`Legendary Leviathan`
+	`Legendary Osprey`
+	`Legio`
+	`Lenmig (Carrier)`
+	`Lenmig'sraor 52-T`
+	`Lenmig (Trapper)`
+	`Leviathan (Automaton)`
+	`Leviathan (Empire)`
+	`Leviathan (EPS-1)`
+	`Leviathan (Inferno Rockets)`
+	`Leviathan (NGK Escort)`
+	`Leviathan (NGK Escort, Turret Upgrade)`
+	`Leviathan (Quad Mod Blaster)`
+	`Leviathan Station`
+	`Leviathan Test Dummy`
+	`Leviathan (Turbo Blaster)`
+	`Leviathan (Twin Torpedo Pod)`
+	`LGC-3 Mesa`
+	`Liberator`
+	`Liberator (Test)`
+	`Lightning Bug (Bloodstone)`
+	`Lightning Bug (Jump)`
+	`Lightning Bug (Jump, Pulse)`
+	`Liquid Metal`
+	`LIS Argosy (North Viktor)`
+	`LIS Cannibal Colonizer`
+	`LIS Cannibal Converter`
+	`LIS Cannibal Friend`
+	`LIS Cannibal Transporter`
+	`LIS Catcher`
+	`LIS Catcher (cannibals)`
+	`LIS Catcher (Stranded Olzito)`
+	`LIS Clipper (North Viktor Buyer)`
+	`LIS Finch (Viktor)`
+	`LIS Finch (Viktor) (Miner)`
+	`LIS Lissa Friend`
+	`LIS Lissa Hunter`
+	`LIS Lissa Protector`
+	`LIS Lissa Protector (Jump Drive)`
+	`LIS Lissa Waster`
+	`LIS Lissa Waster (Jump Drive)`
+	`LIS Marauder Manta (North Viktor Buyer)`
+	`LIS Mule (Viktor)`
+	`LIS Repeller`
+	`LIS Repeller (Jump Drive)`
+	`LIS Roost (Viktor)`
+	`Lissa Liza's ship (First)`
+	`Lissa Liza's ship (Stem Drive)`
+	`LIS Shard Drone`
+	`LIS Shard Transporter`
+	`LIS Shun`
+	`Lizada`
+	`Lizada (Turrets)`
+	`Llama`
+	`Lleisgarir Hardri`
+	`LMS-43 Mullsammler`
+	`LMS-43 Mullsammler (Quad Blaster)`
+	`Locust`
+	`Longinus`
+	`Longinus (Var1)`
+	`Longinus (Var2)`
+	`Lor'kas Ik 577 (Ember)`
+	`LPC-2 Atletha`
+	`LPC-2 Atletha Wreckage`
+	`LPC-3 Lavaka`
+	`Lucerne Class`
+	`Lucerne Class MkII`
+	`Lumbarian Cutlas-Class`
+	`Lumbarian Doom-Class`
+	`Lumbarian Drak-Class`
+	`Lumbarian Ecthelion-Class`
+	`Lumbarian Fork-Class`
+	`Lumbarian Pike-Class`
+	`Lumbarian Sting-Class`
+	`Lumbarian Trident-Class`
+	`Luminazoa`
+	`Luminazoa Specimen`
+	`L-VC28 Zuikaku`
+	`L-VC28 Zuikaku (Advanced)`
+	`LVC-2 Sandura`
+	`LVC-2 Sandura (NGK, Turret Upgrade)`
+	`LXC-2 Strata`
+	`Lycosidae`
+	`Maeri'het (Scanner)`
+	`Maeri'het (Scanner, Disable-able)`
+	`Magpie`
+	`Magpie (Grave Digger)`
+	`Mammoth (Insurgent Subjugation Gear)`
+	`Manta (Empire)`
+	`Manta (Korath)`
+	`Marauder Argosy`
+	`Marauder Argosy (Afterburner)`
+	`Marauder Argosy (Bounty Hunter)`
+	`Marauder Argosy (Sniper)`
+	`Marauder Arrow (Alien Artifact)`
+	`Marauder Arrow (Shields)`
+	`Marauder Arrow (Used)`
+	`Marauder Arrow (Used Engines)`
+	`Marauder Arrow (Used Weapons)`
+	`Marauder Bastion`
+	`Marauder Behemoth`
+	`Marauder Behemoth (Hai)`
+	`Marauder Behemoth (Scavenger)`
+	`Marauder Behemoth (Scavenger Pug)`
+	`Marauder Behemoth (Scavenger Quarg)`
+	`Marauder Behemoth (Secret Prototype)`
+	`Marauder Bounder (Alien Artifact)`
+	`Marauder Bounder (Used)`
+	`Marauder Bounder (Used Engines)`
+	`Marauder Bounder (Used Weapons)`
+	`Marauder Dagger`
+	`Marauder Falcon (Boarding)`
+	`Marauder Falcon (Enforcer Confrontation Gear)`
+	`Marauder Falcon (NCD Bounty)`
+	`Marauder Falcon (Northern Pirate Arion)`
+	`Marauder Falcon (Northern Pirate Leader Arion)`
+	`Marauder Falcon (Reverberator Rifle)`
+	`Marauder Falcon (Secret Prototype)`
+	`Marauder Falcon (Sheragi Counterfeit)`
+	`Marauder Falcon (Shields)`
+	`Marauder Falcon (Used)`
+	`Marauder Falcon (Used Engines)`
+	`Marauder Falcon (Used Weapons)`
+	`Marauder Firebird (Pulse Rifle)`
+	`Marauder Firebird (Sheragi Counterfeit)`
+	`Marauder Firebird (Used)`
+	`Marauder Firebird (Used Engines)`
+	`Marauder Firebird (Used Weapons)`
+	`Marauder Hauler`
+	`Marauder Hauler B`
+	`Marauder Hauler C`
+	`Marauder Hauler (engines)`
+	`Marauder Hauler (used)`
+	`Marauder Hauler (used B)`
+	`Marauder Hauler (used C)`
+	`Marauder Hauler (used engines)`
+	`Marauder Hauler (used weapons)`
+	`Marauder Hauler (weapons)`
+	`Marauder Kestrel`
+	`Marauder Leviathan (Ion Pulse Shotgun)`
+	`Marauder Leviathan (NCD Bounty)`
+	`Marauder Leviathan (Northern Pirate Arion)`
+	`Marauder Leviathan (Northern Pirate Leader Arion)`
+	`Marauder Leviathan (Secret Prototype)`
+	`Marauder Leviathan (Sheragi Counterfeit)`
+	`Marauder Leviathan (Shields)`
+	`Marauder Leviathan (Spinals)`
+	`Marauder Leviathan (Used)`
+	`Marauder Leviathan (Used Engines)`
+	`Marauder Leviathan (Used Weapons)`
+	`Marauder Manta (NCD Bounty)`
+	`Marauder Manta (Sheragi Counterfeit)`
+	`Marauder Manta (Shields)`
+	`Marauder Manta (Used)`
+	`Marauder Manta (Used Engines)`
+	`Marauder Manta (Used Weapons)`
+	`Marauder Osprey`
+	`Marauder Protector`
+	`Marauder Protector (Lasher Pistol)`
+	`Marauder Protector (Secret Prototype)`
+	`Marauder Quicksilver (Alien Artifact)`
+	`Marauder Quicksilver (Shamrock)`
+	`Marauder Quicksilver (Sheragi Counterfeit)`
+	`Marauder Quicksilver (Used)`
+	`Marauder Quicksilver (Used Engines)`
+	`Marauder Quicksilver (Used Weapons)`
+	`Marauder Quicksilver (XGS Escort)`
+	`Marauder Quicksilver (XGS Escort, Weapons)`
+	`Marauder Raven (Alien Artifact)`
+	`Marauder Raven (Northern Pirate Arion)`
+	`Marauder Raven (Sheragi Counterfeit)`
+	`Marauder Raven (Tuning Rifle)`
+	`Marauder Raven (Used)`
+	`Marauder Raven (Used Engines)`
+	`Marauder Raven (Used Weapons)`
+	`Marauder Rukh`
+	`Marauder Rukh (Heavy)`
+	`Marauder Rukh (Inferno Rocket)`
+	`Marauder Sparrow`
+	`Marauder Sparrow (Afterburner)`
+	`Marauder Sparrow (Blaster)`
+	`Marauder Sparrow (Gatling)`
+	`Marauder Sparrow (Heavy)`
+	`Marauder Sparrow (Meteor Missile)`
+	`Marauder Sparrow (Mod Blaster)`
+	`Marauder Sparrow (Turbo Blaster)`
+	`Marauder Splinter (Engines, Bounty Hunter, AntiMHL)`
+	`Marauder Splinter (Minotaurs 1, Engines)`
+	`Marauder Splinter (NCD Bounty)`
+	`Marauder Splinter (Northern Pirate Arion)`
+	`Marauder Splinter (Sheragi Counterfeit)`
+	`Marauder Splinter (Shields)`
+	`Marauder Splinter (Thermal Repeater Rifle)`
+	`Marauder Splinter (Used)`
+	`Marauder Splinter (Used Engines)`
+	`Marauder Splinter (Used Weapons)`
+	`Marauder Vanguard`
+	`Marauder Vanguard (Lasher Rifle)`
+	`Marauder Vanguard (Meltdown Cannon)`
+	`Marauder Vanguard (Plasma Cluster)`
+	`Marauder Vanguard (Ranseur)`
+	`Marauder Vanguard (Secret Prototype)`
+	`Marauder Vanguard (Sheragi Counterfeit)`
+	`Marauder Wasp`
+	`Marauder Wasp (Afterburner)`
+	`Marauder Wasp (Blaster)`
+	`Marauder Wasp (Nuke)`
+	`Mastodon`
+	`Mavuin (Varsrel)`
+	`Mayuinia`
+	`Mechanized Mine`
+	`Mechanized Mine (SD)`
+	`Mecohni`
+	`Mefterk Refinery`
+	`Mega Barge`
+	`Megalocoleus`
+	`Megalocoleus (Jump)`
+	`Memoria Alpha`
+	`Mereti Efret`
+	`Merganser (Far Remnant)`
+	`Merganser (II)(Far Remnant)`
+	`Mesa (LE Filled)`
+	`Mesa (LE Half-Filled)`
+	`Mesa (LE Third-Filled)`
+	`Mesa (LH Filled)`
+	`Mesa (LH Half-Filled)`
+	`Mesa (LH Third-Filled)`
+	`Mesa (LNG Filled)`
+	`Mesa (LNG Half-Filled)`
+	`Mesa (LNG Third-Filled)`
+	`Metal Asteroid `
+	`Met Par Tek 53 (scrap) A`
+	`Met Par Tek 53 (scrap) B`
+	`Met Par Tek 53 (scrap) C`
+	`Met Par Tek 53 (scrapper)`
+	`Metropolis`
+	`Microphylum`
+	`Millipede`
+	`Miner Razor`
+	`Minnow (No Hyperdrive)`
+	`Minnow (No Hyperdrive, Filled)`
+	`Mirunisa`
+	`Mirunisa (Mines)`
+	`Mirunisa (Repulsor)`
+	`Missileboat`
+	`Missileboat (Nuclear)`
+	`Missileboat (Turbo Blaster)`
+	`Missileboat (Used)`
+	`Model 1024`
+	`Model 1024 (Greenhouse)`
+	`Model 1024 (Infested)`
+	`Model 1024 (Wrecked)`
+	`Model 128 (Carrier)`
+	`Model 128 (scrap) A`
+	`Model 128 (scrap) B`
+	`Model 128 (scrap) C`
+	`Model 128 (scrapper)`
+	`Model 16 (scrap) A`
+	`Model 16 (scrap) B`
+	`Model 16 (scrap) C`
+	`Model 16 (scrapper)`
+	`Model 192`
+	`Model 2`
+	`Model 256 (Carrier)`
+	`Model 256 (Infested)`
+	`Model 256 (scrap) A`
+	`Model 256 (scrap) B`
+	`Model 256 (scrap) C`
+	`Model 256 (scrapper)`
+	`Model 32 (scrap) A`
+	`Model 32 (scrap) B`
+	`Model 32 (scrap) C`
+	`Model 32 (scrapper)`
+	`Model 512 (Carrier)`
+	`Model 512 (dire omen)`
+	`Model 512 (Infested)`
+	`Model 512 (Jump)`
+	`Model 512 (scrap) A`
+	`Model 512 (scrap) B`
+	`Model 512 (scrap) C`
+	`Model 512 (scrapper)`
+	`Model 64 (scrap) A`
+	`Model 64 (scrap) B`
+	`Model 64 (scrap) C`
+	`Model 64 (scrapper)`
+	`Model 8 (disruptor)`
+	`Model 8 (Disruptor)`
+	`Model 8 (minelayer)`
+	`Model 8 (Minelayer)`
+	`Model 8 (scrap) A`
+	`Model 8 (scrap) B`
+	`Model 8 (scrap) C`
+	`Model 8 (scrapper)`
+	`Modified Aerie`
+	`Modified Argosy (Black Death)`
+	`Modified Argosy (Drug Smuggler)`
+	`Modified Argosy (Flamethrower)`
+	`Modified Argosy (Inferno Rocket)`
+	`Modified Argosy (Korath)`
+	`Modified Argosy (Nuclear)`
+	`Modified Argosy (Quad Mod Blaster)`
+	`Modified Argosy (Sheragi Counterfeit)`
+	`Modified Argosy (Shields)`
+	`Modified Argosy (Shields Blaster)`
+	`Modified Argosy (Shields Heavy)`
+	`Modified Argosy (Shields Missile)`
+	`Modified Argosy (Shields Smuggler)`
+	`Modified Argosy (Stinger)`
+	`Modified Argosy (Turbo Blaster)`
+	`Modified Argosy (Turbo Stinger)`
+	`Modified Argosy (Twin Torpedo Pod)`
+	`Modified Argosy (used slaver)`
+	`Modified Argosy (used smuggler)`
+	`Modified Bactrian`
+	`Modified Bactrian (Remnant)`
+	`Modified Berserker`
+	`Modified Blackbird`
+	`Modified Cargo Star`
+	`Modified Cargo Star (Smuggler)`
+	`Modified Clipper`
+	`Modified Clipper (Bounty Hunter)`
+	`Modified Clipper (Miner)`
+	`Modified Clipper (Smuggler)`
+	`Modified Clipper (Turbo Blaster)`
+	`Modified Clipper (Zephyr)`
+	`Modified Dromedary (Metro)`
+	`Modified Firebird`
+	`Modified Firebird (Smuggler)`
+	`Modified Flivver`
+	`"Modified Flivver (Miner)`
+	`Modified Garbage Scow`
+	`Modified Garbage Scow (Heavy)`
+	`Modified Garbage Scow (Proton)`
+	`Modified Garbage Scow (Quad Blaster)`
+	`Modified Hauler`
+	`Modified Hauler II`
+	`Modified Hauler III`
+	`Modified Hauler III (Turbo Blaster)`
+	`Modified Hauler II (Turbo Blaster)`
+	`Modified Hauler (Turbo Blaster)`
+	`Modified Hellbat`
+	`Modified Kestrel`
+	`Modified Kestrel (Remnant Engines)`
+	`Modified Kestrel (Remnant Shields)`
+	`Modified Kestrel (Remnant Weapons)`
+	`Modified Nest`
+	`Modified Roost`
+	`Mod Scimitar`
+	`Mokla (Barviska)`
+	`Mokla (Botavu)`
+	`Mokla (E Resist)`
+	`MQ/S-4w Global Hawk`
+	`Mrag Turret`
+	`MSR/S-71w Blackbird`
+	`Muesli Carrier`
+	`Mugildor`
+	`Mukikor`
+	`Mule (Eden)`
+	`Mule (Empire)`
+	`Mule (Hai NCD)`
+	`Mule (NCD A4)`
+	`Mule (NCD Bounty)`
+	`Mule (NCD F15)`
+	`Mule (Shio)`
+	`Mule Test Dummy`
+	`Mule (Turner Power)`
+	`Municipality`
+	`Muninn Station`
+	`Muysikre`
+	`Myrmex`
+	`Myrmidon`
+	`Mysterious Asteroid`
+	`Mysterious Comet`
+	`Nasprite`
+	`Nasprite (Swordfish)`
+	`Nasprite (Syndicate Border Patrol)`
+	`#Need buff`
+	`Nekris Predator`
+	`Nest (Korath)`
+	`Nightingale`
+	`Nightingale (Far Remnant)`
+	`Nixus`
+	`Nova Firefly`
+	`Nova Firefly Specimen`
+	`Nugget`
+	`Nukrau`
+	`Oberon Station`
+	`Offensive Gikeor`
+	`Ogopogo`
+	`OmegaPhrynus`
+	`Opal Glaive`
+	`Opal Glaive (Light)`
+	`Opal Glaive (Shadow)`
+	`Orboid`
+	`Ordo`
+	`Oresu (Offense)`
+	`Or Kar Destroyer`
+	`Osk Lek Chaser`
+	`Osprey (Black Death)`
+	`Osprey (Empire)`
+	`Osprey (Flamethrower)`
+	`Osprey (Inferno Rockets)`
+	`Osprey (Isochronal)`
+	`Osprey (Rebels)`
+	`Osprey (Remnant)`
+	`Osprey (Remnant B)`
+	`Osprey (Twin Torpedo Pod)`
+	`Oulkorke`
+	`Outrider`
+	`Outrider (Mark II)`
+	`Outrider (Pirate)`
+	`Outrider (Surplus)`
+	`Outrider (Turbo Blaster)`
+	`Pai Lek 36`
+	`Pai Osk 45`
+	`Palavret (Graviton Generator)`
+	`Palavret Tek`
+	`Parade Float`
+	`Parvregalimen`
+	`PAS-2 Bulwark`
+	`PAS-2 Bulwark (Parapets)`
+	`PAS-2 Bulwark (Plasma)`
+	`PAS-3 Barbette`
+	`PAS-3 Barbette (Early, ACS)`
+	`PAS-3 Barbette (Early, G22)`
+	`PAS-3 Barbette (FW Pug)`
+	`PAS-3 Barbette (FW Pug, Jump)`
+	`PAS-3 Barbette (Parapet)`
+	`Patrolboat`
+	`Patrolboat (Turbo Blaster)`
+	`Patrolboat (Used)`
+	`PCS-4 Castle`
+	`PCS-5 Citadel`
+	`Peacebringer`
+	`Pelican (disarmed)`
+	`Pelican (Far Remnant)`
+	`Pelican (Gravedigger)`
+	`Pelican (Heavy Lift)(Far Remnant)`
+	`Penguin (Far Remnant)`
+	`Penguin (Gravedigger)`
+	`Peregrine (Far Remnant)`
+	`Peregrine (II)(Far Remnant)`
+	`Peregrine (Scrapyard Derelict)`
+	`Petrel (Far Remnant)`
+	`PF-80 Intrepid`
+	`PF-80 Intrepid (Atomic, Jacks)`
+	`PF-80 Intrepid (Laser)`
+	`PF-80 Intrepid (Plasma Engine)`
+	`PF-80 Intrepid (Swordfish)`
+	`Phantom Drone Launcher`
+	`Phantom Drone Launcher (jump)`
+	`Phantom Mine Launcher`
+	`Phoenix Station`
+	`Phrynus`
+	`Phrynus (Ion Focus)`
+	`Phrynus (Ion Tracker)`
+	`Phrynus (Long Range Ion)`
+	`Phrynus (Miner)`
+	`Phrynus (Octa)`
+	`Phrynus (Penta Blaster)`
+	`Phrynus (Ruby Shredder)`
+	`Phrynus (Tracker)`
+	`Phylum`
+	`Pirate Drone`
+	`Pirate Drone (Explosive)`
+	`Pirate Drone (ExplosiveSD)`
+	`Pirate Drone (Modified)`
+	`PL-50 Impavid`
+	`PL-50 Impavid (Upgrade 1)`
+	`Plasma Parasite`
+	`Plasma Parasite (Large)`
+	`Plasma Parasite Specimen`
+	`Plasma Parasite (Time Bomb 1)`
+	`Plasma Parasite (Time Bomb 2)`
+	`Plasma Parasite (Time Bomb 3)`
+	`Platinum Spear`
+	`Platinum Spear (Pulse)`
+	`Platinum Spear (PWave)`
+	`Platinum Spear (Shields)`
+	`Plexus`
+	`Plexus (Korath)`
+	`Pollaxe`
+	`Pollaxe (Var1)`
+	`Pollaxe (Var2)`
+	`Potato`
+	`Prateskar 711`
+	`Prefect's Albatross`
+	`Prefecture`
+	`Protector?`
+	`Protector (Empire)`
+	`Protector (Korath)`
+	`Protector (Proton Turret-ATS)`
+	`Protector (Quad Mod Blaster)`
+	`Protector Test-PTATS`
+	`Psychopomp`
+	`PT-60 Gallant`
+	`Puffin (Far Remnant)`
+	`Pug Enfolta (Seeker)`
+	`Pug Enfolta (Zapper)`
+	`Pug Hukilgo`
+	`Pug Karota`
+	`Pug Lzdihsek`
+	`Pug Maboro (Seeker)`
+	`Pug Maboro (Zapper)`
+	`Pug Paragon Enfolta`
+	`Pug Paragon Enfolta (Afterburner)`
+	`Pug Paragon Enfolta (Dual Seeker)`
+	`Pug Paragon Enfolta (Ion Zapper)`
+	`Pug Paragon Enfolta (Thunder Seeker)`
+	`Pug Paragon Maboro`
+	`Pug Paragon Maboro (Afterburner)`
+	`Pug Paragon Maboro (Dual Seeker)`
+	`Pug Paragon Maboro (Ion Zapper)`
+	`Pug Paragon Zibruka`
+	`Pug Paragon Zibruka (Dual Seeker)`
+	`Pug Paragon Zibruka (Ion Zapper)`
+	`Pug Paragon Zibruka (Thunder Seeker)`
+	`#Pug T2 Fighter`
+	`Pug Theenkiek`
+	`Pug Tulikaa`
+	`Pug Tulikaa (Combat)`
+	`Pug Zibruka (Seeker)`
+	`Qargi`
+	`Qisrkea`
+	`Qoro(M) Manta`
+	`Qoro(M) Masec`
+	`Qoro(M) Matoanan`
+	`Qoro(S) Elgarel`
+	`Qoro(S) Elogarl`
+	`Qoro(S) Ganoth`
+	`Qoro(S) Logr`
+	`Quarg Amphithere`
+	`Quarg Battleproteus`
+	`Quarg Battleproteus (Missile)`
+	`Quarg Drake`
+	`Quarg Fafnir`
+	`Quarg Gtuhanai`
+	`Quarg Hydra`
+	`Quarg Kaukas`
+	`Quarg Psuchawrl`
+	`Quarg Seakraken`
+	`Quarg Skylark (Scanner)`
+	`Quarg Skylark (Surveillance)`
+	`Quarg Skyswift`
+	`Quarg Slibinas`
+	`Quarg Tarasque`
+	`Quarg Tiamat`
+	`Quarg Wardragon (Automaton)`
+	`Quarg Wardragon (Automaton, Missile)`
+	`Quarg Wardragon (Automaton, Offense)`
+	`Quarg Wardragon (Scanner)`
+	`Quarg Wardragon (Surveillance)`
+	`Quarg Wardrake`
+	`Quarg Warwyvern`
+	`Quarg Zilant`
+	`Quicksilver (Black Death)`
+	`Quicksilver (Empire)`
+	`Quicksilver (EPB3-2)`
+	`Quicksilver (Korath)`
+	`Quicksilver (Rangphenn Escort)`
+	`Quicksilver Test Dummy2`
+	`QYG-30 Qazan`
+	`QYG-30 Qazan (Quad Blaster)`
+	`QYG-30r Qazan`
+	`QYG-30r Qazan (Quad Blaster)`
+	`QYG-60 Sandiq`
+	`QYG-60 Sandiq (Quad Blaster)`
+	`QYG-70r Tonazqi`
+	`Ra'at Ik 621 (Shock Strike)`
+	`Ra'gru Ik 618 (Shock Strike)`
+	`Rai'alorej Makwar`
+	`Rainmaker (Inferno Rockets)`
+	`Rainmaker (Lumbarian)`
+	`Rainmaker (Mark II, Pocket)`
+	`Rainmaker (Nuclear)`
+	`Rainmaker (Test II)`
+	`Rainmaker (Wanderer)`
+	`Rancor`
+	`Rancor (Berserker)`
+	`Rancorster`
+	`Rancorster (Miner)`
+	`Rancor (Turbo Blaster)`
+	`Rancor (Used)`
+	`Ranmaker (Empire)`
+	`Rano'erek Ik`
+	`Rano'erek Tek`
+	`Ranseur Class`
+	`Rao'xeris`
+	`Raptor Prototype`
+	`Raptor Prototype (unarmed)`
+	`Raular`
+	`Ravager`
+	`Raven (Hai)`
+	`Raven (Inferno Rockets)`
+	`Raven "Raven (Empire)"`
+	`Raven (Remnant)`
+	`Raven (Remnant B)`
+	`Raven (Turner Power)`
+	`Raven (Twin Torpedo Pod)`
+	`Rawalpindi`
+	`Reayranjr`
+	`Rebel Firebird`
+	`Rebel Kyanite`
+	`Rebel Raven`
+	`Regalis`
+	`Regio`
+	`Regio (Mining)`
+	`Regnum`
+	`Regnum (Author)`
+	`Regnum (Mining)`
+	`Relentless Grudge`
+	`Resmakia Asteroid`
+	`Resmakia Asteroid2`
+	`Revos Caosma`
+	`Revos Homan`
+	`Revos Mokla`
+	`Revos Rova`
+	`RF-03 Gerlache`
+	`Rock Scavenger`
+	`Roekler`
+	`Rogue Asteroid`
+	`Rondel (Typhoon Bomb)`
+	`Roost (Korath)`
+	`Rova (E Resist)`
+	`Rova (Fast)`
+	`Ruby Dagger`
+	`Ruby Hammer`
+	`Ruby Hammer (Pulse)`
+	`Ruby Hammer (PWave)`
+	`Rukh`
+	`Rukh (Energy Cannons)`
+	`Rukh (Heavy)`
+	`Rukh (Modified Blaster)`
+	`Rukh (Turbo)`
+	`Rukh (Turbo Blaster)`
+	`RZ-28 Forlan`
+	`RZ-621-02 Razor`
+	`Sapphire Shield`
+	`Sarkic`
+	`Saryd Runabout (Barrier)`
+	`Saryd Runabout (Blaster)`
+	`Saryd Runabout (Model)`
+	`Saryd Sojourner (Blaster)`
+	`Saryd Sojourner (Deflector Barrier)`
+	`Saryd Sojourner (Model)`
+	`Saryd Sojourner (pirate)`
+	`Saryd Sojourner (smuggler)`
+	`Saryd Trailblazer`
+	`Saryd Trailblazer (Antique)`
+	`Saryd Trailblazer (Pirate)`
+	`Saryd Trailblazer (Pug)`
+	`Saryd Trailblazer (warship)`
+	`Saryd Traveler (Blaster)`
+	`Saryd Traveler (Deflector Barrier)`
+	`Saryd Traveler (Model)`
+	`Saryd Traveler (pirate)`
+	`Saryd Visitor (Blaster)`
+	`Saryd Visitor (Deflector Barrier)`
+	`Saryd Visitor (Model)`
+	`SBS-12 Ossun`
+	`SC-1 Alcazar`
+	`Scarab (Bloodstone)`
+	`Scarred`
+	`Scavenger`
+	`Scavenger Scrapper`
+	`Scavenger Scrapper (Adamas, Fractal)`
+	`Scavenger Scrapper (Adamas, Needler-T)`
+	`Scavenger Scrapper (Human, Blaster)`
+	`Scavenger Scrapper (Human, Heavy Lasers)`
+	`Scavenger Scrapper (Quarg, Ultimate)`
+	`Scimitar`
+	`Scimitar Lonsword`
+	`Scorched Earth`
+	`Scorpion`
+	`Scorpion (Var1)`
+	`Scorpion (Var2)`
+	`Scout (Bounty Hunter)`
+	`Scout (Eden)`
+	`Scout (Empire)`
+	`Scout (Empire)(Miner)`
+	`Scout (Hai)`
+	`Scout (NCD Bounty)`
+	`Scout (Shio)`
+	`Scout (Turbo Blaster)`
+	`Scout (Turner Power)`
+	`Scrapper (Ankulah)`
+	`Scrapper (Ankulah Scout)`
+	`Scrapper (Mod Shielding)`
+	`Scrapper (Turbo Blaster)`
+	`Scrapyard World-Ship (Crippled)`
+	`Scud`
+	`Sea Drake`
+	`Sea Scorpion (Ion Flash)`
+	`Sea Scorpion (Ion Pulse)`
+	`Sea Scorpion (Pulse, Jump)`
+	`Senka (Laser)`
+	`Sentasor`
+	`Set Ru Ket 112`
+	`S-FS06 Reisen`
+	`S-FS06 Reisen (Refined I)`
+	`SG-60 Ginaz Patrol Drone`
+	`Shadow Falcon`
+	`Shadow Falcon (B)`
+	`Shadow Hawk`
+	`Shadow Hawk (B)`
+	`Shadow Osprey`
+	`Shadow Osprey (B)`
+	`Shadow Raven`
+	`Shadow Raven (B)`
+	`Shallow Pond`
+	`Shallow Pond (Jump)`
+	`Shard`
+	`Shard (Needler)`
+	`Sharnhi Bvragun`
+	`Shield Beetle (Bloodstone)`
+	`Shield Beetle (hallucination)`
+	`Shield Beetle (Ion Flash)`
+	`Shield Beetle (Ion Pulse)`
+	`Shield Beetle (Jump, Ion Pulse)`
+	`Shield Beetle (Jump, Pulse)`
+	`Shield Beetle (Lumbarian)`
+	`Shield Beetle (Minotaurs I)`
+	`Shield Beetle (Minotaurs II)`
+	`Shield Beetle (Police, Ion Flash)`
+	`Shield Beetle (Weapon Collector)`
+	`Shield Fortress`
+	`Shio Firebird`
+	`Shio Leviathan`
+	`Short Sword`
+	`Short Sword (Blue)`
+	`Short Sword (Green)`
+	`Short Sword (Red)`
+	`Shuttle (Blaster)`
+	`Shuttle (Kamikaze)`
+	`Shuttle (Missile)`
+	`Shuttle Pod`
+	`Shuttle Pod (Beam Laser)`
+	`Shuttle Pod (Fire Support)`
+	`Shuttle Pod (Passenger)`
+	`Shuttle Pod (Pirate)`
+	`Shuttle Pod (Turbo Blaster)`
+	`Silver Orboid`
+	`Skein (Catalytic)`
+	`Skoretak 13`
+	`SKVS-2 Mudskipper`
+	`SKVS-3 Gudgeon`
+	`SKVS-4 Minnow`
+	`Slicer`
+	`SMC-2 Kipuka`
+	`Smew (Far Remnant)`
+	`Smew (Miner)(Far Remnant)`
+	`Smew (Runabout)(Far Remnant)`
+	`Smew (Teciimach Ferry)(Far Remnant)`
+	`SMM-111 Bagger`
+	`Smuggler's Den`
+	`Solifuge (Ion Flash)`
+	`Solifuge Prototype`
+	`Solitude`
+	`Sorgeldaz`
+	`Sparrow (Afterburner)`
+	`Sparrow (Black Death)`
+	`Sparrow (Chainsaw)`
+	`Sparrow (Espion)`
+	`Sparrow (Gatling Limit Break)`
+	`Sparrowhawk`
+	`Sparrow (Isochronal)`
+	`Sparrow (Kamikaze)`
+	`Sparrow (Korath)`
+	`Sparrow (Limit Break)`
+	`Sparrow (Meteor Missile)`
+	`Sparrow (Modified Blaster)`
+	`Sparrow "Sparrow (Killer Ion)"`
+	`Sparrow (Turbo Blaster)`
+	`Sparrow (Ugyr)`
+	`Spectre`
+	`Spetum Class`
+	`Spetum Class (Mark II)`
+	`Spetum Class (Mark II, Jump)`
+	`Spetum Class (Mark II, ShieldRegen)`
+	`Spetum Class (Mark II, Typhoon Storage)`
+	`Splinter?`
+	`Splinter (Empire)`
+	`Splinter (Inferno Rockets)`
+	`Splinter (Korath)`
+	`Splinter (Proton Turret-ATS)`
+	`Splinter (Quad Mod Blaster)`
+	`Splinter Test Dummy2`
+	`Splinter (Turner)`
+	`Spring Leaf`
+	`Spring Leaf (Jump)`
+	`S-PT06 Harukaze`
+	`S-PT06 Harukaze (Armed)`
+	`S-PT06 Harukaze (Quad Blaster)`
+	`S-PT06 Harukaze (Swordfish)`
+	`SRC-41C Curie`
+	`SRC-41C Curie (Cask 1)`
+	`SRC-41C Curie (Downgraded)`
+	`SRC-41C Curie (Downgraded, Cask 1)`
+	`SSm10`
+	`Stahbar (MHL Combat)`
+	`Stakoshtar 187`
+	`Stakoshtar 187(SD)`
+	`Star Barge (Bare, Q-Bomb)`
+	`Star Barge (Empire)`
+	`Star Barge (Ugyr)`
+	`Starbus`
+	`Starbus (Javelin)`
+	`Starbus (Meteor)`
+	`Starbus (Troops)`
+	`Starcadia`
+	`Starcadia (Prototype)`
+	`Star Explorer`
+	`Star Explorer (Biohazard)`
+	`Star Explorer (Hai)`
+	`Star Explorer (Jump)`
+	`Star Explorer (Korath)`
+	`Star Explorer (Pirate)`
+	`Star Explorer (Transport)`
+	`Star Gazer`
+	`Star Gazer Specimen`
+	`Star General`
+	`Starling (Far Remnant)`
+	`Starling (Gravedigger)`
+	`Starling (Heavy)(Far Remnant)`
+	`Starling (Hunter)(Far Remnant)`
+	`Starling (Scrapyard Rescue)`
+	`Starling (Sniper)(Far Remnant)`
+	`Starling (Thrasher)(Far Remnant)`
+	`Star Queen (Advanced Research)`
+	`Star Queen (Empire)`
+	`Star Queen (Fission S2)`
+	`Star Queen (Hijacked)`
+	`Starspear`
+	`Steel Scorpion`
+	`Steel Scorpion (Var1)`
+	`Steel Scorpion (Var2)`
+	`Stem Derelict Wreckage`
+	`Steward (Long Range)`
+	`Steward (MHL Combat)`
+	`Steward (NGK)`
+	`Steward (NGK Long Range)`
+	`Stork`
+	`Storm Seeker`
+	`Storm Seeker Reborn`
+	` "Storm Seeker (Troops)"`
+	`Strata (Ammonia Filled)`
+	`Strata (Hydrazine Filled)`
+	`Strata (Methanol Filled)`
+	`Strata (Phosphoric Acid Filled)`
+	`Strata (Sulfuric Acid Filled)`
+	`Strata (Sulfuric Acid Half-Filled)`
+	`Strata (Sulfuric Acid Quarter-Filled)`
+	`Strategos`
+	`Strike Drone`
+	`Striker Drone`
+	`Striker Drone (Meteor)`
+	`Strongblade`
+	`Strong Wind (Hai Crew)`
+	`Strong Wind (Shields)`
+	`Subclassis`
+	`Subfamilia`
+	`Subforma`
+	`Subforma (Mining)`
+	`Subsectio`
+	`Subsectio (Mine Carrier)`
+	`Subsectio (Mine Logistic)`
+	`Subsectio (Missile Carrier)`
+	`Subsectio (Missile Logistic)`
+	`Subsidurial (Infant)`
+	`Subsidurial Porter`
+	`Subsidurial Tamed`
+	`Subsidurial Titan`
+	`Subsidurial Weaponized A`
+	`Subsidurial Weaponized B`
+	`Subsidurial Weaponized C`
+	`Subsidurius`
+	`Subvarietas`
+	`Subvarietas (Mining)`
+	`Subvarietas (Nukes)`
+	`Summer Leaf (Missile)`
+	`Sunder`
+	`Super Space Swordfish`
+	`Supravitae`
+	`Surveillance Drone (Kamikaze)`
+	`Surveillance Drone (Lumbarian)`
+	`SV40-n Navilel`
+	`SV40-n Navilel (Itano)`
+	`SV-4450 Sovereign`
+	`SV80-n Catirfel`
+	`SV80-n Catirfel (Proton)`
+	`Swordbreaker`
+	`Swordbreaker (Var1)`
+	`Sword Scorpion`
+	`SWV4 Ravelin`
+	`SY-8662 Sysor`
+	`Tak Kor Pei 412`
+	`Talselar`
+	`Tarentula`
+	`Tarentula (Ionic)`
+	`Tarentula (Octa Annihilators)`
+	`Tar Kas Destroyer`
+	`Taroun Eroun`
+	`Taroun Oresu`
+	`Taroun Ulkoura`
+	`Taroun Ulkoura (Cloak)`
+	`Tarrel`
+	`TCM-23 Harrier`
+	`Tehru Avir`
+	`Tehru Iinsir`
+	`Tehru Mavuin`
+	`Tehru Piv`
+	`Tehru Tcvarka`
+	`Tehru Vurbck`
+	`Tek Far 109 (scrap) A`
+	`Tek Far 109 (scrap) B`
+	`Tek Far 109 (scrap) C`
+	`Tek Far 109 (scrapper)`
+	`Tek Far 149 - Lek`
+	`Tek Far 71 - Lek (Infested)`
+	`Tek Far 71 - Lek (Jump)`
+	`Tek Far 71 - Lek (scrap) A`
+	`Tek Far 71 - Lek (scrap) B`
+	`Tek Far 71 - Lek (scrap) C`
+	`Tek Far 71 - Lek (scrapper)`
+	`Tek Far 78 - Osk (Infested)`
+	`Tek Far 78 - Osk (Jump)`
+	`Tek Far 78 - Osk (scrap) A`
+	`Tek Far 78 - Osk (scrap) B`
+	`Tek Far 78 - Osk (scrap) C`
+	`Tek Far 78 - Osk (scrapper)`
+	`Tek Far 87 - Lek`
+	`Tek Far 98 - Osk`
+	`Telsarator`
+	`Tempest (Hai Crew)`
+	`Tercheldar 150`
+	`Termat`
+	`Tern (Far Remnant)`
+	`Test Crown`
+	`Tevah-Ark Coracle`
+	`Thermopylae Station`
+	`Thorn`
+	`Thunder Maker`
+	`Thunder Maker B`
+	`Thunder Maker C`
+	`Thunder Maker (Modern)`
+	`Tianlong`
+	`Tianlong (Var1)`
+	`Tikia-Barb`
+	`Tlielart (Cargo Carrier)`
+	`Tlielart (Cargo Engine)`
+	`Tlielart (Long Range)`
+	`TMS-64 Kernstoff`
+	`#Todo bigger bulk-in bag-out`
+	`#Todo Require License`
+	`Tornado`
+	`Tornado (Jump)`
+	`TQK-20 Qaytas (White Sugar)`
+	`Tribus`
+	`Triton Station`
+	`TS-1L260 Mieusbar`
+	`TS-1L260 Mieusbar (Proton)`
+	`TS-650 Herrenbal`
+	`TS-CH0 Kratzbal`
+	`TS-CH0 Kratzbal (Plasma Steering)`
+	`TSR/S-2w`
+	`Tsunami`
+	`Tsunami (Jump)`
+	`Tufuf`
+	`Tufuf (Troop)`
+	`Turbulence`
+	`Turbulence (Nuclear)`
+	`Tur Lek 57`
+	`Turtle Dove`
+	`Twin Crescent`
+	`Twin Crescent (Var1)`
+	`Tyar'linhalf 67-G`
+	`Tyar (Missile)`
+	`Typ012 Guangzhou`
+	`Typ057 Lanzhou`
+	`Typ057 Lanzhou (G22)`
+	`Typ057 Lanzhou (Hagel)`
+	`Typ057 Lanzhou (Missile)`
+	`Typ057 Lanzhou (Proton)`
+	`Typ057 Lanzhou (Triple J13s)`
+	`Typ064 Xuchang`
+	`Typ064 Xuchang (Anti Missile)`
+	`Typ064 Xuchang (Full Proton)`
+	`Typ064 Xuchang (Laser)`
+	`Typ064 Xuchang (Missile)`
+	`Typ064 Xuchang (Proton Turret)`
+	`Typ124 Lianyungang`
+	`Type-13 Sea Strait`
+	`Typhon`
+	`Typhon Station`
+	`Typhon (Var1)`
+	`Typhon (Var2)`
+	`TZ-3468 Seoui`
+	`UA-10 Porter`
+	`U-AF`
+	`Ufulre Dacar`
+	`Ufulre Derso`
+	`Ufulre Desin`
+	`Ufulre Ekdor`
+	`Ufulre Secsen`
+	`Ufulre Secsen Shield`
+	`Ufulre Secsen Vokkar`
+	`Ufulre Senro`
+	`Ufulre Senro Blaster`
+	`Uldeor (Kotdar)`
+	`Ultaka Ambusher`
+	`Ultaka Annihilator`
+	`Ultaka Conqueror`
+	`Ultaka Darkedge`
+	`Ultaka Death Bringer`
+	`Ultaka Dominator`
+	`Ultaka Galactic Destroyer`
+	`Ultaka Ghost`
+	`Ultaka Hunter`
+	`Ultaka Julseir`
+	`Ultaka Necromancer`
+	`Ultaka Netherward`
+	`Ultaka Olmhri`
+	`Ultaka Olmhri (Nova)`
+	`Ultaka Path-Maker`
+	`Ultaka Poltergeist`
+	`Ultaka Reaper`
+	`Ultaka Revenant`
+	`Ultaka Servant`
+	`Ultaka Shadow Strike`
+	`Ultaka Summoner`
+	`Ultaka Termite`
+	`Ultaka Trapper`
+	`Ultaka Var'ahx`
+	`Ultaka Vyvis`
+	`Ultaka Wraith`
+	`Unstable Wormhole`
+	`Unstable Wormhole (?)`
+	`Uoorn Aggressor`
+	`Uoorn Warrior`
+	`Uplifted Bek Par Kel 39`
+	`Uplifted Kar Te Pet 497`
+	`Uplifted Pai Lek 36`
+	`Uplifted Pai Osk 45`
+	`Uplifted Set Ru Ket 112`
+	`Uplifted Tak Kor Pei 412`
+	`Uplifted Tek Far 149 - Lek`
+	`Uplifted Tek Far 87 - Lek`
+	`Uplifted Tek Far 98 - Osk`
+	`Uplifted Tur Lek 57`
+	`US/S-3w Viking`
+	`Vanguard?`
+	`Vanguard (Inferno Rockets)`
+	`Vanguard (Korath)`
+	`Vanguard (MGF CoreNucMKII)`
+	`Vanguard (no hyperdrive)`
+	`Vanguard (Plasma Cluster)`
+	`Vanguard (Proton Gun-CF8)`
+	`Vanguard Test Dummy2`
+	`Vanguard Test-PGCF8`
+	`Vanguard (Unarmed Scram Drive)`
+	`Vanguard "Vanguard (Empire)"`
+	`Vanli`
+	`Vanli (Zilnor)`
+	`Vareen Issenmar`
+	`Vareen Safrapha`
+	`Vareen Serispha`
+	`Vareen Versine`
+	`Vareen Virmir`
+	`Vault`
+	`Vault-Barge`
+	`Veliante'exis`
+	`Veliante'ixis`
+	`Vindicator`
+	`Vindicator (Test)`
+	`Violin Spider (Bomber)`
+	`Violin Spider (Webber)`
+	`Virchan`
+	`Vitreus`
+	`Vitreus (Needler)`
+	`VK-35 Katen`
+	`Void Sprite Child`
+	`Vurbck (Varsrel)`
+	`Vyvis Thwarter`
+	`War Hauler`
+	`Wasp (Empire)`
+	`Wasp (Korath)`
+	`Wasp (Limit Break)`
+	`Water Bug (Bloodstone)`
+	`Water Bug (Jump, Ion Pulse)`
+	`Water Bug (Jump, Pulse)`
+	`White Brand`
+	`White Brand (Pulse)`
+	`Winged Serpent`
+	`Winter Leaf`
+	`Winter Leaf (Jump)`
+	`Wisdom`
+	`Wisymton`
+	`Wisymton (Cargo)`
+	`Wisymton (Gold)`
+	`Wisymton (Light Freighter)`
+	`Wisymton (Light Freighter, Cargo)`
+	`Wi Wai Si`
+	`Woodchip`
+	`Worldcrusher`
+	`Wretched Hive`
+	`Wyvern`
+	`Wyvern Station`
+	`Xencar (EPB3-2)`
+	`Xencar (NGK)`
+	`Xencar (Particle)`
+	`XF-26 Mizu`
+	`Xuokuen`
+	`Yiisk Piitom`
+	`Zachit Arada`
+	`Zachit Arada (Gunboat)`
+	`Zachit Arada (Missileboat)`
+	`Zachit Gazda`
+	`Zachit Gazda (Phase)`
+	`Zachit Gazda (Pursuit)`
+	`Zachit Lizada`
+	`Zachit Lizada (Missileboat)`
+	`ZC-4226 Zaikul`
+	`Zidagar Elzaria`
+	`Zidagar Elzaria (Defense)`
+	`Zidagar Elzaria (Offense)`
+	`Zidagar Gazda`
+	`Zidara`
+	`Zidara (Defense)`
+	`Zidara (Turret)`
+	`Zikurch (Fighter)`
+	`ZIS Defense Turret`
+	`ZM-5422 Karloz`
+	`ZN-7681 Eaxes`
+	`Zorcn Augyr`
+	`Zorcn Augyr (Miner)`
+	`Zorcn Barsten`
+	`Zorcn Barsten (Heavy)`
+	`Zorcn Beltr`
+	`Zorcn Bermas`
+	`Zorcn Bermas (Defense)`
+	`Zorcn Bermas (Heavy Arm)`
+	`Zorcn Bermas (Heavy Arm II)`
+	`Zorcn Bermas (Light Arm)`
+	`Zorcn Bermas (Medium Arm)`
+	`Zorcn Bermas (Medium Arm II)`
+	`Zorcn Bitorn`
+	`Zorcn Bytis`
+	`Zorcn Dermue`
+	`Zorcn Emaryt`
+	`Zorcn Enntr`
+	`Zorcn Eytis`
+	`Zorcn Eytis (Offensive)`
+	`Zorcn Genex`
+	`Zorcn Incskv`
+	`Zorcn Itrras`
+	`Zorcn Mausr`
+	`Zorcn Mausr Lite`
+	`Zorcn Mausr (Miner)`
+	`Zorcn Mtyr`
+	`Zorcn Nuar'an`
+	`Zorcn Vixta`
+	`Zorcn Vorrix`
+	`Zorcn Xima`

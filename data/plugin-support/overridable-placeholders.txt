@@ -13,9 +13,9 @@ ship "Ruin-The-Fun Overridable Ship"
 		"heat dissipation" .8
 		"fuel capacity" 500
 		"cargo space" 40
-		"outfit space" 130
-		"weapon capacity" 16
-		"engine capacity" 65
+		"outfit space" 140
+		"weapon capacity" 100
+		"engine capacity" 100
 		weapon
 			"blast radius" 12
 			"shield damage" 120

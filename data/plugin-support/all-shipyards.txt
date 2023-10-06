@@ -300,6 +300,10 @@ shipyard `Lionheart Advanced`
 	add "Ruin-The-Fun Overridable Ship"
 shipyard `Lionheart Basics`
 	add "Ruin-The-Fun Overridable Ship"
+shipyard `LIS Lissa Preadors Ships`
+	add "Ruin-The-Fun Overridable Ship"
+shipyard `LIS Lissa Preie Ships`
+	add "Ruin-The-Fun Overridable Ship"
 shipyard `Lost Ones Ships`
 	add "Ruin-The-Fun Overridable Ship"
 shipyard `Lumbarian Advanced`

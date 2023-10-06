@@ -280,6 +280,14 @@ outfitter `Kumakk Basic`
 	add "Ruin-The-Fun Overridable Outfit"
 outfitter `Lead`
 	add "Ruin-The-Fun Overridable Outfit"
+outfitter `LIS Cannibal Outfits`
+	add "Ruin-The-Fun Overridable Outfit"
+outfitter `LIS Licenses`
+	add "Ruin-The-Fun Overridable Outfit"
+outfitter `LIS Lissa Preadors Outfits`
+	add "Ruin-The-Fun Overridable Outfit"
+outfitter `LIS Lissa Preie Outfits`
+	add "Ruin-The-Fun Overridable Outfit"
 outfitter `Local Map`
 	add "Ruin-The-Fun Overridable Outfit"
 outfitter `Lovelace Advanced`

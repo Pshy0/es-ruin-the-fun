@@ -22,6 +22,10 @@ event "Ruin-The-Fun All Licenses"
 	set `license: Guz' Ship`
 	set `license: Guz' Translator`
 	set `license: Heliarch`
+	set `license: LIS Lissa Outfits`
+	set `license: LIS Lissa Ships`
+	set `license: LIS Preadors Outfits`
+	set `license: LIS Preadors Ships`
 	set `license: Lumbarian`
 	set `license: Lumbarian Emperor`
 	set `license: Lumbarian King`

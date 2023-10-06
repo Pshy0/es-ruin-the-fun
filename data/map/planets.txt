@@ -14,6 +14,7 @@ planet RTF0-P
 	outfitter "Ruin-The-Fun Stat Outfits"
 	outfitter "Ruin-The-Fun All Outfits"
 	shipyard "Ruin-The-Fun All Base Ships"
+	shipyard "Ruin-The-Fun All Plugin Ships"
 	outfitter `aben`
 	outfitter `Adamas Colossal`
 	outfitter `Advanced-ammo-outfitter`
@@ -174,6 +175,10 @@ planet RTF0-P
 	outfitter `Kumakk Ammo`
 	outfitter `Kumakk Basic`
 	outfitter `Lead`
+	outfitter `LIS Cannibal Outfits`
+	outfitter `LIS Licenses`
+	outfitter `LIS Lissa Preadors Outfits`
+	outfitter `LIS Lissa Preie Outfits`
 	outfitter `Local Map`
 	outfitter `Lovelace Advanced`
 	outfitter `Lovelace Basics`
@@ -456,6 +461,8 @@ planet RTF0-P
 	shipyard `Legendary Ships`
 	shipyard `Lionheart Advanced`
 	shipyard `Lionheart Basics`
+	shipyard `LIS Lissa Preadors Ships`
+	shipyard `LIS Lissa Preie Ships`
 	shipyard `Lost Ones Ships`
 	shipyard `Lumbarian Advanced`
 	shipyard `Lumbarian Basic`
@@ -622,6 +629,7 @@ planet RTF1-P
 	outfitter "Ruin-The-Fun Stat Outfits"
 	outfitter "Ruin-The-Fun All Outfits"
 	shipyard "Ruin-The-Fun All Base Ships"
+	shipyard "Ruin-The-Fun All Plugin Ships"
 	outfitter `aben`
 	outfitter `Adamas Colossal`
 	outfitter `Advanced-ammo-outfitter`
@@ -782,6 +790,10 @@ planet RTF1-P
 	outfitter `Kumakk Ammo`
 	outfitter `Kumakk Basic`
 	outfitter `Lead`
+	outfitter `LIS Cannibal Outfits`
+	outfitter `LIS Licenses`
+	outfitter `LIS Lissa Preadors Outfits`
+	outfitter `LIS Lissa Preie Outfits`
 	outfitter `Local Map`
 	outfitter `Lovelace Advanced`
 	outfitter `Lovelace Basics`
@@ -1064,6 +1076,8 @@ planet RTF1-P
 	shipyard `Legendary Ships`
 	shipyard `Lionheart Advanced`
 	shipyard `Lionheart Basics`
+	shipyard `LIS Lissa Preadors Ships`
+	shipyard `LIS Lissa Preie Ships`
 	shipyard `Lost Ones Ships`
 	shipyard `Lumbarian Advanced`
 	shipyard `Lumbarian Basic`
@@ -1230,6 +1244,7 @@ planet RTF2-P
 	outfitter "Ruin-The-Fun Stat Outfits"
 	outfitter "Ruin-The-Fun All Outfits"
 	shipyard "Ruin-The-Fun All Base Ships"
+	shipyard "Ruin-The-Fun All Plugin Ships"
 	outfitter `aben`
 	outfitter `Adamas Colossal`
 	outfitter `Advanced-ammo-outfitter`
@@ -1390,6 +1405,10 @@ planet RTF2-P
 	outfitter `Kumakk Ammo`
 	outfitter `Kumakk Basic`
 	outfitter `Lead`
+	outfitter `LIS Cannibal Outfits`
+	outfitter `LIS Licenses`
+	outfitter `LIS Lissa Preadors Outfits`
+	outfitter `LIS Lissa Preie Outfits`
 	outfitter `Local Map`
 	outfitter `Lovelace Advanced`
 	outfitter `Lovelace Basics`
@@ -1672,6 +1691,8 @@ planet RTF2-P
 	shipyard `Legendary Ships`
 	shipyard `Lionheart Advanced`
 	shipyard `Lionheart Basics`
+	shipyard `LIS Lissa Preadors Ships`
+	shipyard `LIS Lissa Preie Ships`
 	shipyard `Lost Ones Ships`
 	shipyard `Lumbarian Advanced`
 	shipyard `Lumbarian Basic`
@@ -1838,6 +1859,7 @@ planet RTF3-P
 	outfitter "Ruin-The-Fun Stat Outfits"
 	outfitter "Ruin-The-Fun All Outfits"
 	shipyard "Ruin-The-Fun All Base Ships"
+	shipyard "Ruin-The-Fun All Plugin Ships"
 	outfitter `aben`
 	outfitter `Adamas Colossal`
 	outfitter `Advanced-ammo-outfitter`
@@ -1998,6 +2020,10 @@ planet RTF3-P
 	outfitter `Kumakk Ammo`
 	outfitter `Kumakk Basic`
 	outfitter `Lead`
+	outfitter `LIS Cannibal Outfits`
+	outfitter `LIS Licenses`
+	outfitter `LIS Lissa Preadors Outfits`
+	outfitter `LIS Lissa Preie Outfits`
 	outfitter `Local Map`
 	outfitter `Lovelace Advanced`
 	outfitter `Lovelace Basics`
@@ -2280,6 +2306,8 @@ planet RTF3-P
 	shipyard `Legendary Ships`
 	shipyard `Lionheart Advanced`
 	shipyard `Lionheart Basics`
+	shipyard `LIS Lissa Preadors Ships`
+	shipyard `LIS Lissa Preie Ships`
 	shipyard `Lost Ones Ships`
 	shipyard `Lumbarian Advanced`
 	shipyard `Lumbarian Basic`
@@ -2446,6 +2474,7 @@ planet RTF4-P
 	outfitter "Ruin-The-Fun Stat Outfits"
 	outfitter "Ruin-The-Fun All Outfits"
 	shipyard "Ruin-The-Fun All Base Ships"
+	shipyard "Ruin-The-Fun All Plugin Ships"
 	outfitter `aben`
 	outfitter `Adamas Colossal`
 	outfitter `Advanced-ammo-outfitter`
@@ -2606,6 +2635,10 @@ planet RTF4-P
 	outfitter `Kumakk Ammo`
 	outfitter `Kumakk Basic`
 	outfitter `Lead`
+	outfitter `LIS Cannibal Outfits`
+	outfitter `LIS Licenses`
+	outfitter `LIS Lissa Preadors Outfits`
+	outfitter `LIS Lissa Preie Outfits`
 	outfitter `Local Map`
 	outfitter `Lovelace Advanced`
 	outfitter `Lovelace Basics`
@@ -2888,6 +2921,8 @@ planet RTF4-P
 	shipyard `Legendary Ships`
 	shipyard `Lionheart Advanced`
 	shipyard `Lionheart Basics`
+	shipyard `LIS Lissa Preadors Ships`
+	shipyard `LIS Lissa Preie Ships`
 	shipyard `Lost Ones Ships`
 	shipyard `Lumbarian Advanced`
 	shipyard `Lumbarian Basic`
@@ -3054,6 +3089,7 @@ planet RTF5-P
 	outfitter "Ruin-The-Fun Stat Outfits"
 	outfitter "Ruin-The-Fun All Outfits"
 	shipyard "Ruin-The-Fun All Base Ships"
+	shipyard "Ruin-The-Fun All Plugin Ships"
 	outfitter `aben`
 	outfitter `Adamas Colossal`
 	outfitter `Advanced-ammo-outfitter`
@@ -3214,6 +3250,10 @@ planet RTF5-P
 	outfitter `Kumakk Ammo`
 	outfitter `Kumakk Basic`
 	outfitter `Lead`
+	outfitter `LIS Cannibal Outfits`
+	outfitter `LIS Licenses`
+	outfitter `LIS Lissa Preadors Outfits`
+	outfitter `LIS Lissa Preie Outfits`
 	outfitter `Local Map`
 	outfitter `Lovelace Advanced`
 	outfitter `Lovelace Basics`
@@ -3496,6 +3536,8 @@ planet RTF5-P
 	shipyard `Legendary Ships`
 	shipyard `Lionheart Advanced`
 	shipyard `Lionheart Basics`
+	shipyard `LIS Lissa Preadors Ships`
+	shipyard `LIS Lissa Preie Ships`
 	shipyard `Lost Ones Ships`
 	shipyard `Lumbarian Advanced`
 	shipyard `Lumbarian Basic`
@@ -3662,6 +3704,7 @@ planet RTF6-P
 	outfitter "Ruin-The-Fun Stat Outfits"
 	outfitter "Ruin-The-Fun All Outfits"
 	shipyard "Ruin-The-Fun All Base Ships"
+	shipyard "Ruin-The-Fun All Plugin Ships"
 	outfitter `aben`
 	outfitter `Adamas Colossal`
 	outfitter `Advanced-ammo-outfitter`
@@ -3822,6 +3865,10 @@ planet RTF6-P
 	outfitter `Kumakk Ammo`
 	outfitter `Kumakk Basic`
 	outfitter `Lead`
+	outfitter `LIS Cannibal Outfits`
+	outfitter `LIS Licenses`
+	outfitter `LIS Lissa Preadors Outfits`
+	outfitter `LIS Lissa Preie Outfits`
 	outfitter `Local Map`
 	outfitter `Lovelace Advanced`
 	outfitter `Lovelace Basics`
@@ -4104,6 +4151,8 @@ planet RTF6-P
 	shipyard `Legendary Ships`
 	shipyard `Lionheart Advanced`
 	shipyard `Lionheart Basics`
+	shipyard `LIS Lissa Preadors Ships`
+	shipyard `LIS Lissa Preie Ships`
 	shipyard `Lost Ones Ships`
 	shipyard `Lumbarian Advanced`
 	shipyard `Lumbarian Basic`
@@ -4270,6 +4319,7 @@ planet RTF7-P
 	outfitter "Ruin-The-Fun Stat Outfits"
 	outfitter "Ruin-The-Fun All Outfits"
 	shipyard "Ruin-The-Fun All Base Ships"
+	shipyard "Ruin-The-Fun All Plugin Ships"
 	outfitter `aben`
 	outfitter `Adamas Colossal`
 	outfitter `Advanced-ammo-outfitter`
@@ -4430,6 +4480,10 @@ planet RTF7-P
 	outfitter `Kumakk Ammo`
 	outfitter `Kumakk Basic`
 	outfitter `Lead`
+	outfitter `LIS Cannibal Outfits`
+	outfitter `LIS Licenses`
+	outfitter `LIS Lissa Preadors Outfits`
+	outfitter `LIS Lissa Preie Outfits`
 	outfitter `Local Map`
 	outfitter `Lovelace Advanced`
 	outfitter `Lovelace Basics`
@@ -4712,6 +4766,8 @@ planet RTF7-P
 	shipyard `Legendary Ships`
 	shipyard `Lionheart Advanced`
 	shipyard `Lionheart Basics`
+	shipyard `LIS Lissa Preadors Ships`
+	shipyard `LIS Lissa Preie Ships`
 	shipyard `Lost Ones Ships`
 	shipyard `Lumbarian Advanced`
 	shipyard `Lumbarian Basic`
@@ -4878,6 +4934,7 @@ planet RTF8-P
 	outfitter "Ruin-The-Fun Stat Outfits"
 	outfitter "Ruin-The-Fun All Outfits"
 	shipyard "Ruin-The-Fun All Base Ships"
+	shipyard "Ruin-The-Fun All Plugin Ships"
 	outfitter `aben`
 	outfitter `Adamas Colossal`
 	outfitter `Advanced-ammo-outfitter`
@@ -5038,6 +5095,10 @@ planet RTF8-P
 	outfitter `Kumakk Ammo`
 	outfitter `Kumakk Basic`
 	outfitter `Lead`
+	outfitter `LIS Cannibal Outfits`
+	outfitter `LIS Licenses`
+	outfitter `LIS Lissa Preadors Outfits`
+	outfitter `LIS Lissa Preie Outfits`
 	outfitter `Local Map`
 	outfitter `Lovelace Advanced`
 	outfitter `Lovelace Basics`
@@ -5320,6 +5381,8 @@ planet RTF8-P
 	shipyard `Legendary Ships`
 	shipyard `Lionheart Advanced`
 	shipyard `Lionheart Basics`
+	shipyard `LIS Lissa Preadors Ships`
+	shipyard `LIS Lissa Preie Ships`
 	shipyard `Lost Ones Ships`
 	shipyard `Lumbarian Advanced`
 	shipyard `Lumbarian Basic`
@@ -5486,6 +5549,7 @@ planet RTF9-P
 	outfitter "Ruin-The-Fun Stat Outfits"
 	outfitter "Ruin-The-Fun All Outfits"
 	shipyard "Ruin-The-Fun All Base Ships"
+	shipyard "Ruin-The-Fun All Plugin Ships"
 	outfitter `aben`
 	outfitter `Adamas Colossal`
 	outfitter `Advanced-ammo-outfitter`
@@ -5646,6 +5710,10 @@ planet RTF9-P
 	outfitter `Kumakk Ammo`
 	outfitter `Kumakk Basic`
 	outfitter `Lead`
+	outfitter `LIS Cannibal Outfits`
+	outfitter `LIS Licenses`
+	outfitter `LIS Lissa Preadors Outfits`
+	outfitter `LIS Lissa Preie Outfits`
 	outfitter `Local Map`
 	outfitter `Lovelace Advanced`
 	outfitter `Lovelace Basics`
@@ -5928,6 +5996,8 @@ planet RTF9-P
 	shipyard `Legendary Ships`
 	shipyard `Lionheart Advanced`
 	shipyard `Lionheart Basics`
+	shipyard `LIS Lissa Preadors Ships`
+	shipyard `LIS Lissa Preie Ships`
 	shipyard `Lost Ones Ships`
 	shipyard `Lumbarian Advanced`
 	shipyard `Lumbarian Basic`
@@ -6094,6 +6164,7 @@ planet RTF10-P
 	outfitter "Ruin-The-Fun Stat Outfits"
 	outfitter "Ruin-The-Fun All Outfits"
 	shipyard "Ruin-The-Fun All Base Ships"
+	shipyard "Ruin-The-Fun All Plugin Ships"
 	outfitter `aben`
 	outfitter `Adamas Colossal`
 	outfitter `Advanced-ammo-outfitter`
@@ -6254,6 +6325,10 @@ planet RTF10-P
 	outfitter `Kumakk Ammo`
 	outfitter `Kumakk Basic`
 	outfitter `Lead`
+	outfitter `LIS Cannibal Outfits`
+	outfitter `LIS Licenses`
+	outfitter `LIS Lissa Preadors Outfits`
+	outfitter `LIS Lissa Preie Outfits`
 	outfitter `Local Map`
 	outfitter `Lovelace Advanced`
 	outfitter `Lovelace Basics`
@@ -6536,6 +6611,8 @@ planet RTF10-P
 	shipyard `Legendary Ships`
 	shipyard `Lionheart Advanced`
 	shipyard `Lionheart Basics`
+	shipyard `LIS Lissa Preadors Ships`
+	shipyard `LIS Lissa Preie Ships`
 	shipyard `Lost Ones Ships`
 	shipyard `Lumbarian Advanced`
 	shipyard `Lumbarian Basic`

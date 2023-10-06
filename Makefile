@@ -25,6 +25,8 @@ GENERATED_DATA_FILES += $(RTF_JOB_FILES)
 GENERATED_DATA_FILES += data/events/all-licenses.txt
 GENERATED_DATA_FILES += data/plugin-support/all-outfitters.txt
 GENERATED_DATA_FILES += data/plugin-support/all-shipyards.txt
+GENERATED_DATA_FILES += data/plugin-support/all-ships.txt
+GENERATED_DATA_FILES += data/plugin-support/all-plugin-ships-shipyard.txt
 
 # List of files that must be included in the plugin's zip
 # This may not exactly match .gitignore
@@ -160,6 +162,16 @@ tmp/plugin-shipyards.list.tmp: tmp/available-plugin-data-dirs.tmp | tmp
 	@echo "Listing plugin shipyards..."
 	@cat tmp/available-plugin-data-dirs.tmp | xargs grep -R "^shipyard" | tr -d '\r' | grep "\.txt:" | sed "s/^.*\.txt:shipyard //" | tools/unquote.sh | sort | uniq > $@
 
+tmp/plugin-deprecated-ships.list.tmp:
+	@echo "Listing deprecated plugin ships..."
+	@cat tmp/available-plugin-data-dirs.tmp | sed "s|$$|_deprecated/|" | xargs grep -R "^ship " | tr -d '\r' | grep "\.txt:" | sed "s/^.*\.txt:ship //" | tools/unquote-ship.sh | sort | uniq > $@
+	
+tmp/plugin-ships.list.tmp: tmp/available-plugin-data-dirs.tmp tmp/plugin-deprecated-ships.list.tmp tmp/ships.list.tmp | tmp
+	@echo "Listing plugin ships..."
+	@cat tmp/available-plugin-data-dirs.tmp | xargs grep -R "^ship " | tr -d '\r' | grep "\.txt:" | sed "s/^.*\.txt:ship //" | tools/unquote-ship.sh | sort | uniq > tmp/tmp.list.tmp > tmp/tmp.list.tmp
+	@comm -23 tmp/tmp.list.tmp tmp/plugin-deprecated-ships.list.tmp > tmp/tmp2.list.tmp
+	@comm -23 tmp/tmp2.list.tmp tmp/ships.list.tmp > $@
+
 tmp/governments.list.tmp: tmp/data-dirs.tmp | tmp
 	@echo "Listing governments..."
 	@cat tmp/data-dirs.tmp | xargs grep -R "^government" | tr -d '\r' | grep "\.txt:" | sed "s/^.*\.txt:government //g" | tools/unquote.sh | sort | uniq | sed "/^Escort$$/d" > $@
@@ -210,6 +222,7 @@ data/map/planets.temp: tmp/outfitters.list.tmp tmp/shipyards.list.tmp | tmp
 	@echo '\toutfitter "Ruin-The-Fun Stat Outfits"' >> $@
 	@echo '\toutfitter "Ruin-The-Fun All Outfits"' >> $@
 	@echo '\tshipyard "Ruin-The-Fun All Base Ships"' >> $@
+	@echo '\tshipyard "Ruin-The-Fun All Plugin Ships"' >> $@
 	@cat tmp/outfitters.list.tmp | sed 's/^\(.*\)$$/\toutfitter `\1`/' >> $@
 	@cat tmp/shipyards.list.tmp | sed 's/^\(.*\)$$/\tshipyard `\1`/' >> $@
 	@echo "]]" >> $@
@@ -241,6 +254,13 @@ data/plugin-support/all-outfitters.txt: tmp/plugin-outfitters.list.tmp
 	
 data/plugin-support/all-shipyards.txt: tmp/plugin-shipyards.list.tmp
 	@sed 's|^\(.*\)$$|shipyard `\1`\n\tadd "Ruin-The-Fun Overridable Ship"|' $< > $@
+	
+data/plugin-support/all-ships.txt: tmp/plugin-ships.list.tmp
+	@sed 's|^\(.*\)$$|ship `Ruin-The-Fun Overridable Ship` `\1`\n\tplural `\1s`\n\tadd attributes\n\t\tdrag 0.01|' $< > $@
+	
+data/plugin-support/all-plugin-ships-shipyard.txt: tmp/plugin-ships.list.tmp
+	@echo 'shipyard `Ruin-The-Fun All Plugin Ships`' > $@
+	@sed 's|^\(.*\)$$|\t`\1`|' $< >> $@
 
 data/jobs/reputation.txt: data/jobs/reputation.temp tmp/reputation-resets.tmp tmp/friendlies-reputation-resets.tmp tmp/friendly-reputation-sets.tmp tmp/hostile-reputation-sets.tmp
 data/jobs/conditions/conditions.txt: data/jobs/conditions/conditions.temp data/jobs/conditions/condition-switches.list data/jobs/conditions/karma-values.list
