@@ -14,6 +14,8 @@ planet RTF0-P
 	outfitter "Ruin-The-Fun Stat Outfits"
 	outfitter "Ruin-The-Fun All Outfits"
 	shipyard "Ruin-The-Fun All Base Ships"
+	shipyard `modships`
+	outfitter `modoutfits`
 	outfitter `aben`
 	outfitter `Adamas Colossal`
 	outfitter `Advanced-ammo-outfitter`
@@ -622,6 +624,8 @@ planet RTF1-P
 	outfitter "Ruin-The-Fun Stat Outfits"
 	outfitter "Ruin-The-Fun All Outfits"
 	shipyard "Ruin-The-Fun All Base Ships"
+	shipyard `modships`
+	outfitter `modoutfits`
 	outfitter `aben`
 	outfitter `Adamas Colossal`
 	outfitter `Advanced-ammo-outfitter`
@@ -1230,6 +1234,8 @@ planet RTF2-P
 	outfitter "Ruin-The-Fun Stat Outfits"
 	outfitter "Ruin-The-Fun All Outfits"
 	shipyard "Ruin-The-Fun All Base Ships"
+	shipyard `modships`
+	outfitter `modoutfits`
 	outfitter `aben`
 	outfitter `Adamas Colossal`
 	outfitter `Advanced-ammo-outfitter`
@@ -1838,6 +1844,8 @@ planet RTF3-P
 	outfitter "Ruin-The-Fun Stat Outfits"
 	outfitter "Ruin-The-Fun All Outfits"
 	shipyard "Ruin-The-Fun All Base Ships"
+	shipyard `modships`
+	outfitter `modoutfits`
 	outfitter `aben`
 	outfitter `Adamas Colossal`
 	outfitter `Advanced-ammo-outfitter`
@@ -2446,6 +2454,8 @@ planet RTF4-P
 	outfitter "Ruin-The-Fun Stat Outfits"
 	outfitter "Ruin-The-Fun All Outfits"
 	shipyard "Ruin-The-Fun All Base Ships"
+	shipyard `modships`
+	outfitter `modoutfits`
 	outfitter `aben`
 	outfitter `Adamas Colossal`
 	outfitter `Advanced-ammo-outfitter`
@@ -3054,6 +3064,8 @@ planet RTF5-P
 	outfitter "Ruin-The-Fun Stat Outfits"
 	outfitter "Ruin-The-Fun All Outfits"
 	shipyard "Ruin-The-Fun All Base Ships"
+	shipyard `modships`
+	outfitter `modoutfits`
 	outfitter `aben`
 	outfitter `Adamas Colossal`
 	outfitter `Advanced-ammo-outfitter`
@@ -3662,6 +3674,8 @@ planet RTF6-P
 	outfitter "Ruin-The-Fun Stat Outfits"
 	outfitter "Ruin-The-Fun All Outfits"
 	shipyard "Ruin-The-Fun All Base Ships"
+	shipyard `modships`
+	outfitter `modoutfits`
 	outfitter `aben`
 	outfitter `Adamas Colossal`
 	outfitter `Advanced-ammo-outfitter`
@@ -4270,6 +4284,8 @@ planet RTF7-P
 	outfitter "Ruin-The-Fun Stat Outfits"
 	outfitter "Ruin-The-Fun All Outfits"
 	shipyard "Ruin-The-Fun All Base Ships"
+	shipyard `modships`
+	outfitter `modoutfits`
 	outfitter `aben`
 	outfitter `Adamas Colossal`
 	outfitter `Advanced-ammo-outfitter`
@@ -4878,6 +4894,8 @@ planet RTF8-P
 	outfitter "Ruin-The-Fun Stat Outfits"
 	outfitter "Ruin-The-Fun All Outfits"
 	shipyard "Ruin-The-Fun All Base Ships"
+	shipyard `modships`
+	outfitter `modoutfits`
 	outfitter `aben`
 	outfitter `Adamas Colossal`
 	outfitter `Advanced-ammo-outfitter`
@@ -5486,6 +5504,8 @@ planet RTF9-P
 	outfitter "Ruin-The-Fun Stat Outfits"
 	outfitter "Ruin-The-Fun All Outfits"
 	shipyard "Ruin-The-Fun All Base Ships"
+	shipyard `modships`
+	outfitter `modoutfits`
 	outfitter `aben`
 	outfitter `Adamas Colossal`
 	outfitter `Advanced-ammo-outfitter`
@@ -6094,6 +6114,8 @@ planet RTF10-P
 	outfitter "Ruin-The-Fun Stat Outfits"
 	outfitter "Ruin-The-Fun All Outfits"
 	shipyard "Ruin-The-Fun All Base Ships"
+	shipyard `modships`
+	outfitter `modoutfits`
 	outfitter `aben`
 	outfitter `Adamas Colossal`
 	outfitter `Advanced-ammo-outfitter`
