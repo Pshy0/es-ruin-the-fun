@@ -285,14 +285,14 @@ outfit "Ruin-The-Fun Stat Fuel fuel capacity"
 outfit "Ruin-The-Fun Stat Fuel fuel generation"
 	"display name" "fuel generation"
 	category `Individual Stats`
-	thumbnail "outfit/rtf/wheel/yellow-double"
+	thumbnail "outfit/rtf/wheel/yellow"
 	unplunderable 1
 	"fuel generation" 1
 
 outfit "Ruin-The-Fun Stat Fuel fuel generation * 100000"
 	"display name" "fuel generation * 10^5"
 	category `Individual Stats`
-	thumbnail "outfit/rtf/wheel/yellow-double"
+	thumbnail "outfit/rtf/wheel/yellow"
 	unplunderable 1
 	"fuel generation" 100000
 
