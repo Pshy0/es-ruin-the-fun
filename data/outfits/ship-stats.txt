@@ -455,28 +455,28 @@ outfit "Ruin-The-Fun Stat Scan tactical scan power * 100000000"
 outfit "Ruin-The-Fun Stat Scan radar jamming"
 	"display name" "radar jamming"
 	category `Individual Stats`
-	thumbnail "outfit/rtf/wheel/red"
+	thumbnail "outfit/rtf/wheel/purple"
 	unplunderable 1
 	"radar jamming" 1
 
 outfit "Ruin-The-Fun Stat Scan radar jamming * 100000"
 	"display name" "radar jamming * 10^5"
 	category `Individual Stats`
-	thumbnail "outfit/rtf/wheel/red"
+	thumbnail "outfit/rtf/wheel/purple"
 	unplunderable 1
 	"radar jamming" 100000
 
 outfit "Ruin-The-Fun Stat Scan optical jamming"
 	"display name" "optical jamming"
 	category `Individual Stats`
-	thumbnail "outfit/rtf/wheel/red"
+	thumbnail "outfit/rtf/wheel/purple"
 	unplunderable 1
 	"radar jamming" 1
 
 outfit "Ruin-The-Fun Stat Scan optical jamming * 100000"
 	"display name" "optical jamming * 10^5"
 	category `Individual Stats`
-	thumbnail "outfit/rtf/wheel/red"
+	thumbnail "outfit/rtf/wheel/purple"
 	unplunderable 1
 	"radar jamming" 100000
 
