@@ -119,7 +119,7 @@ outfit "Ruin-The-Fun Stat Cooling cooling * 0.01"
 	"cooling" 0.01
 
 outfit "Ruin-The-Fun Stat Cooling cooling * 100000"
-	"display name" "cooling * 100000"
+	"display name" "cooling * 10^5"
 	category `Individual Stats`
 	thumbnail "outfit/rtf/wheel/green"
 	unplunderable 1
@@ -262,7 +262,7 @@ outfit "Ruin-The-Fun Stat Energy energy generation * 0.01"
 	"energy generation" 0.01
 
 outfit "Ruin-The-Fun Stat Energy energy generation * 100000"
-	"display name" "energy generation * 100000"
+	"display name" "energy generation * 10^5"
 	category `Individual Stats`
 	thumbnail "outfit/rtf/wheel/turquoise"
 	unplunderable 1
@@ -290,7 +290,7 @@ outfit "Ruin-The-Fun Stat Fuel fuel generation"
 	"fuel generation" 1
 
 outfit "Ruin-The-Fun Stat Fuel fuel generation * 100000"
-	"display name" "fuel generation * 100000"
+	"display name" "fuel generation * 10^5"
 	category `Individual Stats`
 	thumbnail "outfit/rtf/wheel/yellow-double"
 	unplunderable 1
@@ -304,7 +304,7 @@ outfit "Ruin-The-Fun Stat Fuel ramscoop * 0.01"
 	"ramscoop" 0.01
 
 outfit "Ruin-The-Fun Stat Fuel ramscoop * 100000"
-	"display name" "ramscoop * 100000"
+	"display name" "ramscoop * 10^5"
 	category "Individual Stats"
 	thumbnail "outfit/rtf/wheel/yellow"
 	unplunderable 1
@@ -340,7 +340,7 @@ outfit "Ruin-The-Fun Stat Scan cargo scan power"
 	"cargo scan power" 1
 
 outfit "Ruin-The-Fun Stat Scan cargo scan power * 100000000"
-	"display name" "cargo scan power * 100000000"
+	"display name" "cargo scan power * 10^8"
 	category `Individual Stats`
 	thumbnail "outfit/rtf/wheel/blue"
 	unplunderable 1
@@ -354,7 +354,7 @@ outfit "Ruin-The-Fun Stat Scan cargo scan efficiency"
 	"cargo scan efficiency" 1
 
 outfit "Ruin-The-Fun Stat Scan cargo scan efficiency * 100000"
-	"display name" "cargo scan efficiency * 100000"
+	"display name" "cargo scan efficiency * 10^5"
 	category `Individual Stats`
 	thumbnail "outfit/rtf/wheel/blue"
 	unplunderable 1
@@ -368,7 +368,7 @@ outfit "Ruin-The-Fun Stat Scan outfit scan power"
 	"outfit scan power" 1
 
 outfit "Ruin-The-Fun Stat Scan outfit scan power * 100000000"
-	"display name" "outfit scan power * 100000000"
+	"display name" "outfit scan power * 10^8"
 	category `Individual Stats`
 	thumbnail "outfit/rtf/wheel/blue"
 	unplunderable 1
@@ -382,7 +382,7 @@ outfit "Ruin-The-Fun Stat Scan outfit scan efficiency"
 	"outfit scan efficiency" 1
 
 outfit "Ruin-The-Fun Stat Scan outfit scan efficiency * 100000"
-	"display name" "outfit scan efficiency * 100000"
+	"display name" "outfit scan efficiency * 10^5"
 	category `Individual Stats`
 	thumbnail "outfit/rtf/wheel/blue"
 	unplunderable 1
@@ -396,7 +396,7 @@ outfit "Ruin-The-Fun Stat Scan scan interference"
 	"scan interference" 1
 
 outfit "Ruin-The-Fun Stat Scan scan interference * 100000"
-	"display name" "scan interference * 100000"
+	"display name" "scan interference * 10^5"
 	category `Individual Stats`
 	thumbnail "outfit/rtf/wheel/blue"
 	unplunderable 1
@@ -432,7 +432,7 @@ outfit "Ruin-The-Fun Stat Scan asteroid scan power"
 	"asteroid scan power" 1
 
 outfit "Ruin-The-Fun Stat Scan asteroid scan power * 100000000"
-	"display name" "asteroid scan power * 100000000"
+	"display name" "asteroid scan power * 10^8"
 	category `Individual Stats`
 	thumbnail "outfit/rtf/wheel/blue"
 	unplunderable 1
@@ -446,7 +446,7 @@ outfit "Ruin-The-Fun Stat Scan tactical scan power"
 	"tactical scan power" 1
 
 outfit "Ruin-The-Fun Stat Scan tactical scan power * 100000000"
-	"display name" "tactical scan power * 100000000"
+	"display name" "tactical scan power * 10^8"
 	category `Individual Stats`
 	thumbnail "outfit/rtf/wheel/blue"
 	unplunderable 1
@@ -460,7 +460,7 @@ outfit "Ruin-The-Fun Stat Scan radar jamming"
 	"radar jamming" 1
 
 outfit "Ruin-The-Fun Stat Scan radar jamming * 100000"
-	"display name" "radar jamming * 100000"
+	"display name" "radar jamming * 10^5"
 	category `Individual Stats`
 	thumbnail "outfit/rtf/wheel/red"
 	unplunderable 1
@@ -474,7 +474,7 @@ outfit "Ruin-The-Fun Stat Scan optical jamming"
 	"radar jamming" 1
 
 outfit "Ruin-The-Fun Stat Scan optical jamming * 100000"
-	"display name" "optical jamming * 100000"
+	"display name" "optical jamming * 10^5"
 	category `Individual Stats`
 	thumbnail "outfit/rtf/wheel/red"
 	unplunderable 1
