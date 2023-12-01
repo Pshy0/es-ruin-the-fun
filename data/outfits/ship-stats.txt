@@ -417,6 +417,13 @@ outfit "Ruin-The-Fun Stat Scan scan concealment"
 	unplunderable 1
 	"scan concealment" 1
 
+outfit "Ruin-The-Fun Stat Scan scan concealment * 100000"
+	"display name" "scan concealment * 10^5"
+	category `Individual Stats`
+	thumbnail "outfit/rtf/wheel/blue"
+	unplunderable 1
+	"scan concealment" 100000
+
 outfit "Ruin-The-Fun Stat Scan inscrutable"
 	"display name" "inscrutable"
 	category `Individual Stats`
@@ -628,6 +635,7 @@ outfitter "Ruin-The-Fun Stat Outfits"
 	"Ruin-The-Fun Stat Scan outfit scan power * 100000000"
 	"Ruin-The-Fun Stat Scan scan brightness"
 	"Ruin-The-Fun Stat Scan scan concealment"
+	"Ruin-The-Fun Stat Scan scan concealment * 100000"
 	"Ruin-The-Fun Stat Scan scan interference"
 	"Ruin-The-Fun Stat Scan scan interference * 100000"
 	"Ruin-The-Fun Stat Scan tactical scan power"

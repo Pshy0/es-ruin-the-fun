@@ -46,6 +46,16 @@ outfit "Ruin-The-Fun God Scanner"
 	"cargo scan efficiency" 1000000
 	description "Scans far and wide."
 
+outfit "Ruin-The-Fun God Jammer"
+	"display name" "RTF God Jammer"
+	category "RTF God Outfits"
+	thumbnail "outfit/small radar jammer"
+	"scan concealment" 1000000
+	"scan interference" 1000000
+	"radar jamming" 1000000
+	"optical jamming" 1000000
+	description "Scans far and wide."
+
 outfit "Ruin-The-Fun God Engine"
 	"display name" "RTF God Engine"
 	category "RTF God Outfits"
