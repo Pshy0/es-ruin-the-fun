@@ -53,29 +53,19 @@ outfit "Ruin-The-Fun God Engine"
 	"mass" 1000000
 	"inertia reduction" 10000
 	"drag reduction" 10000
-	"thrust" 50
-	"reverse thrust" 50
+	"thrust" 40
+	"reverse thrust" 40
 	"flare sprite" "effect/atomic flare/tiny"
 		"frame rate" 14
 	"flare sound" "atomic tiny"
 	"reverse flare sprite" "effect/atomic flare/tiny"
 		"frame rate" 14
 	"reverse flare sound" "atomic tiny"
-	description "Runs really fast."
-
-outfit "Ruin-The-Fun God Steering"
-	"display name" "RTF God Steering"
-	category "RTF God Outfits"
-	thumbnail "outfit/tiny atomic steering"
-	"mass" 1000000
-	"inertia reduction" 10000
-	"drag reduction" 10000
-	"turn" 1250
+	"turn" 1000
 	"steering flare sprite" "effect/atomic flare/tiny"
 		"frame rate" 14
 	"steering flare sound" "atomic tiny"
-	description "Turns really fast."
-
+	description "Runs and turns really fast."
 
 outfit "Ruin-The-Fun God Drive"
 	"display name" "RTF God Drive"
