@@ -54,7 +54,7 @@ outfit "Ruin-The-Fun God Jammer"
 	"scan interference" 1000000
 	"radar jamming" 1000000
 	"optical jamming" 1000000
-	description "Scans far and wide."
+	description "Stops others from peeking."
 
 outfit "Ruin-The-Fun God Engine"
 	"display name" "RTF God Engine"
