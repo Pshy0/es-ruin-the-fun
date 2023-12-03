@@ -61,6 +61,7 @@ outfit "Ruin-The-Fun God Engine"
 	category "RTF God Outfits"
 	thumbnail "outfit/tiny atomic thruster"
 	"mass" 1000000
+	"drag" 1000
 	"inertia reduction" 10000
 	"drag reduction" 10000
 	"thrust" 40
