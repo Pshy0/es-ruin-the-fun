@@ -61,18 +61,16 @@ outfit "Ruin-The-Fun God Engine"
 	category "RTF God Outfits"
 	thumbnail "outfit/tiny atomic thruster"
 	"mass" 1000000
-	"drag" 1000
-	"inertia reduction" 10000
-	"drag reduction" 10000
-	"thrust" 40
-	"reverse thrust" 40
+	"drag" 10000
+	"thrust" 400000
+	"reverse thrust" 400000
 	"flare sprite" "effect/atomic flare/tiny"
 		"frame rate" 14
 	"flare sound" "atomic tiny"
 	"reverse flare sprite" "effect/atomic flare/tiny"
 		"frame rate" 14
 	"reverse flare sound" "atomic tiny"
-	"turn" 1000
+	"turn" 10000000
 	"steering flare sprite" "effect/atomic flare/tiny"
 		"frame rate" 14
 	"steering flare sound" "atomic tiny"
