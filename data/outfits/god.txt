@@ -56,8 +56,8 @@ outfit "Ruin-The-Fun God Jammer"
 	"optical jamming" 1000000
 	description "Stops others from peeking."
 
-outfit "Ruin-The-Fun God Engine"
-	"display name" "RTF God Engine"
+outfit "Ruin-The-Fun God Engines"
+	"display name" "RTF God Engines"
 	category "RTF God Outfits"
 	thumbnail "outfit/tiny atomic thruster"
 	"mass" 1000000
