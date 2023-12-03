@@ -74,7 +74,7 @@ outfit "Ruin-The-Fun God Engines"
 	"steering flare sprite" "effect/atomic flare/tiny"
 		"frame rate" 14
 	"steering flare sound" "atomic tiny"
-	description "Runs and turns really fast."
+	description "Makes the ship go really fast."
 
 outfit "Ruin-The-Fun God Drive"
 	"display name" "RTF God Drive"
