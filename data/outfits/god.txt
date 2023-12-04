@@ -49,7 +49,7 @@ outfit "Ruin-The-Fun God Scanner"
 outfit "Ruin-The-Fun God Jammer"
 	"display name" "RTF God Jammer"
 	category "RTF God Outfits"
-	thumbnail "outfit/small radar jammer"
+	cooling 1000000
 	"scan concealment" 1000000
 	"scan interference" 1000000
 	"radar jamming" 1000000
