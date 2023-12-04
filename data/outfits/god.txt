@@ -49,6 +49,7 @@ outfit "Ruin-The-Fun God Scanner"
 outfit "Ruin-The-Fun God Jammer"
 	"display name" "RTF God Jammer"
 	category "RTF God Outfits"
+	thumbnail "outfit/quarg countermeasures"
 	cooling 1000000
 	"scan concealment" 1000000
 	"scan interference" 1000000
