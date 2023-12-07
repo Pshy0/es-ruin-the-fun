@@ -17,8 +17,9 @@ outfit "Ruin-The-Fun 100000 Cargo Space"
 	"cargo space" 100000
 	description "Having that much cargo space will attract Pirate raids."
 
-outfit "Ruin-The-Fun 100000 Bunk"
-	"display name" "100000 Bunk"
+outfit "Ruin-The-Fun 100000 Bunks"
+	"display name" "100000 Bunks"
+	plural "100000 Bunks"
 	category "RTF God Outfits"
 	thumbnail "outfit/bunk room"
 	bunks 100000
