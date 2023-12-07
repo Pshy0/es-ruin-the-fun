@@ -11,7 +11,6 @@ Access all ships and outfits, change your captain's name, choose the color swizz
 
 - [📦 Ruin-The-Fun: Sources](https://github.com/Pshy0/es-ruin-the-fun/) [(direct download)](https://github.com/Pshy0/es-ruin-the-fun/archive/refs/heads/main.zip):
   This is the latest commit to the plugin. It may or may not be stable, and it may also not work at all or break your save.
-  Includes partial.
 - [🎁 Ruin-The-Fun: Tested Release](https://github.com/Pshy0/es-ruin-the-fun/releases/tag/latest) [(direct download)](https://github.com/Pshy0/es-ruin-the-fun/releases/latest/download/-es-ruin-the-fun.zip):
   This is a tested and recommended version. But perhaps not the latest.
   Has better plugin support than other releases.
