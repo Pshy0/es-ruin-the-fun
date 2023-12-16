@@ -86,7 +86,7 @@ tmp/available-plugins.list.tmp: | tmp
 .PHONY: plugin-update
 plugin-update: tmp/enabled-plugins.tmp tmp/data-dirs.tmp
 	@echo "Inserting enabled plugin list into data sources..."
-	@cat $< | sed "s/^/..\/..\/plugins\//" | sed "/$(CURRENT_PLUGIN_DIR_NAME)/d" | sed "s/$$/\/data\//" >> tmp/data-dirs.tmp
+	@cat $< | sed "s/^/..\/..\/plugins\//" | sed "/$(CURRENT_PLUGIN_DIR_NAME)/d" | sed "/Ruin The Fun/d" | sed "s/$$/\/data\//" >> tmp/data-dirs.tmp
 	@make update
 
 .PHONY: install-supported-plugins
