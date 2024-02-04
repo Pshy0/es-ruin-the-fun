@@ -256,6 +256,7 @@ planet \{system_name}-P
 	outfitter `Slipstream Advanced`
 	outfitter `Small Adamas`
 	outfitter `Small Engines`
+	outfitter `South Pirate Outfits Advanced`
 	outfitter `Special Outfits`
 	outfitter `Stack Core`
 	outfitter `Standard Outfits`
@@ -267,8 +268,8 @@ planet \{system_name}-P
 	outfitter `Syndicate Assistance`
 	outfitter `Syndicate Basic`
 	outfitter `Syndicate Basics`
+	outfitter `Syndicated Security`
 	outfitter `Syndicate Research`
-	outfitter `Syndicate Security`
 	outfitter `Syndicate Stock`
 	outfitter `Tarazed Laboratory`
 	outfitter `Taroun Advanced`
@@ -584,6 +585,7 @@ planet \{system_name}-P
 	shipyard `Thyrupp AG Advanced`
 	shipyard `Thyrupp AG Basics`
 	shipyard `Tomcat`
+	shipyard `Tycho Crater Advanced`
 	shipyard `Ultaka`
 	shipyard `Ultaka All`
 	shipyard `Ultaka Alrul`

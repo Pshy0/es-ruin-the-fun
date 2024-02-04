@@ -255,6 +255,7 @@ planet RTF0-P
 	outfitter `Slipstream Advanced`
 	outfitter `Small Adamas`
 	outfitter `Small Engines`
+	outfitter `South Pirate Outfits Advanced`
 	outfitter `Special Outfits`
 	outfitter `Stack Core`
 	outfitter `Standard Outfits`
@@ -266,8 +267,8 @@ planet RTF0-P
 	outfitter `Syndicate Assistance`
 	outfitter `Syndicate Basic`
 	outfitter `Syndicate Basics`
+	outfitter `Syndicated Security`
 	outfitter `Syndicate Research`
-	outfitter `Syndicate Security`
 	outfitter `Syndicate Stock`
 	outfitter `Tarazed Laboratory`
 	outfitter `Taroun Advanced`
@@ -583,6 +584,7 @@ planet RTF0-P
 	shipyard `Thyrupp AG Advanced`
 	shipyard `Thyrupp AG Basics`
 	shipyard `Tomcat`
+	shipyard `Tycho Crater Advanced`
 	shipyard `Ultaka`
 	shipyard `Ultaka All`
 	shipyard `Ultaka Alrul`
@@ -876,6 +878,7 @@ planet RTF1-P
 	outfitter `Slipstream Advanced`
 	outfitter `Small Adamas`
 	outfitter `Small Engines`
+	outfitter `South Pirate Outfits Advanced`
 	outfitter `Special Outfits`
 	outfitter `Stack Core`
 	outfitter `Standard Outfits`
@@ -887,8 +890,8 @@ planet RTF1-P
 	outfitter `Syndicate Assistance`
 	outfitter `Syndicate Basic`
 	outfitter `Syndicate Basics`
+	outfitter `Syndicated Security`
 	outfitter `Syndicate Research`
-	outfitter `Syndicate Security`
 	outfitter `Syndicate Stock`
 	outfitter `Tarazed Laboratory`
 	outfitter `Taroun Advanced`
@@ -1204,6 +1207,7 @@ planet RTF1-P
 	shipyard `Thyrupp AG Advanced`
 	shipyard `Thyrupp AG Basics`
 	shipyard `Tomcat`
+	shipyard `Tycho Crater Advanced`
 	shipyard `Ultaka`
 	shipyard `Ultaka All`
 	shipyard `Ultaka Alrul`
@@ -1497,6 +1501,7 @@ planet RTF2-P
 	outfitter `Slipstream Advanced`
 	outfitter `Small Adamas`
 	outfitter `Small Engines`
+	outfitter `South Pirate Outfits Advanced`
 	outfitter `Special Outfits`
 	outfitter `Stack Core`
 	outfitter `Standard Outfits`
@@ -1508,8 +1513,8 @@ planet RTF2-P
 	outfitter `Syndicate Assistance`
 	outfitter `Syndicate Basic`
 	outfitter `Syndicate Basics`
+	outfitter `Syndicated Security`
 	outfitter `Syndicate Research`
-	outfitter `Syndicate Security`
 	outfitter `Syndicate Stock`
 	outfitter `Tarazed Laboratory`
 	outfitter `Taroun Advanced`
@@ -1825,6 +1830,7 @@ planet RTF2-P
 	shipyard `Thyrupp AG Advanced`
 	shipyard `Thyrupp AG Basics`
 	shipyard `Tomcat`
+	shipyard `Tycho Crater Advanced`
 	shipyard `Ultaka`
 	shipyard `Ultaka All`
 	shipyard `Ultaka Alrul`
@@ -2118,6 +2124,7 @@ planet RTF3-P
 	outfitter `Slipstream Advanced`
 	outfitter `Small Adamas`
 	outfitter `Small Engines`
+	outfitter `South Pirate Outfits Advanced`
 	outfitter `Special Outfits`
 	outfitter `Stack Core`
 	outfitter `Standard Outfits`
@@ -2129,8 +2136,8 @@ planet RTF3-P
 	outfitter `Syndicate Assistance`
 	outfitter `Syndicate Basic`
 	outfitter `Syndicate Basics`
+	outfitter `Syndicated Security`
 	outfitter `Syndicate Research`
-	outfitter `Syndicate Security`
 	outfitter `Syndicate Stock`
 	outfitter `Tarazed Laboratory`
 	outfitter `Taroun Advanced`
@@ -2446,6 +2453,7 @@ planet RTF3-P
 	shipyard `Thyrupp AG Advanced`
 	shipyard `Thyrupp AG Basics`
 	shipyard `Tomcat`
+	shipyard `Tycho Crater Advanced`
 	shipyard `Ultaka`
 	shipyard `Ultaka All`
 	shipyard `Ultaka Alrul`
@@ -2739,6 +2747,7 @@ planet RTF4-P
 	outfitter `Slipstream Advanced`
 	outfitter `Small Adamas`
 	outfitter `Small Engines`
+	outfitter `South Pirate Outfits Advanced`
 	outfitter `Special Outfits`
 	outfitter `Stack Core`
 	outfitter `Standard Outfits`
@@ -2750,8 +2759,8 @@ planet RTF4-P
 	outfitter `Syndicate Assistance`
 	outfitter `Syndicate Basic`
 	outfitter `Syndicate Basics`
+	outfitter `Syndicated Security`
 	outfitter `Syndicate Research`
-	outfitter `Syndicate Security`
 	outfitter `Syndicate Stock`
 	outfitter `Tarazed Laboratory`
 	outfitter `Taroun Advanced`
@@ -3067,6 +3076,7 @@ planet RTF4-P
 	shipyard `Thyrupp AG Advanced`
 	shipyard `Thyrupp AG Basics`
 	shipyard `Tomcat`
+	shipyard `Tycho Crater Advanced`
 	shipyard `Ultaka`
 	shipyard `Ultaka All`
 	shipyard `Ultaka Alrul`
@@ -3360,6 +3370,7 @@ planet RTF5-P
 	outfitter `Slipstream Advanced`
 	outfitter `Small Adamas`
 	outfitter `Small Engines`
+	outfitter `South Pirate Outfits Advanced`
 	outfitter `Special Outfits`
 	outfitter `Stack Core`
 	outfitter `Standard Outfits`
@@ -3371,8 +3382,8 @@ planet RTF5-P
 	outfitter `Syndicate Assistance`
 	outfitter `Syndicate Basic`
 	outfitter `Syndicate Basics`
+	outfitter `Syndicated Security`
 	outfitter `Syndicate Research`
-	outfitter `Syndicate Security`
 	outfitter `Syndicate Stock`
 	outfitter `Tarazed Laboratory`
 	outfitter `Taroun Advanced`
@@ -3688,6 +3699,7 @@ planet RTF5-P
 	shipyard `Thyrupp AG Advanced`
 	shipyard `Thyrupp AG Basics`
 	shipyard `Tomcat`
+	shipyard `Tycho Crater Advanced`
 	shipyard `Ultaka`
 	shipyard `Ultaka All`
 	shipyard `Ultaka Alrul`
@@ -3981,6 +3993,7 @@ planet RTF6-P
 	outfitter `Slipstream Advanced`
 	outfitter `Small Adamas`
 	outfitter `Small Engines`
+	outfitter `South Pirate Outfits Advanced`
 	outfitter `Special Outfits`
 	outfitter `Stack Core`
 	outfitter `Standard Outfits`
@@ -3992,8 +4005,8 @@ planet RTF6-P
 	outfitter `Syndicate Assistance`
 	outfitter `Syndicate Basic`
 	outfitter `Syndicate Basics`
+	outfitter `Syndicated Security`
 	outfitter `Syndicate Research`
-	outfitter `Syndicate Security`
 	outfitter `Syndicate Stock`
 	outfitter `Tarazed Laboratory`
 	outfitter `Taroun Advanced`
@@ -4309,6 +4322,7 @@ planet RTF6-P
 	shipyard `Thyrupp AG Advanced`
 	shipyard `Thyrupp AG Basics`
 	shipyard `Tomcat`
+	shipyard `Tycho Crater Advanced`
 	shipyard `Ultaka`
 	shipyard `Ultaka All`
 	shipyard `Ultaka Alrul`
@@ -4602,6 +4616,7 @@ planet RTF7-P
 	outfitter `Slipstream Advanced`
 	outfitter `Small Adamas`
 	outfitter `Small Engines`
+	outfitter `South Pirate Outfits Advanced`
 	outfitter `Special Outfits`
 	outfitter `Stack Core`
 	outfitter `Standard Outfits`
@@ -4613,8 +4628,8 @@ planet RTF7-P
 	outfitter `Syndicate Assistance`
 	outfitter `Syndicate Basic`
 	outfitter `Syndicate Basics`
+	outfitter `Syndicated Security`
 	outfitter `Syndicate Research`
-	outfitter `Syndicate Security`
 	outfitter `Syndicate Stock`
 	outfitter `Tarazed Laboratory`
 	outfitter `Taroun Advanced`
@@ -4930,6 +4945,7 @@ planet RTF7-P
 	shipyard `Thyrupp AG Advanced`
 	shipyard `Thyrupp AG Basics`
 	shipyard `Tomcat`
+	shipyard `Tycho Crater Advanced`
 	shipyard `Ultaka`
 	shipyard `Ultaka All`
 	shipyard `Ultaka Alrul`
@@ -5223,6 +5239,7 @@ planet RTF8-P
 	outfitter `Slipstream Advanced`
 	outfitter `Small Adamas`
 	outfitter `Small Engines`
+	outfitter `South Pirate Outfits Advanced`
 	outfitter `Special Outfits`
 	outfitter `Stack Core`
 	outfitter `Standard Outfits`
@@ -5234,8 +5251,8 @@ planet RTF8-P
 	outfitter `Syndicate Assistance`
 	outfitter `Syndicate Basic`
 	outfitter `Syndicate Basics`
+	outfitter `Syndicated Security`
 	outfitter `Syndicate Research`
-	outfitter `Syndicate Security`
 	outfitter `Syndicate Stock`
 	outfitter `Tarazed Laboratory`
 	outfitter `Taroun Advanced`
@@ -5551,6 +5568,7 @@ planet RTF8-P
 	shipyard `Thyrupp AG Advanced`
 	shipyard `Thyrupp AG Basics`
 	shipyard `Tomcat`
+	shipyard `Tycho Crater Advanced`
 	shipyard `Ultaka`
 	shipyard `Ultaka All`
 	shipyard `Ultaka Alrul`
@@ -5844,6 +5862,7 @@ planet RTF9-P
 	outfitter `Slipstream Advanced`
 	outfitter `Small Adamas`
 	outfitter `Small Engines`
+	outfitter `South Pirate Outfits Advanced`
 	outfitter `Special Outfits`
 	outfitter `Stack Core`
 	outfitter `Standard Outfits`
@@ -5855,8 +5874,8 @@ planet RTF9-P
 	outfitter `Syndicate Assistance`
 	outfitter `Syndicate Basic`
 	outfitter `Syndicate Basics`
+	outfitter `Syndicated Security`
 	outfitter `Syndicate Research`
-	outfitter `Syndicate Security`
 	outfitter `Syndicate Stock`
 	outfitter `Tarazed Laboratory`
 	outfitter `Taroun Advanced`
@@ -6172,6 +6191,7 @@ planet RTF9-P
 	shipyard `Thyrupp AG Advanced`
 	shipyard `Thyrupp AG Basics`
 	shipyard `Tomcat`
+	shipyard `Tycho Crater Advanced`
 	shipyard `Ultaka`
 	shipyard `Ultaka All`
 	shipyard `Ultaka Alrul`
@@ -6465,6 +6485,7 @@ planet RTF10-P
 	outfitter `Slipstream Advanced`
 	outfitter `Small Adamas`
 	outfitter `Small Engines`
+	outfitter `South Pirate Outfits Advanced`
 	outfitter `Special Outfits`
 	outfitter `Stack Core`
 	outfitter `Standard Outfits`
@@ -6476,8 +6497,8 @@ planet RTF10-P
 	outfitter `Syndicate Assistance`
 	outfitter `Syndicate Basic`
 	outfitter `Syndicate Basics`
+	outfitter `Syndicated Security`
 	outfitter `Syndicate Research`
-	outfitter `Syndicate Security`
 	outfitter `Syndicate Stock`
 	outfitter `Tarazed Laboratory`
 	outfitter `Taroun Advanced`
@@ -6793,6 +6814,7 @@ planet RTF10-P
 	shipyard `Thyrupp AG Advanced`
 	shipyard `Thyrupp AG Basics`
 	shipyard `Tomcat`
+	shipyard `Tycho Crater Advanced`
 	shipyard `Ultaka`
 	shipyard `Ultaka All`
 	shipyard `Ultaka Alrul`
