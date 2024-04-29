@@ -241,9 +241,11 @@ mission "Ruin-the-Fun Reputations"
 				"reputation: Hai (Unfettered Wanderer Tribute)" = 10
 				"reputation: Hai (Wormhole Access)" = 10
 				"reputation: Heliarch" = 10
+				"reputation: Heliarch Test Dummy" = 10
 				"reputation: Independent" = 10
 				"reputation: Independent (Killable)" = 10
 				"reputation: Indigenous Lifeform" = 10
+				"reputation: Indigenous Lifeform (Acheron)" = 10
 				"reputation: Indigenous Lifeform (Astral)" = 10
 				"reputation: Ka'het" = 10
 				"reputation: Ka'het (Infighting)" = 10
@@ -255,6 +257,8 @@ mission "Ruin-the-Fun Reputations"
 				"reputation: Kor Mereti" = 10
 				"reputation: Kor Mereti (Hostile)" = 10
 				"reputation: Kor Sestor" = 10
+				"reputation: Lunarium" = 10
+				"reputation: Lunarium (Hidden)" = 10
 				"reputation: Marauder" = 10
 				"reputation: Merchant" = 10
 				"reputation: Merchant (Hijacked)" = 10
@@ -340,9 +344,11 @@ mission "Ruin-the-Fun Reputations"
 				"reputation: Hai (Unfettered Wanderer Tribute)" = -10
 				"reputation: Hai (Wormhole Access)" = -10
 				"reputation: Heliarch" = -10
+				"reputation: Heliarch Test Dummy" = -10
 				"reputation: Independent" = -10
 				"reputation: Independent (Killable)" = -10
 				"reputation: Indigenous Lifeform" = -10
+				"reputation: Indigenous Lifeform (Acheron)" = -10
 				"reputation: Indigenous Lifeform (Astral)" = -10
 				"reputation: Ka'het" = -10
 				"reputation: Ka'het (Infighting)" = -10
@@ -354,6 +360,8 @@ mission "Ruin-the-Fun Reputations"
 				"reputation: Kor Mereti" = -10
 				"reputation: Kor Mereti (Hostile)" = -10
 				"reputation: Kor Sestor" = -10
+				"reputation: Lunarium" = -10
+				"reputation: Lunarium (Hidden)" = -10
 				"reputation: Marauder" = -10
 				"reputation: Merchant" = -10
 				"reputation: Merchant (Hijacked)" = -10
@@ -732,6 +740,14 @@ mission "Ruin-the-Fun Reputations"
 					to display
 						"reputation: Heliarch" < 0
 					goto "toggle friendly: Heliarch"
+				`	Heliarch Test Dummy:	Currently Friendly	(toggle)`
+					to display
+						"reputation: Heliarch Test Dummy" >= 0
+					goto "toggle hostile: Heliarch Test Dummy"
+				`	Heliarch Test Dummy:	Currently Hostile	(toggle)`
+					to display
+						"reputation: Heliarch Test Dummy" < 0
+					goto "toggle friendly: Heliarch Test Dummy"
 				`	Independent:	Currently Friendly	(toggle)`
 					to display
 						"reputation: Independent" >= 0
@@ -756,6 +772,14 @@ mission "Ruin-the-Fun Reputations"
 					to display
 						"reputation: Indigenous Lifeform" < 0
 					goto "toggle friendly: Indigenous Lifeform"
+				`	Indigenous Lifeform (Acheron):	Currently Friendly	(toggle)`
+					to display
+						"reputation: Indigenous Lifeform (Acheron)" >= 0
+					goto "toggle hostile: Indigenous Lifeform (Acheron)"
+				`	Indigenous Lifeform (Acheron):	Currently Hostile	(toggle)`
+					to display
+						"reputation: Indigenous Lifeform (Acheron)" < 0
+					goto "toggle friendly: Indigenous Lifeform (Acheron)"
 				`	Indigenous Lifeform (Astral):	Currently Friendly	(toggle)`
 					to display
 						"reputation: Indigenous Lifeform (Astral)" >= 0
@@ -844,6 +868,22 @@ mission "Ruin-the-Fun Reputations"
 					to display
 						"reputation: Kor Sestor" < 0
 					goto "toggle friendly: Kor Sestor"
+				`	Lunarium:	Currently Friendly	(toggle)`
+					to display
+						"reputation: Lunarium" >= 0
+					goto "toggle hostile: Lunarium"
+				`	Lunarium:	Currently Hostile	(toggle)`
+					to display
+						"reputation: Lunarium" < 0
+					goto "toggle friendly: Lunarium"
+				`	Lunarium (Hidden):	Currently Friendly	(toggle)`
+					to display
+						"reputation: Lunarium (Hidden)" >= 0
+					goto "toggle hostile: Lunarium (Hidden)"
+				`	Lunarium (Hidden):	Currently Hostile	(toggle)`
+					to display
+						"reputation: Lunarium (Hidden)" < 0
+					goto "toggle friendly: Lunarium (Hidden)"
 				`	Marauder:	Currently Friendly	(toggle)`
 					to display
 						"reputation: Marauder" >= 0
@@ -1354,6 +1394,11 @@ mission "Ruin-the-Fun Reputations"
 				"reputation: Heliarch" = 10
 			`	Reputation with Heliarch changed to Friendly.`
 				goto toggles
+			label "toggle friendly: Heliarch Test Dummy"
+			action
+				"reputation: Heliarch Test Dummy" = 10
+			`	Reputation with Heliarch Test Dummy changed to Friendly.`
+				goto toggles
 			label "toggle friendly: Independent"
 			action
 				"reputation: Independent" = 10
@@ -1368,6 +1413,11 @@ mission "Ruin-the-Fun Reputations"
 			action
 				"reputation: Indigenous Lifeform" = 10
 			`	Reputation with Indigenous Lifeform changed to Friendly.`
+				goto toggles
+			label "toggle friendly: Indigenous Lifeform (Acheron)"
+			action
+				"reputation: Indigenous Lifeform (Acheron)" = 10
+			`	Reputation with Indigenous Lifeform (Acheron) changed to Friendly.`
 				goto toggles
 			label "toggle friendly: Indigenous Lifeform (Astral)"
 			action
@@ -1423,6 +1473,16 @@ mission "Ruin-the-Fun Reputations"
 			action
 				"reputation: Kor Sestor" = 10
 			`	Reputation with Kor Sestor changed to Friendly.`
+				goto toggles
+			label "toggle friendly: Lunarium"
+			action
+				"reputation: Lunarium" = 10
+			`	Reputation with Lunarium changed to Friendly.`
+				goto toggles
+			label "toggle friendly: Lunarium (Hidden)"
+			action
+				"reputation: Lunarium (Hidden)" = 10
+			`	Reputation with Lunarium (Hidden) changed to Friendly.`
 				goto toggles
 			label "toggle friendly: Marauder"
 			action
@@ -1819,6 +1879,11 @@ mission "Ruin-the-Fun Reputations"
 				"reputation: Heliarch" = -10
 			`	Reputation with Heliarch changed to Hostile.`
 				goto toggles
+			label "toggle hostile: Heliarch Test Dummy"
+			action
+				"reputation: Heliarch Test Dummy" = -10
+			`	Reputation with Heliarch Test Dummy changed to Hostile.`
+				goto toggles
 			label "toggle hostile: Independent"
 			action
 				"reputation: Independent" = -10
@@ -1833,6 +1898,11 @@ mission "Ruin-the-Fun Reputations"
 			action
 				"reputation: Indigenous Lifeform" = -10
 			`	Reputation with Indigenous Lifeform changed to Hostile.`
+				goto toggles
+			label "toggle hostile: Indigenous Lifeform (Acheron)"
+			action
+				"reputation: Indigenous Lifeform (Acheron)" = -10
+			`	Reputation with Indigenous Lifeform (Acheron) changed to Hostile.`
 				goto toggles
 			label "toggle hostile: Indigenous Lifeform (Astral)"
 			action
@@ -1888,6 +1958,16 @@ mission "Ruin-the-Fun Reputations"
 			action
 				"reputation: Kor Sestor" = -10
 			`	Reputation with Kor Sestor changed to Hostile.`
+				goto toggles
+			label "toggle hostile: Lunarium"
+			action
+				"reputation: Lunarium" = -10
+			`	Reputation with Lunarium changed to Hostile.`
+				goto toggles
+			label "toggle hostile: Lunarium (Hidden)"
+			action
+				"reputation: Lunarium (Hidden)" = -10
+			`	Reputation with Lunarium (Hidden) changed to Hostile.`
 				goto toggles
 			label "toggle hostile: Marauder"
 			action

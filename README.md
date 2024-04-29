@@ -9,13 +9,16 @@ Access all ships and outfits, change your captain's name, choose the color swizz
 
 ## Downloads
 
-- [📦 Ruin-The-Fun: Tested Release](https://github.com/Pshy0/es-ruin-the-fun/releases/tag/latest) [(direct download)](https://github.com/Pshy0/es-ruin-the-fun/releases/latest/download/-es-ruin-the-fun.zip):
+- [📦 Ruin-The-Fun: Sources](https://github.com/Pshy0/es-ruin-the-fun/) [(direct download)](https://github.com/Pshy0/es-ruin-the-fun/archive/refs/heads/main.zip):
+  This is the latest commit to the plugin. It may or may not be stable, and it may also not work at all or break your save.
+- [🎁 Ruin-The-Fun: Tested Release](https://github.com/Pshy0/es-ruin-the-fun/releases/tag/latest) [(direct download)](https://github.com/Pshy0/es-ruin-the-fun/releases/latest/download/-es-ruin-the-fun.zip):
   This is a tested and recommended version. But perhaps not the latest.
-- [🎁 Ruin-The-Fun: (Automatic Updates)](https://github.com/Pshy0/es-ruin-the-fun/releases/):
+  Has better plugin support than other releases.
+- [📦 Ruin-The-Fun: (Automatic Updates)](https://github.com/Pshy0/es-ruin-the-fun/releases/):
   This version is automatically generated on every new game version (either pre-release or release).
   It should feature the latest game content.
   However, if the data file syntax was changed by the new version, this might cause warnings or errors.
-- [🎁 Ruin-The-Fun: (Endless Sky continuous)](https://github.com/Pshy0/es-ruin-the-fun/releases/tag/es-continuous) [(direct download)](https://github.com/Pshy0/es-ruin-the-fun/releases/download/es-continuous/-es-ruin-the-fun-for-es-continuous.zip):
+- [📦 Ruin-The-Fun: (Endless Sky continuous)](https://github.com/Pshy0/es-ruin-the-fun/releases/tag/es-continuous) [(direct download)](https://github.com/Pshy0/es-ruin-the-fun/releases/download/es-continuous/-es-ruin-the-fun-for-es-continuous.zip):
   This version is periodically generated to match continuous builds of Endless Sky. This is also the latest untested RTF version.
   If you do not use continuous Endless Sky builds, do not use this version, as it will contain things that are not yet in you game (that will be a problem).
 
@@ -39,7 +42,7 @@ The game's `plugins` folder should be located at one of those locations:
 
 If the `plugins` folder does not exist, you can create it.
 
-If you did it right, there should be a file `plugins/es-ruin-the-fun/about.txt` or `plugins/Ruin The Fun/about.txt`.
+If you did it right, there should be a file `plugins/-es-ruin-the-fun/about.txt` or `plugins/-Ruin The Fun/about.txt`.
 
 > This plugin should not conflict with any other, because it uses separate systems and prefixes objects it defines.
 
@@ -94,8 +97,12 @@ The following jobs can be used after every landing on an RTF planet:
 - `[basic] Reveal Map`: Reveal the whole system map (upon take of).
 - `[basic] Reveal Planet Infos`: Reveal all vanilla planets information (upon take of, does not reveal systems).
 - `[escort] * Barges` (3 variants): Get escorted by dreadful Star Barges.
+- `[escort] Escort Fleets`: Select fleets to spawn as NPC escorts.
+- `[escort] Escort Ships`: Select ships to spawn as NPC escorts.
 - `[escort] Tek Far 109`: Get escorted by a customized drone transporter.
 - `[fight] Combat Drones`: Summon an amount of hostile Combat Drones.
+- `[fight] Fight Fleet`: Pick hostile fleets to spawn.
+- `[fight] Fight Ships`: Pick hostile ships to spawn.
 - `[fight] Kestrels`: Summon a combination of hostile Kestrels.
 - `[fight] Tek Far 109`: Summon an hostile customized drone transporter.
 - `[special] RTF Advanced Start`: Replays the advanced start conversation.
@@ -104,7 +111,7 @@ The following jobs are toggles, their effect is reverted when you abort them:
 - `[toggle fleet] Heliarchs vs Quargs`: Adds Heliarch and Quarg fleets to RTF0.
 - `[toggle fleet] Meretis vs Sestors`: Adds Mereti and Sestor fleets to RTF0.
 - `[toggle fleet] Scin vs Vis`: Adds Scin and Vi fleets to RTF0.
-- `[toggle] Automatic Galaxy Map`: Automatically reveal all connected systems upon landing.
+- `[toggle] Automatic Galaxy Map`: Automatically reveal all connected systems upon entering one.
 - `[toggle] Hide RTF Systems`: Hide the RTF systems, so that they do not interfere.
 - `[toggle] Super Reach`: While in an RTF system, you can jump to any system on the map, even without a God Drive. By default, RTF systems have a lower jump range, to lower their impact on surrounding content.
 - `[toggle] Variants`: Enable ship variants in the RTF shipyards.
@@ -125,13 +132,14 @@ From the RFT shipyards, all ships in the game are available to you.
 
 From the RFT outfitters, all outfits in the game are available to you.
 
-RTF also adds a few outfits, all listed under the `Special` category:
+RTF also adds a few outfits, all listed under the `RTF God Outfits` category:
 - `God Drive`: Jump drive, with no range limit, that does not consume fuel.
 - `God Mode`: Makes you immortal.
 - `God Turret`: Turret that one-shot most ships.
 - `100000 Outfit Space`: Gives you more than enough outfit space.
 - `100000 Cargo Space`: Gives you so much cargo space that this will trigger pirate raids.
-- (property name): Change individual stats of a ship. They look like this:
+
+You can also find outfits that only change a single stat in the `Individual Stats` category. They look like this:
 ![Outfitter](./images/screenshot/wheel-examples.png)
 
 
@@ -180,9 +188,23 @@ event "MYPLUGIN Move RTF10"
 
 You are welcome to submit bug reports and suggestions using [GitHub issues](https://github.com/Pshy0/es-ruin-the-fun/issues).
 
+You can also contact me on discord (`Pshy#7998`).
+
 
 
 ## License
 
  > This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at https://mozilla.org/MPL/2.0/.
  > This Source Code Form is “Incompatible With Secondary Licenses”, as defined by the Mozilla Public License, v. 2.0.
+
+
+
+## References
+
+### Non-Cheat Alternatives
+If you are interested by some features of this plug-in but do not want to be cheating, you may check the following ones:
+
+- [A Coalition at War](https://github.com/mathwhiz1212/ES-conscience-plugin): **Get help from the Quarg** so you don't have to nuke Zenith
+- [Advanced Starts](https://github.com/kestrel1110/ES-Advanced-Starts/): **Adds more starts.**
+- [Lampyrid Start](https://github.com/Zitchas/ES_Lampyrid_Start): **Faster and easier start**, made slightly more challenging by pirates.
+- [Prism Plugin](https://github.com/Startingfresher/Prism-Plug-in): **Unlock ship color swizzles** by achieving progress in the game
