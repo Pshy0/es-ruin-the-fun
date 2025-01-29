@@ -142,6 +142,7 @@ planet \{system_name}-P
 	outfitter `Heliarch Basics`
 	outfitter `Huge Engines`
 	outfitter `human`
+	outfitter `human plugin`
 	outfitter `human plugins`
 	outfitter `Ignaggen Advanced`
 	outfitter `Ignaggen All`
@@ -343,6 +344,7 @@ planet \{system_name}-P
 	shipyard `Betelgeuse Advanced`
 	shipyard `Betelgeuse Basic`
 	shipyard `Betelgeuse Basics`
+	shipyard `blended ships`
 	shipyard `Builder Drones`
 	shipyard `Builder Kai'teris`
 	shipyard `Builder Kai'xeris`
@@ -368,6 +370,8 @@ planet \{system_name}-P
 	shipyard `Core Nuclear Transport`
 	shipyard `Core Pirates`
 	shipyard `crescent`
+	shipyard `DAIS Human`
+	shipyard `DAIS Wanderer`
 	shipyard `Darua Advanced`
 	shipyard `Dels Advanced`
 	shipyard `Dels All`
@@ -439,6 +443,7 @@ planet \{system_name}-P
 	shipyard `Hornet`
 	shipyard `human`
 	shipyard `Human Fuel Logistics`
+	shipyard `human plugin`
 	shipyard `human plugins`
 	shipyard `humanVariants`
 	shipyard `ICS Custom Advanced`
