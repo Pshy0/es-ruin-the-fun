@@ -2,4 +2,4 @@ name `-Ruin The Fun`
 about
 	`Ruin The Fun (CHEAT PLUGIN)`
 	`  A development / cheat plugin to explore and try out all content.`
-	`  Access all ships and outfits, change your captain's name, choose the color swizzle of your ships, edit your relation with other governments, set your combat rank, hire a powerful escort, gift yourself pre-outfitted ships, give yourself money, and much more. `
+	`  Access all ships and outfits, change your captain's name, choose the color swizzle of your ships, edit your relation with other governments, set your combat rank, hire a powerful escort, gift yourself pre-outfitted ships, give yourself money, and much more.`
