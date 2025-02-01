@@ -110,13 +110,15 @@ outfit "Ruin-The-Fun God Turret"
 		"hit effect" "attractor impact"
 		"inaccuracy" 1
 		"turret turn" 3.1
-		"velocity" 640
+		"velocity" 10000
 		"lifetime" 1
 		"reload" 2
 		"firing force" -30
 		"hit force" -30
 		"shield damage" 100000
+		"relative shield damage" 100
 		"hull damage" 100000
+		"relative hull damage" 100
 		"heat damage" 100000
 		safe
 		phasing
