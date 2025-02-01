@@ -38,12 +38,17 @@ outfit "Ruin-The-Fun God Scanner"
 	"display name" "RTF God Scanner"
 	category "RTF God Outfits"
 	thumbnail "outfit/outfit scanner"
-	"tactical scan power" 100000000
 	"asteroid scan power" 100000000
-	"outfit scan power" 100000000
-	"cargo scan power"  100000000
-	"outfit scan efficiency" 1000000
+	"acceleration scan power" 100000000
 	"cargo scan efficiency" 1000000
+	"cargo scan power" 100000000
+	"maneuver scan power" 100000000
+	"mobility scan power" 100000000
+	"outfit scan efficiency" 1000000
+	"outfit scan power" 100000000
+	"range finder power"
+	"strategic scan power" 100000000
+	"tactical scan power" 100000000
 	description "Scans far and wide."
 
 outfit "Ruin-The-Fun God Jammer"
