@@ -130,12 +130,13 @@ From the RFT shipyards, all ships in the game are available to you.
 
 ![Outfitter](./images/screenshot/outfitter-button.png)
 
-From the RFT outfitters, all outfits in the game are available to you.
+From the RTF outfitters, all outfits in the game are available to you.
 
 RTF also adds a few outfits, all listed under the `RTF God Outfits` category:
 - `God Drive`: Jump drive, with no range limit, that does not consume fuel.
 - `God Mode`: Makes you immortal.
-- `God Turret`: Turret that one-shot most ships.
+- `God Turret`: Turret that one-shot any ships.
+- `God Disabling Turret`: Disables ships without destroying them.
 - `100000 Outfit Space`: Gives you more than enough outfit space.
 - `100000 Cargo Space`: Gives you so much cargo space that this will trigger pirate raids.
 
