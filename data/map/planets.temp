@@ -1,5 +1,6 @@
 [[data/map/systems.csv
 planet \{system_name}-P
+	attributes `cheat` `cheats`
 	landscape land/fields6
 	description "	Ruin The Fun                                                                    \{system_name}-P"
 	description ""
@@ -45,6 +46,18 @@ planet \{system_name}-P
 	outfitter `Ascendancy Miniaturised`
 	outfitter `Asteroid Ammo`
 	outfitter `Aumar`
+	outfitter `Avgi Atomics`
+	outfitter `Avgi Dissonance Smuggling`
+	outfitter `Avgi Electronics`
+	outfitter `Avgi Engineering`
+	outfitter `Avgi General`
+	outfitter `Avgi Militia Surplus`
+	outfitter `Avgi Nanomaterials`
+	outfitter `Avgi Propulsion`
+	outfitter `Avgi Specialized`
+	outfitter `Avgi Superconductors`
+	outfitter `Avgi Torches`
+	outfitter `Avgi Twilight Guard`
 	outfitter `Base-outfitter`
 	outfitter `Basic-ammo-outfitter`
 	outfitter `Basic-engines-outfitter`
@@ -67,6 +80,7 @@ planet \{system_name}-P
 	outfitter `Ceasrilis All`
 	outfitter `Ceasrilis Ammo`
 	outfitter `Ceasrilis Basic`
+	outfitter `Central Outfits Expansion`
 	outfitter `Coalition Advanced`
 	outfitter `Coalition Basics`
 	outfitter `Coalition Smuggling`
@@ -87,6 +101,10 @@ planet \{system_name}-P
 	outfitter `Dels Standard`
 	outfitter `Delta V Advanced`
 	outfitter `Delta V Basics`
+	outfitter `Derelict Core`
+	outfitter `Derelict Northern`
+	outfitter `Derelict Pirate`
+	outfitter `Derelict Southern`
 	outfitter `derogam`
 	outfitter `Derogam Base Large`
 	outfitter `Derogam Base Medium`
@@ -135,11 +153,15 @@ planet \{system_name}-P
 	outfitter `Guz' Basic`
 	outfitter `Hai Advanced`
 	outfitter `Hai Basics`
+	outfitter `Hai-home Only`
 	outfitter `Hai Intermediate`
 	outfitter `Hai Security`
 	outfitter `Heavy Fusion Core`
 	outfitter `Heliarch`
 	outfitter `Heliarch Basics`
+	outfitter `Hicemus`
+	outfitter `High Houses Heavy`
+	outfitter `High Houses Light`
 	outfitter `Huge Engines`
 	outfitter `human`
 	outfitter `human plugin`
@@ -225,7 +247,10 @@ planet \{system_name}-P
 	outfitter `Nuru Advanced`
 	outfitter `Nuru All`
 	outfitter `Nuru Basic`
-	outfitter `Pirate Outfits`
+	outfitter `People's Houses`
+	outfitter `Pirate Advanced`
+	outfitter `Pirate Basics`
+	outfitter `"Pirate Outfits" # Kept for backwards compatibility with plugins that used it before it was renamed to "Pirate Basics".`
 	outfitter `Plasma Cluster Cannon`
 	outfitter `plugin`
 	outfitter `Qoro Makau Basic`
@@ -262,11 +287,17 @@ planet \{system_name}-P
 	outfitter `Slipstream Advanced`
 	outfitter `Small Adamas`
 	outfitter `Small Engines`
-	outfitter `South Pirate Outfits Advanced`
+	outfitter `South Pirate Advanced`
 	outfitter `Special Outfits`
 	outfitter `Stack Core`
 	outfitter `Standard Outfits`
 	outfitter `Stinger Missile`
+	outfitter `Successor Basics`
+	outfitter `Successor Civilian`
+	outfitter `Successor Heavy`
+	outfitter `Successor High Tech`
+	outfitter `Successor Weapons Basics`
+	outfitter `Successor Weapons Heavy`
 	outfitter `Sunracer Afterburner`
 	outfitter `Surplus Guns`
 	outfitter `Surveillance Pod`
@@ -335,6 +366,13 @@ planet \{system_name}-P
 	shipyard `Arion Ships`
 	shipyard `Ascendancy`
 	shipyard `Aumar`
+	shipyard `Avgi Militia`
+	shipyard `Avgi Research`
+	shipyard `Avgi Solar Heavy`
+	shipyard `Avgi Solar Light`
+	shipyard `Avgi Utility Heavy`
+	shipyard `Avgi Utility Light`
+	shipyard `Avgi Utility Ultralight`
 	shipyard `Base-shipyard`
 	shipyard `Basic-freighters-shipyard`
 	shipyard `Basic-interceptors-shipyard`
@@ -440,6 +478,9 @@ planet \{system_name}-P
 	shipyard `Guz' Basic`
 	shipyard `hai`
 	shipyard `Hai Advanced`
+	shipyard `Hicemus`
+	shipyard `High Houses Heavy`
+	shipyard `High Houses Light`
 	shipyard `Hornet`
 	shipyard `human`
 	shipyard `Human Fuel Logistics`
@@ -470,6 +511,7 @@ planet \{system_name}-P
 	shipyard `Kanai Basic`
 	shipyard `Kasiva Advanced`
 	shipyard `Kasiva Basic`
+	shipyard `Kestrel`
 	shipyard `Kimek`
 	shipyard `korath`
 	shipyard `korath plugins`
@@ -546,10 +588,12 @@ planet \{system_name}-P
 	shipyard `NBSL Custom Advanced`
 	shipyard `NCD Ships`
 	shipyard `NCD Stolen Ships`
+	shipyard `New Houses Light`
 	shipyard `Northern Pirates`
 	shipyard `Nuru Advanced`
 	shipyard `Nuru All`
 	shipyard `Nuru Basic`
+	shipyard `People's Houses`
 	shipyard `Pioneer Heavy Industries Advanced`
 	shipyard `Pioneer Heavy Industries Basics`
 	shipyard `Pioneer Heavy Industries Intermediate`
@@ -590,6 +634,9 @@ planet \{system_name}-P
 	shipyard `Southern Pirates`
 	shipyard `Starcadia`
 	shipyard `Stolen CCOR`
+	shipyard `Successor Basics`
+	shipyard `Successor Civilian`
+	shipyard `Successor Heavy`
 	shipyard `Sunracer`
 	shipyard `Syndicate Advanced`
 	shipyard `Syndicate Advanced EX`
@@ -605,6 +652,9 @@ planet \{system_name}-P
 	shipyard `Thyrupp AG Advanced`
 	shipyard `Thyrupp AG Basics`
 	shipyard `Tomcat`
+	shipyard `Twilight Guard Heavy`
+	shipyard `Twilight Guard Light`
+	shipyard `Twilight Guard Ultralight`
 	shipyard `Tycho Crater Advanced`
 	shipyard `Ultaka`
 	shipyard `Ultaka All`
@@ -627,6 +677,7 @@ planet \{system_name}-P
 	shipyard `wanderer`
 	shipyard `Wanderer Advanced`
 	shipyard `Wanderer Basics`
+	shipyard `Waterlining`
 	shipyard `Woodchip`
 	shipyard `XSZ Tier 1`
 	shipyard `XSZ Tier 2`
