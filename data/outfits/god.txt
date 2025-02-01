@@ -46,7 +46,7 @@ outfit "Ruin-The-Fun God Scanner"
 	"mobility scan power" 100000000
 	"outfit scan efficiency" 1000000
 	"outfit scan power" 100000000
-	"range finder power"
+	"range finder power" 1
 	"strategic scan power" 100000000
 	"tactical scan power" 100000000
 	description "Scans far and wide."
@@ -109,12 +109,10 @@ outfit "Ruin-The-Fun God Turret"
 		sound "heliarch attractor"
 		"hit effect" "attractor impact"
 		"inaccuracy" 1
-		"turret turn" 3.1
+		"turret turn" 180
 		"velocity" 10000
 		"lifetime" 1
 		"reload" 2
-		"firing force" -30
-		"hit force" -30
 		"shield damage" 100000
 		"relative shield damage" 100
 		"hull damage" 100000
@@ -123,3 +121,30 @@ outfit "Ruin-The-Fun God Turret"
 		safe
 		phasing
 	description "To use with moderation. Or not."
+
+outfit "Ruin-The-Fun God Disabling Turret"
+	"display name" "RTF God Disabling Turret"
+	category `RTF God Outfits`
+	thumbnail "outfit/rtf/CC0 PR4987 korath shock turret"
+	"turret mounts" -1
+	weapon
+		sprite "projectile/attractor"
+			"frame rate" 5.2
+			"random start frame"
+		"hardpoint sprite" "hardpoint/heliarch attractor"
+		"hardpoint offset" 9.
+		sound "heliarch attractor"
+		"hit effect" "attractor impact"
+		"inaccuracy" 1
+		"turret turn" 180
+		"velocity" 10000
+		"lifetime" 1
+		"reload" 2
+		"piercing" 2000
+		"relative hull damage" 0.99
+		"slowing damage" 100000
+		"disabled damage" 0
+		"relative disabled damage" 0
+		safe
+		phasing
+	description "Does not destroy ships."
