@@ -38,6 +38,7 @@ planet \{system_name}-P
 	outfitter `Ammo South`
 	outfitter `antique rifle`
 	outfitter `Archery Weapons All`
+	outfitter `Arion Advanced H2H Outfits`
 	outfitter `Arion Advanced Outfits`
 	outfitter `Arion Basic Outfits`
 	outfitter `Arion Hand to hand Outfits`
@@ -81,6 +82,7 @@ planet \{system_name}-P
 	outfitter `Ceasrilis Ammo`
 	outfitter `Ceasrilis Basic`
 	outfitter `Central Outfits Expansion`
+	outfitter `Cluster Mine`
 	outfitter `Coalition Advanced`
 	outfitter `Coalition Basics`
 	outfitter `Coalition Smuggling`
@@ -137,8 +139,14 @@ planet \{system_name}-P
 	outfitter `Far Remnant`
 	outfitter `Far Remnant Core`
 	outfitter `Far Remnant Salvage`
+	outfitter `Firelight Missile`
+	outfitter `Firestorm Torpedo Ammo`
 	outfitter `fluff`
 	outfitter `FW Security`
+	outfitter `Galactic Express Custom Advanced`
+	outfitter `Galactic Express Custom Ammo`
+	outfitter `Galactic Express Custom Basic`
+	outfitter `Galactic Express Custom Intermediate`
 	outfitter `GalacticWar`
 	outfitter `GalacticWar Plugin`
 	outfitter `Geeva Advanced`
@@ -187,6 +195,8 @@ planet \{system_name}-P
 	outfitter `Kaote Advanced`
 	outfitter `Kaote Basic`
 	outfitter `Kludge Blaster Advanced`
+	outfitter `Konstantin Design Bureau Advanced`
+	outfitter `Konstantin Design Bureau Basic`
 	outfitter `korath`
 	outfitter `Korath Basics`
 	outfitter `Korath Exiles`
@@ -203,6 +213,7 @@ planet \{system_name}-P
 	outfitter `Kumakk Ammo`
 	outfitter `Kumakk Basic`
 	outfitter `Lead`
+	outfitter `Limit Breaker`
 	outfitter `Local Map`
 	outfitter `Lovelace Advanced`
 	outfitter `Lovelace Basics`
@@ -210,6 +221,7 @@ planet \{system_name}-P
 	outfitter `Lovelace Security`
 	outfitter `Lumbarian Stuff`
 	outfitter `Lunarium Basics`
+	outfitter `Magnetic Mine Ammo`
 	outfitter `magni port`
 	outfitter `Makerurader Advanced`
 	outfitter `Makerurader Ammo`
@@ -222,8 +234,10 @@ planet \{system_name}-P
 	outfitter `MJK Heavy Industries Advanced`
 	outfitter `MJK Heavy Industries Advanced Exclusive`
 	outfitter `MJK Heavy Industries Basic`
+	outfitter `Modified D41-HY Shielding`
 	outfitter `Modified D67-TM Shielding`
 	outfitter `Modified D94-YV Shielding`
+	outfitter `Modified Plasma Turret`
 	outfitter `modoutfits`
 	outfitter `navarch`
 	outfitter `Navarch Advanced`
@@ -250,7 +264,7 @@ planet \{system_name}-P
 	outfitter `People's Houses`
 	outfitter `Pirate Advanced`
 	outfitter `Pirate Basics`
-	outfitter `"Pirate Outfits" # Kept for backwards compatibility with plugins that used it before it was renamed to "Pirate Basics".`
+	outfitter `Pirate Outfits`
 	outfitter `Plasma Cluster Cannon`
 	outfitter `plugin`
 	outfitter `Qoro Makau Basic`
@@ -299,6 +313,7 @@ planet \{system_name}-P
 	outfitter `Successor Weapons Basics`
 	outfitter `Successor Weapons Heavy`
 	outfitter `Sunracer Afterburner`
+	outfitter `Sunracers`
 	outfitter `Surplus Guns`
 	outfitter `Surveillance Pod`
 	outfitter `Syndicate Advanced`
@@ -319,6 +334,7 @@ planet \{system_name}-P
 	outfitter `Turner Hai Power`
 	outfitter `Twin Torpedo Pod`
 	outfitter `Ultaka All`
+	outfitter `Unfettered Ancestral`
 	outfitter `Unfettered Basics`
 	outfitter `Unknown Element`
 	outfitter `Uranium`
@@ -379,6 +395,9 @@ planet \{system_name}-P
 	shipyard `Basic-lifdot-industries-shipyard`
 	shipyard `Basic Ships`
 	shipyard `Basic-warships-shipyard`
+	shipyard `Bellwing Starship Corporation Advanced`
+	shipyard `Bellwing Starship Corporation Basic`
+	shipyard `Bellwing Starship Corporation Intermediate`
 	shipyard `Betelgeuse Advanced`
 	shipyard `Betelgeuse Basic`
 	shipyard `Betelgeuse Basics`
@@ -398,6 +417,7 @@ planet \{system_name}-P
 	shipyard `Ceasrilis All`
 	shipyard `Ceasrilis Basic`
 	shipyard `Ceasrilis Intermediate`
+	shipyard `Cleaver`
 	shipyard `Coalition Basics`
 	shipyard `coalition plugins`
 	shipyard `Common Freighters`
@@ -463,6 +483,8 @@ planet \{system_name}-P
 	shipyard `Freight Galactic Basic`
 	shipyard `FW Set`
 	shipyard `Galactic Express Custom Advanced`
+	shipyard `Galactic Express Custom Basic`
+	shipyard `Galactic Express Custom Intermediate`
 	shipyard `GalacticWar`
 	shipyard `GalacticWar Plugin`
 	shipyard `Geeva Advanced`
@@ -471,13 +493,14 @@ planet \{system_name}-P
 	shipyard `Gegno Advanced`
 	shipyard `Gegno Basic`
 	shipyard `Gegno Intermediate`
+	shipyard `gegno plugin`
 	shipyard `Genesis`
 	shipyard `Genesis Advanced`
 	shipyard `Greenrock`
 	shipyard `Guz' Advanced`
 	shipyard `Guz' Basic`
-	shipyard `hai`
 	shipyard `Hai Advanced`
+	shipyard `hai plugin`
 	shipyard `Hicemus`
 	shipyard `High Houses Heavy`
 	shipyard `High Houses Light`
@@ -513,7 +536,11 @@ planet \{system_name}-P
 	shipyard `Kasiva Basic`
 	shipyard `Kestrel`
 	shipyard `Kimek`
+	shipyard `Konstantin Design Bureau Advanced`
+	shipyard `Konstantin Design Bureau Basic`
+	shipyard `Konstantin Design Bureau Intermediate`
 	shipyard `korath`
+	shipyard `korath plugin`
 	shipyard `korath plugins`
 	shipyard `korathVariants`
 	shipyard `Kor Efret Scrapyard`
@@ -597,7 +624,9 @@ planet \{system_name}-P
 	shipyard `Pioneer Heavy Industries Advanced`
 	shipyard `Pioneer Heavy Industries Basics`
 	shipyard `Pioneer Heavy Industries Intermediate`
+	shipyard `Pirate Advanced`
 	shipyard `plugin`
+	shipyard `Prograde`
 	shipyard `Qoro All`
 	shipyard `Qoro Makau Basic`
 	shipyard `Qoro Siogal Basic`
@@ -637,6 +666,7 @@ planet \{system_name}-P
 	shipyard `Successor Basics`
 	shipyard `Successor Civilian`
 	shipyard `Successor Heavy`
+	shipyard `successor plugin`
 	shipyard `Sunracer`
 	shipyard `Syndicate Advanced`
 	shipyard `Syndicate Advanced EX`
@@ -661,6 +691,7 @@ planet \{system_name}-P
 	shipyard `Ultaka Alrul`
 	shipyard `Ultaka Mega`
 	shipyard `Ultaka Neurn`
+	shipyard `Unfettered Ancestral`
 	shipyard `Valuutian Ships`
 	shipyard `Vefrol Dockyard Advanced`
 	shipyard `Vefrol Dockyard Basic`
