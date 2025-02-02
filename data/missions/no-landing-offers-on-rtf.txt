@@ -1,0 +1,10 @@
+## Prevents minor landing missions from offering on RTF planets.
+
+mission "A 000000 Ruin-the-Fun No Minor Landing Missions"
+	minor
+	invisible
+	repeat
+	source
+		government "Ruin-The-Fun"
+	on enter
+		fail
