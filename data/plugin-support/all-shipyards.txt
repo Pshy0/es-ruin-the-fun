@@ -70,6 +70,8 @@ shipyard `Betelgeuse Basic`
 	add "Ruin-The-Fun Overridable Ship"
 shipyard `Betelgeuse Basics`
 	add "Ruin-The-Fun Overridable Ship"
+shipyard `blended ships`
+	add "Ruin-The-Fun Overridable Ship"
 shipyard `Builder Drones`
 	add "Ruin-The-Fun Overridable Ship"
 shipyard `Builder Kai'teris`
@@ -107,6 +109,10 @@ shipyard `Core Food Corp Custom`
 shipyard `Core Nuclear Transport`
 	add "Ruin-The-Fun Overridable Ship"
 shipyard `crescent`
+	add "Ruin-The-Fun Overridable Ship"
+shipyard `DAIS Human`
+	add "Ruin-The-Fun Overridable Ship"
+shipyard `DAIS Wanderer`
 	add "Ruin-The-Fun Overridable Ship"
 shipyard `Darua Advanced`
 	add "Ruin-The-Fun Overridable Ship"
@@ -241,6 +247,8 @@ shipyard `Hornet`
 shipyard `human`
 	add "Ruin-The-Fun Overridable Ship"
 shipyard `Human Fuel Logistics`
+	add "Ruin-The-Fun Overridable Ship"
+shipyard `human plugin`
 	add "Ruin-The-Fun Overridable Ship"
 shipyard `human plugins`
 	add "Ruin-The-Fun Overridable Ship"
