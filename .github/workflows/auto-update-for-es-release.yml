@@ -68,18 +68,19 @@ jobs:
           Use at your own risk.
           "
           if ! github-release info -t $NEW_RTF_TAG > /dev/null 2>&1; then
+            echo "Creating new release"
             github-release release \
               --tag $NEW_RTF_TAG \
               --name "Auto-Update for Endless Sky $ES_V" \
               --description "$DESCRIPTION" \
               --pre-release
-          else
-            github-release edit \
-              --tag $NEW_RTF_TAG \
-              --name "Auto-Update for Endless Sky $ES_V" \
-              --description "$DESCRIPTION" \
-              --pre-release
           fi
+          echo "Editing existing release"
+          github-release edit \
+            --tag $NEW_RTF_TAG \
+            --name "Auto-Update for Endless Sky $ES_V" \
+            --description "$DESCRIPTION" \
+            --pre-release
       - name: Upload -es-ruin-the-fun.zip
         run: |
           github-release upload \
